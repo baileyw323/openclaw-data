@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-05-29T12:30:00Z",
+  "regime": "RISK-ON",
+  "confidence": 8,
+  "indicators": {
+    "vix_level": 15.78,
+    "vix_20d_change_pct": -6.95,
+    "spy_price": 756.02,
+    "spy_vs_50sma": "ABOVE",
+    "yield_curve_10y2y": 0.865,
+    "dxy_trend": "FLAT",
+    "put_call_sentiment": "BULLISH"
+  },
+  "calendar_risks": [
+    {
+      "event": "Monthly OpEx",
+      "date": "2026-06-19",
+      "impact": "MEDIUM"
+    },
+    {
+      "event": "FOMC Meeting (likely June)",
+      "date": "2026-06-17",
+      "impact": "HIGH"
+    },
+    {
+      "event": "NFP Release",
+      "date": "2026-06-05",
+      "impact": "HIGH"
+    },
+    {
+      "event": "CPI Release",
+      "date": "2026-06-10",
+      "impact": "HIGH"
+    }
+  ],
+  "key_risk": "Flat DXY masking dollar reversal that could pressure risk assets",
+  "supporting_evidence": [
+    "VIX at 15.78, well below danger threshold, trending lower over 20 days.",
+    "SPY firmly above 50SMA with bullish put/call flow confirming upside bias.",
+    "Yield curve positive at +0.865%, no inversion stress present.",
+    "DXY flat is the sole ambiguous signal, preventing perfect alignment."
+  ],
+  "deployment_bias": "AGGRESSIVE"
+}

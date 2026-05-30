@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-05-05T19:10:57.258924Z",
+  "run_type": "sunday",
+  "lookback_days": 14,
+  "universe_size": 1,
+  "scanned_count": 1,
+  "skipped_count": 0,
+  "elapsed_minutes": 0.34,
+  "signals": [
+    {
+      "signal_id": "20260505_NVDA_sun_call",
+      "ticker": "NVDA",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 210.0,
+      "primary_date": "2026-05-15",
+      "range_low": 200.0,
+      "range_high": 210.0,
+      "range_date_earliest": "2026-05-15",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 33.53,
+      "total_candidate_premium": 665494595.0,
+      "avg_days_oi_increases": 0.67,
+      "spot_at_signal": 196.5903,
+      "_diagnostics": {
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "side_today_premium_dte_filtered": 119038061.0,
+        "bullish_ratio": 0.8158,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "NVDA260515C00210000",
+            "strike": 210.0,
+            "expiry": "2026-05-15",
+            "dte": 10,
+            "agg_premium_14d": 80684328.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          },
+          {
+            "option_id": "NVDA260717C00200000",
+            "strike": 200.0,
+            "expiry": "2026-07-17",
+            "dte": 73,
+            "agg_premium_14d": 76181542.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "NVDA260515C00200000",
+            "strike": 200.0,
+            "expiry": "2026-05-15",
+            "dte": 10,
+            "agg_premium_14d": 66272837.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          }
+        ],
+        "is_balanced_split": false
+      }
+    }
+  ],
+  "skipped": [],
+  "narrative": null
+}
