@@ -1,21 +1,53 @@
 {
-  "as_of": "2026-06-02T03:22:42.262141Z",
+  "as_of": "2026-06-02T15:24:02.009732Z",
   "run_type": "sunday",
+  "windows": [
+    14,
+    30,
+    60
+  ],
   "lookback_days": 14,
   "universe_size": 10,
   "scanned_count": 10,
-  "skipped_count": 0,
-  "elapsed_minutes": 3.79,
+  "skipped_count": 1,
+  "elapsed_minutes": 3.42,
   "summary": {
-    "bullish_count": 7,
-    "lean_bullish_count": 2,
-    "neutral_count": 0,
+    "bullish_count": 15,
+    "lean_bullish_count": 9,
+    "neutral_count": 6,
     "lean_bearish_count": 0,
-    "bearish_count": 3
+    "bearish_count": 0
+  },
+  "per_window_summary": {
+    "14d": {
+      "bullish_count": 5,
+      "lean_bullish_count": 3,
+      "neutral_count": 2,
+      "lean_bearish_count": 0,
+      "bearish_count": 0,
+      "total_signals": 10
+    },
+    "30d": {
+      "bullish_count": 5,
+      "lean_bullish_count": 3,
+      "neutral_count": 2,
+      "lean_bearish_count": 0,
+      "bearish_count": 0,
+      "total_signals": 10
+    },
+    "60d": {
+      "bullish_count": 5,
+      "lean_bullish_count": 3,
+      "neutral_count": 2,
+      "lean_bearish_count": 0,
+      "bearish_count": 0,
+      "total_signals": 10
+    }
   },
   "signals": [
     {
-      "signal_id": "20260601_NVDA_sun_call",
+      "signal_id": "20260602_NVDA_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "NVDA",
       "side": "call",
       "direction": "BULLISH",
@@ -23,20 +55,20 @@
       "summary_label": "BULLISH-HOLDING",
       "primary_target": 220.0,
       "primary_date": "2026-06-18",
-      "range_low": 220.0,
-      "range_high": 230.0,
+      "range_low": 215.0,
+      "range_high": 220.0,
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-07-17",
       "conviction": "LOW",
-      "top3_concentration_pct": 27.05,
-      "total_candidate_premium": 601340136.5,
-      "avg_days_oi_increases": 0.0,
-      "spot_at_signal": 223.97,
+      "top3_concentration_pct": 25.45,
+      "total_candidate_premium": 650152959.0,
+      "avg_days_oi_increases": 0.33,
+      "spot_at_signal": 226.695,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 28,
-        "side_today_premium_dte_filtered": 306900738.0,
-        "bullish_ratio": 0.8804,
+        "lookback_window_days": 14,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 142485908.0,
+        "bullish_ratio": 0.8323,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -50,26 +82,26 @@
             "option_id": "NVDA260618C00220000",
             "strike": 220.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 69695937.5,
+            "dte": 16,
+            "agg_premium_14d": 67942235.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "days_of_oi_increases": 1
           },
           {
             "option_id": "NVDA260717C00220000",
             "strike": 220.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 48825757.5,
+            "dte": 45,
+            "agg_premium_14d": 51327727.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "NVDA260618C00230000",
-            "strike": 230.0,
-            "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 44161616.5,
+            "option_id": "NVDA260717C00215000",
+            "strike": 215.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_14d": 46201780.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
@@ -78,28 +110,29 @@
       }
     },
     {
-      "signal_id": "20260601_AAPL_sun_call",
-      "ticker": "AAPL",
+      "signal_id": "20260602_NVDA_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "NVDA",
       "side": "call",
       "direction": "BULLISH",
       "trend": "HOLDING",
       "summary_label": "BULLISH-HOLDING",
-      "primary_target": 300.0,
+      "primary_target": 220.0,
       "primary_date": "2026-06-18",
-      "range_low": 300.0,
-      "range_high": 320.0,
+      "range_low": 200.0,
+      "range_high": 220.0,
       "range_date_earliest": "2026-06-18",
-      "range_date_latest": "2026-08-21",
+      "range_date_latest": "2026-06-18",
       "conviction": "LOW",
-      "top3_concentration_pct": 38.75,
-      "total_candidate_premium": 236188690.5,
+      "top3_concentration_pct": 28.04,
+      "total_candidate_premium": 1542229730.5,
       "avg_days_oi_increases": 0.67,
-      "spot_at_signal": 305.24,
+      "spot_at_signal": 226.695,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 28,
-        "side_today_premium_dte_filtered": 42955492.0,
-        "bullish_ratio": 0.7804,
+        "lookback_window_days": 30,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 142485908.0,
+        "bullish_ratio": 0.8323,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -110,29 +143,93 @@
         },
         "top3_contracts": [
           {
-            "option_id": "AAPL260618C00300000",
-            "strike": 300.0,
+            "option_id": "NVDA260618C00220000",
+            "strike": 220.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 52669200.0,
+            "dte": 16,
+            "agg_premium_30d": 165394855.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          },
+          {
+            "option_id": "NVDA260618C00210000",
+            "strike": 210.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 136204540.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "AAPL260821C00320000",
-            "strike": 320.0,
-            "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 20998202.5,
+            "option_id": "NVDA260618C00200000",
+            "strike": 200.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 130902420.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 2
+            "days_of_oi_increases": 1
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_NVDA_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "NVDA",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 200.0,
+      "primary_date": "2026-06-18",
+      "range_low": 200.0,
+      "range_high": 220.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 33.55,
+      "total_candidate_premium": 2016281231.0,
+      "avg_days_oi_increases": 0.67,
+      "spot_at_signal": 226.695,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 142485908.0,
+        "bullish_ratio": 0.8323,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "NVDA260618C00200000",
+            "strike": 200.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 267986197.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
           },
           {
-            "option_id": "AAPL260618C00310000",
-            "strike": 310.0,
+            "option_id": "NVDA260618C00220000",
+            "strike": 220.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 17853082.5,
+            "dte": 16,
+            "agg_premium_60d": 211274328.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          },
+          {
+            "option_id": "NVDA260618C00210000",
+            "strike": 210.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 197160728.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
@@ -141,7 +238,200 @@
       }
     },
     {
-      "signal_id": "20260601_MSFT_sun_call",
+      "signal_id": "20260602_AAPL_sun_call_14d",
+      "lookback_window": 14,
+      "ticker": "AAPL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 300.0,
+      "primary_date": "2026-06-18",
+      "range_low": 300.0,
+      "range_high": 310.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 48.06,
+      "total_candidate_premium": 195347324.5,
+      "avg_days_oi_increases": 0.33,
+      "spot_at_signal": 312.415,
+      "_diagnostics": {
+        "lookback_window_days": 14,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 38489344.0,
+        "bullish_ratio": 0.9266,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "AAPL260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_14d": 54334860.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260717C00305000",
+            "strike": 305.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_14d": 21153325.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260618C00310000",
+            "strike": 310.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_14d": 18398577.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_AAPL_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "AAPL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 300.0,
+      "primary_date": "2026-06-18",
+      "range_low": 300.0,
+      "range_high": 305.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 49.77,
+      "total_candidate_premium": 329396908.0,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 312.415,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 38489344.0,
+        "bullish_ratio": 0.9266,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "AAPL260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 96156898.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260717C00300000",
+            "strike": 300.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 35818692.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260717C00305000",
+            "strike": 305.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 31973877.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_AAPL_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "AAPL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 300.0,
+      "primary_date": "2026-06-18",
+      "range_low": 300.0,
+      "range_high": 310.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 53.22,
+      "total_candidate_premium": 372690922.71,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 312.415,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 38489344.0,
+        "bullish_ratio": 0.9266,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "AAPL260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 122693169.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260717C00300000",
+            "strike": 300.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_60d": 42441700.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AAPL260717C00310000",
+            "strike": 310.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_60d": 33194395.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_MSFT_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "MSFT",
       "side": "call",
       "direction": "BULLISH",
@@ -154,15 +444,15 @@
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-08-21",
       "conviction": "LOW",
-      "top3_concentration_pct": 29.87,
-      "total_candidate_premium": 548721720.5,
-      "avg_days_oi_increases": 2.0,
-      "spot_at_signal": 452.39,
+      "top3_concentration_pct": 34.65,
+      "total_candidate_premium": 497922194.5,
+      "avg_days_oi_increases": 0.33,
+      "spot_at_signal": 442.85,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 30,
-        "side_today_premium_dte_filtered": 327432769.0,
-        "bullish_ratio": 0.9126,
+        "lookback_window_days": 14,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 61355435.0,
+        "bullish_ratio": 0.7998,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -176,17 +466,17 @@
             "option_id": "MSFT260821C00500000",
             "strike": 500.0,
             "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 58767880.0,
+            "dte": 80,
+            "agg_premium_14d": 66142175.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "days_of_oi_increases": 1
           },
           {
             "option_id": "MSFT260717C00450000",
             "strike": 450.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 55760532.5,
+            "dte": 45,
+            "agg_premium_14d": 55996632.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
@@ -194,17 +484,146 @@
             "option_id": "MSFT260618C00450000",
             "strike": 450.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 49396812.5,
-            "trend": "STRENGTHENING",
-            "days_of_oi_increases": 6
+            "dte": 16,
+            "agg_premium_14d": 50376100.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
           }
         ],
         "is_balanced_split": false
       }
     },
     {
-      "signal_id": "20260601_AMZN_sun_call",
+      "signal_id": "20260602_MSFT_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "MSFT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 450.0,
+      "primary_date": "2026-07-17",
+      "range_low": 450.0,
+      "range_high": 500.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-08-21",
+      "conviction": "LOW",
+      "top3_concentration_pct": 32.93,
+      "total_candidate_premium": 656317911.5,
+      "avg_days_oi_increases": 0.33,
+      "spot_at_signal": 442.85,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 61355435.0,
+        "bullish_ratio": 0.7998,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "MSFT260717C00450000",
+            "strike": 450.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 75490450.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "MSFT260618C00450000",
+            "strike": 450.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 70801201.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "MSFT260821C00500000",
+            "strike": 500.0,
+            "expiry": "2026-08-21",
+            "dte": 80,
+            "agg_premium_30d": 69817565.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_MSFT_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "MSFT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 450.0,
+      "primary_date": "2026-06-18",
+      "range_low": 450.0,
+      "range_high": 450.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-08-21",
+      "conviction": "LOW",
+      "top3_concentration_pct": 32.62,
+      "total_candidate_premium": 1116416088.0,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 442.85,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 61355435.0,
+        "bullish_ratio": 0.7998,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "MSFT260618C00450000",
+            "strike": 450.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 179079562.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "MSFT260821C00450000",
+            "strike": 450.0,
+            "expiry": "2026-08-21",
+            "dte": 80,
+            "agg_premium_60d": 99070850.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "MSFT260717C00450000",
+            "strike": 450.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_60d": 85970427.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_AMZN_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "AMZN",
       "side": "call",
       "direction": "BULLISH",
@@ -217,15 +636,15 @@
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-07-17",
       "conviction": "LOW",
-      "top3_concentration_pct": 27.77,
-      "total_candidate_premium": 199004999.5,
-      "avg_days_oi_increases": 0.67,
-      "spot_at_signal": 259.6016,
+      "top3_concentration_pct": 30.2,
+      "total_candidate_premium": 180404972.0,
+      "avg_days_oi_increases": 3.33,
+      "spot_at_signal": 260.74,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 28,
-        "side_today_premium_dte_filtered": 54181957.0,
-        "bullish_ratio": 0.8017,
+        "lookback_window_days": 14,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 23216962.0,
+        "bullish_ratio": 0.8385,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -239,35 +658,164 @@
             "option_id": "AMZN260717C00300000",
             "strike": 300.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 22164424.0,
+            "dte": 45,
+            "agg_premium_14d": 21379013.5,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "days_of_oi_increases": 1
           },
           {
-            "option_id": "AMZN260717C00280000",
-            "strike": 280.0,
+            "option_id": "AMZN260717C00290000",
+            "strike": 290.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 18707135.0,
-            "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "dte": 45,
+            "agg_premium_14d": 19719470.0,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 6
           },
           {
             "option_id": "AMZN260618C00270000",
             "strike": 270.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 14388232.5,
+            "dte": 16,
+            "agg_premium_14d": 13377055.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 2
+            "days_of_oi_increases": 3
           }
         ],
         "is_balanced_split": false
       }
     },
     {
-      "signal_id": "20260601_META_sun_call",
+      "signal_id": "20260602_AMZN_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "AMZN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 275.0,
+      "primary_date": "2026-07-17",
+      "range_low": 270.0,
+      "range_high": 300.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 25.52,
+      "total_candidate_premium": 357374013.0,
+      "avg_days_oi_increases": 1.33,
+      "spot_at_signal": 260.74,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 23216962.0,
+        "bullish_ratio": 0.8385,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "AMZN260717C00275000",
+            "strike": 275.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 35684010.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AMZN260717C00300000",
+            "strike": 300.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 27795365.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          },
+          {
+            "option_id": "AMZN260618C00270000",
+            "strike": 270.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 27708715.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 3
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_AMZN_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "AMZN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 265.0,
+      "primary_date": "2026-06-18",
+      "range_low": 250.0,
+      "range_high": 275.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 23.49,
+      "total_candidate_premium": 765635324.0,
+      "avg_days_oi_increases": 0.33,
+      "spot_at_signal": 260.74,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 23216962.0,
+        "bullish_ratio": 0.8385,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "AMZN260618C00265000",
+            "strike": 265.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 65966157.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "AMZN260618C00275000",
+            "strike": 275.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 65482152.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 1
+          },
+          {
+            "option_id": "AMZN260618C00250000",
+            "strike": 250.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 48394502.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_META_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "META",
       "side": "call",
       "direction": "LEAN BULLISH",
@@ -280,15 +828,15 @@
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-06-18",
       "conviction": "LOW",
-      "top3_concentration_pct": 23.21,
-      "total_candidate_premium": 214693878.5,
-      "avg_days_oi_increases": 0.33,
-      "spot_at_signal": 600.61,
+      "top3_concentration_pct": 24.54,
+      "total_candidate_premium": 215077925.0,
+      "avg_days_oi_increases": 4.67,
+      "spot_at_signal": 608.505,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 28,
-        "side_today_premium_dte_filtered": 80932728.0,
-        "bullish_ratio": 0.6111,
+        "lookback_window_days": 14,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 31732044.0,
+        "bullish_ratio": 0.6501,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -302,8 +850,8 @@
             "option_id": "META260618C00620000",
             "strike": 620.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 19370082.5,
+            "dte": 16,
+            "agg_premium_14d": 18884010.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
@@ -311,17 +859,145 @@
             "option_id": "META260618C00720000",
             "strike": 720.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 15660903.5,
+            "dte": 16,
+            "agg_premium_14d": 18531156.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 1
+            "days_of_oi_increases": 2
           },
           {
             "option_id": "META260618C00630000",
             "strike": 630.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 14795917.5,
+            "dte": 16,
+            "agg_premium_14d": 15368797.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 12
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_META_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "META",
+      "side": "call",
+      "direction": "LEAN BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 620.0,
+      "primary_date": "2026-06-18",
+      "range_low": 620.0,
+      "range_high": 720.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 22.56,
+      "total_candidate_premium": 381539700.0,
+      "avg_days_oi_increases": 4.33,
+      "spot_at_signal": 608.505,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 31732044.0,
+        "bullish_ratio": 0.6501,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "META260618C00620000",
+            "strike": 620.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 35877292.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "META260618C00720000",
+            "strike": 720.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 25692951.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 2
+          },
+          {
+            "option_id": "META260618C00650000",
+            "strike": 650.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 24510937.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 11
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_META_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "META",
+      "side": "call",
+      "direction": "LEAN BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 620.0,
+      "primary_date": "2026-06-18",
+      "range_low": 600.0,
+      "range_high": 720.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 27.08,
+      "total_candidate_premium": 649620745.0,
+      "avg_days_oi_increases": 0.67,
+      "spot_at_signal": 608.505,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 28,
+        "side_today_premium_dte_filtered": 31732044.0,
+        "bullish_ratio": 0.6501,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "META260618C00620000",
+            "strike": 620.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 67095000.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "META260618C00720000",
+            "strike": 720.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 63292669.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 2
+          },
+          {
+            "option_id": "META260618C00600000",
+            "strike": 600.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 45508280.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
@@ -330,12 +1006,13 @@
       }
     },
     {
-      "signal_id": "20260601_INTC_sun_call",
+      "signal_id": "20260602_INTC_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "INTC",
       "side": "call",
-      "direction": "LEAN BULLISH",
+      "direction": "BULLISH",
       "trend": "HOLDING",
-      "summary_label": "LEAN BULLISH-HOLDING",
+      "summary_label": "BULLISH-HOLDING",
       "primary_target": 150.0,
       "primary_date": "2026-06-18",
       "range_low": 110.0,
@@ -343,15 +1020,15 @@
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-08-21",
       "conviction": "LOW",
-      "top3_concentration_pct": 26.12,
-      "total_candidate_premium": 209019910.0,
-      "avg_days_oi_increases": 1.0,
-      "spot_at_signal": 108.6,
+      "top3_concentration_pct": 31.17,
+      "total_candidate_premium": 214744219.0,
+      "avg_days_oi_increases": 1.33,
+      "spot_at_signal": 108.04,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 30,
-        "side_today_premium_dte_filtered": 62056055.0,
-        "bullish_ratio": 0.7429,
+        "lookback_window_days": 14,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 37641941.0,
+        "bullish_ratio": 0.8363,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
@@ -365,8 +1042,8 @@
             "option_id": "INTC260618C00150000",
             "strike": 150.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 25498389.5,
+            "dte": 16,
+            "agg_premium_14d": 29165704.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
@@ -374,31 +1051,160 @@
             "option_id": "INTC260821C00110000",
             "strike": 110.0,
             "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 15055930.0,
+            "dte": 80,
+            "agg_premium_14d": 23547720.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "days_of_oi_increases": 4
           },
           {
             "option_id": "INTC260821C00150000",
             "strike": 150.0,
             "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 14031402.5,
+            "dte": 80,
+            "agg_premium_14d": 14225067.5,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 3
+            "days_of_oi_increases": 0
           }
         ],
         "is_balanced_split": false
       }
     },
     {
-      "signal_id": "20260601_PLTR_sun_call",
-      "ticker": "PLTR",
+      "signal_id": "20260602_INTC_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "INTC",
       "side": "call",
       "direction": "BULLISH",
       "trend": "HOLDING",
       "summary_label": "BULLISH-HOLDING",
+      "primary_target": 150.0,
+      "primary_date": "2026-06-18",
+      "range_low": 110.0,
+      "range_high": 150.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-08-21",
+      "conviction": "LOW",
+      "top3_concentration_pct": 27.56,
+      "total_candidate_premium": 432516716.5,
+      "avg_days_oi_increases": 1.33,
+      "spot_at_signal": 108.04,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 37641941.0,
+        "bullish_ratio": 0.8363,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "INTC260618C00150000",
+            "strike": 150.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 43768578.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "INTC260618C00120000",
+            "strike": 120.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 43168657.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "INTC260821C00110000",
+            "strike": 110.0,
+            "expiry": "2026-08-21",
+            "dte": 80,
+            "agg_premium_30d": 32259587.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 4
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_INTC_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "INTC",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "primary_target": 110.0,
+      "primary_date": "2026-08-21",
+      "range_low": 110.0,
+      "range_high": 150.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-08-21",
+      "conviction": "LOW",
+      "top3_concentration_pct": 26.98,
+      "total_candidate_premium": 495643409.5,
+      "avg_days_oi_increases": 1.33,
+      "spot_at_signal": 108.04,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 26,
+        "side_today_premium_dte_filtered": 37641941.0,
+        "bullish_ratio": 0.8363,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "INTC260821C00110000",
+            "strike": 110.0,
+            "expiry": "2026-08-21",
+            "dte": 80,
+            "agg_premium_60d": 45286327.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 4
+          },
+          {
+            "option_id": "INTC260618C00120000",
+            "strike": 120.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 44685172.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "INTC260618C00150000",
+            "strike": 150.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 43768578.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_PLTR_sun_call_14d",
+      "lookback_window": 14,
+      "ticker": "PLTR",
+      "side": "call",
+      "direction": "LEAN BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "LEAN BULLISH-HOLDING",
       "primary_target": 150.0,
       "primary_date": "2026-07-17",
       "range_low": 150.0,
@@ -406,30 +1212,30 @@
       "range_date_earliest": "2026-07-17",
       "range_date_latest": "2026-07-17",
       "conviction": "LOW",
-      "top3_concentration_pct": 32.99,
-      "total_candidate_premium": 193048074.5,
-      "avg_days_oi_increases": 7.33,
-      "spot_at_signal": 158.1497,
+      "top3_concentration_pct": 37.18,
+      "total_candidate_premium": 175698110.5,
+      "avg_days_oi_increases": 1.67,
+      "spot_at_signal": 151.005,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 27,
-        "side_today_premium_dte_filtered": 99539730.0,
-        "bullish_ratio": 0.9164,
+        "lookback_window_days": 14,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 15465942.0,
+        "bullish_ratio": 0.7035,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
           "premium_HIGH": true,
           "premium_MOD": true,
           "oi_days_HIGH": false,
-          "oi_days_MOD": true
+          "oi_days_MOD": false
         },
         "top3_contracts": [
           {
             "option_id": "PLTR260717C00150000",
             "strike": 150.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 26255585.0,
+            "dte": 45,
+            "agg_premium_14d": 26687575.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
@@ -437,80 +1243,81 @@
             "option_id": "PLTR260717C00155000",
             "strike": 155.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 20051825.0,
-            "trend": "STRENGTHENING",
-            "days_of_oi_increases": 22
+            "dte": 45,
+            "agg_premium_14d": 20930567.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
           },
           {
             "option_id": "PLTR260717C00160000",
             "strike": 160.0,
             "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 17385105.5,
-            "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
+            "dte": 45,
+            "agg_premium_14d": 17705605.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 5
           }
         ],
         "is_balanced_split": false
       }
     },
     {
-      "signal_id": "20260601_GPI_sun_put",
-      "ticker": "GPI",
-      "side": "put",
-      "direction": "BEARISH",
+      "signal_id": "20260602_PLTR_sun_call_30d",
+      "lookback_window": 30,
+      "ticker": "PLTR",
+      "side": "call",
+      "direction": "LEAN BULLISH",
       "trend": "HOLDING",
-      "summary_label": "BEARISH-HOLDING",
-      "primary_target": 320.0,
-      "primary_date": "2026-08-21",
-      "range_low": 270.0,
-      "range_high": 320.0,
-      "range_date_earliest": "2026-08-21",
-      "range_date_latest": "2026-08-21",
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 150.0,
+      "primary_date": "2026-07-17",
+      "range_low": 150.0,
+      "range_high": 155.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
       "conviction": "LOW",
-      "top3_concentration_pct": 96.14,
-      "total_candidate_premium": 11530.0,
+      "top3_concentration_pct": 36.64,
+      "total_candidate_premium": 239991123.0,
       "avg_days_oi_increases": 0.0,
-      "spot_at_signal": 311.51,
+      "spot_at_signal": 151.005,
       "_diagnostics": {
-        "candidates_count": 4,
-        "candidates_with_historic": 4,
-        "side_today_premium_dte_filtered": 11900.0,
-        "bullish_ratio": 0.1954,
+        "lookback_window_days": 30,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 15465942.0,
+        "bullish_ratio": 0.7035,
         "criteria_passed": {
-          "concentration_HIGH": true,
-          "concentration_MOD": true,
-          "premium_HIGH": false,
-          "premium_MOD": false,
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
           "oi_days_HIGH": false,
           "oi_days_MOD": false
         },
         "top3_contracts": [
           {
-            "option_id": "GPI260821P00320000",
-            "strike": 320.0,
-            "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 8730.0,
+            "option_id": "PLTR260717C00150000",
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 42159222.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "GPI260821P00290000",
-            "strike": 290.0,
-            "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 1515.0,
+            "option_id": "PLTR260618C00150000",
+            "strike": 150.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 23397435.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "GPI260821P00270000",
-            "strike": 270.0,
-            "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 840.0,
+            "option_id": "PLTR260717C00155000",
+            "strike": 155.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 22373417.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
@@ -519,31 +1326,96 @@
       }
     },
     {
-      "signal_id": "20260601_SPY_sun_call",
-      "ticker": "SPY",
+      "signal_id": "20260602_PLTR_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "PLTR",
       "side": "call",
-      "direction": "BULLISH",
+      "direction": "LEAN BULLISH",
       "trend": "HOLDING",
-      "summary_label": "BULLISH-HOLDING",
-      "primary_target": 760.0,
-      "primary_date": "2026-06-12",
-      "range_low": 750.0,
-      "range_high": 760.0,
-      "range_date_earliest": "2026-06-12",
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 150.0,
+      "primary_date": "2026-06-18",
+      "range_low": 140.0,
+      "range_high": 150.0,
+      "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-07-17",
       "conviction": "LOW",
-      "top3_concentration_pct": 34.46,
-      "total_candidate_premium": 116138804.0,
+      "top3_concentration_pct": 40.0,
+      "total_candidate_premium": 332568676.5,
       "avg_days_oi_increases": 0.0,
-      "spot_at_signal": 756.54,
+      "spot_at_signal": 151.005,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 30,
-        "side_today_premium_dte_filtered": 150975852.0,
-        "bullish_ratio": 0.5355,
+        "lookback_window_days": 60,
+        "candidates_with_data": 29,
+        "side_today_premium_dte_filtered": 15465942.0,
+        "bullish_ratio": 0.7035,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "PLTR260618C00150000",
+            "strike": 150.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 52878248.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "PLTR260717C00150000",
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_60d": 51057205.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "PLTR260618C00140000",
+            "strike": 140.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 29083577.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_SPY_sun_call_14d",
+      "lookback_window": 14,
+      "ticker": "SPY",
+      "side": "call",
+      "direction": "BALANCED",
+      "trend": "HOLDING",
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 760.0,
+      "primary_date": "2026-06-12",
+      "range_low": 757.0,
+      "range_high": 760.0,
+      "range_date_earliest": "2026-06-12",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 40.18,
+      "total_candidate_premium": 103998200.5,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 760.34,
+      "_diagnostics": {
+        "lookback_window_days": 14,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 37264947.0,
+        "bullish_ratio": 0.4769,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
           "premium_HIGH": true,
           "premium_MOD": true,
           "oi_days_HIGH": false,
@@ -554,26 +1426,26 @@
             "option_id": "SPY260612C00760000",
             "strike": 760.0,
             "expiry": "2026-06-12",
-            "dte": 11,
-            "agg_premium_14d": 20703005.5,
+            "dte": 10,
+            "agg_premium_14d": 22018293.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "SPY260717C00750000",
-            "strike": 750.0,
-            "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 10119042.0,
-            "trend": "NEUTRAL",
-            "days_of_oi_increases": 0
-          },
-          {
-            "option_id": "SPY260717C00760000",
+            "option_id": "SPY260618C00760000",
             "strike": 760.0,
-            "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 9201426.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_14d": 10044029.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260612C00757000",
+            "strike": 757.0,
+            "expiry": "2026-06-12",
+            "dte": 10,
+            "agg_premium_14d": 9727488.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
@@ -582,75 +1454,333 @@
       }
     },
     {
-      "signal_id": "20260601_SPY_sun_put",
+      "signal_id": "20260602_SPY_sun_call_30d",
+      "lookback_window": 30,
       "ticker": "SPY",
-      "side": "put",
-      "direction": "BEARISH",
+      "side": "call",
+      "direction": "BALANCED",
       "trend": "HOLDING",
-      "summary_label": "BEARISH-HOLDING",
-      "primary_target": 735.0,
-      "primary_date": "2026-07-17",
-      "range_low": 735.0,
-      "range_high": 740.0,
-      "range_date_earliest": "2026-06-18",
-      "range_date_latest": "2026-07-17",
-      "conviction": "MODERATE",
-      "top3_concentration_pct": 47.48,
-      "total_candidate_premium": 190919798.0,
-      "avg_days_oi_increases": 7.67,
-      "spot_at_signal": 756.54,
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 740.0,
+      "primary_date": "2026-06-18",
+      "range_low": 740.0,
+      "range_high": 760.0,
+      "range_date_earliest": "2026-06-12",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 47.6,
+      "total_candidate_premium": 163508285.0,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 760.34,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 30,
-        "side_today_premium_dte_filtered": 130944612.0,
-        "bullish_ratio": 0.5355,
+        "lookback_window_days": 30,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 37264947.0,
+        "bullish_ratio": 0.4769,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": true,
           "premium_HIGH": true,
           "premium_MOD": true,
           "oi_days_HIGH": false,
-          "oi_days_MOD": true
+          "oi_days_MOD": false
         },
         "top3_contracts": [
           {
-            "option_id": "SPY260717P00735000",
-            "strike": 735.0,
-            "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 46426955.0,
-            "trend": "NEUTRAL",
-            "days_of_oi_increases": 4
-          },
-          {
-            "option_id": "SPY260618P00735000",
-            "strike": 735.0,
+            "option_id": "SPY260618C00740000",
+            "strike": 740.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 22831623.0,
+            "dte": 16,
+            "agg_premium_30d": 33739096.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "SPY260717P00740000",
-            "strike": 740.0,
-            "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 21397651.5,
-            "trend": "STRENGTHENING",
-            "days_of_oi_increases": 19
+            "option_id": "SPY260612C00760000",
+            "strike": 760.0,
+            "expiry": "2026-06-12",
+            "dte": 10,
+            "agg_premium_30d": 24104272.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260618C00760000",
+            "strike": 760.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 19986758.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
           }
         ],
         "is_balanced_split": true
       }
     },
     {
-      "signal_id": "20260601_QQQ_sun_call",
+      "signal_id": "20260602_SPY_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "SPY",
+      "side": "call",
+      "direction": "BALANCED",
+      "trend": "HOLDING",
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 740.0,
+      "primary_date": "2026-06-18",
+      "range_low": 740.0,
+      "range_high": 760.0,
+      "range_date_earliest": "2026-06-12",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 48.97,
+      "total_candidate_premium": 170898918.0,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 760.34,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 37264947.0,
+        "bullish_ratio": 0.4769,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "SPY260618C00740000",
+            "strike": 740.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 37780643.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260612C00760000",
+            "strike": 760.0,
+            "expiry": "2026-06-12",
+            "dte": 10,
+            "agg_premium_60d": 24116584.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260618C00760000",
+            "strike": 760.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 21800432.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": true
+      }
+    },
+    {
+      "signal_id": "20260602_SPY_sun_put_14d",
+      "lookback_window": 14,
+      "ticker": "SPY",
+      "side": "put",
+      "direction": "BALANCED",
+      "trend": "HOLDING",
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 750.0,
+      "primary_date": "2026-07-17",
+      "range_low": 750.0,
+      "range_high": 750.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 46.21,
+      "total_candidate_premium": 94652808.5,
+      "avg_days_oi_increases": 2.33,
+      "spot_at_signal": 760.34,
+      "_diagnostics": {
+        "lookback_window_days": 14,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 40872279.0,
+        "bullish_ratio": 0.4769,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "SPY260717P00750000",
+            "strike": 750.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_14d": 19419900.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 7
+          },
+          {
+            "option_id": "SPY260618P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_14d": 16717782.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260630P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-30",
+            "dte": 28,
+            "agg_premium_14d": 7600590.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": true
+      }
+    },
+    {
+      "signal_id": "20260602_SPY_sun_put_30d",
+      "lookback_window": 30,
+      "ticker": "SPY",
+      "side": "put",
+      "direction": "BALANCED",
+      "trend": "HOLDING",
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 750.0,
+      "primary_date": "2026-07-17",
+      "range_low": 750.0,
+      "range_high": 750.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 43.8,
+      "total_candidate_premium": 127499840.5,
+      "avg_days_oi_increases": 2.33,
+      "spot_at_signal": 760.34,
+      "_diagnostics": {
+        "lookback_window_days": 30,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 40872279.0,
+        "bullish_ratio": 0.4769,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "SPY260717P00750000",
+            "strike": 750.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_30d": 23860188.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 7
+          },
+          {
+            "option_id": "SPY260618P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 23167959.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260630P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-30",
+            "dte": 28,
+            "agg_premium_30d": 8816610.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": true
+      }
+    },
+    {
+      "signal_id": "20260602_SPY_sun_put_60d",
+      "lookback_window": 60,
+      "ticker": "SPY",
+      "side": "put",
+      "direction": "BALANCED",
+      "trend": "HOLDING",
+      "summary_label": "BALANCED-HOLDING",
+      "primary_target": 750.0,
+      "primary_date": "2026-07-17",
+      "range_low": 750.0,
+      "range_high": 750.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-07-17",
+      "conviction": "LOW",
+      "top3_concentration_pct": 43.57,
+      "total_candidate_premium": 130666611.0,
+      "avg_days_oi_increases": 2.33,
+      "spot_at_signal": 760.34,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 40872279.0,
+        "bullish_ratio": 0.4769,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "SPY260717P00750000",
+            "strike": 750.0,
+            "expiry": "2026-07-17",
+            "dte": 45,
+            "agg_premium_60d": 24193148.5,
+            "trend": "STRENGTHENING",
+            "days_of_oi_increases": 7
+          },
+          {
+            "option_id": "SPY260618P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 23671432.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "SPY260630P00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-30",
+            "dte": 28,
+            "agg_premium_60d": 9060498.0,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": true
+      }
+    },
+    {
+      "signal_id": "20260602_QQQ_sun_call_14d",
+      "lookback_window": 14,
       "ticker": "QQQ",
       "side": "call",
-      "direction": "BULLISH",
+      "direction": "LEAN BULLISH",
       "trend": "HOLDING",
-      "summary_label": "BULLISH-HOLDING",
+      "summary_label": "LEAN BULLISH-HOLDING",
       "primary_target": 740.0,
       "primary_date": "2026-06-18",
       "range_low": 740.0,
@@ -658,15 +1788,15 @@
       "range_date_earliest": "2026-06-18",
       "range_date_latest": "2026-06-18",
       "conviction": "LOW",
-      "top3_concentration_pct": 42.45,
-      "total_candidate_premium": 147154842.59,
-      "avg_days_oi_increases": 0.33,
-      "spot_at_signal": 740.28,
+      "top3_concentration_pct": 41.08,
+      "total_candidate_premium": 155610034.0,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 745.27,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 30,
-        "side_today_premium_dte_filtered": 118143246.0,
-        "bullish_ratio": 0.4585,
+        "lookback_window_days": 14,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 59013544.0,
+        "bullish_ratio": 0.6718,
         "criteria_passed": {
           "concentration_HIGH": false,
           "concentration_MOD": true,
@@ -680,17 +1810,17 @@
             "option_id": "QQQ260618C00740000",
             "strike": 740.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 25020479.0,
+            "dte": 16,
+            "agg_premium_14d": 25213625.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 1
+            "days_of_oi_increases": 0
           },
           {
             "option_id": "QQQ260618C00745000",
             "strike": 745.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 18855706.5,
+            "dte": 16,
+            "agg_premium_14d": 19926562.5,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
@@ -698,41 +1828,42 @@
             "option_id": "QQQ260618C00750000",
             "strike": 750.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 18585163.5,
+            "dte": 16,
+            "agg_premium_14d": 18777533.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
         ],
-        "is_balanced_split": true
+        "is_balanced_split": false
       }
     },
     {
-      "signal_id": "20260601_QQQ_sun_put",
+      "signal_id": "20260602_QQQ_sun_call_30d",
+      "lookback_window": 30,
       "ticker": "QQQ",
-      "side": "put",
-      "direction": "BEARISH",
+      "side": "call",
+      "direction": "LEAN BULLISH",
       "trend": "HOLDING",
-      "summary_label": "BEARISH-HOLDING",
-      "primary_target": 650.0,
-      "primary_date": "2026-08-21",
-      "range_low": 650.0,
-      "range_high": 700.0,
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 740.0,
+      "primary_date": "2026-06-18",
+      "range_low": 740.0,
+      "range_high": 750.0,
       "range_date_earliest": "2026-06-18",
-      "range_date_latest": "2026-08-21",
+      "range_date_latest": "2026-06-18",
       "conviction": "LOW",
-      "top3_concentration_pct": 38.92,
-      "total_candidate_premium": 183759879.5,
-      "avg_days_oi_increases": 1.33,
-      "spot_at_signal": 740.28,
+      "top3_concentration_pct": 43.25,
+      "total_candidate_premium": 199815130.54,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 745.27,
       "_diagnostics": {
-        "candidates_count": 30,
-        "candidates_with_historic": 27,
-        "side_today_premium_dte_filtered": 139503427.0,
-        "bullish_ratio": 0.4585,
+        "lookback_window_days": 30,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 59013544.0,
+        "bullish_ratio": 0.6718,
         "criteria_passed": {
           "concentration_HIGH": false,
-          "concentration_MOD": false,
+          "concentration_MOD": true,
           "premium_HIGH": true,
           "premium_MOD": true,
           "oi_days_HIGH": false,
@@ -740,37 +1871,106 @@
         },
         "top3_contracts": [
           {
-            "option_id": "QQQ260821P00650000",
-            "strike": 650.0,
-            "expiry": "2026-08-21",
-            "dte": 81,
-            "agg_premium_14d": 29765286.5,
+            "option_id": "QQQ260618C00740000",
+            "strike": 740.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 34253931.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           },
           {
-            "option_id": "QQQ260717P00700000",
-            "strike": 700.0,
-            "expiry": "2026-07-17",
-            "dte": 46,
-            "agg_premium_14d": 21701397.5,
+            "option_id": "QQQ260618C00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_30d": 28822531.0,
             "trend": "NEUTRAL",
-            "days_of_oi_increases": 4
+            "days_of_oi_increases": 0
           },
           {
-            "option_id": "QQQ260618P00700000",
-            "strike": 700.0,
+            "option_id": "QQQ260618C00745000",
+            "strike": 745.0,
             "expiry": "2026-06-18",
-            "dte": 17,
-            "agg_premium_14d": 20045029.5,
+            "dte": 16,
+            "agg_premium_30d": 23353228.0,
             "trend": "NEUTRAL",
             "days_of_oi_increases": 0
           }
         ],
-        "is_balanced_split": true
+        "is_balanced_split": false
+      }
+    },
+    {
+      "signal_id": "20260602_QQQ_sun_call_60d",
+      "lookback_window": 60,
+      "ticker": "QQQ",
+      "side": "call",
+      "direction": "LEAN BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "LEAN BULLISH-HOLDING",
+      "primary_target": 740.0,
+      "primary_date": "2026-06-18",
+      "range_low": 740.0,
+      "range_high": 750.0,
+      "range_date_earliest": "2026-06-18",
+      "range_date_latest": "2026-06-18",
+      "conviction": "LOW",
+      "top3_concentration_pct": 43.17,
+      "total_candidate_premium": 200684090.56,
+      "avg_days_oi_increases": 0.0,
+      "spot_at_signal": 745.27,
+      "_diagnostics": {
+        "lookback_window_days": 60,
+        "candidates_with_data": 30,
+        "side_today_premium_dte_filtered": 59013544.0,
+        "bullish_ratio": 0.6718,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "top3_contracts": [
+          {
+            "option_id": "QQQ260618C00740000",
+            "strike": 740.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 34311887.38,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "QQQ260618C00750000",
+            "strike": 750.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 28937801.73,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          },
+          {
+            "option_id": "QQQ260618C00745000",
+            "strike": 745.0,
+            "expiry": "2026-06-18",
+            "dte": 16,
+            "agg_premium_60d": 23376821.5,
+            "trend": "NEUTRAL",
+            "days_of_oi_increases": 0
+          }
+        ],
+        "is_balanced_split": false
       }
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "ticker": "GPI",
+      "reason": "no_dte_qualifying_candidates"
+    }
+  ],
   "narrative": null
 }

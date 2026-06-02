@@ -1,101 +1,83 @@
 {
-  "as_of": "2026-06-02T13:22:00Z",
+  "as_of": "2026-06-02T19:09:00Z",
   "regime_summary": {
     "regime": "TRANSITIONAL",
-    "confidence": 6,
+    "confidence": 8,
     "deployment_bias": "MODERATE",
-    "key_risk": "Rising DXY compressing risk-asset multiples amid Fed policy uncertainty"
+    "key_risk": "Rising DXY tightening financial conditions despite otherwise bullish equity backdrop"
   },
   "top_signals": [
     {
       "ticker": "IWM",
-      "current_price": 288.86,
-      "composite_score": 7.42,
+      "current_price": 291.47,
+      "composite_score": 7.31,
       "conviction": 7,
       "direction": "LONG",
-      "momentum_score": 9.8,
+      "momentum_score": 9.2,
       "vol_regime": "CHEAP",
-      "iv_rank": 27.4,
+      "iv_rank": 28.6,
       "recommended_instrument": "CALL",
-      "entry_zone": "287.50-289.50",
-      "stop_loss": 274.42,
-      "target": 317.74,
-      "rr_ratio": 2.01,
-      "thesis": "Momentum 9.8, MACD bullish, RSI 61.6 non-overbought; small caps leading risk-on rotation with cheap vol (IV rank 27.4)"
-    },
-    {
-      "ticker": "SPY",
-      "current_price": 756.6352,
-      "composite_score": 6.87,
-      "conviction": 6,
-      "direction": "LONG",
-      "momentum_score": 6.8,
-      "vol_regime": "CHEAP",
-      "iv_rank": 13.8,
-      "recommended_instrument": "EQUITY",
-      "entry_zone": "754.00-758.00",
-      "stop_loss": 718.8,
-      "target": 831.3,
+      "entry_zone": "291.00-292.00",
+      "stop_loss": 279.81,
+      "target": 314.78,
       "rr_ratio": 2.0,
-      "thesis": "Vol score 8.62 with cheapest IV rank (13.8); broad index momentum 6.8 but RSI 75.1 overbought and MACD bearish limits conviction"
+      "thesis": "IWM momentum score 9.2, MACD bullish, RSI 63.9, cheap vol IV rank 28.6 supports call structure in risk-on small-cap rotation."
     },
     {
       "ticker": "QQQ",
-      "current_price": 741.54,
-      "composite_score": 6.42,
+      "current_price": 745.085,
+      "composite_score": 6.35,
       "conviction": 6,
       "direction": "LONG",
-      "momentum_score": 8.2,
+      "momentum_score": 7.8,
       "vol_regime": "FAIR",
-      "iv_rank": 41.4,
+      "iv_rank": 43.4,
       "recommended_instrument": "EQUITY",
-      "entry_zone": "739.00-743.00",
-      "stop_loss": 704.46,
-      "target": 815.61,
+      "entry_zone": "744.00-746.00",
+      "stop_loss": 715.28,
+      "target": 802.61,
       "rr_ratio": 2.0,
-      "thesis": "Momentum 8.2 and MACD bullish but RSI 78.4 overbought and fair vol (IV 41.4); tech sector rotation leader supports directional equity"
+      "thesis": "QQQ momentum 7.8, MACD bullish; RSI 78.9 extended but tech leadership intact; fair vol favors equity over options."
     },
     {
-      "ticker": "XLV",
-      "current_price": 147.4,
-      "composite_score": 6.26,
+      "ticker": "XLB",
+      "current_price": 51.49,
+      "composite_score": 6.22,
       "conviction": 6,
       "direction": "LONG",
       "momentum_score": 8.2,
       "vol_regime": "FAIR",
-      "iv_rank": 46.1,
-      "recommended_instrument": "EQUITY",
-      "entry_zone": "146.50-147.80",
-      "stop_loss": 140.03,
-      "target": 161.87,
+      "iv_rank": 51.3,
+      "recommended_instrument": "BULL_CALL_SPREAD",
+      "entry_zone": "51.25-51.75",
+      "stop_loss": 49.43,
+      "target": 55.61,
       "rr_ratio": 2.0,
-      "thesis": "Healthcare sector leader; momentum 8.2 with MACD bullish and RSI 51.8 healthy; biotech-led rotation with room to run"
+      "thesis": "XLB momentum 8.2, MACD bullish, confirmed by COPX 9.8; RSI 53.5 non-extended; fair IV supports spread to reduce premium cost."
     }
   ],
   "vol_environment": {
     "overall_regime": "EXPENSIVE",
     "term_structure": "CONTANGO",
-    "vix": 16.15
+    "vix": 15.88
   },
   "sector_rotation": {
     "into": [
-      "XLK",
-      "XLV",
-      "XLB",
-      "XLI",
-      "XLY"
+      "Technology",
+      "Materials",
+      "Industrials"
     ],
     "out_of": [
-      "XLU",
-      "XLP",
-      "XLE"
+      "Consumer Staples",
+      "Utilities",
+      "Communication Services"
     ],
-    "rationale": "Risk-on rotation into small caps, tech, healthcare; defensives and energy collapsing on momentum"
+    "rationale": "Risk-on breadth surge into cyclicals and tech; defensives in confirmed breakdown across RSI and MACD metrics."
   },
   "qualifying_for_smart_money": [
     "IWM",
     "XLK",
-    "QQQ",
-    "XLV"
+    "XLB",
+    "QQQ"
   ]
 }

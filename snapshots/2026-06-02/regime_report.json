@@ -1,44 +1,52 @@
 {
-  "as_of": "2026-06-02T12:30:00Z",
+  "as_of": "2026-06-02T18:22:00Z",
   "regime": "TRANSITIONAL",
-  "confidence": 6,
+  "confidence": 8,
   "indicators": {
-    "vix_level": 16.15,
-    "vix_20d_change_pct": -7.02,
-    "spy_price": 757.34,
+    "vix_level": 15.88,
+    "vix_20d_change_pct": -8.23,
+    "spy_price": 758.91,
     "spy_vs_50sma": "ABOVE",
-    "yield_curve_10y2y": 0.855,
+    "yield_curve_10y2y": 0.835,
     "dxy_trend": "RISING",
-    "put_call_sentiment": "NEUTRAL"
+    "put_call_sentiment": "BULLISH",
+    "oil_wti_spot": 93.51,
+    "oil_wti_20d_change_pct": -12.13,
+    "gold_spot": 4515.3999,
+    "gold_20d_change_pct": -0.09,
+    "copper_spot": 6.656,
+    "copper_20d_change_pct": 14.86,
+    "dxy_spot": 99.297,
+    "dxy_20d_change_pct": 0.84
   },
   "calendar_risks": [
     {
-      "event": "FOMC Meeting (likely June window)",
-      "date": "2026-06-17",
-      "impact": "HIGH"
-    },
-    {
-      "event": "Monthly Options Expiration (3rd Friday)",
-      "date": "2026-06-19",
-      "impact": "MEDIUM"
-    },
-    {
-      "event": "CPI Release (typical early-month window)",
+      "event": "FOMC Meeting",
       "date": "2026-06-10",
       "impact": "HIGH"
     },
     {
-      "event": "NFP Jobs Report (first Friday of month)",
+      "event": "CPI Release",
+      "date": "2026-06-11",
+      "impact": "HIGH"
+    },
+    {
+      "event": "NFP (Non-Farm Payrolls)",
       "date": "2026-06-05",
       "impact": "HIGH"
+    },
+    {
+      "event": "Monthly OpEx",
+      "date": "2026-06-19",
+      "impact": "MEDIUM"
     }
   ],
-  "key_risk": "Rising DXY compressing risk-asset multiples amid Fed policy uncertainty",
+  "key_risk": "Rising DXY tightening financial conditions despite otherwise bullish equity backdrop",
   "supporting_evidence": [
-    "VIX at 16.15, trending lower \u2014 volatility regime remains subdued",
-    "SPY above 50SMA confirms near-term uptrend intact",
-    "Positive yield curve (+0.85%) signals no imminent recession pricing",
-    "Rising DXY and neutral put/call ratio introduce conflicting headwinds"
+    "VIX at 15.88 and falling 8% over 20 days \u2014 fear subdued.",
+    "SPY above 50SMA with bullish put/call 0.5 \u2014 equity momentum intact.",
+    "Copper surging +14.9% 20d signals strong global industrial demand.",
+    "Crude oil -12.1% 20d diverges from copper \u2014 mixed commodity signal."
   ],
   "deployment_bias": "MODERATE"
 }

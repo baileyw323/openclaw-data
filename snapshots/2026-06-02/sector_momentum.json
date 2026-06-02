@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-02T12:31:00Z",
+  "as_of": "2026-06-02T18:23:00Z",
   "sectors": [
     {
       "ticker": "IWM",
       "sector": "Russell 2000 Index",
-      "momentum_score": 9.8,
+      "momentum_score": 9.2,
       "direction": "BULLISH",
-      "conviction": 10,
-      "rsi": 61.6,
+      "conviction": 9,
+      "rsi": 63.9,
       "macd_signal": "bullish",
       "above_50sma": true,
       "above_200sma": true,
-      "volume_confirming": true,
+      "volume_confirming": false,
       "status": "HOT"
     },
     {
@@ -20,7 +20,7 @@
       "momentum_score": 8.8,
       "direction": "BULLISH",
       "conviction": 9,
-      "rsi": 82.4,
+      "rsi": 83.1,
       "macd_signal": "bullish",
       "above_50sma": true,
       "above_200sma": true,
@@ -28,39 +28,39 @@
       "status": "HOT"
     },
     {
-      "ticker": "XLV",
-      "sector": "Healthcare",
+      "ticker": "XLB",
+      "sector": "Materials",
       "momentum_score": 8.2,
       "direction": "BULLISH",
       "conviction": 8,
-      "rsi": 51.8,
+      "rsi": 53.5,
       "macd_signal": "bullish",
       "above_50sma": true,
-      "above_200sma": false,
+      "above_200sma": true,
       "volume_confirming": true,
       "status": "HOT"
     },
     {
       "ticker": "QQQ",
       "sector": "Nasdaq 100 Index",
-      "momentum_score": 8.2,
+      "momentum_score": 7.8,
       "direction": "BULLISH",
       "conviction": 8,
-      "rsi": 78.4,
+      "rsi": 78.9,
       "macd_signal": "bullish",
       "above_50sma": true,
       "above_200sma": true,
       "volume_confirming": false,
-      "status": "HOT"
+      "status": "QUALIFYING"
     },
     {
-      "ticker": "XLB",
-      "sector": "Materials",
-      "momentum_score": 7.2,
+      "ticker": "XLI",
+      "sector": "Industrials",
+      "momentum_score": 6.8,
       "direction": "BULLISH",
       "conviction": 7,
-      "rsi": 49.4,
-      "macd_signal": "bullish",
+      "rsi": 54.1,
+      "macd_signal": "bearish",
       "above_50sma": true,
       "above_200sma": true,
       "volume_confirming": true,
@@ -69,23 +69,10 @@
     {
       "ticker": "SPY",
       "sector": "S&P 500 Index",
-      "momentum_score": 6.8,
-      "direction": "BULLISH",
-      "conviction": 7,
-      "rsi": 75.1,
-      "macd_signal": "bearish",
-      "above_50sma": true,
-      "above_200sma": true,
-      "volume_confirming": true,
-      "status": "QUALIFYING"
-    },
-    {
-      "ticker": "XLI",
-      "sector": "Industrials",
       "momentum_score": 6.2,
       "direction": "NEUTRAL",
       "conviction": 6,
-      "rsi": 50.5,
+      "rsi": 75.3,
       "macd_signal": "bearish",
       "above_50sma": true,
       "above_200sma": true,
@@ -93,27 +80,40 @@
       "status": "QUALIFYING"
     },
     {
-      "ticker": "XLY",
-      "sector": "Consumer Discretionary",
-      "momentum_score": 6.2,
+      "ticker": "XLF",
+      "sector": "Financials",
+      "momentum_score": 4.8,
       "direction": "NEUTRAL",
-      "conviction": 6,
-      "rsi": 49.6,
+      "conviction": 5,
+      "rsi": 51.6,
+      "macd_signal": "bearish",
+      "above_50sma": true,
+      "above_200sma": false,
+      "volume_confirming": false,
+      "status": "NEUTRAL"
+    },
+    {
+      "ticker": "XLV",
+      "sector": "Healthcare",
+      "momentum_score": 4.5,
+      "direction": "NEUTRAL",
+      "conviction": 4,
+      "rsi": 47.2,
       "macd_signal": "bullish",
-      "above_50sma": true,
-      "above_200sma": true,
-      "volume_confirming": false,
-      "status": "QUALIFYING"
+      "above_50sma": false,
+      "above_200sma": false,
+      "volume_confirming": true,
+      "status": "NEUTRAL"
     },
     {
-      "ticker": "XLC",
-      "sector": "Communication Services",
+      "ticker": "XLE",
+      "sector": "Energy",
       "momentum_score": 4.0,
       "direction": "NEUTRAL",
       "conviction": 4,
-      "rsi": 47.5,
+      "rsi": 50.5,
       "macd_signal": "bearish",
-      "above_50sma": true,
+      "above_50sma": false,
       "above_200sma": true,
       "volume_confirming": true,
       "status": "WEAK"
@@ -124,7 +124,7 @@
       "momentum_score": 3.5,
       "direction": "BEARISH",
       "conviction": 4,
-      "rsi": 41.3,
+      "rsi": 43.4,
       "macd_signal": "bearish",
       "above_50sma": true,
       "above_200sma": true,
@@ -132,29 +132,16 @@
       "status": "WEAK"
     },
     {
-      "ticker": "XLF",
-      "sector": "Financials",
+      "ticker": "XLY",
+      "sector": "Consumer Discretionary",
       "momentum_score": 3.2,
       "direction": "BEARISH",
       "conviction": 3,
-      "rsi": 49.5,
-      "macd_signal": "bearish",
+      "rsi": 47.9,
+      "macd_signal": "bearish_crossover",
       "above_50sma": true,
-      "above_200sma": false,
-      "volume_confirming": false,
-      "status": "WEAK"
-    },
-    {
-      "ticker": "XLE",
-      "sector": "Energy",
-      "momentum_score": 2.2,
-      "direction": "BEARISH",
-      "conviction": 2,
-      "rsi": 46.7,
-      "macd_signal": "bearish",
-      "above_50sma": false,
       "above_200sma": true,
-      "volume_confirming": false,
+      "volume_confirming": true,
       "status": "WEAK"
     },
     {
@@ -163,10 +150,23 @@
       "momentum_score": 2.0,
       "direction": "BEARISH",
       "conviction": 2,
-      "rsi": 39.0,
+      "rsi": 38.4,
       "macd_signal": "bearish",
       "above_50sma": false,
       "above_200sma": true,
+      "volume_confirming": true,
+      "status": "WEAK"
+    },
+    {
+      "ticker": "XLC",
+      "sector": "Communication Services",
+      "momentum_score": 2.0,
+      "direction": "BEARISH",
+      "conviction": 2,
+      "rsi": 39.0,
+      "macd_signal": "bearish",
+      "above_50sma": false,
+      "above_200sma": false,
       "volume_confirming": true,
       "status": "WEAK"
     },
@@ -176,8 +176,8 @@
       "momentum_score": 1.0,
       "direction": "BEARISH",
       "conviction": 1,
-      "rsi": 32.1,
-      "macd_signal": "bearish_crossover",
+      "rsi": 40.8,
+      "macd_signal": "bearish",
       "above_50sma": false,
       "above_200sma": false,
       "volume_confirming": true,
@@ -186,24 +186,22 @@
   ],
   "qualifying_for_smart_money": [
     "XLK",
-    "XLV",
     "XLB",
-    "XLI",
-    "XLY"
+    "XLI"
   ],
   "sector_leaders": [
     "IWM",
     "XLK",
-    "XLV"
+    "XLB"
   ],
   "sector_laggards": [
     "XLU",
     "XLP",
-    "XLE"
+    "XLC"
   ],
   "sub_sector_diagnostics": [
     {
-      "ticker": "XAR",
+      "ticker": "XTN",
       "sector_name": "Industrials",
       "score": 10.0,
       "direction": "BULLISH",
@@ -219,27 +217,27 @@
       "qualifies": true
     },
     {
+      "ticker": "XAR",
+      "sector_name": "Industrials",
+      "score": 9.8,
+      "direction": "BULLISH",
+      "conviction": 10,
+      "qualifies": true
+    },
+    {
       "ticker": "ITA",
       "sector_name": "Industrials",
-      "score": 9.8,
+      "score": 9.2,
       "direction": "BULLISH",
-      "conviction": 10,
+      "conviction": 9,
       "qualifies": true
     },
     {
-      "ticker": "XTN",
+      "ticker": "PAVE",
       "sector_name": "Industrials",
-      "score": 9.8,
+      "score": 9.0,
       "direction": "BULLISH",
-      "conviction": 10,
-      "qualifies": true
-    },
-    {
-      "ticker": "JETS",
-      "sector_name": "Consumer Discretionary",
-      "score": 9.8,
-      "direction": "BULLISH",
-      "conviction": 10,
+      "conviction": 9,
       "qualifies": true
     },
     {
@@ -259,6 +257,14 @@
       "qualifies": true
     },
     {
+      "ticker": "HACK",
+      "sector_name": "Technology",
+      "score": 8.8,
+      "direction": "BULLISH",
+      "conviction": 9,
+      "qualifies": true
+    },
+    {
       "ticker": "SOXX",
       "sector_name": "Technology",
       "score": 8.2,
@@ -267,84 +273,20 @@
       "qualifies": true
     },
     {
-      "ticker": "HACK",
-      "sector_name": "Technology",
-      "score": 8.2,
-      "direction": "BULLISH",
-      "conviction": 8,
-      "qualifies": true
-    },
-    {
-      "ticker": "XBI",
-      "sector_name": "Healthcare",
-      "score": 7.8,
-      "direction": "BULLISH",
-      "conviction": 8,
-      "qualifies": true
-    },
-    {
-      "ticker": "XRT",
-      "sector_name": "Consumer Discretionary",
-      "score": 7.2,
-      "direction": "BULLISH",
-      "conviction": 7,
-      "qualifies": true
-    },
-    {
-      "ticker": "ITB",
-      "sector_name": "Consumer Discretionary",
-      "score": 7.2,
-      "direction": "BULLISH",
-      "conviction": 7,
-      "qualifies": true
-    },
-    {
-      "ticker": "IBB",
-      "sector_name": "Healthcare",
-      "score": 5.8,
-      "direction": "NEUTRAL",
-      "conviction": 6,
-      "qualifies": false
-    },
-    {
       "ticker": "LIT",
       "sector_name": "Materials",
-      "score": 5.8,
+      "score": 6.2,
       "direction": "NEUTRAL",
       "conviction": 6,
-      "qualifies": false
-    },
-    {
-      "ticker": "PAVE",
-      "sector_name": "Industrials",
-      "score": 5.8,
-      "direction": "NEUTRAL",
-      "conviction": 6,
-      "qualifies": false
-    },
-    {
-      "ticker": "XPH",
-      "sector_name": "Healthcare",
-      "score": 4.2,
-      "direction": "NEUTRAL",
-      "conviction": 4,
-      "qualifies": false
+      "qualifies": true
     },
     {
       "ticker": "GDX",
       "sector_name": "Materials",
-      "score": 4.0,
+      "score": 6.0,
       "direction": "NEUTRAL",
-      "conviction": 4,
-      "qualifies": false
-    },
-    {
-      "ticker": "IHI",
-      "sector_name": "Healthcare",
-      "score": 2.8,
-      "direction": "BEARISH",
-      "conviction": 3,
-      "qualifies": false
+      "conviction": 6,
+      "qualifies": true
     },
     {
       "ticker": "MOO",
@@ -355,6 +297,6 @@
       "qualifies": false
     }
   ],
-  "rotation_note": "Strong risk-on rotation: small caps (IWM) and tech leading; defensives (XLU, XLP, XLE) collapsing. XLI headline masks extreme defense/transport strength (XAR, ITA, XTN all 9.8+). XLB confirmed industrial, not safe-haven. Healthcare narrowly biotech-led; IHI bearish.",
-  "leadership_theme": "Small caps + Tech (software/cloud/cyber) + Defense-Industrials leading aggressive risk-on rotation; defensives in freefall, financials weak, semis healthy but secondary to software dominance"
+  "rotation_note": "Classic risk-on surge: small caps (IWM HOT, no volume) and tech (XLK RSI 83 \u2014 over-extension risk) lead. XLI qualifies despite bearish MACD \u2014 sub-sectors (XTN 10.0, XAR 9.8, PAVE 9.0) reveal explosive breadth contradiction. XLB confirmed by COPX (9.8), not gold. Defensives \u2014 XLP, XLU, XLC \u2014 in full breakdown. Consumer Discretionary bearish crossover warns of consumer stress beneath growth surface.",
+  "leadership_theme": "Risk-on broadening rally: Small Caps + Tech (software/cloud/cyber-led, semis secondary) + Materials (copper/industrial metals) + Defense/Aerospace Industrials leading; Defensives, Comms, Discretionary, and REITs in confirmed breakdown"
 }
