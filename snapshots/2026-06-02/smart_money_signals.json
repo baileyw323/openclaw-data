@@ -1,0 +1,4751 @@
+{
+  "as_of": "2026-06-02T12:36:00.764786+00:00",
+  "industry_as_of": "2026-06-02T12:32:56.119225+00:00",
+  "scanned_count": 50,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "MRVL",
+      "classification": "LEAN BULLISH",
+      "score": 6.93,
+      "score_components": {
+        "directional": 5.05,
+        "conviction": 8.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.505,
+      "bearish_premium_pct": 0.495,
+      "total_premium": 18995374.0,
+      "bullish_premium": 5187808.5,
+      "bearish_premium": 5077667.75,
+      "flow_count": 90,
+      "ask_side_bull_count": 43,
+      "ask_side_bull_premium": 5704665.0,
+      "structural_breakdown": {
+        "kept_flow_count": 48,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 4,
+        "dropped_dte_filter": 38,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 3473665.0,
+            "put_premium": 4152265.0,
+            "flow_count": 32
+          },
+          "core_deep_itm": {
+            "call_premium": 281250.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 713406.75,
+            "put_premium": 435507.75,
+            "flow_count": 6
+          },
+          "long_stretch": {
+            "call_premium": 423690.5,
+            "put_premium": 32335.0,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 211128.75,
+            "put_premium": 457560.0,
+            "flow_count": 4
+          },
+          "short_deep_itm": {
+            "call_premium": 84667.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 220.51
+      },
+      "spot_used": 220.51,
+      "largest_flow": {
+        "premium": 2071267.0,
+        "option_type": "PUT",
+        "strike": 225.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T15:13:53.048407Z"
+      },
+      "reason": "moderate_bullish_flow score=6.93",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AVGO",
+      "classification": "BULLISH",
+      "score": 8.82,
+      "score_components": {
+        "directional": 7.89,
+        "conviction": 9.6,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.789,
+      "bearish_premium_pct": 0.211,
+      "total_premium": 15366701.0,
+      "bullish_premium": 4250747.75,
+      "bearish_premium": 1135716.5,
+      "flow_count": 48,
+      "ask_side_bull_count": 32,
+      "ask_side_bull_premium": 7067973.0,
+      "structural_breakdown": {
+        "kept_flow_count": 19,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 29,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 3521905.0,
+            "put_premium": 777434.0,
+            "flow_count": 13
+          },
+          "core_deep_itm": {
+            "call_premium": 317258.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 324622.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 358282.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 86962.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 460.17
+      },
+      "spot_used": 460.17,
+      "largest_flow": {
+        "premium": 1649010.0,
+        "option_type": "CALL",
+        "strike": 600.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T19:55:41.189050Z"
+      },
+      "reason": "strong_bullish_flow score=8.82",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "NVDA",
+      "classification": "BULLISH",
+      "score": 9.84,
+      "score_components": {
+        "directional": 9.69,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.969,
+      "bearish_premium_pct": 0.031,
+      "total_premium": 25126305.0,
+      "bullish_premium": 9461022.75,
+      "bearish_premium": 298802.0,
+      "flow_count": 100,
+      "ask_side_bull_count": 54,
+      "ask_side_bull_premium": 12960203.0,
+      "structural_breakdown": {
+        "kept_flow_count": 36,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 61,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 4403466.0,
+            "put_premium": 298802.0,
+            "flow_count": 20
+          },
+          "long_core": {
+            "call_premium": 496589.25,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 3312164.25,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_stretch": {
+            "call_premium": 1248803.25,
+            "put_premium": 0.0,
+            "flow_count": 7
+          }
+        },
+        "spot_used": 224.305
+      },
+      "spot_used": 224.305,
+      "largest_flow": {
+        "premium": 2860139.0,
+        "option_type": "CALL",
+        "strike": 235.0,
+        "expiry": "2026-06-12",
+        "executed_at": "2026-06-01T18:46:23.259199Z"
+      },
+      "reason": "strong_bullish_flow score=9.84",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "MU",
+      "classification": "LEAN BULLISH",
+      "score": 7.08,
+      "score_components": {
+        "directional": 5.84,
+        "conviction": 7.18,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.584,
+      "bearish_premium_pct": 0.416,
+      "total_premium": 60962171.0,
+      "bullish_premium": 14690497.5,
+      "bearish_premium": 10478443.25,
+      "flow_count": 100,
+      "ask_side_bull_count": 36,
+      "ask_side_bull_premium": 13317016.0,
+      "structural_breakdown": {
+        "kept_flow_count": 47,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 5,
+        "dropped_dte_filter": 48,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 10670475.0,
+            "put_premium": 77670.0,
+            "flow_count": 21
+          },
+          "core_core": {
+            "call_premium": 2283770.0,
+            "put_premium": 342165.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 987887.5,
+            "put_premium": 565488.5,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 748365.0,
+            "put_premium": 5224415.25,
+            "flow_count": 7
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 4268704.5,
+            "flow_count": 8
+          }
+        },
+        "spot_used": 1032.88
+      },
+      "spot_used": 1032.88,
+      "largest_flow": {
+        "premium": 3055300.0,
+        "option_type": "PUT",
+        "strike": 900.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T18:58:50.999004Z"
+      },
+      "reason": "moderate_bullish_flow score=7.08",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AMD",
+      "classification": "BULLISH",
+      "score": 8.64,
+      "score_components": {
+        "directional": 8.23,
+        "conviction": 8.41,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.823,
+      "bearish_premium_pct": 0.177,
+      "total_premium": 37998816.0,
+      "bullish_premium": 16222720.0,
+      "bearish_premium": 3494385.75,
+      "flow_count": 100,
+      "ask_side_bull_count": 41,
+      "ask_side_bull_premium": 12942753.0,
+      "structural_breakdown": {
+        "kept_flow_count": 56,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 4,
+        "dropped_dte_filter": 40,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 97582.5,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50005.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 7317925.0,
+            "put_premium": 778760.0,
+            "flow_count": 16
+          },
+          "short_core": {
+            "call_premium": 5957573.25,
+            "put_premium": 1681728.75,
+            "flow_count": 25
+          },
+          "long_core": {
+            "call_premium": 2389687.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 501126.75,
+            "put_premium": 611403.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 56407.5,
+            "put_premium": 196122.5,
+            "flow_count": 2
+          },
+          "long_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 78783.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 511.94
+      },
+      "spot_used": 511.94,
+      "largest_flow": {
+        "premium": 3018454.0,
+        "option_type": "CALL",
+        "strike": 530.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T19:38:27.073611Z"
+      },
+      "reason": "strong_bullish_flow score=8.64",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "INTC",
+      "classification": "BULLISH",
+      "score": 9.68,
+      "score_components": {
+        "directional": 9.37,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.937,
+      "bearish_premium_pct": 0.063,
+      "total_premium": 35482300.0,
+      "bullish_premium": 13745334.25,
+      "bearish_premium": 931593.0,
+      "flow_count": 59,
+      "ask_side_bull_count": 33,
+      "ask_side_bull_premium": 19321231.0,
+      "structural_breakdown": {
+        "kept_flow_count": 18,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 12,
+        "dropped_dte_filter": 29,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 12419283.0,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_core": {
+            "call_premium": 882631.0,
+            "put_premium": 931593.0,
+            "flow_count": 8
+          },
+          "core_stretch": {
+            "call_premium": 340717.5,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 102702.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 109.3
+      },
+      "spot_used": 109.3,
+      "largest_flow": {
+        "premium": 9326793.0,
+        "option_type": "CALL",
+        "strike": 110.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T14:53:55.186285Z"
+      },
+      "reason": "strong_bullish_flow score=9.68",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "TXN",
+      "classification": "NEUTRAL",
+      "score": 4.08,
+      "score_components": {
+        "directional": 1.29,
+        "conviction": 6.37,
+        "magnitude": 7.59
+      },
+      "bullish_premium_pct": 0.129,
+      "bearish_premium_pct": 0.871,
+      "total_premium": 1089108.0,
+      "bullish_premium": 69615.0,
+      "bearish_premium": 471138.25,
+      "flow_count": 12,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 149615.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 69615.0,
+            "put_premium": 305302.0,
+            "flow_count": 4
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 103616.25,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 62220.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 295.025
+      },
+      "spot_used": 295.025,
+      "largest_flow": {
+        "premium": 171535.0,
+        "option_type": "PUT",
+        "strike": 285.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T13:50:31.284601Z"
+      },
+      "reason": "bearish_flow_dominant (87% weighted bearish)",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "MCHP",
+      "classification": "NEUTRAL",
+      "score": 2.89,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.93
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 591460.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 256460.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 256460.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 91.23
+      },
+      "spot_used": 91.23,
+      "largest_flow": {
+        "premium": 335000.0,
+        "option_type": "CALL",
+        "strike": 120.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T14:09:48.974093Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ADI",
+      "classification": "LEAN BULLISH",
+      "score": 7.12,
+      "score_components": {
+        "directional": 5.86,
+        "conviction": 8.94,
+        "magnitude": 7.56
+      },
+      "bullish_premium_pct": 0.586,
+      "bearish_premium_pct": 0.414,
+      "total_premium": 1056948.0,
+      "bullish_premium": 403430.0,
+      "bearish_premium": 284666.5,
+      "flow_count": 8,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 416640.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 53344.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 149317.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 82005.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 403430.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 406.41
+      },
+      "spot_used": 406.41,
+      "largest_flow": {
+        "premium": 320920.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-06-26",
+        "executed_at": "2026-06-01T15:22:49.026314Z"
+      },
+      "reason": "moderate_bullish_flow score=7.12",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "QCOM",
+      "classification": "BULLISH",
+      "score": 9.32,
+      "score_components": {
+        "directional": 9.61,
+        "conviction": 8.37,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.961,
+      "bearish_premium_pct": 0.039,
+      "total_premium": 32023339.0,
+      "bullish_premium": 13992675.5,
+      "bearish_premium": 562920.75,
+      "flow_count": 82,
+      "ask_side_bull_count": 53,
+      "ask_side_bull_premium": 10806331.0,
+      "structural_breakdown": {
+        "kept_flow_count": 51,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 8,
+        "dropped_dte_filter": 23,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 5323803.0,
+            "put_premium": 323639.0,
+            "flow_count": 27
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 170583.0,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 6613965.5,
+            "put_premium": 26290.0,
+            "flow_count": 16
+          },
+          "core_stretch": {
+            "call_premium": 621160.5,
+            "put_premium": 42408.75,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 1433746.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 229.0
+      },
+      "spot_used": 229.0,
+      "largest_flow": {
+        "premium": 2741813.0,
+        "option_type": "PUT",
+        "strike": 250.0,
+        "expiry": "2026-06-05",
+        "executed_at": "2026-06-01T13:47:01.216328Z"
+      },
+      "reason": "strong_bullish_flow score=9.32",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "HPE",
+      "classification": "BULLISH",
+      "score": 8.47,
+      "score_components": {
+        "directional": 8.22,
+        "conviction": 7.88,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.822,
+      "bearish_premium_pct": 0.178,
+      "total_premium": 10046300.0,
+      "bullish_premium": 1786717.0,
+      "bearish_premium": 388070.0,
+      "flow_count": 65,
+      "ask_side_bull_count": 33,
+      "ask_side_bull_premium": 2895259.0,
+      "structural_breakdown": {
+        "kept_flow_count": 12,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 50,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 660145.0,
+            "put_premium": 302000.0,
+            "flow_count": 9
+          },
+          "long_stretch": {
+            "call_premium": 204856.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 921715.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 86070.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 47.12
+      },
+      "spot_used": 47.12,
+      "largest_flow": {
+        "premium": 1228954.0,
+        "option_type": "CALL",
+        "strike": 45.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T17:54:31.573181Z"
+      },
+      "reason": "strong_bullish_flow score=8.47",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "LITE",
+      "classification": "BULLISH",
+      "score": 9.27,
+      "score_components": {
+        "directional": 8.6,
+        "conviction": 9.89,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.86,
+      "bearish_premium_pct": 0.14,
+      "total_premium": 16211399.0,
+      "bullish_premium": 7471864.0,
+      "bearish_premium": 1218156.5,
+      "flow_count": 41,
+      "ask_side_bull_count": 17,
+      "ask_side_bull_premium": 7925174.0,
+      "structural_breakdown": {
+        "kept_flow_count": 15,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 23,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 561421.5,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 7391164.0,
+            "put_premium": 0.0,
+            "flow_count": 8
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 58275.0,
+            "flow_count": 1
+          },
+          "short_deep_itm": {
+            "call_premium": 38700.0,
+            "put_premium": 561000.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 42000.0,
+            "put_premium": 37460.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 904.865
+      },
+      "spot_used": 904.865,
+      "largest_flow": {
+        "premium": 1999480.0,
+        "option_type": "CALL",
+        "strike": 880.0,
+        "expiry": "2026-07-02",
+        "executed_at": "2026-06-01T18:07:03.762750Z"
+      },
+      "reason": "strong_bullish_flow score=9.27",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CIEN",
+      "classification": "LEAN BULLISH",
+      "score": 7.41,
+      "score_components": {
+        "directional": 6.05,
+        "conviction": 9.75,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.605,
+      "bearish_premium_pct": 0.395,
+      "total_premium": 817036.0,
+      "bullish_premium": 299452.0,
+      "bearish_premium": 195820.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 388160.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 61852.0,
+            "put_premium": 195820.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 237600.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 566.02
+      },
+      "spot_used": 566.02,
+      "largest_flow": {
+        "premium": 316800.0,
+        "option_type": "CALL",
+        "strike": 570.0,
+        "expiry": "2026-06-12",
+        "executed_at": "2026-06-01T14:00:01.357335Z"
+      },
+      "reason": "moderate_bullish_flow score=7.41",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CSCO",
+      "classification": "BULLISH",
+      "score": 7.8,
+      "score_components": {
+        "directional": 7.38,
+        "conviction": 8.09,
+        "magnitude": 8.41
+      },
+      "bullish_premium_pct": 0.738,
+      "bearish_premium_pct": 0.262,
+      "total_premium": 2317487.0,
+      "bullish_premium": 527124.0,
+      "bearish_premium": 187425.0,
+      "flow_count": 18,
+      "ask_side_bull_count": 10,
+      "ask_side_bull_premium": 715499.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 9,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 310071.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 105228.0,
+            "put_premium": 187425.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 111825.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 121.9
+      },
+      "spot_used": 121.9,
+      "largest_flow": {
+        "premium": 809486.0,
+        "option_type": "PUT",
+        "strike": 110.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-01T17:25:23.230854Z"
+      },
+      "reason": "strong_bullish_flow score=7.8",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ASTS",
+      "classification": "LEAN BULLISH",
+      "score": 6.87,
+      "score_components": {
+        "directional": 5.59,
+        "conviction": 7.3,
+        "magnitude": 9.42
+      },
+      "bullish_premium_pct": 0.559,
+      "bearish_premium_pct": 0.441,
+      "total_premium": 5882327.0,
+      "bullish_premium": 952046.5,
+      "bearish_premium": 749595.5,
+      "flow_count": 100,
+      "ask_side_bull_count": 32,
+      "ask_side_bull_premium": 1352125.0,
+      "structural_breakdown": {
+        "kept_flow_count": 43,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 20,
+        "dropped_dte_filter": 37,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 513838.5,
+            "put_premium": 633906.0,
+            "flow_count": 28
+          },
+          "core_core": {
+            "call_premium": 133907.0,
+            "put_premium": 50357.0,
+            "flow_count": 9
+          },
+          "long_deep_itm": {
+            "call_premium": 12802.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 125120.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 13560.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 5600.0,
+            "put_premium": 51772.5,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 160778.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 105.675
+      },
+      "spot_used": 105.675,
+      "largest_flow": {
+        "premium": 723000.0,
+        "option_type": "CALL",
+        "strike": 120.0,
+        "expiry": "2027-01-15",
+        "executed_at": "2026-06-01T16:37:01.168612Z"
+      },
+      "reason": "moderate_bullish_flow score=6.87",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AAOI",
+      "classification": "BULLISH",
+      "score": 8.27,
+      "score_components": {
+        "directional": 8.11,
+        "conviction": 7.77,
+        "magnitude": 9.4
+      },
+      "bullish_premium_pct": 0.811,
+      "bearish_premium_pct": 0.189,
+      "total_premium": 5770421.0,
+      "bullish_premium": 834731.0,
+      "bearish_premium": 194058.5,
+      "flow_count": 100,
+      "ask_side_bull_count": 49,
+      "ask_side_bull_premium": 1597363.0,
+      "structural_breakdown": {
+        "kept_flow_count": 28,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 69,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 36547.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 673933.5,
+            "put_premium": 187882.5,
+            "flow_count": 21
+          },
+          "short_deep_itm": {
+            "call_premium": 65000.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 59250.0,
+            "put_premium": 6176.0,
+            "flow_count": 4
+          }
+        },
+        "spot_used": 185.445
+      },
+      "spot_used": 185.445,
+      "largest_flow": {
+        "premium": 457840.0,
+        "option_type": "PUT",
+        "strike": 200.0,
+        "expiry": "2026-06-05",
+        "executed_at": "2026-06-01T18:56:24.354690Z"
+      },
+      "reason": "strong_bullish_flow score=8.27",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "UI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VIAV",
+      "classification": "BULLISH",
+      "score": 9.33,
+      "score_components": {
+        "directional": 9.82,
+        "conviction": 10.0,
+        "magnitude": 7.1
+      },
+      "bullish_premium_pct": 0.982,
+      "bearish_premium_pct": 0.018,
+      "total_premium": 692948.0,
+      "bullish_premium": 629753.0,
+      "bearish_premium": 11377.5,
+      "flow_count": 4,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 629753.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 11377.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 629753.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 47.16
+      },
+      "spot_used": 47.16,
+      "largest_flow": {
+        "premium": 629753.0,
+        "option_type": "CALL",
+        "strike": 45.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T14:20:42.173465Z"
+      },
+      "reason": "strong_bullish_flow score=9.33",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VSAT",
+      "classification": "LEAN BULLISH",
+      "score": 7.1,
+      "score_components": {
+        "directional": 7.55,
+        "conviction": 6.49,
+        "magnitude": 6.91
+      },
+      "bullish_premium_pct": 0.755,
+      "bearish_premium_pct": 0.245,
+      "total_premium": 578529.0,
+      "bullish_premium": 259925.0,
+      "bearish_premium": 84245.0,
+      "flow_count": 14,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 86289.0,
+      "structural_breakdown": {
+        "kept_flow_count": 13,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 259925.0,
+            "put_premium": 62870.0,
+            "flow_count": 12
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 21375.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 73.045
+      },
+      "spot_used": 73.045,
+      "largest_flow": {
+        "premium": 227234.0,
+        "option_type": "PUT",
+        "strike": 65.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T14:07:15.146503Z"
+      },
+      "reason": "moderate_bullish_flow score=7.1",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ZBRA",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "LRCX",
+      "classification": "NEUTRAL",
+      "score": 5.21,
+      "score_components": {
+        "directional": 2.9,
+        "conviction": 6.4,
+        "magnitude": 9.18
+      },
+      "bullish_premium_pct": 0.29,
+      "bearish_premium_pct": 0.71,
+      "total_premium": 4704111.0,
+      "bullish_premium": 842385.0,
+      "bearish_premium": 2066611.25,
+      "flow_count": 27,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 658483.0,
+      "structural_breakdown": {
+        "kept_flow_count": 17,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 8,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 842385.0,
+            "put_premium": 173110.0,
+            "flow_count": 11
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 1735481.25,
+            "flow_count": 4
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 31802.5,
+            "flow_count": 1
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 126217.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 318.61
+      },
+      "spot_used": 318.61,
+      "largest_flow": {
+        "premium": 1110035.0,
+        "option_type": "PUT",
+        "strike": 302.5,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T14:57:50.090641Z"
+      },
+      "reason": "bearish_flow_dominant (71% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AMAT",
+      "classification": "NEUTRAL",
+      "score": 5.33,
+      "score_components": {
+        "directional": 2.47,
+        "conviction": 7.7,
+        "magnitude": 8.92
+      },
+      "bullish_premium_pct": 0.247,
+      "bearish_premium_pct": 0.753,
+      "total_premium": 3706438.0,
+      "bullish_premium": 524397.5,
+      "bearish_premium": 1597678.75,
+      "flow_count": 22,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 999149.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 11,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 459465.0,
+            "put_premium": 283833.75,
+            "flow_count": 6
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 1229500.0,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 84345.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 26047.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_deep_itm": {
+            "call_premium": 38885.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 457.36
+      },
+      "spot_used": 457.36,
+      "largest_flow": {
+        "premium": 801250.0,
+        "option_type": "PUT",
+        "strike": 450.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:36:15.112376Z"
+      },
+      "reason": "bearish_flow_dominant (75% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "KLAC",
+      "classification": "NEUTRAL",
+      "score": 4.59,
+      "score_components": {
+        "directional": 2.79,
+        "conviction": 5.0,
+        "magnitude": 8.46
+      },
+      "bullish_premium_pct": 0.279,
+      "bearish_premium_pct": 0.721,
+      "total_premium": 2424230.0,
+      "bullish_premium": 472820.0,
+      "bearish_premium": 1219360.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 386570.0,
+            "put_premium": 1168800.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50560.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 86250.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 1936.865
+      },
+      "spot_used": 1936.865,
+      "largest_flow": {
+        "premium": 1168800.0,
+        "option_type": "PUT",
+        "strike": 1900.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T13:57:13.410082Z"
+      },
+      "reason": "bearish_flow_dominant (72% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AXTI",
+      "classification": "BULLISH",
+      "score": 9.8,
+      "score_components": {
+        "directional": 9.82,
+        "conviction": 10.0,
+        "magnitude": 9.45
+      },
+      "bullish_premium_pct": 0.982,
+      "bearish_premium_pct": 0.018,
+      "total_premium": 6023449.0,
+      "bullish_premium": 4191067.0,
+      "bearish_premium": 78690.0,
+      "flow_count": 22,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 3831422.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 6,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 1437076.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 78690.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 582615.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 2171376.0,
+            "put_premium": 0.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 111.51
+      },
+      "spot_used": 111.51,
+      "largest_flow": {
+        "premium": 894000.0,
+        "option_type": "CALL",
+        "strike": 95.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:15:23.287985Z"
+      },
+      "reason": "strong_bullish_flow score=9.8",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "TER",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 901710.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "Q",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 274324.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ONTO",
+      "classification": "NEUTRAL",
+      "score": 3.28,
+      "score_components": {
+        "directional": 1.04,
+        "conviction": 5.0,
+        "magnitude": 6.29
+      },
+      "bullish_premium_pct": 0.104,
+      "bearish_premium_pct": 0.896,
+      "total_premium": 327870.0,
+      "bullish_premium": 30562.5,
+      "bearish_premium": 262700.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 262700.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 30562.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 256.515
+      },
+      "spot_used": 256.515,
+      "largest_flow": {
+        "premium": 262700.0,
+        "option_type": "PUT",
+        "strike": 270.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:43:24.880652Z"
+      },
+      "reason": "bearish_flow_dominant (90% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AMKR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 875772.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 11,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FORM",
+      "classification": "BULLISH",
+      "score": 7.92,
+      "score_components": {
+        "directional": 7.49,
+        "conviction": 10.0,
+        "magnitude": 5.88
+      },
+      "bullish_premium_pct": 0.749,
+      "bearish_premium_pct": 0.251,
+      "total_premium": 224444.0,
+      "bullish_premium": 125439.0,
+      "bearish_premium": 42011.25,
+      "flow_count": 5,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 137834.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 42011.25,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 125439.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 119.265
+      },
+      "spot_used": 119.265,
+      "largest_flow": {
+        "premium": 125439.0,
+        "option_type": "CALL",
+        "strike": 125.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:38:54.210903Z"
+      },
+      "reason": "strong_bullish_flow score=7.92",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ACMR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 59440.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "NEM",
+      "classification": "NEUTRAL",
+      "score": 6.0,
+      "score_components": {
+        "directional": 4.06,
+        "conviction": 9.77,
+        "magnitude": 5.21
+      },
+      "bullish_premium_pct": 0.406,
+      "bearish_premium_pct": 0.594,
+      "total_premium": 120930.0,
+      "bullish_premium": 43245.0,
+      "bearish_premium": 63270.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 57660.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 43245.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 63270.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 108.395
+      },
+      "spot_used": 108.395,
+      "largest_flow": {
+        "premium": 63270.0,
+        "option_type": "PUT",
+        "strike": 105.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:46:09.475241Z"
+      },
+      "reason": "bearish_flow_dominant (59% weighted bearish)",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CDE",
+      "classification": "BULLISH",
+      "score": 8.65,
+      "score_components": {
+        "directional": 9.0,
+        "conviction": 10.0,
+        "magnitude": 5.75
+      },
+      "bullish_premium_pct": 0.9,
+      "bearish_premium_pct": 0.1,
+      "total_premium": 199898.0,
+      "bullish_premium": 134998.5,
+      "bearish_premium": 14925.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 179998.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 14925.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 134998.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 19.26
+      },
+      "spot_used": 19.26,
+      "largest_flow": {
+        "premium": 179998.0,
+        "option_type": "CALL",
+        "strike": 20.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T17:57:35.802634Z"
+      },
+      "reason": "strong_bullish_flow score=8.65",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "RGLD",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AU",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 24750.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SSRM",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "HYMC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 27895.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "NG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AUGO",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "IDR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "DC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VRT",
+      "classification": "LEAN BULLISH",
+      "score": 5.96,
+      "score_components": {
+        "directional": 5.0,
+        "conviction": 6.27,
+        "magnitude": 7.91
+      },
+      "bullish_premium_pct": 0.5,
+      "bearish_premium_pct": 0.5,
+      "total_premium": 1461138.0,
+      "bullish_premium": 233105.0,
+      "bearish_premium": 232702.0,
+      "flow_count": 10,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 185245.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 233105.0,
+            "put_premium": 232702.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 324.78
+      },
+      "spot_used": 324.78,
+      "largest_flow": {
+        "premium": 504605.0,
+        "option_type": "CALL",
+        "strike": 360.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T16:21:37.579226Z"
+      },
+      "reason": "moderate_bullish_flow score=5.96",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BE",
+      "classification": "BULLISH",
+      "score": 10.0,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 14468931.0,
+      "bullish_premium": 4818293.25,
+      "bearish_premium": 0.0,
+      "flow_count": 26,
+      "ask_side_bull_count": 14,
+      "ask_side_bull_premium": 7774781.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 7,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 124590.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 145000.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 2218838.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 69500.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 2260365.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 273.12
+      },
+      "spot_used": 273.12,
+      "largest_flow": {
+        "premium": 2332730.0,
+        "option_type": "CALL",
+        "strike": 300.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T13:44:33.305041Z"
+      },
+      "reason": "strong_bullish_flow score=10.0",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "FPS",
+      "classification": "BULLISH",
+      "score": 9.58,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 7.88
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1424360.0,
+      "bullish_premium": 1291342.0,
+      "bearish_premium": 0.0,
+      "flow_count": 19,
+      "ask_side_bull_count": 15,
+      "ask_side_bull_premium": 1249270.0,
+      "structural_breakdown": {
+        "kept_flow_count": 18,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 136076.25,
+            "put_premium": 0.0,
+            "flow_count": 5
+          },
+          "core_core": {
+            "call_premium": 1117288.0,
+            "put_premium": 0.0,
+            "flow_count": 12
+          },
+          "long_core": {
+            "call_premium": 37977.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 57.36
+      },
+      "spot_used": 57.36,
+      "largest_flow": {
+        "premium": 260048.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:34:33.469606Z"
+      },
+      "reason": "strong_bullish_flow score=9.58",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AYI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AEIS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ATKR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "POWL",
+      "classification": "BULLISH",
+      "score": 8.51,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.85,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 814886.0,
+      "bullish_premium": 611164.5,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 150870.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 498012.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 113152.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 287.79
+      },
+      "spot_used": 287.79,
+      "largest_flow": {
+        "premium": 664016.0,
+        "option_type": "CALL",
+        "strike": 300.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T19:21:29.578683Z"
+      },
+      "reason": "strong_bullish_flow score=8.51",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ENVX",
+      "classification": "BULLISH",
+      "score": 8.01,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.31,
+        "magnitude": 5.59
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 172530.0,
+      "bullish_premium": 143970.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 22662.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 143970.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 8.53
+      },
+      "spot_used": 8.53,
+      "largest_flow": {
+        "premium": 116850.0,
+        "option_type": "CALL",
+        "strike": 8.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:23:24.872269Z"
+      },
+      "reason": "strong_bullish_flow score=8.01",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ENS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "TE",
+      "classification": "BULLISH",
+      "score": 9.66,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 9.5,
+        "magnitude": 9.04
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 4142136.0,
+      "bullish_premium": 2227809.25,
+      "bearish_premium": 0.0,
+      "flow_count": 56,
+      "ask_side_bull_count": 35,
+      "ask_side_bull_premium": 1865945.0,
+      "structural_breakdown": {
+        "kept_flow_count": 17,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 34,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 2081084.25,
+            "put_premium": 0.0,
+            "flow_count": 14
+          },
+          "short_stretch": {
+            "call_premium": 14290.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 132435.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 10.11
+      },
+      "spot_used": 10.11,
+      "largest_flow": {
+        "premium": 937052.0,
+        "option_type": "CALL",
+        "strike": 11.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:05:37.963767Z"
+      },
+      "reason": "strong_bullish_flow score=9.66",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "BE",
+      "classification": "BULLISH",
+      "score": 10.0,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 14468931.0,
+      "bullish_premium": 4818293.25,
+      "bearish_premium": 0.0,
+      "flow_count": 26,
+      "ask_side_bull_count": 14,
+      "ask_side_bull_premium": 7774781.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 7,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 124590.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 145000.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 2218838.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 69500.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 2260365.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 273.12
+      },
+      "spot_used": 273.12,
+      "largest_flow": {
+        "premium": 2332730.0,
+        "option_type": "CALL",
+        "strike": 300.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T13:44:33.305041Z"
+      },
+      "reason": "strong_bullish_flow score=10.0",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "NVDA",
+      "classification": "BULLISH",
+      "score": 9.84,
+      "score_components": {
+        "directional": 9.69,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.969,
+      "bearish_premium_pct": 0.031,
+      "total_premium": 25126305.0,
+      "bullish_premium": 9461022.75,
+      "bearish_premium": 298802.0,
+      "flow_count": 100,
+      "ask_side_bull_count": 54,
+      "ask_side_bull_premium": 12960203.0,
+      "structural_breakdown": {
+        "kept_flow_count": 36,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 61,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 4403466.0,
+            "put_premium": 298802.0,
+            "flow_count": 20
+          },
+          "long_core": {
+            "call_premium": 496589.25,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 3312164.25,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_stretch": {
+            "call_premium": 1248803.25,
+            "put_premium": 0.0,
+            "flow_count": 7
+          }
+        },
+        "spot_used": 224.305
+      },
+      "spot_used": 224.305,
+      "largest_flow": {
+        "premium": 2860139.0,
+        "option_type": "CALL",
+        "strike": 235.0,
+        "expiry": "2026-06-12",
+        "executed_at": "2026-06-01T18:46:23.259199Z"
+      },
+      "reason": "strong_bullish_flow score=9.84",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AXTI",
+      "classification": "BULLISH",
+      "score": 9.8,
+      "score_components": {
+        "directional": 9.82,
+        "conviction": 10.0,
+        "magnitude": 9.45
+      },
+      "bullish_premium_pct": 0.982,
+      "bearish_premium_pct": 0.018,
+      "total_premium": 6023449.0,
+      "bullish_premium": 4191067.0,
+      "bearish_premium": 78690.0,
+      "flow_count": 22,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 3831422.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 6,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 1437076.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 78690.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 582615.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 2171376.0,
+            "put_premium": 0.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 111.51
+      },
+      "spot_used": 111.51,
+      "largest_flow": {
+        "premium": 894000.0,
+        "option_type": "CALL",
+        "strike": 95.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:15:23.287985Z"
+      },
+      "reason": "strong_bullish_flow score=9.8",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "INTC",
+      "classification": "BULLISH",
+      "score": 9.68,
+      "score_components": {
+        "directional": 9.37,
+        "conviction": 10.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.937,
+      "bearish_premium_pct": 0.063,
+      "total_premium": 35482300.0,
+      "bullish_premium": 13745334.25,
+      "bearish_premium": 931593.0,
+      "flow_count": 59,
+      "ask_side_bull_count": 33,
+      "ask_side_bull_premium": 19321231.0,
+      "structural_breakdown": {
+        "kept_flow_count": 18,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 12,
+        "dropped_dte_filter": 29,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 12419283.0,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_core": {
+            "call_premium": 882631.0,
+            "put_premium": 931593.0,
+            "flow_count": 8
+          },
+          "core_stretch": {
+            "call_premium": 340717.5,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 102702.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 109.3
+      },
+      "spot_used": 109.3,
+      "largest_flow": {
+        "premium": 9326793.0,
+        "option_type": "CALL",
+        "strike": 110.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T14:53:55.186285Z"
+      },
+      "reason": "strong_bullish_flow score=9.68",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "TE",
+      "classification": "BULLISH",
+      "score": 9.66,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 9.5,
+        "magnitude": 9.04
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 4142136.0,
+      "bullish_premium": 2227809.25,
+      "bearish_premium": 0.0,
+      "flow_count": 56,
+      "ask_side_bull_count": 35,
+      "ask_side_bull_premium": 1865945.0,
+      "structural_breakdown": {
+        "kept_flow_count": 17,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 34,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 2081084.25,
+            "put_premium": 0.0,
+            "flow_count": 14
+          },
+          "short_stretch": {
+            "call_premium": 14290.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 132435.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 10.11
+      },
+      "spot_used": 10.11,
+      "largest_flow": {
+        "premium": 937052.0,
+        "option_type": "CALL",
+        "strike": 11.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:05:37.963767Z"
+      },
+      "reason": "strong_bullish_flow score=9.66",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FPS",
+      "classification": "BULLISH",
+      "score": 9.58,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 7.88
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1424360.0,
+      "bullish_premium": 1291342.0,
+      "bearish_premium": 0.0,
+      "flow_count": 19,
+      "ask_side_bull_count": 15,
+      "ask_side_bull_premium": 1249270.0,
+      "structural_breakdown": {
+        "kept_flow_count": 18,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 136076.25,
+            "put_premium": 0.0,
+            "flow_count": 5
+          },
+          "core_core": {
+            "call_premium": 1117288.0,
+            "put_premium": 0.0,
+            "flow_count": 12
+          },
+          "long_core": {
+            "call_premium": 37977.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 57.36
+      },
+      "spot_used": 57.36,
+      "largest_flow": {
+        "premium": 260048.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:34:33.469606Z"
+      },
+      "reason": "strong_bullish_flow score=9.58",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "VIAV",
+      "classification": "BULLISH",
+      "score": 9.33,
+      "score_components": {
+        "directional": 9.82,
+        "conviction": 10.0,
+        "magnitude": 7.1
+      },
+      "bullish_premium_pct": 0.982,
+      "bearish_premium_pct": 0.018,
+      "total_premium": 692948.0,
+      "bullish_premium": 629753.0,
+      "bearish_premium": 11377.5,
+      "flow_count": 4,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 629753.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 11377.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 629753.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 47.16
+      },
+      "spot_used": 47.16,
+      "largest_flow": {
+        "premium": 629753.0,
+        "option_type": "CALL",
+        "strike": 45.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T14:20:42.173465Z"
+      },
+      "reason": "strong_bullish_flow score=9.33",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "QCOM",
+      "classification": "BULLISH",
+      "score": 9.32,
+      "score_components": {
+        "directional": 9.61,
+        "conviction": 8.37,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.961,
+      "bearish_premium_pct": 0.039,
+      "total_premium": 32023339.0,
+      "bullish_premium": 13992675.5,
+      "bearish_premium": 562920.75,
+      "flow_count": 82,
+      "ask_side_bull_count": 53,
+      "ask_side_bull_premium": 10806331.0,
+      "structural_breakdown": {
+        "kept_flow_count": 51,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 8,
+        "dropped_dte_filter": 23,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 5323803.0,
+            "put_premium": 323639.0,
+            "flow_count": 27
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 170583.0,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 6613965.5,
+            "put_premium": 26290.0,
+            "flow_count": 16
+          },
+          "core_stretch": {
+            "call_premium": 621160.5,
+            "put_premium": 42408.75,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 1433746.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 229.0
+      },
+      "spot_used": 229.0,
+      "largest_flow": {
+        "premium": 2741813.0,
+        "option_type": "PUT",
+        "strike": 250.0,
+        "expiry": "2026-06-05",
+        "executed_at": "2026-06-01T13:47:01.216328Z"
+      },
+      "reason": "strong_bullish_flow score=9.32",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "LITE",
+      "classification": "BULLISH",
+      "score": 9.27,
+      "score_components": {
+        "directional": 8.6,
+        "conviction": 9.89,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.86,
+      "bearish_premium_pct": 0.14,
+      "total_premium": 16211399.0,
+      "bullish_premium": 7471864.0,
+      "bearish_premium": 1218156.5,
+      "flow_count": 41,
+      "ask_side_bull_count": 17,
+      "ask_side_bull_premium": 7925174.0,
+      "structural_breakdown": {
+        "kept_flow_count": 15,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 23,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 561421.5,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 7391164.0,
+            "put_premium": 0.0,
+            "flow_count": 8
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 58275.0,
+            "flow_count": 1
+          },
+          "short_deep_itm": {
+            "call_premium": 38700.0,
+            "put_premium": 561000.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 42000.0,
+            "put_premium": 37460.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 904.865
+      },
+      "spot_used": 904.865,
+      "largest_flow": {
+        "premium": 1999480.0,
+        "option_type": "CALL",
+        "strike": 880.0,
+        "expiry": "2026-07-02",
+        "executed_at": "2026-06-01T18:07:03.762750Z"
+      },
+      "reason": "strong_bullish_flow score=9.27",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AVGO",
+      "classification": "BULLISH",
+      "score": 8.82,
+      "score_components": {
+        "directional": 7.89,
+        "conviction": 9.6,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.789,
+      "bearish_premium_pct": 0.211,
+      "total_premium": 15366701.0,
+      "bullish_premium": 4250747.75,
+      "bearish_premium": 1135716.5,
+      "flow_count": 48,
+      "ask_side_bull_count": 32,
+      "ask_side_bull_premium": 7067973.0,
+      "structural_breakdown": {
+        "kept_flow_count": 19,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 29,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 3521905.0,
+            "put_premium": 777434.0,
+            "flow_count": 13
+          },
+          "core_deep_itm": {
+            "call_premium": 317258.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_stretch": {
+            "call_premium": 324622.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 358282.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 86962.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 460.17
+      },
+      "spot_used": 460.17,
+      "largest_flow": {
+        "premium": 1649010.0,
+        "option_type": "CALL",
+        "strike": 600.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T19:55:41.189050Z"
+      },
+      "reason": "strong_bullish_flow score=8.82",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CDE",
+      "classification": "BULLISH",
+      "score": 8.65,
+      "score_components": {
+        "directional": 9.0,
+        "conviction": 10.0,
+        "magnitude": 5.75
+      },
+      "bullish_premium_pct": 0.9,
+      "bearish_premium_pct": 0.1,
+      "total_premium": 199898.0,
+      "bullish_premium": 134998.5,
+      "bearish_premium": 14925.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 179998.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 14925.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 134998.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 19.26
+      },
+      "spot_used": 19.26,
+      "largest_flow": {
+        "premium": 179998.0,
+        "option_type": "CALL",
+        "strike": 20.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T17:57:35.802634Z"
+      },
+      "reason": "strong_bullish_flow score=8.65",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AMD",
+      "classification": "BULLISH",
+      "score": 8.64,
+      "score_components": {
+        "directional": 8.23,
+        "conviction": 8.41,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.823,
+      "bearish_premium_pct": 0.177,
+      "total_premium": 37998816.0,
+      "bullish_premium": 16222720.0,
+      "bearish_premium": 3494385.75,
+      "flow_count": 100,
+      "ask_side_bull_count": 41,
+      "ask_side_bull_premium": 12942753.0,
+      "structural_breakdown": {
+        "kept_flow_count": 56,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 4,
+        "dropped_dte_filter": 40,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 97582.5,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50005.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 7317925.0,
+            "put_premium": 778760.0,
+            "flow_count": 16
+          },
+          "short_core": {
+            "call_premium": 5957573.25,
+            "put_premium": 1681728.75,
+            "flow_count": 25
+          },
+          "long_core": {
+            "call_premium": 2389687.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 501126.75,
+            "put_premium": 611403.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 56407.5,
+            "put_premium": 196122.5,
+            "flow_count": 2
+          },
+          "long_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 78783.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 511.94
+      },
+      "spot_used": 511.94,
+      "largest_flow": {
+        "premium": 3018454.0,
+        "option_type": "CALL",
+        "strike": 530.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T19:38:27.073611Z"
+      },
+      "reason": "strong_bullish_flow score=8.64",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "POWL",
+      "classification": "BULLISH",
+      "score": 8.51,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.85,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 814886.0,
+      "bullish_premium": 611164.5,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 150870.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 498012.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 113152.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 287.79
+      },
+      "spot_used": 287.79,
+      "largest_flow": {
+        "premium": 664016.0,
+        "option_type": "CALL",
+        "strike": 300.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T19:21:29.578683Z"
+      },
+      "reason": "strong_bullish_flow score=8.51",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "HPE",
+      "classification": "BULLISH",
+      "score": 8.47,
+      "score_components": {
+        "directional": 8.22,
+        "conviction": 7.88,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.822,
+      "bearish_premium_pct": 0.178,
+      "total_premium": 10046300.0,
+      "bullish_premium": 1786717.0,
+      "bearish_premium": 388070.0,
+      "flow_count": 65,
+      "ask_side_bull_count": 33,
+      "ask_side_bull_premium": 2895259.0,
+      "structural_breakdown": {
+        "kept_flow_count": 12,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 50,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 660145.0,
+            "put_premium": 302000.0,
+            "flow_count": 9
+          },
+          "long_stretch": {
+            "call_premium": 204856.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 921715.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 86070.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 47.12
+      },
+      "spot_used": 47.12,
+      "largest_flow": {
+        "premium": 1228954.0,
+        "option_type": "CALL",
+        "strike": 45.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-01T17:54:31.573181Z"
+      },
+      "reason": "strong_bullish_flow score=8.47",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AAOI",
+      "classification": "BULLISH",
+      "score": 8.27,
+      "score_components": {
+        "directional": 8.11,
+        "conviction": 7.77,
+        "magnitude": 9.4
+      },
+      "bullish_premium_pct": 0.811,
+      "bearish_premium_pct": 0.189,
+      "total_premium": 5770421.0,
+      "bullish_premium": 834731.0,
+      "bearish_premium": 194058.5,
+      "flow_count": 100,
+      "ask_side_bull_count": 49,
+      "ask_side_bull_premium": 1597363.0,
+      "structural_breakdown": {
+        "kept_flow_count": 28,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 69,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 36547.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 673933.5,
+            "put_premium": 187882.5,
+            "flow_count": 21
+          },
+          "short_deep_itm": {
+            "call_premium": 65000.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 59250.0,
+            "put_premium": 6176.0,
+            "flow_count": 4
+          }
+        },
+        "spot_used": 185.445
+      },
+      "spot_used": 185.445,
+      "largest_flow": {
+        "premium": 457840.0,
+        "option_type": "PUT",
+        "strike": 200.0,
+        "expiry": "2026-06-05",
+        "executed_at": "2026-06-01T18:56:24.354690Z"
+      },
+      "reason": "strong_bullish_flow score=8.27",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ENVX",
+      "classification": "BULLISH",
+      "score": 8.01,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.31,
+        "magnitude": 5.59
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 172530.0,
+      "bullish_premium": 143970.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 22662.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 143970.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 8.53
+      },
+      "spot_used": 8.53,
+      "largest_flow": {
+        "premium": 116850.0,
+        "option_type": "CALL",
+        "strike": 8.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:23:24.872269Z"
+      },
+      "reason": "strong_bullish_flow score=8.01",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FORM",
+      "classification": "BULLISH",
+      "score": 7.92,
+      "score_components": {
+        "directional": 7.49,
+        "conviction": 10.0,
+        "magnitude": 5.88
+      },
+      "bullish_premium_pct": 0.749,
+      "bearish_premium_pct": 0.251,
+      "total_premium": 224444.0,
+      "bullish_premium": 125439.0,
+      "bearish_premium": 42011.25,
+      "flow_count": 5,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 137834.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 42011.25,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 125439.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 119.265
+      },
+      "spot_used": 119.265,
+      "largest_flow": {
+        "premium": 125439.0,
+        "option_type": "CALL",
+        "strike": 125.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:38:54.210903Z"
+      },
+      "reason": "strong_bullish_flow score=7.92",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "CSCO",
+      "classification": "BULLISH",
+      "score": 7.8,
+      "score_components": {
+        "directional": 7.38,
+        "conviction": 8.09,
+        "magnitude": 8.41
+      },
+      "bullish_premium_pct": 0.738,
+      "bearish_premium_pct": 0.262,
+      "total_premium": 2317487.0,
+      "bullish_premium": 527124.0,
+      "bearish_premium": 187425.0,
+      "flow_count": 18,
+      "ask_side_bull_count": 10,
+      "ask_side_bull_premium": 715499.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 9,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 310071.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 105228.0,
+            "put_premium": 187425.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 111825.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 121.9
+      },
+      "spot_used": 121.9,
+      "largest_flow": {
+        "premium": 809486.0,
+        "option_type": "PUT",
+        "strike": 110.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-01T17:25:23.230854Z"
+      },
+      "reason": "strong_bullish_flow score=7.8",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [
+    {
+      "ticker": "CIEN",
+      "classification": "LEAN BULLISH",
+      "score": 7.41,
+      "score_components": {
+        "directional": 6.05,
+        "conviction": 9.75,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.605,
+      "bearish_premium_pct": 0.395,
+      "total_premium": 817036.0,
+      "bullish_premium": 299452.0,
+      "bearish_premium": 195820.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 388160.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 61852.0,
+            "put_premium": 195820.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 237600.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 566.02
+      },
+      "spot_used": 566.02,
+      "largest_flow": {
+        "premium": 316800.0,
+        "option_type": "CALL",
+        "strike": 570.0,
+        "expiry": "2026-06-12",
+        "executed_at": "2026-06-01T14:00:01.357335Z"
+      },
+      "reason": "moderate_bullish_flow score=7.41",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ADI",
+      "classification": "LEAN BULLISH",
+      "score": 7.12,
+      "score_components": {
+        "directional": 5.86,
+        "conviction": 8.94,
+        "magnitude": 7.56
+      },
+      "bullish_premium_pct": 0.586,
+      "bearish_premium_pct": 0.414,
+      "total_premium": 1056948.0,
+      "bullish_premium": 403430.0,
+      "bearish_premium": 284666.5,
+      "flow_count": 8,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 416640.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 53344.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 149317.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 82005.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 403430.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 406.41
+      },
+      "spot_used": 406.41,
+      "largest_flow": {
+        "premium": 320920.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-06-26",
+        "executed_at": "2026-06-01T15:22:49.026314Z"
+      },
+      "reason": "moderate_bullish_flow score=7.12",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VSAT",
+      "classification": "LEAN BULLISH",
+      "score": 7.1,
+      "score_components": {
+        "directional": 7.55,
+        "conviction": 6.49,
+        "magnitude": 6.91
+      },
+      "bullish_premium_pct": 0.755,
+      "bearish_premium_pct": 0.245,
+      "total_premium": 578529.0,
+      "bullish_premium": 259925.0,
+      "bearish_premium": 84245.0,
+      "flow_count": 14,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 86289.0,
+      "structural_breakdown": {
+        "kept_flow_count": 13,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 259925.0,
+            "put_premium": 62870.0,
+            "flow_count": 12
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 21375.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 73.045
+      },
+      "spot_used": 73.045,
+      "largest_flow": {
+        "premium": 227234.0,
+        "option_type": "PUT",
+        "strike": 65.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T14:07:15.146503Z"
+      },
+      "reason": "moderate_bullish_flow score=7.1",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "MU",
+      "classification": "LEAN BULLISH",
+      "score": 7.08,
+      "score_components": {
+        "directional": 5.84,
+        "conviction": 7.18,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.584,
+      "bearish_premium_pct": 0.416,
+      "total_premium": 60962171.0,
+      "bullish_premium": 14690497.5,
+      "bearish_premium": 10478443.25,
+      "flow_count": 100,
+      "ask_side_bull_count": 36,
+      "ask_side_bull_premium": 13317016.0,
+      "structural_breakdown": {
+        "kept_flow_count": 47,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 5,
+        "dropped_dte_filter": 48,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 10670475.0,
+            "put_premium": 77670.0,
+            "flow_count": 21
+          },
+          "core_core": {
+            "call_premium": 2283770.0,
+            "put_premium": 342165.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 987887.5,
+            "put_premium": 565488.5,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 748365.0,
+            "put_premium": 5224415.25,
+            "flow_count": 7
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 4268704.5,
+            "flow_count": 8
+          }
+        },
+        "spot_used": 1032.88
+      },
+      "spot_used": 1032.88,
+      "largest_flow": {
+        "premium": 3055300.0,
+        "option_type": "PUT",
+        "strike": 900.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T18:58:50.999004Z"
+      },
+      "reason": "moderate_bullish_flow score=7.08",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "MRVL",
+      "classification": "LEAN BULLISH",
+      "score": 6.93,
+      "score_components": {
+        "directional": 5.05,
+        "conviction": 8.0,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.505,
+      "bearish_premium_pct": 0.495,
+      "total_premium": 18995374.0,
+      "bullish_premium": 5187808.5,
+      "bearish_premium": 5077667.75,
+      "flow_count": 90,
+      "ask_side_bull_count": 43,
+      "ask_side_bull_premium": 5704665.0,
+      "structural_breakdown": {
+        "kept_flow_count": 48,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 4,
+        "dropped_dte_filter": 38,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 3473665.0,
+            "put_premium": 4152265.0,
+            "flow_count": 32
+          },
+          "core_deep_itm": {
+            "call_premium": 281250.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 713406.75,
+            "put_premium": 435507.75,
+            "flow_count": 6
+          },
+          "long_stretch": {
+            "call_premium": 423690.5,
+            "put_premium": 32335.0,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 211128.75,
+            "put_premium": 457560.0,
+            "flow_count": 4
+          },
+          "short_deep_itm": {
+            "call_premium": 84667.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 220.51
+      },
+      "spot_used": 220.51,
+      "largest_flow": {
+        "premium": 2071267.0,
+        "option_type": "PUT",
+        "strike": 225.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T15:13:53.048407Z"
+      },
+      "reason": "moderate_bullish_flow score=6.93",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ASTS",
+      "classification": "LEAN BULLISH",
+      "score": 6.87,
+      "score_components": {
+        "directional": 5.59,
+        "conviction": 7.3,
+        "magnitude": 9.42
+      },
+      "bullish_premium_pct": 0.559,
+      "bearish_premium_pct": 0.441,
+      "total_premium": 5882327.0,
+      "bullish_premium": 952046.5,
+      "bearish_premium": 749595.5,
+      "flow_count": 100,
+      "ask_side_bull_count": 32,
+      "ask_side_bull_premium": 1352125.0,
+      "structural_breakdown": {
+        "kept_flow_count": 43,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 20,
+        "dropped_dte_filter": 37,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 513838.5,
+            "put_premium": 633906.0,
+            "flow_count": 28
+          },
+          "core_core": {
+            "call_premium": 133907.0,
+            "put_premium": 50357.0,
+            "flow_count": 9
+          },
+          "long_deep_itm": {
+            "call_premium": 12802.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 125120.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 13560.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 5600.0,
+            "put_premium": 51772.5,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 160778.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 105.675
+      },
+      "spot_used": 105.675,
+      "largest_flow": {
+        "premium": 723000.0,
+        "option_type": "CALL",
+        "strike": 120.0,
+        "expiry": "2027-01-15",
+        "executed_at": "2026-06-01T16:37:01.168612Z"
+      },
+      "reason": "moderate_bullish_flow score=6.87",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VRT",
+      "classification": "LEAN BULLISH",
+      "score": 5.96,
+      "score_components": {
+        "directional": 5.0,
+        "conviction": 6.27,
+        "magnitude": 7.91
+      },
+      "bullish_premium_pct": 0.5,
+      "bearish_premium_pct": 0.5,
+      "total_premium": 1461138.0,
+      "bullish_premium": 233105.0,
+      "bearish_premium": 232702.0,
+      "flow_count": 10,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 185245.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 233105.0,
+            "put_premium": 232702.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 324.78
+      },
+      "spot_used": 324.78,
+      "largest_flow": {
+        "premium": 504605.0,
+        "option_type": "CALL",
+        "strike": 360.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T16:21:37.579226Z"
+      },
+      "reason": "moderate_bullish_flow score=5.96",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    }
+  ],
+  "neutral": [
+    {
+      "ticker": "TXN",
+      "classification": "NEUTRAL",
+      "score": 4.08,
+      "score_components": {
+        "directional": 1.29,
+        "conviction": 6.37,
+        "magnitude": 7.59
+      },
+      "bullish_premium_pct": 0.129,
+      "bearish_premium_pct": 0.871,
+      "total_premium": 1089108.0,
+      "bullish_premium": 69615.0,
+      "bearish_premium": 471138.25,
+      "flow_count": 12,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 149615.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 69615.0,
+            "put_premium": 305302.0,
+            "flow_count": 4
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 103616.25,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 62220.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 295.025
+      },
+      "spot_used": 295.025,
+      "largest_flow": {
+        "premium": 171535.0,
+        "option_type": "PUT",
+        "strike": 285.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T13:50:31.284601Z"
+      },
+      "reason": "bearish_flow_dominant (87% weighted bearish)",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "MCHP",
+      "classification": "NEUTRAL",
+      "score": 2.89,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.93
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 591460.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 256460.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 256460.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 91.23
+      },
+      "spot_used": 91.23,
+      "largest_flow": {
+        "premium": 335000.0,
+        "option_type": "CALL",
+        "strike": 120.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-01T14:09:48.974093Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "industry_score": 7.95,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "UI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ZBRA",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Communication Equipment",
+      "sector_etf": "XLK",
+      "industry_score": 7.57,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "LRCX",
+      "classification": "NEUTRAL",
+      "score": 5.21,
+      "score_components": {
+        "directional": 2.9,
+        "conviction": 6.4,
+        "magnitude": 9.18
+      },
+      "bullish_premium_pct": 0.29,
+      "bearish_premium_pct": 0.71,
+      "total_premium": 4704111.0,
+      "bullish_premium": 842385.0,
+      "bearish_premium": 2066611.25,
+      "flow_count": 27,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 658483.0,
+      "structural_breakdown": {
+        "kept_flow_count": 17,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 8,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 842385.0,
+            "put_premium": 173110.0,
+            "flow_count": 11
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 1735481.25,
+            "flow_count": 4
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 31802.5,
+            "flow_count": 1
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 126217.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 318.61
+      },
+      "spot_used": 318.61,
+      "largest_flow": {
+        "premium": 1110035.0,
+        "option_type": "PUT",
+        "strike": 302.5,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T14:57:50.090641Z"
+      },
+      "reason": "bearish_flow_dominant (71% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AMAT",
+      "classification": "NEUTRAL",
+      "score": 5.33,
+      "score_components": {
+        "directional": 2.47,
+        "conviction": 7.7,
+        "magnitude": 8.92
+      },
+      "bullish_premium_pct": 0.247,
+      "bearish_premium_pct": 0.753,
+      "total_premium": 3706438.0,
+      "bullish_premium": 524397.5,
+      "bearish_premium": 1597678.75,
+      "flow_count": 22,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 999149.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 11,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 459465.0,
+            "put_premium": 283833.75,
+            "flow_count": 6
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 1229500.0,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 84345.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 26047.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_deep_itm": {
+            "call_premium": 38885.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 457.36
+      },
+      "spot_used": 457.36,
+      "largest_flow": {
+        "premium": 801250.0,
+        "option_type": "PUT",
+        "strike": 450.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T18:36:15.112376Z"
+      },
+      "reason": "bearish_flow_dominant (75% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "KLAC",
+      "classification": "NEUTRAL",
+      "score": 4.59,
+      "score_components": {
+        "directional": 2.79,
+        "conviction": 5.0,
+        "magnitude": 8.46
+      },
+      "bullish_premium_pct": 0.279,
+      "bearish_premium_pct": 0.721,
+      "total_premium": 2424230.0,
+      "bullish_premium": 472820.0,
+      "bearish_premium": 1219360.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 386570.0,
+            "put_premium": 1168800.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50560.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 86250.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 1936.865
+      },
+      "spot_used": 1936.865,
+      "largest_flow": {
+        "premium": 1168800.0,
+        "option_type": "PUT",
+        "strike": 1900.0,
+        "expiry": "2026-06-18",
+        "executed_at": "2026-06-01T13:57:13.410082Z"
+      },
+      "reason": "bearish_flow_dominant (72% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "TER",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 901710.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "Q",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 274324.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ONTO",
+      "classification": "NEUTRAL",
+      "score": 3.28,
+      "score_components": {
+        "directional": 1.04,
+        "conviction": 5.0,
+        "magnitude": 6.29
+      },
+      "bullish_premium_pct": 0.104,
+      "bearish_premium_pct": 0.896,
+      "total_premium": 327870.0,
+      "bullish_premium": 30562.5,
+      "bearish_premium": 262700.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 262700.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 30562.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 256.515
+      },
+      "spot_used": 256.515,
+      "largest_flow": {
+        "premium": 262700.0,
+        "option_type": "PUT",
+        "strike": 270.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:43:24.880652Z"
+      },
+      "reason": "bearish_flow_dominant (90% weighted bearish)",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AMKR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 875772.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 11,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ACMR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 59440.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector_etf": "XLK",
+      "industry_score": 7.18,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "NEM",
+      "classification": "NEUTRAL",
+      "score": 6.0,
+      "score_components": {
+        "directional": 4.06,
+        "conviction": 9.77,
+        "magnitude": 5.21
+      },
+      "bullish_premium_pct": 0.406,
+      "bearish_premium_pct": 0.594,
+      "total_premium": 120930.0,
+      "bullish_premium": 43245.0,
+      "bearish_premium": 63270.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 57660.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 43245.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 63270.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 108.395
+      },
+      "spot_used": 108.395,
+      "largest_flow": {
+        "premium": 63270.0,
+        "option_type": "PUT",
+        "strike": 105.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-01T15:46:09.475241Z"
+      },
+      "reason": "bearish_flow_dominant (59% weighted bearish)",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "RGLD",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AU",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 24750.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SSRM",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "HYMC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 27895.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "NG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AUGO",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "IDR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "DC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Gold",
+      "sector_etf": "XLB",
+      "industry_score": 6.72,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AYI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AEIS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ATKR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ENS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.59,
+      "is_industry_leader": false
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "BE",
+    "NVDA",
+    "AXTI",
+    "INTC",
+    "TE",
+    "FPS",
+    "VIAV",
+    "QCOM",
+    "LITE",
+    "AVGO",
+    "CDE",
+    "AMD",
+    "POWL",
+    "HPE",
+    "AAOI",
+    "ENVX",
+    "FORM",
+    "CSCO",
+    "CIEN",
+    "ADI",
+    "VSAT",
+    "MU",
+    "MRVL",
+    "ASTS",
+    "VRT"
+  ],
+  "summary": {
+    "total_scanned": 50,
+    "bullish_count": 18,
+    "lean_bullish_count": 7,
+    "neutral_count": 25,
+    "drilldown_count": 25
+  },
+  "narrative": {
+    "headline": "Smart money is loading semis and AI-infrastructure plays while rotating out of semi-cap equipment, with a secondary bid in electrical/power names.",
+    "bullish_themes": [
+      "Semiconductor design houses dominate the tape \u2014 NVDA, AMD, QCOM, INTC, AVGO all printing premium with bullish_pct above 0.78 and heavy ask-side prints",
+      "Communication Equipment / AI networking cluster \u2014 LITE, HPE, AAOI, VIAV \u2014 confirming the AI buildout trade beyond pure chips",
+      "Electrical Equipment & Parts (XLI crossover) showing 100% bullish flow in BE, TE, FPS, POWL \u2014 clean power/grid/data-center electrification theme",
+      "Sharp divergence within XLK: chip designers bid, semi-cap equipment (LRCX, AMAT, KLAC, ONTO) sold \u2014 flow is trading the demand side, not the capex side"
+    ],
+    "notable_individual_flows": [
+      "INTC: $35.5M premium at 93.7% bullish with 33 ask-side prints \u2014 institutional re-rating bet",
+      "NVDA: $25.1M premium at 96.9% bullish, 54 ask-side prints \u2014 relentless dominant flow",
+      "AMD: $38M premium at 82.3% bullish \u2014 largest single-name premium in the bullish bucket",
+      "BE: perfect 10.0 score, 100% bullish, 14 ask-side prints \u2014 cleanest signal in the scan",
+      "LRCX/AMAT/KLAC: coordinated bearish flow across all three semi-cap names \u2014 actionable contra-signal"
+    ],
+    "absences": "No bullish flow surfaced in software, mega-cap tech (AAPL/MSFT/GOOGL), financials, energy, or healthcare despite broad scan coverage. Gold flow is mixed and low-premium (CDE bullish, NEM bearish) \u2014 not a real theme.",
+    "handoff_quality": "STRONG"
+  }
+}
