@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T12:32:41.632414+00:00",
+  "as_of": "2026-06-03T19:24:06.138560+00:00",
   "source_trajectory_as_of": "2026-06-03T12:32:34.658268+00:00",
   "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
   "source_commodity_as_of": "2026-06-03T12:32:34.653107+00:00",
@@ -15,7 +15,7 @@
     "stage_chase_etf_60d": 20.0,
     "stage_chase_lottery_pct": 0.3,
     "stage_noticed_etf_60d": 10.0,
-    "stage_quiet_etf_60d": 5.0,
+    "stage_quiet_etf_60d_min": 0.0,
     "stage_quiet_breadth_vel": 0.2,
     "lottery_min_total_premium": 100000.0
   },
@@ -40,10 +40,10 @@
         "INTC"
       ],
       "proxies": {
-        "theme_etf_60d_change_pct": 44.55,
+        "theme_etf_60d_change_pct": 40.65,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
-        "lottery_strike_flow_pct": 0.1122,
+        "lottery_strike_flow_pct": 0.2047,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
@@ -54,14 +54,16 @@
           1.992
         ],
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 44.55,
-        "lottery_pct_fetched": 0.1122
+        "etf_60d_fetched": 40.65,
+        "etf_above_50sma": true,
+        "lottery_pct_fetched": 0.2047
       },
       "tentative_stage": "CHASING",
       "stage_inputs": {
-        "etf_60d": 44.55,
+        "etf_60d": 40.65,
+        "etf_above_50sma": true,
         "stage_trajectory": "ACCELERATING_BULLISH",
-        "lottery_strike_flow_pct": 0.1122,
+        "lottery_strike_flow_pct": 0.2047,
         "breadth_widening_velocity": 0.0
       },
       "invalidators": [
@@ -115,11 +117,13 @@
         "commodity_60d_change_pct": -10.04,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": -10.04
+        "etf_60d_fetched": -10.04,
+        "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
         "etf_60d": -10.04,
+        "etf_above_50sma": false,
         "stage_trajectory": "BUILDING_BULLISH",
         "lottery_strike_flow_pct": null,
         "breadth_widening_velocity": 0.0
