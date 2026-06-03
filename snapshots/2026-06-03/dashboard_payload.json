@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-03T22:47:19+00:00",
+  "as_of": "2026-06-03T23:13:04+00:00",
   "signal_date": "2026-06-03",
   "macro": {
     "regime_label": "BULL",
@@ -7,6 +7,9 @@
       "spy_21d_pct": 5.05,
       "spy_pct_above_50sma": 6.26,
       "spy_pct_above_200sma": 8.84,
+      "sectors_gics_total": 11,
+      "sectors_above_50sma_count": 7,
+      "sectors_above_200sma_count": 6,
       "breadth_pct_sectors_above_50sma": 63.6,
       "breadth_pct_sectors_above_200sma": 54.5,
       "regime_vote": "RISK-ON",
@@ -95,40 +98,40 @@
     {
       "name": "Gold",
       "level": 4485.6,
-      "trend_21d_pct": -1.24,
-      "chg_24h_pct": -0.57,
+      "trend_21d_pct": -1.03,
+      "chg_24h_pct": -0.36,
       "dir": "neutral",
       "jolt_24h": null
     },
     {
       "name": "Silver",
-      "level": 73.06,
-      "trend_21d_pct": -0.02,
-      "chg_24h_pct": -2.99,
+      "level": 73.3,
+      "trend_21d_pct": 0.31,
+      "chg_24h_pct": -2.67,
       "dir": "neutral",
       "jolt_24h": null
     },
     {
       "name": "Copper",
       "level": 6.61,
-      "trend_21d_pct": 11.86,
-      "chg_24h_pct": -2.52,
+      "trend_21d_pct": 11.95,
+      "chg_24h_pct": -2.44,
       "dir": "risk_off",
       "jolt_24h": null
     },
     {
       "name": "Oil_WTI",
       "level": 96.2,
-      "trend_21d_pct": -10.31,
-      "chg_24h_pct": 1.8,
+      "trend_21d_pct": -10.44,
+      "chg_24h_pct": 1.65,
       "dir": "neutral",
       "jolt_24h": null
     },
     {
       "name": "NatGas",
       "level": 3.24,
-      "trend_21d_pct": 12.91,
-      "chg_24h_pct": 2.21,
+      "trend_21d_pct": 12.98,
+      "chg_24h_pct": 2.27,
       "dir": "neutral",
       "jolt_24h": null
     },
@@ -150,11 +153,11 @@
     }
   ],
   "sp500_breadth": {
-    "bullish_pct": 32.8,
-    "bearish_pct": 41.1,
-    "neutral_pct": 26.1,
-    "n": 628,
-    "source": "mktcap_proxy",
+    "bullish_pct": 27.9,
+    "bearish_pct": 45.6,
+    "neutral_pct": 26.5,
+    "n": 480,
+    "source": "sp500",
     "threshold_pct": 1.5
   },
   "sectors": [
@@ -805,6 +808,90 @@
       "opportunities": []
     },
     {
+      "industry": "Information Technology Services",
+      "sector": "Technology",
+      "industry_why": "Information Technology Services",
+      "trend": "SIDEWAYS",
+      "leaders": [
+        {
+          "ticker": "PENG",
+          "chg_1d": 1.08,
+          "chg_5d": 31.17,
+          "chg_21d": 120.4,
+          "pct_above_50sma": 103.23,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 1913088.0,
+          "coil_pct": 93.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $1.9M \u00b7 coil 94%"
+        },
+        {
+          "ticker": "KEEL",
+          "chg_1d": 0.16,
+          "chg_5d": 11.72,
+          "chg_21d": 89.23,
+          "pct_above_50sma": 77.43,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 1670619.0,
+          "coil_pct": 90.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $1.7M \u00b7 coil 90%"
+        },
+        {
+          "ticker": "INOD",
+          "chg_1d": -5.21,
+          "chg_5d": 21.65,
+          "chg_21d": 136.81,
+          "pct_above_50sma": 74.82,
+          "flow_score": 9.8,
+          "flow_cls": "BULLISH",
+          "flow_premium": 1069735.0,
+          "coil_pct": 94.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $1.1M \u00b7 coil 94%"
+        },
+        {
+          "ticker": "CIFR",
+          "chg_1d": -0.19,
+          "chg_5d": 4.29,
+          "chg_21d": 46.67,
+          "pct_above_50sma": 39.91,
+          "flow_score": 7.86,
+          "flow_cls": "BULLISH",
+          "flow_premium": 4138123.0,
+          "coil_pct": 96.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $4.1M \u00b7 coil 97%"
+        },
+        {
+          "ticker": "APLD",
+          "chg_1d": -6.58,
+          "chg_5d": -8.72,
+          "chg_21d": 25.48,
+          "pct_above_50sma": 25.62,
+          "flow_score": 5.88,
+          "flow_cls": "LEAN BULLISH",
+          "flow_premium": 3145211.0,
+          "coil_pct": 81.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM LEAN BULLISH $3.1M \u00b7 coil 81%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
       "industry": "Electronic Components",
       "sector": "Technology",
       "industry_why": "Electronic Components",
@@ -905,90 +992,6 @@
       ]
     },
     {
-      "industry": "Information Technology Services",
-      "sector": "Technology",
-      "industry_why": "Information Technology Services",
-      "trend": "SIDEWAYS",
-      "leaders": [
-        {
-          "ticker": "PENG",
-          "chg_1d": 1.08,
-          "chg_5d": 31.17,
-          "chg_21d": 120.4,
-          "pct_above_50sma": 103.23,
-          "flow_score": 10.0,
-          "flow_cls": "BULLISH",
-          "flow_premium": 1913088.0,
-          "coil_pct": 93.6,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $1.9M \u00b7 coil 94%"
-        },
-        {
-          "ticker": "KEEL",
-          "chg_1d": 0.16,
-          "chg_5d": 11.72,
-          "chg_21d": 89.23,
-          "pct_above_50sma": 77.43,
-          "flow_score": 10.0,
-          "flow_cls": "BULLISH",
-          "flow_premium": 1670619.0,
-          "coil_pct": 90.3,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $1.7M \u00b7 coil 90%"
-        },
-        {
-          "ticker": "INOD",
-          "chg_1d": -5.21,
-          "chg_5d": 21.65,
-          "chg_21d": 136.81,
-          "pct_above_50sma": 74.82,
-          "flow_score": 9.8,
-          "flow_cls": "BULLISH",
-          "flow_premium": 1069735.0,
-          "coil_pct": 94.3,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $1.1M \u00b7 coil 94%"
-        },
-        {
-          "ticker": "CIFR",
-          "chg_1d": -0.19,
-          "chg_5d": 4.29,
-          "chg_21d": 46.67,
-          "pct_above_50sma": 39.91,
-          "flow_score": 7.86,
-          "flow_cls": "BULLISH",
-          "flow_premium": 4138123.0,
-          "coil_pct": 96.5,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $4.1M \u00b7 coil 97%"
-        },
-        {
-          "ticker": "APLD",
-          "chg_1d": -6.58,
-          "chg_5d": -8.72,
-          "chg_21d": 25.48,
-          "pct_above_50sma": 25.62,
-          "flow_score": 5.88,
-          "flow_cls": "LEAN BULLISH",
-          "flow_premium": 3145211.0,
-          "coil_pct": 81.0,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM LEAN BULLISH $3.1M \u00b7 coil 81%"
-        }
-      ],
-      "opportunities": []
-    },
-    {
       "industry": "Residential Construction",
       "sector": "Consumer Cyclical",
       "industry_why": "Residential Construction",
@@ -1056,106 +1059,6 @@
         }
       ],
       "opportunities": []
-    },
-    {
-      "industry": "Semiconductor Equipment & Materials",
-      "sector": "Technology",
-      "industry_why": "Semiconductor Equipment & Materials",
-      "trend": "SIDEWAYS",
-      "leaders": [
-        {
-          "ticker": "ACMR",
-          "chg_1d": -3.33,
-          "chg_5d": 0.25,
-          "chg_21d": 73.45,
-          "pct_above_50sma": 53.92,
-          "flow_score": 0.0,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 307440.0,
-          "coil_pct": 94.5,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 95%"
-        },
-        {
-          "ticker": "AEHR",
-          "chg_1d": 1.41,
-          "chg_5d": 10.37,
-          "chg_21d": 33.85,
-          "pct_above_50sma": 42.27,
-          "flow_score": 3.1,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 809662.0,
-          "coil_pct": 97.3,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 97%"
-        },
-        {
-          "ticker": "COHU",
-          "chg_1d": -2.55,
-          "chg_5d": 2.15,
-          "chg_21d": 20.2,
-          "pct_above_50sma": 29.81,
-          "flow_score": 5.0,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 29000.0,
-          "coil_pct": 94.8,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 95%"
-        },
-        {
-          "ticker": "LRCX",
-          "chg_1d": 2.78,
-          "chg_5d": 7.77,
-          "chg_21d": 32.93,
-          "pct_above_50sma": 27.44,
-          "flow_score": 6.06,
-          "flow_cls": "LEAN BULLISH",
-          "flow_premium": 11300391.0,
-          "coil_pct": 98.4,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": 56,
-          "why": "SM LEAN BULLISH $11.3M \u00b7 coil 98%"
-        },
-        {
-          "ticker": "KLIC",
-          "chg_1d": 0.04,
-          "chg_5d": 2.64,
-          "chg_21d": 23.39,
-          "pct_above_50sma": 24.17,
-          "flow_score": 10.0,
-          "flow_cls": "BULLISH",
-          "flow_premium": 103860.0,
-          "coil_pct": 89.2,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $0.1M \u00b7 coil 89%"
-        }
-      ],
-      "opportunities": [
-        {
-          "ticker": "AMKR",
-          "chg_1d": 0.62,
-          "chg_5d": 4.17,
-          "chg_21d": 5.98,
-          "pct_above_50sma": 15.92,
-          "flow_score": 10.0,
-          "flow_cls": "BULLISH",
-          "flow_premium": 1271913.0,
-          "coil_pct": 74.4,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "SM BULLISH $1.3M \u00b7 coil 74%"
-        }
-      ]
     },
     {
       "industry": "Communication Equipment",
@@ -1441,6 +1344,106 @@
       ]
     },
     {
+      "industry": "Semiconductor Equipment & Materials",
+      "sector": "Technology",
+      "industry_why": "Semiconductor Equipment & Materials",
+      "trend": "SIDEWAYS",
+      "leaders": [
+        {
+          "ticker": "ACMR",
+          "chg_1d": -3.33,
+          "chg_5d": 0.25,
+          "chg_21d": 73.45,
+          "pct_above_50sma": 53.92,
+          "flow_score": 0.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 307440.0,
+          "coil_pct": 94.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 95%"
+        },
+        {
+          "ticker": "AEHR",
+          "chg_1d": 1.41,
+          "chg_5d": 10.37,
+          "chg_21d": 33.85,
+          "pct_above_50sma": 42.27,
+          "flow_score": 3.1,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 809662.0,
+          "coil_pct": 97.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 97%"
+        },
+        {
+          "ticker": "COHU",
+          "chg_1d": -2.55,
+          "chg_5d": 2.15,
+          "chg_21d": 20.2,
+          "pct_above_50sma": 29.81,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 29000.0,
+          "coil_pct": 94.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 95%"
+        },
+        {
+          "ticker": "LRCX",
+          "chg_1d": 2.78,
+          "chg_5d": 7.77,
+          "chg_21d": 32.93,
+          "pct_above_50sma": 27.44,
+          "flow_score": 6.06,
+          "flow_cls": "LEAN BULLISH",
+          "flow_premium": 11300391.0,
+          "coil_pct": 98.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 56,
+          "why": "SM LEAN BULLISH $11.3M \u00b7 coil 98%"
+        },
+        {
+          "ticker": "KLIC",
+          "chg_1d": 0.04,
+          "chg_5d": 2.64,
+          "chg_21d": 23.39,
+          "pct_above_50sma": 24.17,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 103860.0,
+          "coil_pct": 89.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $0.1M \u00b7 coil 89%"
+        }
+      ],
+      "opportunities": [
+        {
+          "ticker": "AMKR",
+          "chg_1d": 0.62,
+          "chg_5d": 4.17,
+          "chg_21d": 5.98,
+          "pct_above_50sma": 15.92,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 1271913.0,
+          "coil_pct": 74.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $1.3M \u00b7 coil 74%"
+        }
+      ]
+    },
+    {
       "industry": "Medical Devices",
       "sector": "Healthcare",
       "industry_why": "Medical Devices",
@@ -1525,85 +1528,85 @@
       "opportunities": []
     },
     {
-      "industry": "Integrated Freight & Logistics",
+      "industry": "Trucking",
       "sector": "Industrials",
-      "industry_why": "Integrated Freight & Logistics",
+      "industry_why": "Trucking",
       "trend": "SIDEWAYS",
       "leaders": [
         {
-          "ticker": "CYRX",
-          "chg_1d": 4.83,
-          "chg_5d": 17.69,
-          "chg_21d": 61.61,
-          "pct_above_50sma": 44.79,
-          "flow_score": 5.0,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 142680.0,
-          "coil_pct": 89.5,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 89%"
-        },
-        {
-          "ticker": "LSTR",
-          "chg_1d": 1.08,
-          "chg_5d": 7.05,
-          "chg_21d": 21.69,
-          "pct_above_50sma": 20.47,
-          "flow_score": 5.0,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 17100.0,
-          "coil_pct": 95.9,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 96%"
-        },
-        {
-          "ticker": "PBI",
-          "chg_1d": -1.32,
-          "chg_5d": 5.7,
-          "chg_21d": 8.13,
-          "pct_above_50sma": 17.47,
-          "flow_score": 5.0,
-          "flow_cls": "NEUTRAL",
-          "flow_premium": 73500.0,
-          "coil_pct": 88.8,
-          "bottoming": false,
-          "topping": false,
-          "days_to_earnings": null,
-          "why": "coil 89%"
-        },
-        {
-          "ticker": "BTOC",
-          "chg_1d": -6.18,
-          "chg_5d": 11.6,
-          "chg_21d": 17.81,
-          "pct_above_50sma": 16.1,
+          "ticker": "RXO",
+          "chg_1d": -0.45,
+          "chg_5d": 7.11,
+          "chg_21d": 51.58,
+          "pct_above_50sma": 38.87,
           "flow_score": 5.0,
           "flow_cls": "NEUTRAL",
           "flow_premium": 0.0,
-          "coil_pct": 74.6,
+          "coil_pct": 95.0,
           "bottoming": false,
           "topping": false,
           "days_to_earnings": null,
-          "why": "coil 75%"
+          "why": "coil 95%"
         },
         {
-          "ticker": "JBHT",
-          "chg_1d": 1.62,
-          "chg_5d": 3.39,
-          "chg_21d": 17.5,
-          "pct_above_50sma": 15.57,
+          "ticker": "CVLG",
+          "chg_1d": 0.6,
+          "chg_5d": 6.49,
+          "chg_21d": 33.5,
+          "pct_above_50sma": 29.34,
           "flow_score": 5.0,
           "flow_cls": "NEUTRAL",
-          "flow_premium": 39600.0,
-          "coil_pct": 91.1,
+          "flow_premium": 0.0,
+          "coil_pct": 99.6,
           "bottoming": false,
           "topping": false,
           "days_to_earnings": null,
-          "why": "coil 91%"
+          "why": "coil 100%"
+        },
+        {
+          "ticker": "WERN",
+          "chg_1d": 0.09,
+          "chg_5d": 5.16,
+          "chg_21d": 25.12,
+          "pct_above_50sma": 23.53,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 97.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 97%"
+        },
+        {
+          "ticker": "HTLD",
+          "chg_1d": -2.19,
+          "chg_5d": 3.2,
+          "chg_21d": 21.44,
+          "pct_above_50sma": 21.53,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 96.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 97%"
+        },
+        {
+          "ticker": "ARCB",
+          "chg_1d": 0.2,
+          "chg_5d": 6.57,
+          "chg_21d": 22.82,
+          "pct_above_50sma": 21.42,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 97.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 97%"
         }
       ],
       "opportunities": []
@@ -1631,6 +1634,134 @@
     "flips": [],
     "new_entrants": [],
     "commodity_leads": []
+  },
+  "themes": {
+    "active": [
+      {
+        "name": "AI Infrastructure Build-Out \u2014 Mega-Cap Compute & Software",
+        "stage": "CHASING",
+        "driver": "EQUITY_FLOW_DRIVEN",
+        "conviction": 8,
+        "health": 8.0,
+        "status": "HEALTHY",
+        "day_n": 2,
+        "watchlist": [
+          "NVDA",
+          "MSFT",
+          "META",
+          "AAPL",
+          "PLTR",
+          "QQQ",
+          "INTC"
+        ],
+        "thesis": "Institutional capital is concentrating into the AI compute stack \u2014 silicon (NVDA, INTC), infrastructure software (MSFT, PLTR), and the platform/ad layer monetizing inference (META, AAPL). With VIX at 15.88, bullish put/call, and SPY above 50SMA, the TRANSITIONAL regime is being expressed through quality mega-cap tech rather than broad risk-on, suggesting capital is rotating UP the quality curve rather than out.",
+        "evidence": "XLK accel_ratio 1.715 and QQQ accel_ratio 3.323 (14d bull rate 3.3x the 60d baseline) show genuine fresh acceleration, not just persistence. Software-Infrastructure (1.992) and Consumer Electronics (2.246) are leading the doubling-up.",
+        "invalidators": [
+          {
+            "condition": "XLK sector trajectory shifts to FADING_BULLISH or bearish",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "Software-Infrastructure or Semis industry trajectory degrades to HOLDING_BULLISH or below",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "FOMC (6/10) or CPI (6/11) prints hawkish surprise, DXY accelerates higher and breaks rate-sensitive growth multiples",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d/60d accel ratio falls below 1.0 across XLK industries",
+            "severity": "soft",
+            "triggered": false
+          },
+          {
+            "condition": "Lottery strike flow % crosses above 18% (retail blow-off signal)",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      },
+      {
+        "name": "Natural Gas Reversal \u2014 Early Commodity Flip",
+        "stage": "NEUTRAL",
+        "driver": "COMMODITY_DRIVEN",
+        "conviction": 4,
+        "health": 4.0,
+        "status": "WEAKENING",
+        "day_n": 2,
+        "watchlist": [
+          "UNG",
+          "BOIL",
+          "EQT",
+          "AR",
+          "RRC",
+          "CHK",
+          "LNG"
+        ],
+        "thesis": "Natural gas has flipped from ACCELERATING_BEARISH to bullish (+0.37%/day 14d) while crude oil and broader energy commodities (USO, BNO, DBC) are flipping the other way \u2014 a divergence that historically signals supply-side gas tightening (storage draw, weather, or LNG export demand) independent of macro oil weakness. Early-stage and contrarian to the broader commodity tape.",
+        "evidence": "UNG is the ONLY commodity in the universe with a bearish-to-bullish flip; every other energy and ag commodity is rolling over. The asymmetry is the signal \u2014 but 60d base is still -9.96%, so this is an inflection trade, not a confirmed trend.",
+        "invalidators": [
+          {
+            "condition": "UNG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "UNG 14d %/day rate turns negative",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "EIA weekly storage report prints materially above estimates (bearish surprise)",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d rate decelerates below +0.15%/day for 5 consecutive sessions",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      }
+    ],
+    "fading": [
+      {
+        "name": "Precious Metals & Inflation Hedge Complex",
+        "stage": "DISTRIBUTING",
+        "reason": "GLD, SLV, GDX, GDXJ all ACCELERATING_BEARISH with SLV at -0.97%/day and miners (GDX -0.69%/day, GDXJ -0.80%/day) leading the bleed \u2014 classic hedge unwind as DXY rises and equity risk appetite holds.",
+        "exit_guidance": "Exit any residual gold/silver/miner exposure on strength; do not initiate. Stop logic: invalidate fade only if GLD prints two consecutive sessions of >+0.5% with rising DXY (genuine safe-haven re-bid).",
+        "exit_tickers": [
+          "GLD",
+          "SLV",
+          "GDX",
+          "GDXJ"
+        ]
+      },
+      {
+        "name": "Broad Commodity & Agriculture Reflation",
+        "stage": "DISTRIBUTING",
+        "reason": "DBC, GSG, DBA, WEAT, CORN, SOYB all flipped or accelerating bearish; crude (USO -0.35%/day, BNO -0.51%/day) joining the rollover. Despite copper holding +14.9% 60d, the broader complex is exiting.",
+        "exit_guidance": "Exit broad commodity ETFs and ag longs; copper-specific exposure (CPER) is FADING_BULLISH but not yet bearish \u2014 trim, don't dump. Stop: re-enter only if DXY trend flips and DBC reclaims 14d positive rate.",
+        "exit_tickers": [
+          "USO",
+          "BNO",
+          "DBO",
+          "DBC",
+          "GSG",
+          "DBA",
+          "WEAT",
+          "CORN",
+          "SOYB",
+          "URA"
+        ]
+      }
+    ],
+    "coverage": "Universe is heavily skewed to mega-cap tech (XLK/XLC/XLY) and commodity ETFs \u2014 no visibility into Financials (XLF), Industrials (XLI), Healthcare (XLV), Energy equities (XLE constituents), or small/mid-cap rotation. Cannot assess whether the AI bid is broadening down-cap or whether Financials are benefiting from the rising DXY/steeper curve (10y2y at 0.835)."
   },
   "ledger": {
     "by_signal_type": [
@@ -1674,5 +1805,5 @@
       }
     ]
   },
-  "newsletter": "# Morning Brief \u2014 2026-06-03\n\n**Macro tone.** The tape is firmly risk-on: SPY is +5% over 21d, sitting 6.3% above its 50SMA and 8.8% above the 200SMA, with our regime vote at 8/10 confidence. The cross-asset signal corroborates \u2014 VIX at 16 in contango, copper +11.9% over 21d (cyclical demand), oil -10.3% (no inflation scare from energy), and a steeper curve with 10Y at 4.49%. The one yellow flag is DXY firming +1.1% over 21d alongside higher yields; that combo can quietly pressure unprofitable growth and EM-sensitive names if it extends. Net read: lean long, but don't chase indiscriminately \u2014 breadth (5d bullish 32.8% vs bearish 41.1%) is weaker than the headline suggests, meaning the rally is narrowing.\n\n**Sector leadership.** XLK is doing the heavy lifting \u2014 +21.1% on 21d and tagged ACCELERATING_BULLISH, which is the only sector trajectory printing that signature. Semiconductors are up nearly 25% on 21d but only HOLDING (not accelerating), meaning the easy money in SOX/SMH/NVDA-style trades is largely behind us. Cyclicals (XLB, XLI) are flagged as leaders but only +1.8\u20131.9% on 21d \u2014 that's early-stage participation, not exhaustion. XLY at -0.8% with XLK at +21% tells you this is a capex/AI-infra tape, not a consumer tape.\n\n**Where the run is vs. where it isn't.** Already moved: Semis (+25%), broad XLK (+21%) \u2014 late entries here carry mean-reversion risk. The un-run setups screen flags **PATH (Software-Infrastructure)** and **ETSY (Internet Retail)** \u2014 both coiling sub-10% over 5d and 21d with bullish flow underneath. PATH is the cleaner thesis: it sits in the accelerating Software-Infrastructure bucket (+7.2% industry move, accel 1.99), so you get group tailwind plus a stock that hasn't extended. ETSY is the contrarian read \u2014 Internet Retail is HOLDING_BULLISH despite the industry being -7.9% on 21d, so it's more of a base-building setup than a momentum trade.\n\n**Rotation read.** Money is flowing INTO Consumer Electronics, Software-Infrastructure, and an unmapped accelerating bucket. Nothing is flagged rotating OUT and no flips \u2014 that means no defensive rotation yet, which is constructive but also means when it turns, you'll see it in this dashboard before price. Semis decelerating from leadership while Software-Infra accelerates is the classic intra-tech rotation from hardware beneficiaries to software monetization \u2014 historically a mid-cycle AI-trade signature.\n\n**For tomorrow.** Two things: (1) Watch whether DXY breaks above its recent range while yields stay bid \u2014 that's the scenario that breaks the narrow leadership and forces a de-gross. (2) Watch PATH for a volume-confirmed breakout from its coil; given the 20% monthly target and a $50K book, that's a higher-expectancy entry than chasing NVDA/AVGO extension. Keep XLK exposure but rotate the marginal dollar from semis into infrastructure software. Honest caveat: with 5d breadth net-negative under a +5% SPY, position sizing should be tighter than the bull regime score implies."
+  "newsletter": "# Morning Brief \u2014 2026-06-03\n\n**Macro tone.** The tape is decisively risk-on, but it's a maturing risk-on rather than a fresh one. SPY sits +5% on the month and roughly +9% above its 200SMA, VIX is sub-17 in contango, the 2s10s is positive, and the regime model prints 8/10 confidence. The cross-asset mix corroborates: copper +12% on 21d while oil is down 10% \u2014 that's a growth-without-inflation signal, classic late-cycle goldilocks. DXY firming +1.1% with 10Y at 4.49% (up ~1% on 21d) says rates are drifting higher on growth, not stress. Gold flat-to-down rounds out the picture: no one is hedging tail risk here.\n\n**Where the leadership sits.** XLK is doing all the heavy lifting \u2014 +21% on 21d, accelerating bullish, and printing well above its 50SMA. Semis carry a +25% 21d move but are now only *holding* bullish, while Software-Infrastructure and Consumer Electronics are the names taking the baton with the highest acceleration scores. Structurally this matters: leadership is broadening *within* tech rather than rotating out of it, which is a healthier signature than a narrow semis-only melt-up. Outside tech, the picture is thin \u2014 XLV, XLB, XLI all clustered around +2% and IWM only +3.5%. Breadth at 64% above 50SMA is decent but the 5d breadth read (28% bullish vs 46% bearish) is a yellow flag: the index is being carried by a shrinking cohort over the last week.\n\n**Run vs un-run.** Semis and the headline mega-cap complex have already paid out \u2014 chasing here is paying for beta you could have gotten two weeks ago. The un-run setups flagged are PATH (Software-Infrastructure) and ETSY (Internet Retail) \u2014 both sit in industries with bullish trajectories but personal 5d/21d under 10%, meaning the group is working while the name hasn't. Internet Retail as a group is actually down 8% on 21d despite holding bullish \u2014 that's where asymmetric setups live if the rotation broadens.\n\n**Rotation read.** Money is flowing *into* Consumer Electronics and Software-Infrastructure; nothing is being explicitly rotated out, and there are no trajectory flips. Semis fading from accelerating to holding is the one tell worth respecting \u2014 not a sell signal, but the easy money there is behind us. Industrials and Materials remain leaders by tag but haven't translated that into price; copper's move suggests XLB/XLI could catch a bid if it persists.\n\n**Into tomorrow.** Two things: (1) watch whether the 5d breadth deterioration resolves up or whether SPY's grind higher continues on fewer names \u2014 if breadth doesn't repair, trim gross. (2) Watch the 10Y at 4.49% \u2014 another leg higher in yields with DXY firming would start to pressure the long-duration tech leadership that's currently doing all the work.\n\n**Sizing posture.** Regime score says 8/10 but the 5d breadth divergence and stretched semis argue for sizing tighter than the headline confidence implies. Lean toward the un-run names (PATH, ETSY) over adding to what's already run."
 }
