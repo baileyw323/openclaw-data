@@ -1,0 +1,5198 @@
+{
+  "as_of": "2026-06-04T13:11:33.250617Z",
+  "lookback_type": "fast_cumulative_mtw",
+  "window_start": "2026-06-01",
+  "window_end": "2026-06-04",
+  "trading_days_in_window": 4,
+  "universe_size": 92,
+  "scanned_count": 92,
+  "skipped_count": 5,
+  "elapsed_minutes": 35.58,
+  "universe_sources": {
+    "top50_input": 50,
+    "slow_input": 9,
+    "industry_input": 45,
+    "top50_unique": 50,
+    "slow_unique_added": 2,
+    "industry_unique_added": 40
+  },
+  "signals": [
+    {
+      "signal_id": "20260604_WMT_fwk_call",
+      "ticker": "WMT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BULLISH-STRENGTHENING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 119.15,
+      "metrics": {
+        "bullish_ratio": 0.8703,
+        "side_today_premium_dte_filtered": 7613112.0,
+        "combined_today_premium": 8747376.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 51.05,
+        "total_candidate_premium": 8259646.88,
+        "avg_days_oi_increases": 7.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "WMT260717C00120000",
+            "strike": 120.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1988455.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "WMT260717C00115000",
+            "strike": 115.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1521520.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "WMT260618C00115000",
+            "strike": 115.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 706173.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GOOGL_fwk_call",
+      "ticker": "GOOGL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 359.1,
+      "metrics": {
+        "bullish_ratio": 0.7278,
+        "side_today_premium_dte_filtered": 62092218.0,
+        "combined_today_premium": 85311789.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 51.36,
+        "total_candidate_premium": 52704855.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "GOOGL260717C00355000",
+            "strike": 355.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 13986565.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOGL260617C00360000",
+            "strike": 360.0,
+            "expiry": "2026-06-17",
+            "dte": 13,
+            "aggregated_ask_premium": 8870062.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOGL260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4212322.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_JNJ_fwk_put",
+      "ticker": "JNJ",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 226.5,
+      "metrics": {
+        "bullish_ratio": 0.2582,
+        "side_today_premium_dte_filtered": 1690465.0,
+        "combined_today_premium": 2278822.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 89.37,
+        "total_candidate_premium": 5181447.49,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "JNJ260717P00220000",
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 2138195.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "JNJ260821P00240000",
+            "strike": 240.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1385225.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "JNJ260717P00240000",
+            "strike": 240.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1107000.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_COST_fwk_call",
+      "ticker": "COST",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 983.0,
+      "metrics": {
+        "bullish_ratio": 0.7175,
+        "side_today_premium_dte_filtered": 6947928.0,
+        "combined_today_premium": 9684136.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 27,
+        "top3_concentration_pct": 44.9,
+        "total_candidate_premium": 6514976.0,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "COST260821C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1546325.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "COST260717C00950000",
+            "strike": 950.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 742332.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "COST260618C00970000",
+            "strike": 970.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 636537.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CSCO_fwk_call",
+      "ticker": "CSCO",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 128.0,
+      "metrics": {
+        "bullish_ratio": 0.9109,
+        "side_today_premium_dte_filtered": 12113763.0,
+        "combined_today_premium": 13299195.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 50.08,
+        "total_candidate_premium": 18890539.0,
+        "avg_days_oi_increases": 4.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CSCO260618C00110000",
+            "strike": 110.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4629185.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CSCO260612C00123000",
+            "strike": 123.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 2802124.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CSCO260717C00140000",
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 2028713.0,
+            "trend": "STRENGTHENING"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AMAT_fwk_call",
+      "ticker": "AMAT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 485.0,
+      "metrics": {
+        "bullish_ratio": 0.8357,
+        "side_today_premium_dte_filtered": 14957869.0,
+        "combined_today_premium": 17898085.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 27,
+        "top3_concentration_pct": 30.04,
+        "total_candidate_premium": 16514228.5,
+        "avg_days_oi_increases": 2.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AMAT260717C00550000",
+            "strike": 550.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 2688237.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "AMAT260618C00490000",
+            "strike": 490.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1146407.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMAT260717C00500000",
+            "strike": 500.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1125850.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AXP_fwk_call",
+      "ticker": "AXP",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 305.4475,
+      "metrics": {
+        "bullish_ratio": 0.5423,
+        "side_today_premium_dte_filtered": 803809.0,
+        "combined_today_premium": 1482159.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 20,
+        "top3_concentration_pct": 61.9,
+        "total_candidate_premium": 753103.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "AXP260612C00315000",
+            "strike": 315.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 191107.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AXP260717C00320000",
+            "strike": 320.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 163487.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AXP260821C00260000",
+            "strike": 260.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 111577.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AXP_fwk_put",
+      "ticker": "AXP",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 305.4475,
+      "metrics": {
+        "bullish_ratio": 0.5423,
+        "side_today_premium_dte_filtered": 678350.0,
+        "combined_today_premium": 1482159.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 25,
+        "top3_concentration_pct": 47.37,
+        "total_candidate_premium": 1092360.96,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "AXP260618P00295000",
+            "strike": 295.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 239201.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AXP260717P00310000",
+            "strike": 310.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 139337.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AXP260618P00310000",
+            "strike": 310.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 138960.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ORCL_fwk_call",
+      "ticker": "ORCL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 225.74,
+      "metrics": {
+        "bullish_ratio": 0.7951,
+        "side_today_premium_dte_filtered": 53453701.0,
+        "combined_today_premium": 67226268.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 29,
+        "top3_concentration_pct": 45.68,
+        "total_candidate_premium": 249854527.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ORCL260717C00220000",
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 68463930.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ORCL260618C00200000",
+            "strike": 200.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 24366680.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ORCL260717C00240000",
+            "strike": 240.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 21311937.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_LIN_fwk_call",
+      "ticker": "LIN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 507.57,
+      "metrics": {
+        "bullish_ratio": 0.8136,
+        "side_today_premium_dte_filtered": 1199961.0,
+        "combined_today_premium": 1474794.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 17,
+        "top3_concentration_pct": 79.43,
+        "total_candidate_premium": 1230145.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "LIN260717C00520000",
+            "strike": 520.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 819800.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "LIN260717C00560000",
+            "strike": 560.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 97000.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "LIN260618C00520000",
+            "strike": 520.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 60315.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AAPL_fwk_call",
+      "ticker": "AAPL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 313.1305,
+      "metrics": {
+        "bullish_ratio": 0.8399,
+        "side_today_premium_dte_filtered": 84998406.0,
+        "combined_today_premium": 101202585.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 28,
+        "top3_concentration_pct": 48.11,
+        "total_candidate_premium": 106664163.5,
+        "avg_days_oi_increases": 3.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AAPL260717C00310000",
+            "strike": 310.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 28371835.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "AAPL260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 14625390.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AAPL260618C00280000",
+            "strike": 280.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 8316730.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_WFC_fwk_put",
+      "ticker": "WFC",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 79.58,
+      "metrics": {
+        "bullish_ratio": 0.4314,
+        "side_today_premium_dte_filtered": 591979.0,
+        "combined_today_premium": 1041178.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 68.51,
+        "total_candidate_premium": 1367924.28,
+        "avg_days_oi_increases": 3.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "WFC260618P00075000",
+            "strike": 75.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 395149.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "WFC260717P00077500",
+            "strike": 77.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 356350.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "WFC260717P00080000",
+            "strike": 80.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 185642.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_INTC_fwk_call",
+      "ticker": "INTC",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 108.6495,
+      "metrics": {
+        "bullish_ratio": 0.8557,
+        "side_today_premium_dte_filtered": 69368028.0,
+        "combined_today_premium": 81067202.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 38.73,
+        "total_candidate_premium": 60622132.5,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "INTC260717C00120000",
+            "strike": 120.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 9888922.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "INTC260717C00140000",
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 6835397.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "INTC260717C00150000",
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 6754502.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_META_fwk_call",
+      "ticker": "META",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 618.18,
+      "metrics": {
+        "bullish_ratio": 0.87,
+        "side_today_premium_dte_filtered": 107168890.0,
+        "combined_today_premium": 123178430.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 20.33,
+        "total_candidate_premium": 106701413.0,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "META260717C00610000",
+            "strike": 610.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 8172645.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "META260717C00700000",
+            "strike": 700.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 7564187.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "META260618C00620000",
+            "strike": 620.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 5953932.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_HD_fwk_call",
+      "ticker": "HD",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 313.8,
+      "metrics": {
+        "bullish_ratio": 0.9777,
+        "side_today_premium_dte_filtered": 21010187.0,
+        "combined_today_premium": 21488712.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 20,
+        "top3_concentration_pct": 76.86,
+        "total_candidate_premium": 20413487.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "HD260618C00250000",
+            "strike": 250.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 6408150.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "HD260618C00265000",
+            "strike": 265.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4890900.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "HD260618C00270000",
+            "strike": 270.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4391100.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_C_fwk_call",
+      "ticker": "C",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 131.25,
+      "metrics": {
+        "bullish_ratio": 0.7773,
+        "side_today_premium_dte_filtered": 1775618.0,
+        "combined_today_premium": 2284249.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 42.44,
+        "total_candidate_premium": 2178972.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "C260618C00130000",
+            "strike": 130.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 351005.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "C260821C00130000",
+            "strike": 130.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 298762.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "C260821C00125000",
+            "strike": 125.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 275060.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MA_fwk_put",
+      "ticker": "MA",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BEARISH-STRENGTHENING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 478.3187,
+      "metrics": {
+        "bullish_ratio": 0.2862,
+        "side_today_premium_dte_filtered": 2339785.0,
+        "combined_today_premium": 3277771.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 27,
+        "top3_concentration_pct": 41.07,
+        "total_candidate_premium": 2228110.0,
+        "avg_days_oi_increases": 6.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MA260717P00470000",
+            "strike": 470.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 390055.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "MA260618P00500000",
+            "strike": 500.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 322560.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MA260717P00460000",
+            "strike": 460.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 202475.0,
+            "trend": "STRENGTHENING"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_NFLX_fwk_put",
+      "ticker": "NFLX",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 82.9052,
+      "metrics": {
+        "bullish_ratio": 0.3732,
+        "side_today_premium_dte_filtered": 13272975.0,
+        "combined_today_premium": 21174611.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 25,
+        "top3_concentration_pct": 66.78,
+        "total_candidate_premium": 17179127.5,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "NFLX260618P00082000",
+            "strike": 82.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 5179762.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NFLX260717P00090000",
+            "strike": 90.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 4860207.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NFLX260717P00085000",
+            "strike": 85.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1432875.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AMZN_fwk_call",
+      "ticker": "AMZN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 253.15,
+      "metrics": {
+        "bullish_ratio": 0.7204,
+        "side_today_premium_dte_filtered": 51222444.0,
+        "combined_today_premium": 71105929.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 28.38,
+        "total_candidate_premium": 65285965.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AMZN260821C00260000",
+            "strike": 260.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 7703840.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMZN260821C00250000",
+            "strike": 250.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 6009747.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMZN260717C00280000",
+            "strike": 280.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 4813445.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_XOM_fwk_call",
+      "ticker": "XOM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 151.5822,
+      "metrics": {
+        "bullish_ratio": 0.7332,
+        "side_today_premium_dte_filtered": 3723670.0,
+        "combined_today_premium": 5078770.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 54.75,
+        "total_candidate_premium": 6620998.0,
+        "avg_days_oi_increases": 2.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "XOM260618C00155000",
+            "strike": 155.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 2635056.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "XOM260717C00160000",
+            "strike": 160.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 535952.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "XOM260618C00150000",
+            "strike": 150.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 454240.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_IBM_fwk_call",
+      "ticker": "IBM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 303.7439,
+      "metrics": {
+        "bullish_ratio": 0.8198,
+        "side_today_premium_dte_filtered": 41871871.0,
+        "combined_today_premium": 51078711.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 40.41,
+        "total_candidate_premium": 85402770.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "IBM260821C00300000",
+            "strike": 300.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 22796945.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "IBM260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 5998687.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "IBM260717C00320000",
+            "strike": 320.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 5714797.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_LRCX_fwk_call",
+      "ticker": "LRCX",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 333.22,
+      "metrics": {
+        "bullish_ratio": 0.6244,
+        "side_today_premium_dte_filtered": 12983307.0,
+        "combined_today_premium": 20793306.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 44.77,
+        "total_candidate_premium": 11620667.5,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "LRCX260612C00350000",
+            "strike": 350.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 2117277.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "LRCX260618C00270000",
+            "strike": 270.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1609190.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "LRCX260821C00360000",
+            "strike": 360.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1475780.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_NVDA_fwk_call",
+      "ticker": "NVDA",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 212.61,
+      "metrics": {
+        "bullish_ratio": 0.8244,
+        "side_today_premium_dte_filtered": 225811898.0,
+        "combined_today_premium": 273911681.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 19,
+        "top3_concentration_pct": 43.51,
+        "total_candidate_premium": 275013862.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "NVDA260618C00000500",
+            "strike": 0.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 56884142.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NVDA260618C00220000",
+            "strike": 220.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 33677925.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NVDA260717C00220000",
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 29085935.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GOOG_fwk_call",
+      "ticker": "GOOG",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 356.1585,
+      "metrics": {
+        "bullish_ratio": 0.4673,
+        "side_today_premium_dte_filtered": 22200691.0,
+        "combined_today_premium": 47509487.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 29,
+        "top3_concentration_pct": 22.42,
+        "total_candidate_premium": 21732547.5,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "GOOG260618C00375000",
+            "strike": 375.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 2050352.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOG260821C00360000",
+            "strike": 360.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1480120.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOG260717C00400000",
+            "strike": 400.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1341005.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GOOG_fwk_put",
+      "ticker": "GOOG",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 356.1585,
+      "metrics": {
+        "bullish_ratio": 0.4673,
+        "side_today_premium_dte_filtered": 25308796.0,
+        "combined_today_premium": 47509487.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 56.82,
+        "total_candidate_premium": 28520840.0,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "GOOG260618P00360000",
+            "strike": 360.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 8474740.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOG260618P00355000",
+            "strike": 355.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4164795.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GOOG260612P00360000",
+            "strike": 360.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 3566419.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AVGO_fwk_call",
+      "ticker": "AVGO",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 410.13,
+      "metrics": {
+        "bullish_ratio": 0.7733,
+        "side_today_premium_dte_filtered": 105253936.0,
+        "combined_today_premium": 136116655.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 29,
+        "top3_concentration_pct": 31.54,
+        "total_candidate_premium": 106069906.5,
+        "avg_days_oi_increases": 0.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AVGO260618C00450000",
+            "strike": 450.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 13015627.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AVGO260717C00500000",
+            "strike": 500.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 11206942.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AVGO260618C00500000",
+            "strike": 500.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 9232837.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MU_fwk_call",
+      "ticker": "MU",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 1014.0,
+      "metrics": {
+        "bullish_ratio": 0.8164,
+        "side_today_premium_dte_filtered": 430542726.0,
+        "combined_today_premium": 527357926.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 36.42,
+        "total_candidate_premium": 504572752.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MU260618C01050000",
+            "strike": 1050.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 86393875.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MU260618C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 51895200.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MU260717C00800000",
+            "strike": 800.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 45464157.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_UNH_fwk_call",
+      "ticker": "UNH",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 388.0482,
+      "metrics": {
+        "bullish_ratio": 0.7939,
+        "side_today_premium_dte_filtered": 8838165.0,
+        "combined_today_premium": 11132952.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 11,
+        "top3_concentration_pct": 63.91,
+        "total_candidate_premium": 2121590.5,
+        "avg_days_oi_increases": 0.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "UNH260618C00400000",
+            "strike": 400.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 505817.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "UNH260717C00400000",
+            "strike": 400.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 447802.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "UNH260618C00390000",
+            "strike": 390.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 402197.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_KO_fwk_call",
+      "ticker": "KO",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 79.8426,
+      "metrics": {
+        "bullish_ratio": 0.6566,
+        "side_today_premium_dte_filtered": 263687.0,
+        "combined_today_premium": 401592.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 19,
+        "top3_concentration_pct": 47.38,
+        "total_candidate_premium": 500572.5,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "KO260618C00075000",
+            "strike": 75.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 99922.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "KO260618C00079000",
+            "strike": 79.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 72559.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "KO260717C00075000",
+            "strike": 75.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 64685.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MS_fwk_call",
+      "ticker": "MS",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 212.0,
+      "metrics": {
+        "bullish_ratio": 0.7767,
+        "side_today_premium_dte_filtered": 1310610.0,
+        "combined_today_premium": 1687376.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 35.86,
+        "total_candidate_premium": 3619278.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MS260618C00200000",
+            "strike": 200.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 528922.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MS260618C00190000",
+            "strike": 190.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 512737.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MS260618C00160000",
+            "strike": 160.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 256375.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MRK_fwk_call",
+      "ticker": "MRK",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 116.0,
+      "metrics": {
+        "bullish_ratio": 0.7248,
+        "side_today_premium_dte_filtered": 670784.0,
+        "combined_today_premium": 925477.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 59.76,
+        "total_candidate_premium": 1044696.74,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MRK260618C00120000",
+            "strike": 120.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 267159.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MRK260612C00106000",
+            "strike": 106.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 229660.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MRK260821C00110000",
+            "strike": 110.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 127512.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PM_fwk_call",
+      "ticker": "PM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 175.94,
+      "metrics": {
+        "bullish_ratio": 0.78,
+        "side_today_premium_dte_filtered": 340841.0,
+        "combined_today_premium": 436949.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 25,
+        "top3_concentration_pct": 43.14,
+        "total_candidate_premium": 474787.5,
+        "avg_days_oi_increases": 0.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "PM260618C00155000",
+            "strike": 155.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 77450.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PM260618C00180000",
+            "strike": 180.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 77207.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PM260821C00165000",
+            "strike": 165.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 50175.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_JPM_fwk_call",
+      "ticker": "JPM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 304.0736,
+      "metrics": {
+        "bullish_ratio": 0.6258,
+        "side_today_premium_dte_filtered": 1775092.0,
+        "combined_today_premium": 2836399.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 50.75,
+        "total_candidate_premium": 3943075.5,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "JPM260717C00310000",
+            "strike": 310.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 735470.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "JPM260717C00300000",
+            "strike": 300.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 684980.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "JPM260612C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 580490.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_TSLA_fwk_call",
+      "ticker": "TSLA",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 422.38,
+      "metrics": {
+        "bullish_ratio": 0.7487,
+        "side_today_premium_dte_filtered": 134192270.0,
+        "combined_today_premium": 179237901.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 29,
+        "top3_concentration_pct": 33.29,
+        "total_candidate_premium": 178889475.0,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "TSLA260717C00430000",
+            "strike": 430.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 35795220.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "TSLA260618C00420000",
+            "strike": 420.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 12022740.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "TSLA260612C00420000",
+            "strike": 420.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 11742875.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PEP_fwk_call",
+      "ticker": "PEP",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 144.8,
+      "metrics": {
+        "bullish_ratio": 0.4814,
+        "side_today_premium_dte_filtered": 284193.0,
+        "combined_today_premium": 590290.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 54.53,
+        "total_candidate_premium": 567938.92,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "PEP260626C00140000",
+            "strike": 140.0,
+            "expiry": "2026-06-26",
+            "dte": 22,
+            "aggregated_ask_premium": 147280.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PEP260626C00145000",
+            "strike": 145.0,
+            "expiry": "2026-06-26",
+            "dte": 22,
+            "aggregated_ask_premium": 94054.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PEP260821C00150000",
+            "strike": 150.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 68335.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PEP_fwk_put",
+      "ticker": "PEP",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 144.8,
+      "metrics": {
+        "bullish_ratio": 0.4814,
+        "side_today_premium_dte_filtered": 306097.0,
+        "combined_today_premium": 590290.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 27,
+        "top3_concentration_pct": 37.31,
+        "total_candidate_premium": 959751.57,
+        "avg_days_oi_increases": 0.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "PEP260612P00145000",
+            "strike": 145.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 138685.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PEP260612P00140000",
+            "strike": 140.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 111144.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PEP260618P00140000",
+            "strike": 140.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 108245.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_LLY_fwk_call",
+      "ticker": "LLY",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 1097.9,
+      "metrics": {
+        "bullish_ratio": 0.7929,
+        "side_today_premium_dte_filtered": 10292558.0,
+        "combined_today_premium": 12980101.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 27,
+        "top3_concentration_pct": 44.35,
+        "total_candidate_premium": 10426215.0,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "LLY260821C01140000",
+            "strike": 1140.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1776432.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "LLY260618C00800000",
+            "strike": 800.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1527875.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "LLY260821C01100000",
+            "strike": 1100.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 1319237.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CAT_fwk_call",
+      "ticker": "CAT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 916.25,
+      "metrics": {
+        "bullish_ratio": 0.7011,
+        "side_today_premium_dte_filtered": 9875765.0,
+        "combined_today_premium": 14085288.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 46.35,
+        "total_candidate_premium": 8410488.5,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CAT260612C00890000",
+            "strike": 890.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 1551045.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CAT260717C00900000",
+            "strike": 900.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1447005.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CAT260612C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 900080.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AMD_fwk_call",
+      "ticker": "AMD",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 523.51,
+      "metrics": {
+        "bullish_ratio": 0.7975,
+        "side_today_premium_dte_filtered": 152569476.0,
+        "combined_today_premium": 191310617.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 30.31,
+        "total_candidate_premium": 121819283.5,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AMD260717C00520000",
+            "strike": 520.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 19134340.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMD260717C00600000",
+            "strike": 600.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 9898970.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMD260618C00550000",
+            "strike": 550.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 7887190.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MSFT_fwk_call",
+      "ticker": "MSFT",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 434.04,
+      "metrics": {
+        "bullish_ratio": 0.6864,
+        "side_today_premium_dte_filtered": 56162744.0,
+        "combined_today_premium": 81822078.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 50.39,
+        "total_candidate_premium": 235690140.5,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MSFT260821C00500000",
+            "strike": 500.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 67664610.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MSFT260717C00450000",
+            "strike": 450.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 29527067.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MSFT260618C00450000",
+            "strike": 450.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 21562415.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PLTR_fwk_call",
+      "ticker": "PLTR",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 145.5,
+      "metrics": {
+        "bullish_ratio": 0.564,
+        "side_today_premium_dte_filtered": 20464265.0,
+        "combined_today_premium": 36285356.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 52.75,
+        "total_candidate_premium": 60726976.0,
+        "avg_days_oi_increases": 0.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "PLTR260717C00160000",
+            "strike": 160.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 14300397.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PLTR260717C00155000",
+            "strike": 155.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 11651625.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PLTR260717C00150000",
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 6081302.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GS_fwk_call",
+      "ticker": "GS",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 1050.2,
+      "metrics": {
+        "bullish_ratio": 0.6271,
+        "side_today_premium_dte_filtered": 5441668.0,
+        "combined_today_premium": 8677519.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 19,
+        "top3_concentration_pct": 57.77,
+        "total_candidate_premium": 14105593.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "GS260717C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3313695.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GS260618C01100000",
+            "strike": 1100.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 3299205.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GS260717C01020000",
+            "strike": 1020.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1536587.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ABBV_fwk_call",
+      "ticker": "ABBV",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 221.0,
+      "metrics": {
+        "bullish_ratio": 0.5313,
+        "side_today_premium_dte_filtered": 519388.0,
+        "combined_today_premium": 977593.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 38.9,
+        "total_candidate_premium": 890561.75,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "ABBV260717C00220000",
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 171622.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ABBV260618C00220000",
+            "strike": 220.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 91265.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ABBV260717C00210000",
+            "strike": 210.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 83517.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ABBV_fwk_put",
+      "ticker": "ABBV",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 221.0,
+      "metrics": {
+        "bullish_ratio": 0.5313,
+        "side_today_premium_dte_filtered": 458205.0,
+        "combined_today_premium": 977593.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 54.27,
+        "total_candidate_premium": 572459.5,
+        "avg_days_oi_increases": 4.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "ABBV260821P00230000",
+            "strike": 230.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 135412.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ABBV260717P00200000",
+            "strike": 200.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 109884.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "ABBV260618P00220000",
+            "strike": 220.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 65375.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GE_fwk_call",
+      "ticker": "GE",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 317.9002,
+      "metrics": {
+        "bullish_ratio": 0.4809,
+        "side_today_premium_dte_filtered": 791824.0,
+        "combined_today_premium": 1646711.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 33.21,
+        "total_candidate_premium": 1467614.0,
+        "avg_days_oi_increases": 1.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "GE260618C00330000",
+            "strike": 330.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 213140.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GE260618C00320000",
+            "strike": 320.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 141812.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GE260717C00320000",
+            "strike": 320.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 132412.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GE_fwk_put",
+      "ticker": "GE",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BEARISH-STRENGTHENING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 317.9002,
+      "metrics": {
+        "bullish_ratio": 0.4809,
+        "side_today_premium_dte_filtered": 854887.0,
+        "combined_today_premium": 1646711.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 67.75,
+        "total_candidate_premium": 1455228.0,
+        "avg_days_oi_increases": 8.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": true,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "GE260821P00320000",
+            "strike": 320.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 705475.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "GE260821P00290000",
+            "strike": 290.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 146757.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "GE260717P00280000",
+            "strike": 280.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 133745.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_TXN_fwk_call",
+      "ticker": "TXN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 305.86,
+      "metrics": {
+        "bullish_ratio": 0.6451,
+        "side_today_premium_dte_filtered": 1804095.0,
+        "combined_today_premium": 2796693.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 50.92,
+        "total_candidate_premium": 2885476.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "TXN260717C00330000",
+            "strike": 330.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 803517.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "TXN260618C00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 366392.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "TXN260717C00290000",
+            "strike": 290.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 299275.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_V_fwk_put",
+      "ticker": "V",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 316.26,
+      "metrics": {
+        "bullish_ratio": 0.3947,
+        "side_today_premium_dte_filtered": 2509285.0,
+        "combined_today_premium": 4145780.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 25,
+        "top3_concentration_pct": 75.74,
+        "total_candidate_premium": 4100045.5,
+        "avg_days_oi_increases": 4.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "V260821P00330000",
+            "strike": 330.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 2766615.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "V260821P00325000",
+            "strike": 325.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 192920.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "V260717P00310000",
+            "strike": 310.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 145792.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PG_fwk_put",
+      "ticker": "PG",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 142.3,
+      "metrics": {
+        "bullish_ratio": 0.4038,
+        "side_today_premium_dte_filtered": 545472.0,
+        "combined_today_premium": 914943.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 58.69,
+        "total_candidate_premium": 931164.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "PG260717P00145000",
+            "strike": 145.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 304095.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PG260618P00135000",
+            "strike": 135.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 148597.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PG260612P00143000",
+            "strike": 143.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 93812.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GEV_fwk_call",
+      "ticker": "GEV",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 950.6294,
+      "metrics": {
+        "bullish_ratio": 0.5639,
+        "side_today_premium_dte_filtered": 4352346.0,
+        "combined_today_premium": 7717782.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 43.48,
+        "total_candidate_premium": 4033370.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "GEV260618C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 753795.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GEV260717C01100000",
+            "strike": 1100.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 588270.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "GEV260717C01000000",
+            "strike": 1000.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 411585.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_BAC_fwk_call",
+      "ticker": "BAC",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 53.016,
+      "metrics": {
+        "bullish_ratio": 0.6685,
+        "side_today_premium_dte_filtered": 2218215.0,
+        "combined_today_premium": 3318187.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 73.36,
+        "total_candidate_premium": 3211463.5,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "BAC260618C00045000",
+            "strike": 45.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1060600.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BAC260717C00040000",
+            "strike": 40.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1056900.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BAC260717C00052500",
+            "strike": 52.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 238456.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_KLAC_fwk_call",
+      "ticker": "KLAC",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 2077.907,
+      "metrics": {
+        "bullish_ratio": 0.6847,
+        "side_today_premium_dte_filtered": 7521767.0,
+        "combined_today_premium": 10984929.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 36.97,
+        "total_candidate_premium": 6717330.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "KLAC260618C02000000",
+            "strike": 2000.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 973290.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "KLAC260717C02120000",
+            "strike": 2120.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 763035.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "KLAC260821C02080000",
+            "strike": 2080.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 746980.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CVX_fwk_call",
+      "ticker": "CVX",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 188.25,
+      "metrics": {
+        "bullish_ratio": 0.6154,
+        "side_today_premium_dte_filtered": 1129993.0,
+        "combined_today_premium": 1836236.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 25,
+        "top3_concentration_pct": 34.65,
+        "total_candidate_premium": 2124787.4,
+        "avg_days_oi_increases": 3.33,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CVX260717C00185000",
+            "strike": 185.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 301177.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CVX260717C00190000",
+            "strike": 190.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 246932.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CVX260717C00200000",
+            "strike": 200.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 188194.0,
+            "trend": "STRENGTHENING"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_QQQ_fwk_put",
+      "ticker": "QQQ",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 736.23,
+      "metrics": {
+        "bullish_ratio": 0.4089,
+        "side_today_premium_dte_filtered": 145633916.0,
+        "combined_today_premium": 246361536.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 59.48,
+        "total_candidate_premium": 99163761.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "QQQ260821P00650000",
+            "strike": 650.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 27455694.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "QQQ260717P00740000",
+            "strike": 740.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 18927600.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "QQQ260717P00720000",
+            "strike": 720.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 12594578.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_SPY_fwk_put",
+      "ticker": "SPY",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BEARISH-STRENGTHENING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 752.06,
+      "metrics": {
+        "bullish_ratio": 0.3811,
+        "side_today_premium_dte_filtered": 133874242.0,
+        "combined_today_premium": 216305535.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 30,
+        "top3_concentration_pct": 35.82,
+        "total_candidate_premium": 79915710.5,
+        "avg_days_oi_increases": 9.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": true,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "SPY260717P00750000",
+            "strike": 750.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 11626191.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "SPY260717P00740000",
+            "strike": 740.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 10731315.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "SPY260612P00755000",
+            "strike": 755.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 6267366.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CTVA_fwk_call",
+      "ticker": "CTVA",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 77.5,
+      "metrics": {
+        "bullish_ratio": 0.9526,
+        "side_today_premium_dte_filtered": 5907.0,
+        "combined_today_premium": 6201.0,
+        "candidates_count": 12,
+        "candidates_with_historic": 8,
+        "top3_concentration_pct": 88.45,
+        "total_candidate_premium": 9830.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CTVA260618C00075000",
+            "strike": 75.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 4100.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CTVA260618C00060000",
+            "strike": 60.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 3740.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CTVA260618C00070000",
+            "strike": 70.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 855.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MOS_fwk_call",
+      "ticker": "MOS",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 23.39,
+      "metrics": {
+        "bullish_ratio": 0.9073,
+        "side_today_premium_dte_filtered": 61551.0,
+        "combined_today_premium": 67838.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 46.54,
+        "total_candidate_premium": 113677.12,
+        "avg_days_oi_increases": 3.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MOS260618C00025000",
+            "strike": 25.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 18677.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MOS260612C00024000",
+            "strike": 24.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 17357.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "MOS260618C00024000",
+            "strike": 24.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 16870.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CF_fwk_call",
+      "ticker": "CF",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 116.5,
+      "metrics": {
+        "bullish_ratio": 0.7427,
+        "side_today_premium_dte_filtered": 764106.0,
+        "combined_today_premium": 1028789.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 17,
+        "top3_concentration_pct": 88.8,
+        "total_candidate_premium": 716945.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CF260626C00100000",
+            "strike": 100.0,
+            "expiry": "2026-06-26",
+            "dte": 22,
+            "aggregated_ask_premium": 338070.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CF260626C00101000",
+            "strike": 101.0,
+            "expiry": "2026-06-26",
+            "dte": 22,
+            "aggregated_ask_premium": 263760.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CF260618C00125000",
+            "strike": 125.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 34852.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_SMG_fwk_call",
+      "ticker": "SMG",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 56.97,
+      "metrics": {
+        "bullish_ratio": 0.8159,
+        "side_today_premium_dte_filtered": 15014.0,
+        "combined_today_premium": 18401.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 7,
+        "top3_concentration_pct": 73.14,
+        "total_candidate_premium": 26300.0,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "SMG260717C00055000",
+            "strike": 55.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 9525.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "SMG260618C00062500",
+            "strike": 62.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 5795.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "SMG260717C00062500",
+            "strike": 62.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3915.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_FMC_fwk_put",
+      "ticker": "FMC",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 12.41,
+      "metrics": {
+        "bullish_ratio": 0.2179,
+        "side_today_premium_dte_filtered": 32175.0,
+        "combined_today_premium": 41137.0,
+        "candidates_count": 12,
+        "candidates_with_historic": 6,
+        "top3_concentration_pct": 98.99,
+        "total_candidate_premium": 55852.0,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "FMC260618P00012500",
+            "strike": 12.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 52100.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "FMC260717P00012500",
+            "strike": 12.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 2290.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "FMC260717P00015000",
+            "strike": 15.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 900.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_IPI_fwk_put",
+      "ticker": "IPI",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 36.85,
+      "metrics": {
+        "bullish_ratio": 0.3178,
+        "side_today_premium_dte_filtered": 6687.0,
+        "combined_today_premium": 9802.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 10,
+        "top3_concentration_pct": 89.37,
+        "total_candidate_premium": 12465.19,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "IPI260717P00038000",
+            "strike": 38.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 4180.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "IPI260717P00039000",
+            "strike": 39.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3870.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "IPI260717P00035000",
+            "strike": 35.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3090.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_NEM_fwk_call",
+      "ticker": "NEM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 109.07,
+      "metrics": {
+        "bullish_ratio": 0.6975,
+        "side_today_premium_dte_filtered": 537097.0,
+        "combined_today_premium": 770023.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 18,
+        "top3_concentration_pct": 85.06,
+        "total_candidate_premium": 5029997.5,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "NEM260717C00120000",
+            "strike": 120.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3250392.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NEM260618C00090000",
+            "strike": 90.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 770015.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NEM260717C00115000",
+            "strike": 115.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 257985.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AU_fwk_call",
+      "ticker": "AU",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 91.49,
+      "metrics": {
+        "bullish_ratio": 0.6735,
+        "side_today_premium_dte_filtered": 25293.0,
+        "combined_today_premium": 37556.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 12,
+        "top3_concentration_pct": 67.79,
+        "total_candidate_premium": 168732.67,
+        "avg_days_oi_increases": 4.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AU260618C00095000",
+            "strike": 95.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 48167.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AU260618C00100000",
+            "strike": 100.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 43835.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "AU260717C00090000",
+            "strike": 90.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 22380.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CDE_fwk_call",
+      "ticker": "CDE",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 18.51,
+      "metrics": {
+        "bullish_ratio": 0.7442,
+        "side_today_premium_dte_filtered": 150752.0,
+        "combined_today_premium": 202563.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 17,
+        "top3_concentration_pct": 65.18,
+        "total_candidate_premium": 192541.06,
+        "avg_days_oi_increases": 4.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CDE260717C00017500",
+            "strike": 17.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 71120.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "CDE260618C00020000",
+            "strike": 20.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 30342.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CDE260618C00017500",
+            "strike": 17.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 24027.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_RGLD_fwk_put",
+      "ticker": "RGLD",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 218.55,
+      "metrics": {
+        "bullish_ratio": 0.3593,
+        "side_today_premium_dte_filtered": 71854.0,
+        "combined_today_premium": 112153.0,
+        "candidates_count": 14,
+        "candidates_with_historic": 9,
+        "top3_concentration_pct": 76.45,
+        "total_candidate_premium": 202295.0,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "RGLD260717P00210000",
+            "strike": 210.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 62320.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "RGLD260717P00200000",
+            "strike": 200.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 48140.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "RGLD260618P00210000",
+            "strike": 210.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 44190.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_SSRM_fwk_put",
+      "ticker": "SSRM",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 29.4,
+      "metrics": {
+        "bullish_ratio": 0.2729,
+        "side_today_premium_dte_filtered": 11258.0,
+        "combined_today_premium": 15483.0,
+        "candidates_count": 16,
+        "candidates_with_historic": 10,
+        "top3_concentration_pct": 71.31,
+        "total_candidate_premium": 17077.5,
+        "avg_days_oi_increases": 2.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "SSRM260717P00024000",
+            "strike": 24.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 6165.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "SSRM260618P00029000",
+            "strike": 29.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 3762.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "SSRM260717P00027000",
+            "strike": 27.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 2250.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AUGO_fwk_put",
+      "ticker": "AUGO",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 64.0,
+      "metrics": {
+        "bullish_ratio": 0.1759,
+        "side_today_premium_dte_filtered": 7100.0,
+        "combined_today_premium": 8615.0,
+        "candidates_count": 6,
+        "candidates_with_historic": 4,
+        "top3_concentration_pct": 96.24,
+        "total_candidate_premium": 19660.0,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AUGO260618P00070000",
+            "strike": 70.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 8905.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AUGO260821P00060000",
+            "strike": 60.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 7960.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AUGO260821P00065000",
+            "strike": 65.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 2055.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_NG_fwk_call",
+      "ticker": "NG",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 8.24,
+      "metrics": {
+        "bullish_ratio": 0.8586,
+        "side_today_premium_dte_filtered": 11347.0,
+        "combined_today_premium": 13215.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 8,
+        "top3_concentration_pct": 87.08,
+        "total_candidate_premium": 55874.0,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "NG260618C00006000",
+            "strike": 6.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 27360.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NG260618C00008000",
+            "strike": 8.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 14925.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "NG260717C00008000",
+            "strike": 8.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 6370.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_HYMC_fwk_call",
+      "ticker": "HYMC",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 32.8092,
+      "metrics": {
+        "bullish_ratio": 0.6746,
+        "side_today_premium_dte_filtered": 70997.0,
+        "combined_today_premium": 105246.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 24,
+        "top3_concentration_pct": 50.62,
+        "total_candidate_premium": 213806.28,
+        "avg_days_oi_increases": 2.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "HYMC260717C00040000",
+            "strike": 40.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 50695.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "HYMC260821C00035000",
+            "strike": 35.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 38915.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "HYMC260717C00035000",
+            "strike": 35.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 18610.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CVS_fwk_call",
+      "ticker": "CVS",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 93.69,
+      "metrics": {
+        "bullish_ratio": 0.9585,
+        "side_today_premium_dte_filtered": 2638063.0,
+        "combined_today_premium": 2752297.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 18,
+        "top3_concentration_pct": 86.48,
+        "total_candidate_premium": 2259872.83,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CVS260717C00095000",
+            "strike": 95.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1737907.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CVS260612C00098000",
+            "strike": 98.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 151158.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CVS260618C00093000",
+            "strike": 93.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 65222.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CI_fwk_put",
+      "ticker": "CI",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 276.5,
+      "metrics": {
+        "bullish_ratio": 0.1478,
+        "side_today_premium_dte_filtered": 331481.0,
+        "combined_today_premium": 388984.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 14,
+        "top3_concentration_pct": 89.66,
+        "total_candidate_premium": 446185.0,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CI260717P00260000",
+            "strike": 260.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 321415.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CI260618P00300000",
+            "strike": 300.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 66480.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CI260618P00267500",
+            "strike": 267.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 12150.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ELV_fwk_call",
+      "ticker": "ELV",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 391.27,
+      "metrics": {
+        "bullish_ratio": 0.8214,
+        "side_today_premium_dte_filtered": 83932.0,
+        "combined_today_premium": 102185.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 68.06,
+        "total_candidate_premium": 562802.5,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ELV260717C00410000",
+            "strike": 410.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 273560.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ELV260618C00400000",
+            "strike": 400.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 57785.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ELV260618C00390000",
+            "strike": 390.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 51675.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_HUM_fwk_call",
+      "ticker": "HUM",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 334.7,
+      "metrics": {
+        "bullish_ratio": 0.634,
+        "side_today_premium_dte_filtered": 577158.0,
+        "combined_today_premium": 910314.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 15,
+        "top3_concentration_pct": 84.74,
+        "total_candidate_premium": 371407.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "HUM260618C00240000",
+            "strike": 240.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 219625.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "HUM260618C00340000",
+            "strike": 340.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 56000.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "HUM260618C00230000",
+            "strike": 230.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 39100.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CNC_fwk_put",
+      "ticker": "CNC",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 60.84,
+      "metrics": {
+        "bullish_ratio": 0.444,
+        "side_today_premium_dte_filtered": 77894.0,
+        "combined_today_premium": 140101.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 17,
+        "top3_concentration_pct": 58.9,
+        "total_candidate_premium": 88292.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CNC260618P00055000",
+            "strike": 55.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 30004.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CNC260821P00067500",
+            "strike": 67.5,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 11220.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CNC260612P00058000",
+            "strike": 58.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 10779.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_OSCR_fwk_call",
+      "ticker": "OSCR",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 21.57,
+      "metrics": {
+        "bullish_ratio": 0.5115,
+        "side_today_premium_dte_filtered": 472985.0,
+        "combined_today_premium": 924785.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 28,
+        "top3_concentration_pct": 42.83,
+        "total_candidate_premium": 799065.29,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "OSCR260717C00025000",
+            "strike": 25.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 170304.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OSCR260717C00023000",
+            "strike": 23.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 101876.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OSCR260717C00022000",
+            "strike": 22.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 70049.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_OSCR_fwk_put",
+      "ticker": "OSCR",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 21.57,
+      "metrics": {
+        "bullish_ratio": 0.5115,
+        "side_today_premium_dte_filtered": 451800.0,
+        "combined_today_premium": 924785.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 70.49,
+        "total_candidate_premium": 822983.5,
+        "avg_days_oi_increases": 2.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "OSCR260612P00021000",
+            "strike": 21.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 278673.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OSCR260618P00020500",
+            "strike": 20.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 161914.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OSCR260612P00020500",
+            "strike": 20.5,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 139516.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_MOH_fwk_put",
+      "ticker": "MOH",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 188.43,
+      "metrics": {
+        "bullish_ratio": 0.3573,
+        "side_today_premium_dte_filtered": 110377.0,
+        "combined_today_premium": 171751.0,
+        "candidates_count": 21,
+        "candidates_with_historic": 12,
+        "top3_concentration_pct": 92.66,
+        "total_candidate_premium": 401945.0,
+        "avg_days_oi_increases": 1.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "MOH260618P00180000",
+            "strike": 180.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 239700.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MOH260618P00185000",
+            "strike": 185.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 79715.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "MOH260618P00175000",
+            "strike": 175.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 53040.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_CLOV_fwk_call",
+      "ticker": "CLOV",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 3.6,
+      "metrics": {
+        "bullish_ratio": 0.8203,
+        "side_today_premium_dte_filtered": 250258.0,
+        "combined_today_premium": 305092.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 20,
+        "top3_concentration_pct": 54.64,
+        "total_candidate_premium": 235397.52,
+        "avg_days_oi_increases": 3.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "CLOV260717C00001500",
+            "strike": 1.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 49914.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "CLOV260821C00000500",
+            "strike": 0.5,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 44634.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "CLOV260612C00000500",
+            "strike": 0.5,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 34070.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ALHC_fwk_put",
+      "ticker": "ALHC",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 14.4,
+      "metrics": {
+        "bullish_ratio": 0.4193,
+        "side_today_premium_dte_filtered": 766.0,
+        "combined_today_premium": 1319.0,
+        "candidates_count": 6,
+        "candidates_with_historic": 4,
+        "top3_concentration_pct": 99.27,
+        "total_candidate_premium": 29035.0,
+        "avg_days_oi_increases": 0.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ALHC260618P00012500",
+            "strike": 12.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 24635.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ALHC260717P00012500",
+            "strike": 12.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 3637.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ALHC260618P00015000",
+            "strike": 15.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 550.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_GILD_fwk_put",
+      "ticker": "GILD",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BEARISH-STRENGTHENING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 130.75,
+      "metrics": {
+        "bullish_ratio": 0.2506,
+        "side_today_premium_dte_filtered": 326948.0,
+        "combined_today_premium": 436265.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 22,
+        "top3_concentration_pct": 67.97,
+        "total_candidate_premium": 501866.5,
+        "avg_days_oi_increases": 7.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "GILD260821P00130000",
+            "strike": 130.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 147312.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "GILD260821P00125000",
+            "strike": 125.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 99877.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "GILD260821P00120000",
+            "strike": 120.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 93907.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AMGN_fwk_call",
+      "ticker": "AMGN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 344.23,
+      "metrics": {
+        "bullish_ratio": 0.7268,
+        "side_today_premium_dte_filtered": 463930.0,
+        "combined_today_premium": 638344.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 39.62,
+        "total_candidate_premium": 395343.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": false,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AMGN260612C00335000",
+            "strike": 335.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 54178.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMGN260618C00330000",
+            "strike": 330.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 53165.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AMGN260618C00345000",
+            "strike": 345.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 49276.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_BMY_fwk_put",
+      "ticker": "BMY",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 55.53,
+      "metrics": {
+        "bullish_ratio": 0.2669,
+        "side_today_premium_dte_filtered": 516413.0,
+        "combined_today_premium": 704399.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 19,
+        "top3_concentration_pct": 58.7,
+        "total_candidate_premium": 870884.0,
+        "avg_days_oi_increases": 2.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "BMY260702P00056000",
+            "strike": 56.0,
+            "expiry": "2026-07-02",
+            "dte": 28,
+            "aggregated_ask_premium": 300670.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BMY260702P00057000",
+            "strike": 57.0,
+            "expiry": "2026-07-02",
+            "dte": 28,
+            "aggregated_ask_premium": 128348.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BMY260717P00052500",
+            "strike": 52.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 82152.5,
+            "trend": "STRENGTHENING"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PFE_fwk_call",
+      "ticker": "PFE",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 25.61,
+      "metrics": {
+        "bullish_ratio": 0.5213,
+        "side_today_premium_dte_filtered": 276867.0,
+        "combined_today_premium": 531099.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 48.9,
+        "total_candidate_premium": 719793.0,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "PFE260612C00026000",
+            "strike": 26.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 185275.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PFE260821C00026000",
+            "strike": 26.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 105441.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "PFE260618C00025000",
+            "strike": 25.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 61250.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_PFE_fwk_put",
+      "ticker": "PFE",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BEARISH-STRENGTHENING",
+      "conviction": "LOW",
+      "spot_at_signal": 25.61,
+      "metrics": {
+        "bullish_ratio": 0.5213,
+        "side_today_premium_dte_filtered": 254232.0,
+        "combined_today_premium": 531099.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 21,
+        "top3_concentration_pct": 58.72,
+        "total_candidate_premium": 389704.46,
+        "avg_days_oi_increases": 4.67,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": true,
+        "top3_contracts": [
+          {
+            "option_id": "PFE260821P00025000",
+            "strike": 25.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 89772.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "PFE260612P00025500",
+            "strike": 25.5,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 69694.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "PFE260821P00026000",
+            "strike": 26.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 69364.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_BIIB_fwk_call",
+      "ticker": "BIIB",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 198.0,
+      "metrics": {
+        "bullish_ratio": 0.8493,
+        "side_today_premium_dte_filtered": 14871.0,
+        "combined_today_premium": 17509.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 12,
+        "top3_concentration_pct": 84.42,
+        "total_candidate_premium": 80202.5,
+        "avg_days_oi_increases": 2.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "BIIB260717C00180000",
+            "strike": 180.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 25010.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BIIB260717C00200000",
+            "strike": 200.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 22310.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "BIIB260717C00195000",
+            "strike": 195.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 20385.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_OGN_fwk_call",
+      "ticker": "OGN",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 13.3715,
+      "metrics": {
+        "bullish_ratio": 0.9692,
+        "side_today_premium_dte_filtered": 2614.0,
+        "combined_today_premium": 2697.0,
+        "candidates_count": 18,
+        "candidates_with_historic": 7,
+        "top3_concentration_pct": 94.83,
+        "total_candidate_premium": 4487.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "OGN260618C00007500",
+            "strike": 7.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1690.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OGN260618C00005000",
+            "strike": 5.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 1580.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "OGN260717C00012000",
+            "strike": 12.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 985.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_DAL_fwk_call",
+      "ticker": "DAL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 80.4543,
+      "metrics": {
+        "bullish_ratio": 0.7951,
+        "side_today_premium_dte_filtered": 843853.0,
+        "combined_today_premium": 1061299.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 23,
+        "top3_concentration_pct": 54.89,
+        "total_candidate_premium": 1174139.5,
+        "avg_days_oi_increases": 3.0,
+        "criteria_passed": {
+          "concentration_HIGH": false,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "DAL260612C00084000",
+            "strike": 84.0,
+            "expiry": "2026-06-12",
+            "dte": 8,
+            "aggregated_ask_premium": 265828.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "DAL260618C00085000",
+            "strike": 85.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 208122.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "DAL260717C00080000",
+            "strike": 80.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 170517.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_UAL_fwk_call",
+      "ticker": "UAL",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 107.32,
+      "metrics": {
+        "bullish_ratio": 0.6311,
+        "side_today_premium_dte_filtered": 1110651.0,
+        "combined_today_premium": 1759877.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 80.38,
+        "total_candidate_premium": 4844333.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "UAL260821C00110000",
+            "strike": 110.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 3596082.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "UAL260618C00100000",
+            "strike": 100.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 153942.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "UAL260618C00104000",
+            "strike": 104.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 143610.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_AAL_fwk_put",
+      "ticker": "AAL",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "MODERATE",
+      "spot_at_signal": 13.8587,
+      "metrics": {
+        "bullish_ratio": 0.2304,
+        "side_today_premium_dte_filtered": 9103770.0,
+        "combined_today_premium": 11829378.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 26,
+        "top3_concentration_pct": 91.71,
+        "total_candidate_premium": 9756341.5,
+        "avg_days_oi_increases": 3.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": true,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "AAL260821P00013000",
+            "strike": 13.0,
+            "expiry": "2026-08-21",
+            "dte": 78,
+            "aggregated_ask_premium": 8476539.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "AAL260618P00016000",
+            "strike": 16.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 294758.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "AAL260618P00015500",
+            "strike": 15.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 175782.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ALK_fwk_call",
+      "ticker": "ALK",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "HOLDING",
+      "summary_label": "BULLISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 42.79,
+      "metrics": {
+        "bullish_ratio": 0.6935,
+        "side_today_premium_dte_filtered": 195015.0,
+        "combined_today_premium": 281207.0,
+        "candidates_count": 20,
+        "candidates_with_historic": 16,
+        "top3_concentration_pct": 68.56,
+        "total_candidate_premium": 754190.5,
+        "avg_days_oi_increases": 2.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": true,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ALK260618C00047500",
+            "strike": 47.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 204757.5,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ALK260618C00042500",
+            "strike": 42.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 172370.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ALK260717C00050000",
+            "strike": 50.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 139910.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_JBLU_fwk_call",
+      "ticker": "JBLU",
+      "side": "call",
+      "direction": "BULLISH",
+      "trend": "STRENGTHENING",
+      "summary_label": "BULLISH-STRENGTHENING",
+      "conviction": "LOW",
+      "spot_at_signal": 4.8399,
+      "metrics": {
+        "bullish_ratio": 0.5845,
+        "side_today_premium_dte_filtered": 81564.0,
+        "combined_today_premium": 139553.0,
+        "candidates_count": 30,
+        "candidates_with_historic": 17,
+        "top3_concentration_pct": 87.9,
+        "total_candidate_premium": 345683.0,
+        "avg_days_oi_increases": 5.33,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": true
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "JBLU260618C00005500",
+            "strike": 5.5,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 200845.5,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "JBLU260717C00005000",
+            "strike": 5.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 69182.0,
+            "trend": "STRENGTHENING"
+          },
+          {
+            "option_id": "JBLU260717C00004000",
+            "strike": 4.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 33827.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ULCC_fwk_put",
+      "ticker": "ULCC",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 5.794,
+      "metrics": {
+        "bullish_ratio": 0.2161,
+        "side_today_premium_dte_filtered": 2920.0,
+        "combined_today_premium": 3725.0,
+        "candidates_count": 6,
+        "candidates_with_historic": 4,
+        "top3_concentration_pct": 99.33,
+        "total_candidate_premium": 17947.5,
+        "avg_days_oi_increases": 1.67,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ULCC260618P00007000",
+            "strike": 7.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 15070.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ULCC260717P00005000",
+            "strike": 5.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1875.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ULCC260618P00005000",
+            "strike": 5.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 882.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_ALGT_fwk_put",
+      "ticker": "ALGT",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 82.98,
+      "metrics": {
+        "bullish_ratio": 0.0,
+        "side_today_premium_dte_filtered": 118864.0,
+        "combined_today_premium": 118864.0,
+        "candidates_count": 2,
+        "candidates_with_historic": 2,
+        "top3_concentration_pct": 100.0,
+        "total_candidate_premium": 115485.0,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "ALGT260717P00090000",
+            "strike": 90.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 114500.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "ALGT260717P00060000",
+            "strike": 60.0,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 985.0,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    },
+    {
+      "signal_id": "20260604_SKYW_fwk_put",
+      "ticker": "SKYW",
+      "side": "put",
+      "direction": "BEARISH",
+      "trend": "HOLDING",
+      "summary_label": "BEARISH-HOLDING",
+      "conviction": "LOW",
+      "spot_at_signal": 81.19,
+      "metrics": {
+        "bullish_ratio": 0.0,
+        "side_today_premium_dte_filtered": 1943.0,
+        "combined_today_premium": 1943.0,
+        "candidates_count": 4,
+        "candidates_with_historic": 2,
+        "top3_concentration_pct": 100.0,
+        "total_candidate_premium": 1947.5,
+        "avg_days_oi_increases": 0.0,
+        "criteria_passed": {
+          "concentration_HIGH": true,
+          "concentration_MOD": true,
+          "premium_HIGH": false,
+          "premium_MOD": false,
+          "oi_days_HIGH": false,
+          "oi_days_MOD": false
+        },
+        "is_balanced_split": false,
+        "top3_contracts": [
+          {
+            "option_id": "SKYW260717P00097500",
+            "strike": 97.5,
+            "expiry": "2026-07-17",
+            "dte": 43,
+            "aggregated_ask_premium": 1735.0,
+            "trend": "NEUTRAL"
+          },
+          {
+            "option_id": "SKYW260618P00080000",
+            "strike": 80.0,
+            "expiry": "2026-06-18",
+            "dte": 14,
+            "aggregated_ask_premium": 212.5,
+            "trend": "NEUTRAL"
+          }
+        ]
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "ticker": "BRK.B",
+      "reason": "no_signal_could_be_constructed"
+    },
+    {
+      "ticker": "RTX",
+      "reason": "balanced_below_floor"
+    },
+    {
+      "ticker": "IAUX",
+      "reason": "no_strike_flow"
+    },
+    {
+      "ticker": "DC",
+      "reason": "no_dte_qualifying_candidates"
+    },
+    {
+      "ticker": "LUV",
+      "reason": "balanced_below_floor"
+    }
+  ],
+  "narrative": null
+}
