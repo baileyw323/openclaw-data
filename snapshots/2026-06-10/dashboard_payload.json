@@ -1,0 +1,1998 @@
+{
+  "as_of": "2026-06-10T13:07:09+00:00",
+  "signal_date": "2026-06-10",
+  "macro": {
+    "regime_label": "CHOPPY",
+    "basis": {
+      "spy_21d_pct": 1.04,
+      "spy_pct_above_50sma": 3.33,
+      "spy_pct_above_200sma": 6.41,
+      "sectors_gics_total": 11,
+      "sectors_above_50sma_count": 6,
+      "sectors_above_200sma_count": 7,
+      "breadth_pct_sectors_above_50sma": 54.5,
+      "breadth_pct_sectors_above_200sma": 63.6,
+      "regime_vote": "TRANSITIONAL",
+      "confidence": 4,
+      "regime_score_breakdown": [
+        {
+          "indicator": "VIX",
+          "value": 21.59,
+          "vote": 0
+        },
+        {
+          "indicator": "SPY_vs_50SMA",
+          "value": "ABOVE",
+          "vote": 1
+        },
+        {
+          "indicator": "yield_curve_10y2y",
+          "value": 0.92,
+          "vote": 1
+        },
+        {
+          "indicator": "DXY_trend",
+          "value": "RISING",
+          "vote": 0
+        },
+        {
+          "indicator": "put_call",
+          "value": "BEARISH",
+          "vote": -1
+        }
+      ]
+    },
+    "jolts_24h": [
+      {
+        "level": "macro",
+        "subject": "VIX",
+        "kind": "magnitude",
+        "detail": "VIX moved +19.0% to 21.6"
+      }
+    ]
+  },
+  "cross_asset": [
+    {
+      "name": "SPY",
+      "level": 739.22,
+      "trend_21d_pct": 1.04,
+      "chg_24h_pct": 0.23,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 50.79,
+      "bb_pct_b": 0.282,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 3.33,
+      "sma200_above": true,
+      "sma200_pct_dist": 8.37,
+      "support": 731.53,
+      "resistance": 749.53
+    },
+    {
+      "name": "TLT",
+      "level": 85.12,
+      "trend_21d_pct": -0.73,
+      "chg_24h_pct": 0.59,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 51.13,
+      "bb_pct_b": 0.651,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -0.21,
+      "sma200_above": false,
+      "sma200_pct_dist": -1.39,
+      "support": 84.4646,
+      "resistance": 85.82
+    },
+    {
+      "name": "VIX",
+      "level": 21.59,
+      "trend_21d_pct": 15.79,
+      "chg_24h_pct": 4.83,
+      "dir": "neutral",
+      "jolt_24h": "VIX +19.0% to 21.59",
+      "rsi": 60.17,
+      "bb_pct_b": 0.988,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 12.91,
+      "sma200_above": true,
+      "sma200_pct_dist": 12.63,
+      "support": 20.28,
+      "resistance": 21.56,
+      "term_structure": "BACKWARDATION"
+    },
+    {
+      "name": "VIX3M",
+      "level": 20.79,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": null,
+      "bb_pct_b": null,
+      "bb_state": null,
+      "sma50_above": null,
+      "sma50_pct_dist": null,
+      "sma200_above": null,
+      "sma200_pct_dist": null,
+      "support": null,
+      "resistance": null,
+      "term_structure": "BACKWARDATION"
+    },
+    {
+      "name": "2Y_yield",
+      "level": 3.63,
+      "trend_21d_pct": 1.11,
+      "chg_24h_pct": 0.19,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 67.56,
+      "bb_pct_b": 0.917,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 1.02,
+      "sma200_above": false,
+      "sma200_pct_dist": -1.16,
+      "support": 3.585,
+      "resistance": null
+    },
+    {
+      "name": "5Y_yield",
+      "level": 4.24,
+      "trend_21d_pct": 5.76,
+      "chg_24h_pct": -0.86,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 58.56,
+      "bb_pct_b": 0.637,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 4.49,
+      "sma200_above": true,
+      "sma200_pct_dist": 11.68,
+      "support": 4.121,
+      "resistance": 4.351
+    },
+    {
+      "name": "10Y_yield",
+      "level": 4.52,
+      "trend_21d_pct": 3.6,
+      "chg_24h_pct": -0.68,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 55.24,
+      "bb_pct_b": 0.505,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 2.57,
+      "sma200_above": true,
+      "sma200_pct_dist": 7.47,
+      "support": 4.426,
+      "resistance": 4.687
+    },
+    {
+      "name": "DXY",
+      "level": 99.98,
+      "trend_21d_pct": 2.09,
+      "chg_24h_pct": -0.17,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 62.11,
+      "bb_pct_b": 0.87,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 0.98,
+      "sma200_above": true,
+      "sma200_pct_dist": 1.28,
+      "support": 98.88,
+      "resistance": 100.54
+    },
+    {
+      "name": "Gold",
+      "level": 4158.7,
+      "trend_21d_pct": -11.66,
+      "chg_24h_pct": -2.14,
+      "dir": "neutral",
+      "jolt_24h": "Gold -4.7% to 4158.70",
+      "rsi": 26.7,
+      "bb_pct_b": -0.113,
+      "bb_state": "below_lower",
+      "sma50_above": false,
+      "sma50_pct_dist": -9.6,
+      "sma200_above": false,
+      "sma200_pct_dist": -5.52,
+      "support": 4100.7998,
+      "resistance": 4591.7998
+    },
+    {
+      "name": "Silver",
+      "level": 64.36,
+      "trend_21d_pct": -24.71,
+      "chg_24h_pct": -1.12,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 28.56,
+      "bb_pct_b": 0.033,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -15.24,
+      "sma200_above": false,
+      "sma200_pct_dist": -3.81,
+      "support": 61.09,
+      "resistance": 82.83
+    },
+    {
+      "name": "Copper",
+      "level": 6.23,
+      "trend_21d_pct": -2.23,
+      "chg_24h_pct": -0.51,
+      "dir": "neutral",
+      "jolt_24h": "Copper -3.1% to 6.23",
+      "rsi": 49.09,
+      "bb_pct_b": 0.307,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 2.4,
+      "sma200_above": true,
+      "sma200_pct_dist": 13.75,
+      "support": 6.12,
+      "resistance": 6.645
+    },
+    {
+      "name": "Oil_WTI",
+      "level": 89.77,
+      "trend_21d_pct": -9.23,
+      "chg_24h_pct": 0.93,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 42.25,
+      "bb_pct_b": 0.256,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -8.51,
+      "sma200_above": true,
+      "sma200_pct_dist": 21.64,
+      "support": 88.66,
+      "resistance": 97.0
+    },
+    {
+      "name": "NatGas",
+      "level": 3.22,
+      "trend_21d_pct": 10.69,
+      "chg_24h_pct": 2.58,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 58.69,
+      "bb_pct_b": 0.713,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 12.21,
+      "sma200_above": false,
+      "sma200_pct_dist": -6.42,
+      "support": 2.857,
+      "resistance": 3.396
+    },
+    {
+      "name": "PutCall",
+      "level": null,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "risk_off",
+      "jolt_24h": null
+    },
+    {
+      "name": "10Y_2Y_curve",
+      "level": 0.92,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "risk_on",
+      "jolt_24h": null
+    }
+  ],
+  "macro_signals": [
+    {
+      "instrument": "SPY",
+      "signal_type": "RSI_POSTURE",
+      "active": false,
+      "trigger_val": 50.79,
+      "backtest_verdict": "n/a",
+      "edge_text": "SPY RSI 50.8 \u2014 trend / no fade edge.",
+      "note": null
+    },
+    {
+      "instrument": "DXY",
+      "signal_type": "DXY_METALS_TAG",
+      "active": true,
+      "dxy_trend": "RISING",
+      "dxy_level": 99.88,
+      "metals_tag": "headwind",
+      "tagged_instruments": [
+        "Gold",
+        "Silver",
+        "Copper"
+      ],
+      "backtest_verdict": "HOLDS",
+      "backtest_ref": "T1: DXY\u2194Gold HOLDS (corr=-0.445, sus=0.70), DXY\u2194Silver HOLDS (corr=-0.411), DXY\u2194Copper HOLDS (corr=-0.419)",
+      "edge_text": "DXY above both 21d and 50d SMA \u2192 rising trend. Durable headwind for Gold, Silver, Copper (DXY\u2194Gold corr=-0.45 sustained 70% of rolling 24-month windows)."
+    },
+    {
+      "instrument": "Oil_WTI",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 42.25,
+      "backtest_verdict": "WEAK",
+      "edge_text": "WTI mean-reversion: no edge (oversold \u2192 kept falling; T2 WTI_RSI_OVS edge=-3.87%, hit=51%). Trend / no mean-reversion signal."
+    },
+    {
+      "instrument": "TLT",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 51.13,
+      "backtest_verdict": "DOESN'T HOLD",
+      "edge_text": "TLT BB/RSI mean-reversion: DOESN'T HOLD (T2 TLT_BB_OVS DOESN'T HOLD, TLT_RSI_OVB DOESN'T HOLD). Trend / no mean-reversion signal."
+    },
+    {
+      "instrument": "10Y_yield",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 55.24,
+      "backtest_verdict": "DOESN'T HOLD",
+      "edge_text": "10Y yield ceiling: DOESN'T HOLD (T3: yield continued rising 53% of the time; mean delta +0.03pp after signal). Trend / no mean-reversion signal."
+    }
+  ],
+  "sp500_breadth": {
+    "bullish_pct": 50.2,
+    "bearish_pct": 29.4,
+    "neutral_pct": 20.4,
+    "n": 480,
+    "source": "sp500",
+    "threshold_pct": 1.5
+  },
+  "sectors": [
+    {
+      "etf": "XLK",
+      "name": "Technology",
+      "chg_1d": 2.15,
+      "chg_5d": -5.92,
+      "chg_21d": 8.54,
+      "pct_above_50sma": 12.28,
+      "pct_above_200sma": 22.04,
+      "trend": "UP",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 1.72,
+      "jolt_24h": "XLK +2.15% today",
+      "is_leader": false
+    },
+    {
+      "etf": "XLF",
+      "name": "Financials",
+      "chg_1d": -0.63,
+      "chg_5d": 1.05,
+      "chg_21d": 0.81,
+      "pct_above_50sma": 1.26,
+      "pct_above_200sma": -0.18,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLV",
+      "name": "Health Care",
+      "chg_1d": -0.24,
+      "chg_5d": 3.25,
+      "chg_21d": 5.48,
+      "pct_above_50sma": 3.91,
+      "pct_above_200sma": 0.99,
+      "trend": "UP",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": true
+    },
+    {
+      "etf": "XLE",
+      "name": "Energy",
+      "chg_1d": 1.14,
+      "chg_5d": 1.8,
+      "chg_21d": 4.25,
+      "pct_above_50sma": 0.42,
+      "pct_above_200sma": 8.11,
+      "trend": "UP",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLE crossed ABOVE 50 SMA",
+      "is_leader": false
+    },
+    {
+      "etf": "XLI",
+      "name": "Industrials",
+      "chg_1d": -0.32,
+      "chg_5d": 0.71,
+      "chg_21d": -0.21,
+      "pct_above_50sma": 1.39,
+      "pct_above_200sma": 3.51,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLB",
+      "name": "Materials",
+      "chg_1d": -1.32,
+      "chg_5d": -1.89,
+      "chg_21d": -2.8,
+      "pct_above_50sma": -2.29,
+      "pct_above_200sma": 0.21,
+      "trend": "DOWN",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLU",
+      "name": "Utilities",
+      "chg_1d": -1.87,
+      "chg_5d": 0.97,
+      "chg_21d": -3.55,
+      "pct_above_50sma": -4.19,
+      "pct_above_200sma": -2.48,
+      "trend": "DOWN",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLP",
+      "name": "Consumer Staples",
+      "chg_1d": -0.44,
+      "chg_5d": 1.27,
+      "chg_21d": -1.08,
+      "pct_above_50sma": -0.12,
+      "pct_above_200sma": 0.25,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLP fell BELOW 50 SMA",
+      "is_leader": false
+    },
+    {
+      "etf": "XLY",
+      "name": "Consumer Discretionary",
+      "chg_1d": 0.46,
+      "chg_5d": -2.37,
+      "chg_21d": -3.75,
+      "pct_above_50sma": -0.86,
+      "pct_above_200sma": -1.63,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.01,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLRE",
+      "name": "Real Estate",
+      "chg_1d": 2.13,
+      "chg_5d": 3.4,
+      "chg_21d": 1.26,
+      "pct_above_50sma": 3.04,
+      "pct_above_200sma": 6.35,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLRE +2.13% today",
+      "is_leader": true
+    },
+    {
+      "etf": "XLC",
+      "name": "Communication Services",
+      "chg_1d": 0.35,
+      "chg_5d": -1.84,
+      "chg_21d": -4.67,
+      "pct_above_50sma": -3.21,
+      "pct_above_200sma": -3.53,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.42,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "SPY",
+      "name": "S&P 500",
+      "chg_1d": 0.23,
+      "chg_5d": -2.55,
+      "chg_21d": 1.04,
+      "pct_above_50sma": 3.33,
+      "pct_above_200sma": 6.41,
+      "trend": "SIDEWAYS",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "QQQ",
+      "name": "Nasdaq 100",
+      "chg_1d": -1.15,
+      "chg_5d": -5.14,
+      "chg_21d": -0.48,
+      "pct_above_50sma": 5.09,
+      "pct_above_200sma": 11.38,
+      "trend": "SIDEWAYS",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "IWM",
+      "name": "Russell 2000",
+      "chg_1d": 0.32,
+      "chg_5d": -2.28,
+      "chg_21d": 0.3,
+      "pct_above_50sma": 3.38,
+      "pct_above_200sma": 7.86,
+      "trend": "SIDEWAYS",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    }
+  ],
+  "industries": [
+    {
+      "industry": "Consumer Electronics",
+      "sector_etf": "XLK",
+      "chg_21d": 2.12,
+      "trend": "UP",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 2.25,
+      "why": "ACCEL bullish \u00b7 accel 2.2\u00d7 \u00b7 +2.1% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Software - Infrastructure",
+      "sector_etf": "XLK",
+      "chg_21d": -0.14,
+      "trend": "SIDEWAYS",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 1.99,
+      "why": "ACCEL bullish \u00b7 accel 2.0\u00d7 \u00b7 -0.1% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "unmapped",
+      "sector_etf": null,
+      "chg_21d": null,
+      "trend": "SIDEWAYS",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 3.32,
+      "why": "ACCEL bullish \u00b7 accel 3.3\u00d7",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Internet Content & Information",
+      "sector_etf": "XLC",
+      "chg_21d": -5.96,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.42,
+      "why": "HOLDING bullish \u00b7 -6.0% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Internet Retail",
+      "sector_etf": "XLY",
+      "chg_21d": 0.94,
+      "trend": "SIDEWAYS",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.01,
+      "why": "HOLDING bullish \u00b7 +0.9% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "chg_21d": -3.79,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.48,
+      "why": "HOLDING bullish \u00b7 -3.8% 21d",
+      "jolt_24h": null
+    }
+  ],
+  "tickers_by_industry": [
+    {
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "industry_why": "ACCEL bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": 2.9,
+        "gain_pctile": 17,
+        "as_of_month": "2026-06",
+        "read": "Only 1 month into a heat spell that typically runs 7 months, with just +3% of gain versus a typical +18%. Early innings \u2014 runway, not ceiling."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "FTNT",
+          "chg_1d": -2.07,
+          "chg_5d": -7.48,
+          "chg_21d": 17.4,
+          "pct_above_50sma": 27.44,
+          "flow_score": 5.68,
+          "flow_cls": "LEAN BULLISH",
+          "flow_premium": 2052086.0,
+          "coil_pct": 87.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Software ACCEL \u00b7 SM LEAN BULLISH $2.1M \u00b7 coil 88%"
+        },
+        {
+          "ticker": "TWLO",
+          "chg_1d": -2.78,
+          "chg_5d": -12.44,
+          "chg_21d": 0.21,
+          "pct_above_50sma": 15.89,
+          "flow_score": 7.93,
+          "flow_cls": "BULLISH",
+          "flow_premium": 876859.0,
+          "coil_pct": 78.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Software ACCEL \u00b7 SM BULLISH $0.9M \u00b7 coil 79%"
+        }
+      ],
+      "opportunities": [
+        {
+          "ticker": "TWLO",
+          "chg_1d": -2.78,
+          "chg_5d": -12.44,
+          "chg_21d": 0.21,
+          "pct_above_50sma": 15.89,
+          "flow_score": 7.93,
+          "flow_cls": "BULLISH",
+          "flow_premium": 876859.0,
+          "coil_pct": 78.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Software ACCEL \u00b7 SM BULLISH $0.9M \u00b7 coil 79%"
+        }
+      ]
+    },
+    {
+      "industry": "Consumer Electronics",
+      "sector": "Technology",
+      "industry_why": "ACCEL bullish",
+      "trend": "UP",
+      "heat": null,
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "RIME",
+          "chg_1d": -6.64,
+          "chg_5d": -1.55,
+          "chg_21d": 12.13,
+          "pct_above_50sma": -23.56,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Consumer ACCEL"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 13,
+        "time_pctile": 67,
+        "spell_gain_pct": 258.1,
+        "gain_pctile": 99,
+        "as_of_month": "2026-06",
+        "read": "Hot for 13 months \u2014 about typical length \u2014 but up +258%, matching the largest run on record over 11 years. Spells this extended have historically had near-zero median remaining gain; ceiling territory, manage exits rather than entries."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "MU",
+          "chg_1d": -3.84,
+          "chg_5d": -16.64,
+          "chg_21d": 13.15,
+          "pct_above_50sma": 37.94,
+          "flow_score": null,
+          "flow_cls": "LEAN BULLISH",
+          "flow_premium": null,
+          "coil_pct": null,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 14,
+          "why": "SM LEAN BULLISH \u00b7 earnings 14d"
+        },
+        {
+          "ticker": "AMD",
+          "chg_1d": -3.17,
+          "chg_5d": -15.13,
+          "chg_21d": 0.36,
+          "pct_above_50sma": 22.72,
+          "flow_score": null,
+          "flow_cls": "BEARISH",
+          "flow_premium": null,
+          "coil_pct": null,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 55,
+          "why": "continuation setup"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -5.2,
+        "gain_pctile": 22,
+        "as_of_month": "2026-06",
+        "read": "Just 1 month into a heat spell that typically runs 6 months, and gain is actually -5% versus a typical +4%. Early and underbuilt \u2014 plenty of runway if the trend holds."
+      },
+      "driver": null,
+      "leaders": [],
+      "opportunities": [
+        {
+          "ticker": "RDDT",
+          "chg_1d": -2.39,
+          "chg_5d": 2.57,
+          "chg_21d": 8.99,
+          "pct_above_50sma": 10.56,
+          "flow_score": 8.44,
+          "flow_cls": "BULLISH",
+          "flow_premium": 2752834.0,
+          "coil_pct": 70.9,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $2.8M \u00b7 coil 71%"
+        }
+      ]
+    },
+    {
+      "industry": "Internet Retail",
+      "sector": "Consumer Cyclical",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -3.8,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Choppy posture, only 1 month in versus a typical 3-month spell, with a small -4% drawdown. Too early to call direction; the spell hasn't matured."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "W",
+          "chg_1d": -1.33,
+          "chg_5d": 1.46,
+          "chg_21d": 14.68,
+          "pct_above_50sma": 0.16,
+          "flow_score": 2.14,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 1817446.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        },
+        {
+          "ticker": "RVLV",
+          "chg_1d": 2.07,
+          "chg_5d": 9.07,
+          "chg_21d": 11.06,
+          "pct_above_50sma": -6.9,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Apparel Retail",
+      "sector": "Consumer Cyclical",
+      "industry_why": "Apparel Retail",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 2,
+        "time_pctile": 0,
+        "spell_gain_pct": -1.8,
+        "gain_pctile": 35,
+        "as_of_month": "2026-06",
+        "read": "Hot 2 months versus a typical 4, but gain is -2% against a typical +1%. Heat tag without real price progress \u2014 watch for follow-through before trusting it."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "VSXY",
+          "chg_1d": -1.79,
+          "chg_5d": -6.77,
+          "chg_21d": 59.9,
+          "pct_above_50sma": 36.1,
+          "flow_score": 3.14,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 578183.0,
+          "coil_pct": 82.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 82%"
+        },
+        {
+          "ticker": "GCO",
+          "chg_1d": 0.03,
+          "chg_5d": 2.03,
+          "chg_21d": 21.0,
+          "pct_above_50sma": 14.74,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 74.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 74%"
+        },
+        {
+          "ticker": "CAL",
+          "chg_1d": -1.16,
+          "chg_5d": -3.61,
+          "chg_21d": 12.85,
+          "pct_above_50sma": 5.77,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 37040.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        },
+        {
+          "ticker": "TJX",
+          "chg_1d": -0.53,
+          "chg_5d": 3.86,
+          "chg_21d": 10.13,
+          "pct_above_50sma": 4.41,
+          "flow_score": 0.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 457169.0,
+          "coil_pct": 93.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 93%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Household & Personal Products",
+      "sector": "Consumer Defensive",
+      "industry_why": "Household & Personal Products",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "COLD",
+        "spell_months": 3,
+        "time_pctile": 12,
+        "spell_gain_pct": 2.2,
+        "gain_pctile": 49,
+        "as_of_month": "2026-06",
+        "read": "Cold spell at 3 months, right around typical length, with a minor +2% drift. Nothing stretched here \u2014 neither washed out nor extended."
+      },
+      "driver": null,
+      "leaders": [],
+      "opportunities": []
+    },
+    {
+      "industry": "Residential Construction",
+      "sector": "Consumer Cyclical",
+      "industry_why": "Residential Construction",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 5,
+        "time_pctile": 60,
+        "spell_gain_pct": -3.3,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Choppy 5 months, slightly longer than the typical 3-month spell, with a -3% drift. No clean signal \u2014 sideways and aging."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "TMHC",
+          "chg_1d": -0.17,
+          "chg_5d": -0.03,
+          "chg_21d": 20.61,
+          "pct_above_50sma": 16.75,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 98.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 98%"
+        },
+        {
+          "ticker": "CVCO",
+          "chg_1d": 0.0,
+          "chg_5d": 5.93,
+          "chg_21d": 19.35,
+          "pct_above_50sma": 13.45,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 89.1,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 89%"
+        },
+        {
+          "ticker": "MTH",
+          "chg_1d": -0.12,
+          "chg_5d": 7.29,
+          "chg_21d": 12.87,
+          "pct_above_50sma": 9.6,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 81.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 82%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Integrated Freight & Logistics",
+      "sector": "Industrials",
+      "industry_why": "Integrated Freight & Logistics",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 3,
+        "time_pctile": 40,
+        "spell_gain_pct": 5.0,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Choppy 3 months, right at typical length, with a modest +5% gain. Neutral posture, no edge either direction."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "CYRX",
+          "chg_1d": 0.0,
+          "chg_5d": -3.49,
+          "chg_21d": 11.69,
+          "pct_above_50sma": 26.64,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 75.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 75%"
+        },
+        {
+          "ticker": "PAL",
+          "chg_1d": 1.12,
+          "chg_5d": 34.55,
+          "chg_21d": 31.28,
+          "pct_above_50sma": 25.09,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        },
+        {
+          "ticker": "LSTR",
+          "chg_1d": -1.1,
+          "chg_5d": 2.67,
+          "chg_21d": 23.52,
+          "pct_above_50sma": 19.36,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 47517.0,
+          "coil_pct": 89.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 89%"
+        },
+        {
+          "ticker": "RLGT",
+          "chg_1d": -0.44,
+          "chg_5d": 7.93,
+          "chg_21d": 15.59,
+          "pct_above_50sma": 10.93,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 77.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 78%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Auto & Truck Dealerships",
+      "sector": "Consumer Cyclical",
+      "industry_why": "Auto & Truck Dealerships",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -4.5,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Choppy and only 1 month in versus a typical 3-month spell, down -4%. Too early and too directionless to read."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "KMX",
+          "chg_1d": -0.79,
+          "chg_5d": 3.48,
+          "chg_21d": 21.88,
+          "pct_above_50sma": 15.4,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 142134.0,
+          "coil_pct": 94.9,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 95%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "REIT - Office",
+      "sector": "Real Estate",
+      "industry_why": "REIT - Office",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "COLD",
+        "spell_months": 7,
+        "time_pctile": 100,
+        "spell_gain_pct": -10.6,
+        "gain_pctile": 23,
+        "as_of_month": "2026-06",
+        "read": "Cold for 7 months \u2014 among the longest cold spells on record versus a typical 4 months \u2014 with -11% damage. Deeply extended on the downside; watch for stabilization, but no rush to anticipate a turn."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "CUZ",
+          "chg_1d": 0.0,
+          "chg_5d": 7.27,
+          "chg_21d": 11.18,
+          "pct_above_50sma": 14.84,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 53000.0,
+          "coil_pct": 95.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 95%"
+        },
+        {
+          "ticker": "PDM",
+          "chg_1d": -1.08,
+          "chg_5d": 8.18,
+          "chg_21d": 10.13,
+          "pct_above_50sma": 14.28,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 89.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 89%"
+        },
+        {
+          "ticker": "BXP",
+          "chg_1d": -0.35,
+          "chg_5d": 9.0,
+          "chg_21d": 12.62,
+          "pct_above_50sma": 13.98,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 97.9,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 98%"
+        },
+        {
+          "ticker": "BDN",
+          "chg_1d": 2.74,
+          "chg_5d": 10.49,
+          "chg_21d": 10.86,
+          "pct_above_50sma": 13.84,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 84.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 84%"
+        },
+        {
+          "ticker": "ARE",
+          "chg_1d": -0.79,
+          "chg_5d": 2.46,
+          "chg_21d": 14.2,
+          "pct_above_50sma": 12.63,
+          "flow_score": 0.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 618057.0,
+          "coil_pct": 75.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 76%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Drug Manufacturers - General",
+      "sector": "Healthcare",
+      "industry_why": "Drug Manufacturers - General",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 10,
+        "time_pctile": 90,
+        "spell_gain_pct": 29.1,
+        "gain_pctile": 87,
+        "as_of_month": "2026-06",
+        "read": "Hot for 10 months \u2014 among the longest hot streaks on record versus a typical 4 \u2014 with +29% gain near the all-time record of +48%. Late innings; runway is thinning even if trend persists."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "LLY",
+          "chg_1d": -0.32,
+          "chg_5d": 5.77,
+          "chg_21d": 18.0,
+          "pct_above_50sma": 15.43,
+          "flow_score": 8.72,
+          "flow_cls": "BULLISH",
+          "flow_premium": 10777709.0,
+          "coil_pct": 84.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 56,
+          "why": "SM BULLISH $10.8M \u00b7 coil 84%"
+        },
+        {
+          "ticker": "ABBV",
+          "chg_1d": 0.35,
+          "chg_5d": 4.19,
+          "chg_21d": 11.56,
+          "pct_above_50sma": 7.5,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 518958.0,
+          "coil_pct": 89.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 50,
+          "why": "coil 89%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Trucking",
+      "sector": "Industrials",
+      "industry_why": "Trucking",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 5,
+        "time_pctile": 46,
+        "spell_gain_pct": 63.7,
+        "gain_pctile": 99,
+        "as_of_month": "2026-06",
+        "read": "Hot 5 months, right at typical length, but +64% gain matches the largest run on record over 11 years. Exceptional move \u2014 runway is limited from here even without a formal ceiling flag."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "RXO",
+          "chg_1d": -3.64,
+          "chg_5d": 4.59,
+          "chg_21d": 35.56,
+          "pct_above_50sma": 35.48,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 91.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 91%"
+        },
+        {
+          "ticker": "ARCB",
+          "chg_1d": -8.19,
+          "chg_5d": 11.9,
+          "chg_21d": 34.43,
+          "pct_above_50sma": 28.65,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 56000.0,
+          "coil_pct": 98.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 99%"
+        },
+        {
+          "ticker": "CVLG",
+          "chg_1d": -2.4,
+          "chg_5d": 4.36,
+          "chg_21d": 34.97,
+          "pct_above_50sma": 28.23,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 94.9,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 95%"
+        },
+        {
+          "ticker": "WERN",
+          "chg_1d": -1.16,
+          "chg_5d": -0.08,
+          "chg_21d": 21.42,
+          "pct_above_50sma": 18.43,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 93.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 94%"
+        },
+        {
+          "ticker": "KNX",
+          "chg_1d": -4.17,
+          "chg_5d": -1.62,
+          "chg_21d": 24.35,
+          "pct_above_50sma": 14.91,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 78648.0,
+          "coil_pct": 93.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 93%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Staffing & Employment Services",
+      "sector": "Industrials",
+      "industry_why": "Staffing & Employment Services",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -1.6,
+        "gain_pctile": 25,
+        "as_of_month": "2026-06",
+        "read": "Only 1 month into a heat spell that typically runs 6 months, with -2% gain versus a typical +15%. Very early and underbuilt \u2014 heat tag without price confirmation yet."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "TBI",
+          "chg_1d": 2.74,
+          "chg_5d": 0.0,
+          "chg_21d": 25.28,
+          "pct_above_50sma": 28.83,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 75.1,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 75%"
+        },
+        {
+          "ticker": "KFRC",
+          "chg_1d": 0.0,
+          "chg_5d": -0.04,
+          "chg_21d": 10.19,
+          "pct_above_50sma": 24.41,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 87.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 88%"
+        },
+        {
+          "ticker": "KELYA",
+          "chg_1d": 0.0,
+          "chg_5d": 1.39,
+          "chg_21d": 18.64,
+          "pct_above_50sma": 17.64,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 84.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 85%"
+        },
+        {
+          "ticker": "MAN",
+          "chg_1d": -0.77,
+          "chg_5d": 6.68,
+          "chg_21d": 11.92,
+          "pct_above_50sma": 8.92,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 87.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 88%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Security & Protection Services",
+      "sector": "Industrials",
+      "industry_why": "Security & Protection Services",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 5,
+        "time_pctile": 50,
+        "spell_gain_pct": -3.1,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Choppy 5 months, right at typical length, with a -3% drift. Sideways and aging \u2014 no directional edge."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "GEO",
+          "chg_1d": -0.48,
+          "chg_5d": 13.98,
+          "chg_21d": 25.64,
+          "pct_above_50sma": 29.23,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 228206.0,
+          "coil_pct": 92.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $0.2M \u00b7 coil 92%"
+        }
+      ],
+      "opportunities": []
+    }
+  ],
+  "rotation": {
+    "into": [
+      {
+        "group": "Consumer Electronics",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 2.25
+      },
+      {
+        "group": "Software - Infrastructure",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 1.99
+      },
+      {
+        "group": "unmapped",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 3.32
+      }
+    ],
+    "outof": [],
+    "flips": [],
+    "new_entrants": [],
+    "commodity_leads": []
+  },
+  "themes": {
+    "active": [
+      {
+        "name": "AI Infrastructure Build-Out \u2014 Mega-Cap Compute & Software",
+        "stage": "CHASING",
+        "driver": "EQUITY_FLOW_DRIVEN",
+        "conviction": 8,
+        "health": 8.0,
+        "status": "HEALTHY",
+        "day_n": 9,
+        "watchlist": [
+          "NVDA",
+          "MSFT",
+          "META",
+          "AAPL",
+          "PLTR",
+          "QQQ",
+          "INTC"
+        ],
+        "thesis": "Institutional capital is concentrating into the AI compute stack \u2014 silicon (NVDA, INTC), infrastructure software (MSFT, PLTR), and the platform/ad layer monetizing inference (META, AAPL). With VIX at 15.88, bullish put/call, and SPY above 50SMA, the TRANSITIONAL regime is being expressed through quality mega-cap tech rather than broad risk-on, suggesting capital is rotating UP the quality curve rather than out.",
+        "evidence": "XLK accel_ratio 1.715 and QQQ accel_ratio 3.323 (14d bull rate 3.3x the 60d baseline) show genuine fresh acceleration, not just persistence. Software-Infrastructure (1.992) and Consumer Electronics (2.246) are leading the doubling-up.",
+        "invalidators": [
+          {
+            "condition": "XLK sector trajectory shifts to FADING_BULLISH or bearish",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "Software-Infrastructure or Semis industry trajectory degrades to HOLDING_BULLISH or below",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "FOMC (6/10) or CPI (6/11) prints hawkish surprise, DXY accelerates higher and breaks rate-sensitive growth multiples",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d/60d accel ratio falls below 1.0 across XLK industries",
+            "severity": "soft",
+            "triggered": false
+          },
+          {
+            "condition": "Lottery strike flow % crosses above 18% (retail blow-off signal)",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      },
+      {
+        "name": "Natural Gas Reversal \u2014 Early Commodity Flip",
+        "stage": "NEUTRAL",
+        "driver": "COMMODITY_DRIVEN",
+        "conviction": 4,
+        "health": 1.5,
+        "status": "BREAKING",
+        "day_n": 9,
+        "watchlist": [
+          "UNG",
+          "BOIL",
+          "EQT",
+          "AR",
+          "RRC",
+          "CHK",
+          "LNG"
+        ],
+        "thesis": "Natural gas has flipped from ACCELERATING_BEARISH to bullish (+0.37%/day 14d) while crude oil and broader energy commodities (USO, BNO, DBC) are flipping the other way \u2014 a divergence that historically signals supply-side gas tightening (storage draw, weather, or LNG export demand) independent of macro oil weakness. Early-stage and contrarian to the broader commodity tape.",
+        "evidence": "UNG is the ONLY commodity in the universe with a bearish-to-bullish flip; every other energy and ag commodity is rolling over. The asymmetry is the signal \u2014 but 60d base is still -9.96%, so this is an inflection trade, not a confirmed trend.",
+        "invalidators": [
+          {
+            "condition": "UNG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "UNG 14d %/day rate turns negative",
+            "severity": "hard",
+            "triggered": true
+          },
+          {
+            "condition": "EIA weekly storage report prints materially above estimates (bearish surprise)",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d rate decelerates below +0.15%/day for 5 consecutive sessions",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      }
+    ],
+    "fading": [
+      {
+        "name": "Precious Metals & Inflation Hedge Complex",
+        "stage": "DISTRIBUTING",
+        "reason": "GLD, SLV, GDX, GDXJ all ACCELERATING_BEARISH with SLV at -0.97%/day and miners (GDX -0.69%/day, GDXJ -0.80%/day) leading the bleed \u2014 classic hedge unwind as DXY rises and equity risk appetite holds.",
+        "exit_guidance": "Exit any residual gold/silver/miner exposure on strength; do not initiate. Stop logic: invalidate fade only if GLD prints two consecutive sessions of >+0.5% with rising DXY (genuine safe-haven re-bid).",
+        "exit_tickers": [
+          "GLD",
+          "SLV",
+          "GDX",
+          "GDXJ"
+        ]
+      },
+      {
+        "name": "Broad Commodity & Agriculture Reflation",
+        "stage": "DISTRIBUTING",
+        "reason": "DBC, GSG, DBA, WEAT, CORN, SOYB all flipped or accelerating bearish; crude (USO -0.35%/day, BNO -0.51%/day) joining the rollover. Despite copper holding +14.9% 60d, the broader complex is exiting.",
+        "exit_guidance": "Exit broad commodity ETFs and ag longs; copper-specific exposure (CPER) is FADING_BULLISH but not yet bearish \u2014 trim, don't dump. Stop: re-enter only if DXY trend flips and DBC reclaims 14d positive rate.",
+        "exit_tickers": [
+          "USO",
+          "BNO",
+          "DBO",
+          "DBC",
+          "GSG",
+          "DBA",
+          "WEAT",
+          "CORN",
+          "SOYB",
+          "URA"
+        ]
+      }
+    ],
+    "coverage": "Universe is heavily skewed to mega-cap tech (XLK/XLC/XLY) and commodity ETFs \u2014 no visibility into Financials (XLF), Industrials (XLI), Healthcare (XLV), Energy equities (XLE constituents), or small/mid-cap rotation. Cannot assess whether the AI bid is broadening down-cap or whether Financials are benefiting from the rising DXY/steeper curve (10y2y at 0.835)."
+  },
+  "options_positioning": {
+    "as_of": "2026-06-10T13:06:09.032479+00:00",
+    "signal_date": "2026-06-10",
+    "n_instruments": 22,
+    "universe": [
+      "SPY",
+      "QQQ",
+      "MMM",
+      "LLY",
+      "AXON",
+      "AVTR",
+      "GM",
+      "UNH",
+      "GWW",
+      "RCL",
+      "RDDT",
+      "GEO",
+      "MGNI",
+      "CSX",
+      "TWLO",
+      "CNC",
+      "GE",
+      "FTNT",
+      "FITB",
+      "AMGN",
+      "PRKS",
+      "ABBV"
+    ],
+    "uw_call_count": 88,
+    "instruments": [
+      {
+        "ticker": "SPY",
+        "spot": 732.79,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "SPY no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "QQQ",
+        "spot": 701.35,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "QQQ no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "MMM",
+        "spot": 155.06,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "MMM no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "LLY",
+        "spot": 1139.0,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "LLY no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "AXON",
+        "spot": 443.06,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "AXON no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "AVTR",
+        "spot": 9.96,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "AVTR no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "GM",
+        "spot": 83.52,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "GM no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "UNH",
+        "spot": 412.87,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "UNH no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "GWW",
+        "spot": 1336.31,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "GWW no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "RCL",
+        "spot": 279.01,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "RCL no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "RDDT",
+        "spot": 174.11,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "RDDT no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "GEO",
+        "spot": 27.23,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "GEO no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "MGNI",
+        "spot": 15.7,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "MGNI no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "CSX",
+        "spot": 46.9,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "CSX no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "TWLO",
+        "spot": 200.72,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "TWLO no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "CNC",
+        "spot": 66.33,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "CNC no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "GE",
+        "spot": 328.42,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "GE no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "FTNT",
+        "spot": 136.7,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "FTNT no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "FITB",
+        "spot": 52.71,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "FITB no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "AMGN",
+        "spot": 343.61,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "AMGN no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "PRKS",
+        "spot": 44.51,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "PRKS no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "ABBV",
+        "spot": 226.44,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "ABBV no GEX data (options chain not returned by UW for this session); put flow quiet."
+      }
+    ],
+    "caveat": "GEX assumes a dealer-positioning sign convention (model, not observed): dealers long calls / short puts. UW data is current-session snapshots, so this tool is forward-only / not backtestable."
+  },
+  "ledger": {
+    "by_signal_type": [
+      {
+        "signal_type": "track_b_continuation",
+        "n_resolved": 0,
+        "hit_rate": null,
+        "avg_fwd_return": null,
+        "n_pending": 2641
+      },
+      {
+        "signal_type": "track_b_reversal",
+        "n_resolved": 0,
+        "hit_rate": null,
+        "avg_fwd_return": null,
+        "n_pending": 450
+      },
+      {
+        "signal_type": "slow",
+        "n_resolved": 39,
+        "hit_rate": 25.6,
+        "avg_fwd_return": null,
+        "n_pending": 74
+      }
+    ],
+    "stage_behavior": [
+      {
+        "stage": "NEUTRAL",
+        "n": 2210,
+        "played_out_pct": 0.0
+      },
+      {
+        "stage": "BULLISH",
+        "n": 191,
+        "played_out_pct": 0.0
+      },
+      {
+        "stage": "LEAN BULLISH",
+        "n": 79,
+        "played_out_pct": 0.0
+      }
+    ]
+  },
+  "newsletter": "**[THE SPINE]** Dollar strength is the dominant force this week, and it is doing the heavy lifting under the tape. DXY at 99.98 is up 2.1% on the 21-day, sits above both its 21d and 50d SMAs with RSI 62, and the backtested DXY_METALS_TAG signal is ACTIVE. Everything downstream \u2014 the metals washout, the energy softness, the rotation into domestic compute names \u2014 traces back to this single thread.\n\n**[CROSS-ASSET LENS]** The macro backdrop ratifies the spine but with frayed edges. Regime is CHOPPY (confidence 4/10, transitional), VIX is in BACKWARDATION at 21.59 (+15.8% on 21d) \u2014 a real caution flag against complacency \u2014 and the curve is steepening with 5Y +5.8% and 10Y +3.6% on the month. Gold is RSI 26.7 and below its lower Bollinger, Silver RSI 28.6 after a -24.7% 21d collapse; per our rules these are trending oversold, not reverting \u2014 and with DXY ACTIVE as a durable headwind (corr -0.45 sustained), I am not reaching for the falling knife. WTI at 89.77 is similarly in a downtrend, not a setup. TLT and the 10Y are posture-only \u2014 no ceiling call, no mean-reversion trade.\n\n**[SECTOR & ROTATION LENS]** Money is flowing into compute and defensives, not cyclicals. XLK leads at +8.5% on 21d (ACCELERATING_BULLISH, +12.3% vs 50SMA), XLV at +5.5% is the quiet leader, and rotation flows are concentrated in Consumer Electronics, Software \u2013 Infrastructure, and unmapped AI-adjacent names. The other side: QQQ -0.5%, XLI -0.2%, XLP -1.1%. Nothing is rotating *out* yet \u2014 no flips, no new exits \u2014 which means this is a narrowing tape, not a broadening one.\n\n**[WHERE THE OPPORTUNITY IS]** Semiconductors have already run \u2014 HOT 13 months, +258% gain matching the all-time record, CEILING flagged. That is exit-management territory, not entry territory. The in-range setups with smart-money flow sit one layer back: TWLO in Software \u2013 Infrastructure (bullish flow, 78.5% coiled, industry only 1 month into a heat spell that typically runs 7) and RDDT in Internet Content & Information (bullish flow, 70.9% coiled, industry 1 month into a typical 6-month run). Both industries are early-innings with runway; both names are coiled rather than extended. That is the asymmetry.\n\n**[WHAT TO WATCH]** The tripwire is DXY 100.54 resistance. A clean break above and the metals/commodity bleed deepens, the AI-domestic-compute trade tightens further, and CHOPPY likely resolves down. A rejection at 100.54 with VIX term structure re-inverting back to contango would be the first real signal that the dollar spine is cracking and breadth can repair. Also note: any bounce in Gold/Silver from here should be treated as a retest candidate, not a bottom \u2014 88% of washout lows get retested within 60 days."
+}
