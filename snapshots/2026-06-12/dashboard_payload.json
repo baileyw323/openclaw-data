@@ -1,0 +1,4751 @@
+{
+  "as_of": "2026-06-12T13:13:14+00:00",
+  "signal_date": "2026-06-12",
+  "macro": {
+    "regime_label": "CHOPPY",
+    "basis": {
+      "spy_21d_pct": -0.06,
+      "spy_pct_above_50sma": 2.31,
+      "spy_pct_above_200sma": 6.04,
+      "sectors_gics_total": 11,
+      "sectors_above_50sma_count": 8,
+      "sectors_above_200sma_count": 8,
+      "breadth_pct_sectors_above_50sma": 72.7,
+      "breadth_pct_sectors_above_200sma": 72.7,
+      "regime_vote": "TRANSITIONAL",
+      "confidence": 8,
+      "regime_score_breakdown": [
+        {
+          "indicator": "VIX",
+          "value": 19.16,
+          "vote": 0
+        },
+        {
+          "indicator": "SPY_vs_50SMA",
+          "value": "ABOVE",
+          "vote": 1
+        },
+        {
+          "indicator": "yield_curve_10y2y",
+          "value": 0.84,
+          "vote": 1
+        },
+        {
+          "indicator": "DXY_trend",
+          "value": "RISING",
+          "vote": 0
+        },
+        {
+          "indicator": "put_call",
+          "value": "BULLISH",
+          "vote": 1
+        }
+      ]
+    },
+    "jolts_24h": [
+      {
+        "level": "macro",
+        "subject": "SPY",
+        "kind": "magnitude",
+        "detail": "SPY moved +1.70% (threshold \u00b11.5%)"
+      },
+      {
+        "level": "macro",
+        "subject": "VIX",
+        "kind": "magnitude",
+        "detail": "VIX moved -10.7% to 19.2"
+      }
+    ]
+  },
+  "cross_asset": [
+    {
+      "name": "SPY",
+      "level": 737.76,
+      "trend_21d_pct": -0.06,
+      "chg_24h_pct": 1.7,
+      "dir": "risk_on",
+      "jolt_24h": null,
+      "rsi": 50.31,
+      "bb_pct_b": 0.3,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 2.31,
+      "sma200_above": true,
+      "sma200_pct_dist": 7.93,
+      "support": 731.53,
+      "resistance": 749.53
+    },
+    {
+      "name": "TLT",
+      "level": 85.98,
+      "trend_21d_pct": 1.56,
+      "chg_24h_pct": 1.3,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 58.42,
+      "bb_pct_b": 0.855,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 0.81,
+      "sma200_above": false,
+      "sma200_pct_dist": -0.41,
+      "support": 85.5464,
+      "resistance": 86.7075
+    },
+    {
+      "name": "VIX",
+      "level": 19.16,
+      "trend_21d_pct": 12.75,
+      "chg_24h_pct": 0.1,
+      "dir": "neutral",
+      "jolt_24h": "VIX -10.7% to 19.16",
+      "rsi": 53.81,
+      "bb_pct_b": 0.729,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 6.42,
+      "sma200_above": true,
+      "sma200_pct_dist": 4.92,
+      "support": 16.87,
+      "resistance": 21.56,
+      "term_structure": "CONTANGO"
+    },
+    {
+      "name": "VIX3M",
+      "level": 21.42,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": null,
+      "bb_pct_b": null,
+      "bb_state": null,
+      "sma50_above": null,
+      "sma50_pct_dist": null,
+      "sma200_above": null,
+      "sma200_pct_dist": null,
+      "support": null,
+      "resistance": null,
+      "term_structure": "CONTANGO"
+    },
+    {
+      "name": "2Y_yield",
+      "level": 3.62,
+      "trend_21d_pct": 0.56,
+      "chg_24h_pct": -0.08,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 57.18,
+      "bb_pct_b": 0.681,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 0.56,
+      "sma200_above": false,
+      "sma200_pct_dist": -1.38,
+      "support": 3.585,
+      "resistance": 3.63
+    },
+    {
+      "name": "5Y_yield",
+      "level": 4.21,
+      "trend_21d_pct": 1.91,
+      "chg_24h_pct": 0.45,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 53.76,
+      "bb_pct_b": 0.415,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 3.22,
+      "sma200_above": true,
+      "sma200_pct_dist": 10.55,
+      "support": 4.121,
+      "resistance": 4.297
+    },
+    {
+      "name": "10Y_yield",
+      "level": 4.49,
+      "trend_21d_pct": 0.13,
+      "chg_24h_pct": 0.54,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 50.8,
+      "bb_pct_b": 0.348,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 1.56,
+      "sma200_above": true,
+      "sma200_pct_dist": 6.57,
+      "support": 4.426,
+      "resistance": 4.687
+    },
+    {
+      "name": "DXY",
+      "level": 99.81,
+      "trend_21d_pct": 1.37,
+      "chg_24h_pct": -0.03,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 60.53,
+      "bb_pct_b": 0.768,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 0.94,
+      "sma200_above": true,
+      "sma200_pct_dist": 1.2,
+      "support": 98.88,
+      "resistance": 100.54
+    },
+    {
+      "name": "Gold",
+      "level": 4229.1,
+      "trend_21d_pct": -10.22,
+      "chg_24h_pct": 3.11,
+      "dir": "risk_off",
+      "jolt_24h": "Gold +3.3% to 4229.10",
+      "rsi": 35.64,
+      "bb_pct_b": 0.153,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -8.07,
+      "sma200_above": false,
+      "sma200_pct_dist": -4.57,
+      "support": 4100.7998,
+      "resistance": 4591.7998
+    },
+    {
+      "name": "Silver",
+      "level": 66.84,
+      "trend_21d_pct": -24.8,
+      "chg_24h_pct": 4.63,
+      "dir": "neutral",
+      "jolt_24h": "Silver +5.1% to 66.84",
+      "rsi": 36.74,
+      "bb_pct_b": 0.176,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -11.53,
+      "sma200_above": false,
+      "sma200_pct_dist": -0.51,
+      "support": 61.09,
+      "resistance": 82.83
+    },
+    {
+      "name": "Copper",
+      "level": 6.38,
+      "trend_21d_pct": -3.96,
+      "chg_24h_pct": 1.82,
+      "dir": "risk_on",
+      "jolt_24h": null,
+      "rsi": 53.43,
+      "bb_pct_b": 0.556,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 3.6,
+      "sma200_above": true,
+      "sma200_pct_dist": 15.22,
+      "support": 6.12,
+      "resistance": 6.645
+    },
+    {
+      "name": "Oil_WTI",
+      "level": 84.97,
+      "trend_21d_pct": -15.87,
+      "chg_24h_pct": -3.1,
+      "dir": "neutral",
+      "jolt_24h": "Oil_WTI -5.2% to 84.97",
+      "rsi": 38.12,
+      "bb_pct_b": 0.166,
+      "bb_state": "mid",
+      "sma50_above": false,
+      "sma50_pct_dist": -12.15,
+      "sma200_above": true,
+      "sma200_pct_dist": 15.77,
+      "support": 84.37,
+      "resistance": 97.0
+    },
+    {
+      "name": "NatGas",
+      "level": 3.1,
+      "trend_21d_pct": 8.31,
+      "chg_24h_pct": 0.49,
+      "dir": "neutral",
+      "jolt_24h": null,
+      "rsi": 52.41,
+      "bb_pct_b": 0.472,
+      "bb_state": "mid",
+      "sma50_above": true,
+      "sma50_pct_dist": 7.73,
+      "sma200_above": false,
+      "sma200_pct_dist": -9.98,
+      "support": 2.857,
+      "resistance": 3.396
+    },
+    {
+      "name": "PutCall",
+      "level": null,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "risk_on",
+      "jolt_24h": null
+    },
+    {
+      "name": "10Y_2Y_curve",
+      "level": 0.84,
+      "trend_21d_pct": null,
+      "chg_24h_pct": null,
+      "dir": "risk_on",
+      "jolt_24h": null
+    }
+  ],
+  "macro_signals": [
+    {
+      "instrument": "SPY",
+      "signal_type": "RSI_POSTURE",
+      "active": false,
+      "trigger_val": 50.31,
+      "backtest_verdict": "n/a",
+      "edge_text": "SPY RSI 50.3 \u2014 trend / no fade edge.",
+      "note": null
+    },
+    {
+      "instrument": "DXY",
+      "signal_type": "DXY_METALS_TAG",
+      "active": true,
+      "dxy_trend": "RISING",
+      "dxy_level": 99.83,
+      "metals_tag": "headwind",
+      "tagged_instruments": [
+        "Gold",
+        "Silver",
+        "Copper"
+      ],
+      "backtest_verdict": "HOLDS",
+      "backtest_ref": "T1: DXY\u2194Gold HOLDS (corr=-0.445, sus=0.70), DXY\u2194Silver HOLDS (corr=-0.411), DXY\u2194Copper HOLDS (corr=-0.419)",
+      "edge_text": "DXY above both 21d and 50d SMA \u2192 rising trend. Durable headwind for Gold, Silver, Copper (DXY\u2194Gold corr=-0.45 sustained 70% of rolling 24-month windows)."
+    },
+    {
+      "instrument": "Oil_WTI",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 38.12,
+      "backtest_verdict": "WEAK",
+      "edge_text": "WTI mean-reversion: no edge (oversold \u2192 kept falling; T2 WTI_RSI_OVS edge=-3.87%, hit=51%). Trend / no mean-reversion signal."
+    },
+    {
+      "instrument": "TLT",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 58.42,
+      "backtest_verdict": "DOESN'T HOLD",
+      "edge_text": "TLT BB/RSI mean-reversion: DOESN'T HOLD (T2 TLT_BB_OVS DOESN'T HOLD, TLT_RSI_OVB DOESN'T HOLD). Trend / no mean-reversion signal."
+    },
+    {
+      "instrument": "10Y_yield",
+      "signal_type": "POSTURE_ONLY",
+      "active": false,
+      "trigger_val": 50.8,
+      "backtest_verdict": "DOESN'T HOLD",
+      "edge_text": "10Y yield ceiling: DOESN'T HOLD (T3: yield continued rising 53% of the time; mean delta +0.03pp after signal). Trend / no mean-reversion signal."
+    }
+  ],
+  "sp500_breadth": {
+    "bullish_pct": 43.8,
+    "bearish_pct": 21.7,
+    "neutral_pct": 34.6,
+    "n": 480,
+    "source": "sp500",
+    "threshold_pct": 1.5
+  },
+  "sectors": [
+    {
+      "etf": "XLK",
+      "name": "Technology",
+      "chg_1d": 3.73,
+      "chg_5d": -5.16,
+      "chg_21d": 4.57,
+      "pct_above_50sma": 9.68,
+      "pct_above_200sma": 20.79,
+      "trend": "UP",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 1.72,
+      "jolt_24h": "XLK +3.73% today",
+      "is_leader": false
+    },
+    {
+      "etf": "XLF",
+      "name": "Financials",
+      "chg_1d": 0.75,
+      "chg_5d": 0.82,
+      "chg_21d": 2.02,
+      "pct_above_50sma": 2.06,
+      "pct_above_200sma": 1.11,
+      "trend": "UP",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": true
+    },
+    {
+      "etf": "XLV",
+      "name": "Health Care",
+      "chg_1d": 0.81,
+      "chg_5d": 1.32,
+      "chg_21d": 5.65,
+      "pct_above_50sma": 4.5,
+      "pct_above_200sma": 1.9,
+      "trend": "UP",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": true
+    },
+    {
+      "etf": "XLE",
+      "name": "Energy",
+      "chg_1d": -1.94,
+      "chg_5d": -2.77,
+      "chg_21d": -0.78,
+      "pct_above_50sma": -1.22,
+      "pct_above_200sma": 5.43,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLE fell BELOW 50 SMA",
+      "is_leader": false
+    },
+    {
+      "etf": "XLI",
+      "name": "Industrials",
+      "chg_1d": 3.24,
+      "chg_5d": -0.57,
+      "chg_21d": 0.46,
+      "pct_above_50sma": 1.76,
+      "pct_above_200sma": 4.21,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLI crossed ABOVE 50 SMA",
+      "is_leader": false
+    },
+    {
+      "etf": "XLB",
+      "name": "Materials",
+      "chg_1d": 3.27,
+      "chg_5d": -0.77,
+      "chg_21d": -1.76,
+      "pct_above_50sma": 0.03,
+      "pct_above_200sma": 2.52,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": "XLB crossed ABOVE 50 SMA",
+      "is_leader": false
+    },
+    {
+      "etf": "XLU",
+      "name": "Utilities",
+      "chg_1d": 0.11,
+      "chg_5d": 0.25,
+      "chg_21d": -2.52,
+      "pct_above_50sma": -2.79,
+      "pct_above_200sma": -1.35,
+      "trend": "DOWN",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "XLP",
+      "name": "Consumer Staples",
+      "chg_1d": -0.26,
+      "chg_5d": 3.94,
+      "chg_21d": 0.98,
+      "pct_above_50sma": 2.3,
+      "pct_above_200sma": 2.74,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": true
+    },
+    {
+      "etf": "XLY",
+      "name": "Consumer Discretionary",
+      "chg_1d": 2.48,
+      "chg_5d": -0.82,
+      "chg_21d": -1.68,
+      "pct_above_50sma": -0.51,
+      "pct_above_200sma": -0.79,
+      "trend": "SIDEWAYS",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.01,
+      "jolt_24h": "XLY +2.48% today",
+      "is_leader": false
+    },
+    {
+      "etf": "XLRE",
+      "name": "Real Estate",
+      "chg_1d": -0.16,
+      "chg_5d": 1.17,
+      "chg_21d": 0.76,
+      "pct_above_50sma": 2.51,
+      "pct_above_200sma": 6.03,
+      "trend": "SIDEWAYS",
+      "trajectory": "UNKNOWN",
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": true
+    },
+    {
+      "etf": "XLC",
+      "name": "Communication Services",
+      "chg_1d": 1.0,
+      "chg_5d": -0.88,
+      "chg_21d": -3.23,
+      "pct_above_50sma": -2.73,
+      "pct_above_200sma": -2.92,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.42,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "SPY",
+      "name": "S&P 500",
+      "chg_1d": 1.7,
+      "chg_5d": -2.55,
+      "chg_21d": -0.06,
+      "pct_above_50sma": 2.31,
+      "pct_above_200sma": 6.04,
+      "trend": "SIDEWAYS",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": null,
+      "is_leader": false
+    },
+    {
+      "etf": "QQQ",
+      "name": "Nasdaq 100",
+      "chg_1d": 3.38,
+      "chg_5d": -3.17,
+      "chg_21d": 1.4,
+      "pct_above_50sma": 5.6,
+      "pct_above_200sma": 12.62,
+      "trend": "SIDEWAYS",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": "QQQ +3.38% today",
+      "is_leader": false
+    },
+    {
+      "etf": "IWM",
+      "name": "Russell 2000",
+      "chg_1d": 2.96,
+      "chg_5d": -0.55,
+      "chg_21d": 2.77,
+      "pct_above_50sma": 4.7,
+      "pct_above_200sma": 9.69,
+      "trend": "UP",
+      "trajectory": null,
+      "accel": null,
+      "jolt_24h": "IWM +2.96% today",
+      "is_leader": false
+    }
+  ],
+  "industries": [
+    {
+      "industry": "Consumer Electronics",
+      "sector_etf": "XLK",
+      "chg_21d": -0.92,
+      "trend": "SIDEWAYS",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 2.25,
+      "why": "ACCEL bullish \u00b7 accel 2.2\u00d7 \u00b7 -0.9% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Software - Infrastructure",
+      "sector_etf": "XLK",
+      "chg_21d": 6.37,
+      "trend": "UP",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 1.99,
+      "why": "ACCEL bullish \u00b7 accel 2.0\u00d7 \u00b7 +6.4% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "unmapped",
+      "sector_etf": null,
+      "chg_21d": null,
+      "trend": "SIDEWAYS",
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel": 3.32,
+      "why": "ACCEL bullish \u00b7 accel 3.3\u00d7",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Internet Content & Information",
+      "sector_etf": "XLC",
+      "chg_21d": -3.24,
+      "trend": "DOWN",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.42,
+      "why": "HOLDING bullish \u00b7 -3.2% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Internet Retail",
+      "sector_etf": "XLY",
+      "chg_21d": 6.7,
+      "trend": "UP",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.01,
+      "why": "HOLDING bullish \u00b7 +6.7% 21d",
+      "jolt_24h": null
+    },
+    {
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "chg_21d": 1.83,
+      "trend": "SIDEWAYS",
+      "trajectory": "HOLDING_BULLISH",
+      "accel": 1.48,
+      "why": "HOLDING bullish \u00b7 +1.8% 21d",
+      "jolt_24h": null
+    }
+  ],
+  "tickers_by_industry": [
+    {
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "industry_why": "ACCEL bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": 2.9,
+        "gain_pctile": 17,
+        "as_of_month": "2026-06",
+        "read": "Only 1 month into a hot spell \u2014 short and early versus the typical 7-month run \u2014 and just +3% in versus a typical +18%. Plenty of runway historically; this looks like early innings, not late."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "DOCN",
+          "chg_1d": 0.31,
+          "chg_5d": 3.19,
+          "chg_21d": 10.12,
+          "pct_above_50sma": 34.18,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 3555346.0,
+          "coil_pct": 71.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Software ACCEL \u00b7 SM BULLISH $3.6M \u00b7 coil 71%"
+        },
+        {
+          "ticker": "FTNT",
+          "chg_1d": -0.37,
+          "chg_5d": -0.11,
+          "chg_21d": 22.8,
+          "pct_above_50sma": 32.65,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 962503.0,
+          "coil_pct": 70.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "Software ACCEL \u00b7 SM BULLISH $1.0M \u00b7 coil 70%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Consumer Electronics",
+      "sector": "Technology",
+      "industry_why": "ACCEL bullish",
+      "trend": "UP",
+      "heat": null,
+      "driver": null,
+      "leaders": [],
+      "opportunities": []
+    },
+    {
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -5.2,
+        "gain_pctile": 22,
+        "as_of_month": "2026-06",
+        "read": "Hot for just 1 month versus a typical 6-month run, and still -5% into the spell versus a typical +4% gain. Early-innings posture with room to extend if the trend confirms."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "PINS",
+          "chg_1d": -0.6,
+          "chg_5d": -0.23,
+          "chg_21d": 10.44,
+          "pct_above_50sma": 6.48,
+          "flow_score": 0.89,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 790589.0,
+          "coil_pct": 86.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 86%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 13,
+        "time_pctile": 67,
+        "spell_gain_pct": 258.1,
+        "gain_pctile": 99,
+        "as_of_month": "2026-06",
+        "read": "Hot for 13 months \u2014 a bit longer than the typical 8-month run \u2014 and up +258%, the largest gain on record for this group. Spells this extended have historically had near-zero median remaining gain; ceiling territory, manage exits rather than entries."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "MU",
+          "chg_1d": -3.44,
+          "chg_5d": 11.29,
+          "chg_21d": 19.66,
+          "pct_above_50sma": 41.99,
+          "flow_score": null,
+          "flow_cls": "BULLISH",
+          "flow_premium": null,
+          "coil_pct": null,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 12,
+          "why": "SM BULLISH \u00b7 earnings 12d"
+        },
+        {
+          "ticker": "AMD",
+          "chg_1d": 0.72,
+          "chg_5d": 5.49,
+          "chg_21d": 10.43,
+          "pct_above_50sma": 27.33,
+          "flow_score": null,
+          "flow_cls": "BEARISH",
+          "flow_premium": null,
+          "coil_pct": null,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 53,
+          "why": "continuation setup"
+        },
+        {
+          "ticker": "INTC",
+          "chg_1d": -1.44,
+          "chg_5d": 16.23,
+          "chg_21d": -4.17,
+          "pct_above_50sma": 20.7,
+          "flow_score": null,
+          "flow_cls": "BULLISH",
+          "flow_premium": null,
+          "coil_pct": null,
+          "bottoming": false,
+          "topping": true,
+          "days_to_earnings": 41,
+          "why": "SM BULLISH"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Internet Retail",
+      "sector": "Consumer Cyclical",
+      "industry_why": "HOLDING bullish",
+      "trend": "UP",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -3.8,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Only 1 month into a choppy spell \u2014 short versus the typical 3 months \u2014 and roughly -4% in. Early, mixed-character action; trend is up but the heat signal isn't decisive yet."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "ETSY",
+          "chg_1d": -1.35,
+          "chg_5d": 2.45,
+          "chg_21d": 19.34,
+          "pct_above_50sma": 9.89,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 251805.0,
+          "coil_pct": 86.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 87%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Banks - Regional",
+      "sector": "Financial",
+      "industry_why": "Banks - Regional",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "CHOPPY",
+        "spell_months": 3,
+        "time_pctile": 25,
+        "spell_gain_pct": 6.0,
+        "gain_pctile": 50,
+        "as_of_month": "2026-06",
+        "read": "Sideways for 3 months \u2014 still short by its own history."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "VLY",
+          "chg_1d": 0.07,
+          "chg_5d": 4.64,
+          "chg_21d": 10.92,
+          "pct_above_50sma": 7.45,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 85.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 85%"
+        },
+        {
+          "ticker": "FITB",
+          "chg_1d": 0.0,
+          "chg_5d": 2.71,
+          "chg_21d": 13.25,
+          "pct_above_50sma": 7.12,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 43989.0,
+          "coil_pct": 82.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 82%"
+        },
+        {
+          "ticker": "ZION",
+          "chg_1d": 0.06,
+          "chg_5d": 5.14,
+          "chg_21d": 11.47,
+          "pct_above_50sma": 7.11,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 89.6,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 90%"
+        },
+        {
+          "ticker": "CFG",
+          "chg_1d": 0.02,
+          "chg_5d": 3.97,
+          "chg_21d": 10.08,
+          "pct_above_50sma": 4.58,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 22885.0,
+          "coil_pct": 73.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 73%"
+        }
+      ],
+      "opportunities": [
+        {
+          "ticker": "USB",
+          "chg_1d": 0.51,
+          "chg_5d": 4.01,
+          "chg_21d": 9.83,
+          "pct_above_50sma": 4.75,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 543668.0,
+          "coil_pct": 84.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $0.5M \u00b7 coil 84%"
+        }
+      ]
+    },
+    {
+      "industry": "Credit Services",
+      "sector": "Financial",
+      "industry_why": "Credit Services",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -4.4,
+        "gain_pctile": 21,
+        "as_of_month": "2026-06",
+        "read": "Hot for just 1 month versus a typical 6, and still -4% into the spell. Very early and unproven; needs the trend to turn up from sideways to mean much."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "SEZL",
+          "chg_1d": 0.91,
+          "chg_5d": 12.06,
+          "chg_21d": 26.95,
+          "pct_above_50sma": 37.6,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 110520.0,
+          "coil_pct": 81.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 82%"
+        },
+        {
+          "ticker": "BFH",
+          "chg_1d": 0.86,
+          "chg_5d": 12.5,
+          "chg_21d": 22.92,
+          "pct_above_50sma": 17.91,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 86.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 87%"
+        },
+        {
+          "ticker": "ENVA",
+          "chg_1d": 0.22,
+          "chg_5d": 12.55,
+          "chg_21d": 16.39,
+          "pct_above_50sma": 16.04,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 88.1,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 88%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "REIT - Office",
+      "sector": "Real Estate",
+      "industry_why": "REIT - Office",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "COLD",
+        "spell_months": 7,
+        "time_pctile": 100,
+        "spell_gain_pct": -10.6,
+        "gain_pctile": 23,
+        "as_of_month": "2026-06",
+        "read": "Cold for 7 months \u2014 among the longest cold spells on record versus a typical 4 \u2014 with -11% damage. Trend sideways; extended cold spells can persist, but the setup is closer to exhaustion than acceleration."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "VNO",
+          "chg_1d": 1.33,
+          "chg_5d": 12.16,
+          "chg_21d": 28.67,
+          "pct_above_50sma": 26.6,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 90.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 90%"
+        },
+        {
+          "ticker": "HIW",
+          "chg_1d": 0.0,
+          "chg_5d": 8.5,
+          "chg_21d": 16.17,
+          "pct_above_50sma": 20.11,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 91.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 91%"
+        },
+        {
+          "ticker": "KRC",
+          "chg_1d": 0.0,
+          "chg_5d": 4.88,
+          "chg_21d": 11.43,
+          "pct_above_50sma": 16.77,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 87.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 87%"
+        },
+        {
+          "ticker": "FSP",
+          "chg_1d": 0.0,
+          "chg_5d": 23.75,
+          "chg_21d": 31.37,
+          "pct_above_50sma": 14.72,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 77.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 78%"
+        },
+        {
+          "ticker": "CUZ",
+          "chg_1d": 0.48,
+          "chg_5d": 5.09,
+          "chg_21d": 10.27,
+          "pct_above_50sma": 13.17,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 84.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 84%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Household & Personal Products",
+      "sector": "Consumer Defensive",
+      "industry_why": "Household & Personal Products",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "COLD",
+        "spell_months": 3,
+        "time_pctile": 12,
+        "spell_gain_pct": 2.2,
+        "gain_pctile": 49,
+        "as_of_month": "2026-06",
+        "read": "Cold for 3 months, right at the typical length, with only -2% of damage. Garden-variety cold spell; nothing extreme either direction."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "WALD",
+          "chg_1d": -4.84,
+          "chg_5d": 2.91,
+          "chg_21d": 7.27,
+          "pct_above_50sma": 38.06,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 86.1,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 86%"
+        },
+        {
+          "ticker": "NWL",
+          "chg_1d": 0.65,
+          "chg_5d": 25.0,
+          "chg_21d": 15.1,
+          "pct_above_50sma": 16.61,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 158562.0,
+          "coil_pct": 80.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $0.2M \u00b7 coil 80%"
+        },
+        {
+          "ticker": "EPC",
+          "chg_1d": 0.0,
+          "chg_5d": 8.96,
+          "chg_21d": 18.83,
+          "pct_above_50sma": 5.57,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 99.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 99%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Entertainment",
+      "sector": "Communication Services",
+      "industry_why": "Entertainment",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 2,
+        "time_pctile": 0,
+        "spell_gain_pct": 2.4,
+        "gain_pctile": 39,
+        "as_of_month": "2026-06",
+        "read": "Hot for 2 months versus a typical 5, with only +2% in. Early and underwhelming on gain \u2014 needs follow-through to matter."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "AMC",
+          "chg_1d": -2.19,
+          "chg_5d": 24.59,
+          "chg_21d": 67.68,
+          "pct_above_50sma": 38.58,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 292654.0,
+          "coil_pct": 85.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 86%"
+        },
+        {
+          "ticker": "CNK",
+          "chg_1d": -0.56,
+          "chg_5d": 8.29,
+          "chg_21d": 28.64,
+          "pct_above_50sma": 16.72,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 39360.0,
+          "coil_pct": 93.2,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 93%"
+        },
+        {
+          "ticker": "TKO",
+          "chg_1d": 0.37,
+          "chg_5d": 5.41,
+          "chg_21d": 16.77,
+          "pct_above_50sma": 10.91,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 40230.0,
+          "coil_pct": 81.4,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 81%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Specialty Industrial Machinery",
+      "sector": "Industrials",
+      "industry_why": "Specialty Industrial Machinery",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 5,
+        "time_pctile": 45,
+        "spell_gain_pct": 4.8,
+        "gain_pctile": 32,
+        "as_of_month": "2026-06",
+        "read": "Hot for 5 months \u2014 right at the typical length \u2014 but only +5% in versus a typical +8%. Mid-spell with below-average accumulation; neither early nor extended."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "FLS",
+          "chg_1d": 1.25,
+          "chg_5d": 7.59,
+          "chg_21d": 18.99,
+          "pct_above_50sma": 4.34,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Healthcare Plans",
+      "sector": "Healthcare",
+      "industry_why": "Healthcare Plans",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 2,
+        "time_pctile": 0,
+        "spell_gain_pct": 8.7,
+        "gain_pctile": 75,
+        "as_of_month": "2026-06",
+        "read": "Hot for 2 months versus a typical 3, but already +9% in \u2014 above most runs at this stage versus a typical +2%. Gain is running hot for its age; momentum is real but the easy part may be done."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "CLOV",
+          "chg_1d": -1.6,
+          "chg_5d": 25.89,
+          "chg_21d": 35.82,
+          "pct_above_50sma": 57.81,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 143966.0,
+          "coil_pct": 86.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 87%"
+        },
+        {
+          "ticker": "OSCR",
+          "chg_1d": -0.8,
+          "chg_5d": 17.01,
+          "chg_21d": 21.42,
+          "pct_above_50sma": 42.67,
+          "flow_score": 10.0,
+          "flow_cls": "BULLISH",
+          "flow_premium": 4190251.0,
+          "coil_pct": 84.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $4.2M \u00b7 coil 84%"
+        },
+        {
+          "ticker": "HUM",
+          "chg_1d": 0.08,
+          "chg_5d": 5.4,
+          "chg_21d": 21.04,
+          "pct_above_50sma": 38.05,
+          "flow_score": 8.04,
+          "flow_cls": "BULLISH",
+          "flow_premium": 2475372.0,
+          "coil_pct": 93.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "SM BULLISH $2.5M \u00b7 coil 94%"
+        },
+        {
+          "ticker": "PGNY",
+          "chg_1d": 0.0,
+          "chg_5d": -0.81,
+          "chg_21d": 9.1,
+          "pct_above_50sma": 20.07,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 86.0,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 86%"
+        },
+        {
+          "ticker": "ALHC",
+          "chg_1d": 0.05,
+          "chg_5d": 31.75,
+          "chg_21d": 10.84,
+          "pct_above_50sma": 8.71,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 32260.0,
+          "coil_pct": 95.8,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 96%"
+        }
+      ],
+      "opportunities": [
+        {
+          "ticker": "UNH",
+          "chg_1d": 0.05,
+          "chg_5d": 1.58,
+          "chg_21d": 1.15,
+          "pct_above_50sma": 11.57,
+          "flow_score": 6.96,
+          "flow_cls": "LEAN BULLISH",
+          "flow_premium": 8505595.0,
+          "coil_pct": 79.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": 34,
+          "why": "SM LEAN BULLISH $8.5M \u00b7 coil 79%"
+        }
+      ]
+    },
+    {
+      "industry": "REIT - Retail",
+      "sector": "Real Estate",
+      "industry_why": "REIT - Retail",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 5,
+        "time_pctile": 55,
+        "spell_gain_pct": 10.1,
+        "gain_pctile": 75,
+        "as_of_month": "2026-06",
+        "read": "Hot for 5 months versus a typical 4, with +10% accumulated \u2014 above most runs. Slightly extended on both clock and gain; not at the ceiling but past the early-innings window."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "MAC",
+          "chg_1d": -0.04,
+          "chg_5d": 5.66,
+          "chg_21d": 13.79,
+          "pct_above_50sma": 13.42,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 81.3,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 81%"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Diagnostics & Research",
+      "sector": "Healthcare",
+      "industry_why": "Diagnostics & Research",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "HOT",
+        "spell_months": 1,
+        "time_pctile": 0,
+        "spell_gain_pct": -2.2,
+        "gain_pctile": 12,
+        "as_of_month": "2026-06",
+        "read": "Hot for just 1 month versus a typical 8-month run, and still -2% into the spell. Very early; trend sideways means the signal hasn't proven itself yet."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "MEDP",
+          "chg_1d": 0.0,
+          "chg_5d": 4.58,
+          "chg_21d": 12.11,
+          "pct_above_50sma": 4.49,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 83.5,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 84%"
+        },
+        {
+          "ticker": "MTD",
+          "chg_1d": 0.04,
+          "chg_5d": -1.09,
+          "chg_21d": 11.33,
+          "pct_above_50sma": -5.4,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": null,
+          "bottoming": true,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "continuation setup"
+        }
+      ],
+      "opportunities": []
+    },
+    {
+      "industry": "Consulting Services",
+      "sector": "Industrials",
+      "industry_why": "Consulting Services",
+      "trend": "SIDEWAYS",
+      "heat": {
+        "state": "COLD",
+        "spell_months": 8,
+        "time_pctile": 50,
+        "spell_gain_pct": -13.0,
+        "gain_pctile": 25,
+        "as_of_month": "2026-06",
+        "read": "Cold for 8 months \u2014 right at the typical cold-spell length \u2014 with -13% of damage, worse than the typical -8%. Mature cold spell, closer to exhaustion than fresh weakness, but no turn signal yet."
+      },
+      "driver": null,
+      "leaders": [
+        {
+          "ticker": "VRSK",
+          "chg_1d": 0.55,
+          "chg_5d": 0.7,
+          "chg_21d": 13.33,
+          "pct_above_50sma": 4.17,
+          "flow_score": 5.0,
+          "flow_cls": "NEUTRAL",
+          "flow_premium": 0.0,
+          "coil_pct": 92.7,
+          "bottoming": false,
+          "topping": false,
+          "days_to_earnings": null,
+          "why": "coil 93%"
+        }
+      ],
+      "opportunities": []
+    }
+  ],
+  "rotation": {
+    "into": [
+      {
+        "group": "Consumer Electronics",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 2.25
+      },
+      {
+        "group": "Software - Infrastructure",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 1.99
+      },
+      {
+        "group": "unmapped",
+        "trajectory": "ACCELERATING_BULLISH",
+        "accel": 3.32
+      }
+    ],
+    "outof": [],
+    "flips": [],
+    "new_entrants": [],
+    "commodity_leads": []
+  },
+  "rotation_radar": {
+    "as_of": "2026-06-05",
+    "spy_regime": "bull",
+    "spy_drawdown_from_52wk_high_pct": -0.6,
+    "early_runway": [
+      {
+        "industry": "Computer Hardware",
+        "rs_rank_xs": 0.979,
+        "months_in_spell": 2,
+        "spell_frac": 0.5,
+        "spell_gain_pct": 49.6,
+        "rotation_score": 0.986,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Software - Infrastructure",
+        "rs_rank_xs": 0.937,
+        "months_in_spell": 1,
+        "spell_frac": 0.143,
+        "spell_gain_pct": 2.9,
+        "rotation_score": 0.957,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Pollution & Treatment Controls",
+        "rs_rank_xs": 0.989,
+        "months_in_spell": 1,
+        "spell_frac": 0.167,
+        "spell_gain_pct": 18.0,
+        "rotation_score": 0.946,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Utilities - Renewable",
+        "rs_rank_xs": 0.958,
+        "months_in_spell": 1,
+        "spell_frac": 0.333,
+        "spell_gain_pct": 2.5,
+        "rotation_score": 0.937,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Staffing & Employment Services",
+        "rs_rank_xs": 0.811,
+        "months_in_spell": 1,
+        "spell_frac": 0.182,
+        "spell_gain_pct": -1.6,
+        "rotation_score": 0.863,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Resorts & Casinos",
+        "rs_rank_xs": 0.768,
+        "months_in_spell": 2,
+        "spell_frac": 0.4,
+        "spell_gain_pct": 6.0,
+        "rotation_score": 0.858,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Scientific & Technical Instruments",
+        "rs_rank_xs": 1.0,
+        "months_in_spell": 1,
+        "spell_frac": 0.25,
+        "spell_gain_pct": -0.3,
+        "rotation_score": 0.858,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Software - Application",
+        "rs_rank_xs": 0.8,
+        "months_in_spell": 1,
+        "spell_frac": 0.167,
+        "spell_gain_pct": -2.3,
+        "rotation_score": 0.858,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Solar",
+        "rs_rank_xs": 0.884,
+        "months_in_spell": 1,
+        "spell_frac": 0.125,
+        "spell_gain_pct": -2.8,
+        "rotation_score": 0.846,
+        "h3_rs_turn": false
+      },
+      {
+        "industry": "Information Technology Services",
+        "rs_rank_xs": 0.895,
+        "months_in_spell": 1,
+        "spell_frac": 0.143,
+        "spell_gain_pct": 1.9,
+        "rotation_score": 0.836,
+        "h3_rs_turn": false
+      }
+    ],
+    "h3_rs_turn_early_detection": [
+      {
+        "industry": "Medical Devices",
+        "rs_rank_xs": 0.653,
+        "rs_z_52w": 0.4,
+        "months_in_spell": 4,
+        "heat_state": "COLD"
+      },
+      {
+        "industry": "Utilities - Regulated Electric",
+        "rs_rank_xs": 0.632,
+        "rs_z_52w": 0.03,
+        "months_in_spell": 1,
+        "heat_state": "CHOPPY"
+      },
+      {
+        "industry": "Security & Protection Services",
+        "rs_rank_xs": 0.6,
+        "rs_z_52w": 0.07,
+        "months_in_spell": 5,
+        "heat_state": "CHOPPY"
+      },
+      {
+        "industry": "Integrated Freight & Logistics",
+        "rs_rank_xs": 0.568,
+        "rs_z_52w": 0.06,
+        "months_in_spell": 3,
+        "heat_state": "CHOPPY"
+      },
+      {
+        "industry": "REIT - Retail",
+        "rs_rank_xs": 0.463,
+        "rs_z_52w": -0.47,
+        "months_in_spell": 5,
+        "heat_state": "HOT"
+      },
+      {
+        "industry": "REIT - Residential",
+        "rs_rank_xs": 0.442,
+        "rs_z_52w": -0.22,
+        "months_in_spell": 10,
+        "heat_state": "CHOPPY"
+      },
+      {
+        "industry": "Restaurants",
+        "rs_rank_xs": 0.421,
+        "rs_z_52w": -0.1,
+        "months_in_spell": 3,
+        "heat_state": "CHOPPY"
+      },
+      {
+        "industry": "Airlines",
+        "rs_rank_xs": 0.4,
+        "rs_z_52w": -0.4,
+        "months_in_spell": 3,
+        "heat_state": "COLD"
+      }
+    ],
+    "per_industry": {
+      "Advertising Agencies": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.25,
+        "spell_extended": false,
+        "spell_gain_pct": -1.6,
+        "rs_rank_xs": 0.526,
+        "rs_z_52w": 0.03,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.526,
+        "breadth_above50_rank": 0.474,
+        "rotation_score": 0.632,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Aerospace & Defense": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 0.588,
+        "spell_extended": false,
+        "spell_gain_pct": 12.4,
+        "rs_rank_xs": 0.863,
+        "rs_z_52w": 0.32,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.863,
+        "breadth_above50_rank": 0.553,
+        "rotation_score": 0.82,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Airlines": {
+        "heat_state": "COLD",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 12.8,
+        "rs_rank_xs": 0.4,
+        "rs_z_52w": -0.4,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.4,
+        "breadth_above50_rank": 0.711,
+        "rotation_score": 0.378,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Apparel Manufacturing": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": -3.2,
+        "rs_rank_xs": 0.274,
+        "rs_z_52w": -0.57,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.274,
+        "breadth_above50_rank": 0.474,
+        "rotation_score": 0.255,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Apparel Retail": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": -1.8,
+        "rs_rank_xs": 0.611,
+        "rs_z_52w": -0.43,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.611,
+        "breadth_above50_rank": 0.505,
+        "rotation_score": 0.682,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Asset Management": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.167,
+        "spell_extended": false,
+        "spell_gain_pct": -4.3,
+        "rs_rank_xs": 0.095,
+        "rs_z_52w": -1.41,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.095,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.132,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Auto & Truck Dealerships": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -4.5,
+        "rs_rank_xs": 0.053,
+        "rs_z_52w": -1.02,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.053,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.111,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Auto Manufacturers": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.25,
+        "spell_extended": false,
+        "spell_gain_pct": -4.8,
+        "rs_rank_xs": 0.505,
+        "rs_z_52w": -0.36,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.505,
+        "breadth_above50_rank": 0.711,
+        "rotation_score": 0.68,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Auto Parts": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 13.6,
+        "rs_rank_xs": 0.589,
+        "rs_z_52w": -0.4,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.589,
+        "breadth_above50_rank": 0.674,
+        "rotation_score": 0.463,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Banks - Regional": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 6.0,
+        "rs_rank_xs": 0.284,
+        "rs_z_52w": -0.75,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.284,
+        "breadth_above50_rank": 0.432,
+        "rotation_score": 0.25,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Beverages - Non-Alcoholic": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 11.2,
+        "rs_rank_xs": 0.516,
+        "rs_z_52w": -0.23,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.516,
+        "breadth_above50_rank": 0.763,
+        "rotation_score": 0.449,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Biotechnology": {
+        "heat_state": "CHOPPY",
+        "spell_months": 2,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -0.8,
+        "rs_rank_xs": 0.295,
+        "rs_z_52w": -1.43,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.295,
+        "breadth_above50_rank": 0.268,
+        "rotation_score": 0.214,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Broadcasting": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.667,
+        "spell_extended": false,
+        "spell_gain_pct": -15.9,
+        "rs_rank_xs": 0.021,
+        "rs_z_52w": -0.95,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.021,
+        "breadth_above50_rank": 0.042,
+        "rotation_score": 0.021,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": true
+      },
+      "Building Products & Equipment": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 12.5,
+        "rs_rank_xs": 0.495,
+        "rs_z_52w": -0.1,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.495,
+        "breadth_above50_rank": 0.505,
+        "rotation_score": 0.374,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Capital Markets": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.286,
+        "spell_extended": false,
+        "spell_gain_pct": 13.7,
+        "rs_rank_xs": 0.726,
+        "rs_z_52w": -0.29,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.726,
+        "breadth_above50_rank": 0.674,
+        "rotation_score": 0.782,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Chemicals": {
+        "heat_state": "HOT",
+        "spell_months": 11,
+        "spell_frac": 1.692,
+        "spell_extended": false,
+        "spell_gain_pct": 37.0,
+        "rs_rank_xs": 0.621,
+        "rs_z_52w": -0.23,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.621,
+        "breadth_above50_rank": 0.121,
+        "rotation_score": 0.341,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Communication Equipment": {
+        "heat_state": "HOT",
+        "spell_months": 12,
+        "spell_frac": 1.6,
+        "spell_extended": false,
+        "spell_gain_pct": 215.5,
+        "rs_rank_xs": 0.905,
+        "rs_z_52w": 0.64,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.905,
+        "breadth_above50_rank": 0.921,
+        "rotation_score": 0.683,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Computer Hardware": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": 49.6,
+        "rs_rank_xs": 0.979,
+        "rs_z_52w": 1.81,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.979,
+        "breadth_above50_rank": 0.984,
+        "rotation_score": 0.986,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Conglomerates": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 11.4,
+        "rs_rank_xs": 0.716,
+        "rs_z_52w": 0.04,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.716,
+        "breadth_above50_rank": 0.616,
+        "rotation_score": 0.512,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Consulting Services": {
+        "heat_state": "COLD",
+        "spell_months": 8,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -13.0,
+        "rs_rank_xs": 0.116,
+        "rs_z_52w": -0.65,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.116,
+        "breadth_above50_rank": 0.068,
+        "rotation_score": 0.075,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Credit Services": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.167,
+        "spell_extended": false,
+        "spell_gain_pct": -4.4,
+        "rs_rank_xs": 0.347,
+        "rs_z_52w": -0.69,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.347,
+        "breadth_above50_rank": 0.226,
+        "rotation_score": 0.23,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Diagnostics & Research": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.125,
+        "spell_extended": false,
+        "spell_gain_pct": -2.2,
+        "rs_rank_xs": 0.842,
+        "rs_z_52w": 0.67,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.842,
+        "breadth_above50_rank": 0.432,
+        "rotation_score": 0.779,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Drug Manufacturers - General": {
+        "heat_state": "HOT",
+        "spell_months": 10,
+        "spell_frac": 2.5,
+        "spell_extended": true,
+        "spell_gain_pct": 29.1,
+        "rs_rank_xs": 0.674,
+        "rs_z_52w": -0.03,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.674,
+        "breadth_above50_rank": 0.195,
+        "rotation_score": 0.386,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Drug Manufacturers - Specialty & Generic": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": 0.6,
+        "rs_rank_xs": 0.147,
+        "rs_z_52w": -1.82,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.147,
+        "breadth_above50_rank": 0.226,
+        "rotation_score": 0.13,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Education & Training Services": {
+        "heat_state": "HOT",
+        "spell_months": 3,
+        "spell_frac": 0.6,
+        "spell_extended": false,
+        "spell_gain_pct": 2.5,
+        "rs_rank_xs": 0.232,
+        "rs_z_52w": -0.2,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.232,
+        "breadth_above50_rank": 0.505,
+        "rotation_score": 0.242,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Electrical Equipment & Parts": {
+        "heat_state": "HOT",
+        "spell_months": 12,
+        "spell_frac": 3.0,
+        "spell_extended": true,
+        "spell_gain_pct": 178.4,
+        "rs_rank_xs": 0.916,
+        "rs_z_52w": 0.6,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.916,
+        "breadth_above50_rank": 0.868,
+        "rotation_score": 0.675,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Electronic Components": {
+        "heat_state": "HOT",
+        "spell_months": 13,
+        "spell_frac": 2.6,
+        "spell_extended": true,
+        "spell_gain_pct": 207.9,
+        "rs_rank_xs": 0.926,
+        "rs_z_52w": 1.18,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.926,
+        "breadth_above50_rank": 0.937,
+        "rotation_score": 0.697,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Electronic Gaming & Multimedia": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.4,
+        "spell_extended": false,
+        "spell_gain_pct": -7.6,
+        "rs_rank_xs": 0.874,
+        "rs_z_52w": 0.74,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.874,
+        "breadth_above50_rank": 0.868,
+        "rotation_score": 0.904,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": true
+      },
+      "Engineering & Construction": {
+        "heat_state": "HOT",
+        "spell_months": 13,
+        "spell_frac": 2.167,
+        "spell_extended": true,
+        "spell_gain_pct": 96.6,
+        "rs_rank_xs": 0.537,
+        "rs_z_52w": -1.11,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.537,
+        "breadth_above50_rank": 0.763,
+        "rotation_score": 0.459,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Entertainment": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.4,
+        "spell_extended": false,
+        "spell_gain_pct": 2.4,
+        "rs_rank_xs": 0.547,
+        "rs_z_52w": -0.36,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.547,
+        "breadth_above50_rank": 0.763,
+        "rotation_score": 0.714,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Farm & Heavy Construction Machinery": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 46.3,
+        "rs_rank_xs": 0.779,
+        "rs_z_52w": 0.11,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.779,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.474,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Farm Products": {
+        "heat_state": "COLD",
+        "spell_months": 7,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -32.3,
+        "rs_rank_xs": 0.684,
+        "rs_z_52w": 0.65,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.684,
+        "breadth_above50_rank": 0.068,
+        "rotation_score": 0.359,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Financial Data & Stock Exchanges": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -5.1,
+        "rs_rank_xs": 0.158,
+        "rs_z_52w": -0.64,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.158,
+        "breadth_above50_rank": 0.121,
+        "rotation_score": 0.109,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Footwear & Accessories": {
+        "heat_state": "COLD",
+        "spell_months": 7,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 12.7,
+        "rs_rank_xs": 0.453,
+        "rs_z_52w": -0.29,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.453,
+        "breadth_above50_rank": 0.226,
+        "rotation_score": 0.283,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Furnishings, Fixtures & Appliances": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.222,
+        "spell_extended": false,
+        "spell_gain_pct": -2.9,
+        "rs_rank_xs": 0.368,
+        "rs_z_52w": -0.5,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.368,
+        "breadth_above50_rank": 0.432,
+        "rotation_score": 0.292,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Gold": {
+        "heat_state": "HOT",
+        "spell_months": 15,
+        "spell_frac": 3.0,
+        "spell_extended": true,
+        "spell_gain_pct": 201.6,
+        "rs_rank_xs": 0.011,
+        "rs_z_52w": -1.5,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.011,
+        "breadth_above50_rank": 0.016,
+        "rotation_score": 0.009,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": true
+      },
+      "Grocery Stores": {
+        "heat_state": "COLD",
+        "spell_months": 8,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -14.2,
+        "rs_rank_xs": 0.789,
+        "rs_z_52w": 1.82,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.789,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.479,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Health Information Services": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.182,
+        "spell_extended": false,
+        "spell_gain_pct": -2.8,
+        "rs_rank_xs": 0.558,
+        "rs_z_52w": 0.14,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.558,
+        "breadth_above50_rank": 0.674,
+        "rotation_score": 0.697,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Healthcare Plans": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.667,
+        "spell_extended": false,
+        "spell_gain_pct": 8.7,
+        "rs_rank_xs": 0.642,
+        "rs_z_52w": -0.06,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.642,
+        "breadth_above50_rank": 0.884,
+        "rotation_score": 0.542,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Household & Personal Products": {
+        "heat_state": "COLD",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 2.2,
+        "rs_rank_xs": 0.074,
+        "rs_z_52w": -1.07,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.074,
+        "breadth_above50_rank": 0.158,
+        "rotation_score": 0.076,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Industrial Distribution": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 11.6,
+        "rs_rank_xs": 0.389,
+        "rs_z_52w": -0.66,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.389,
+        "breadth_above50_rank": 0.579,
+        "rotation_score": 0.339,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Information Technology Services": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.143,
+        "spell_extended": false,
+        "spell_gain_pct": 1.9,
+        "rs_rank_xs": 0.895,
+        "rs_z_52w": 1.48,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.895,
+        "breadth_above50_rank": 0.553,
+        "rotation_score": 0.836,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Insurance - Life": {
+        "heat_state": "HOT",
+        "spell_months": 10,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 6.1,
+        "rs_rank_xs": 0.221,
+        "rs_z_52w": -0.96,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.221,
+        "breadth_above50_rank": 0.253,
+        "rotation_score": 0.174,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Insurance - Property & Casualty": {
+        "heat_state": "CHOPPY",
+        "spell_months": 12,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -3.1,
+        "rs_rank_xs": 0.211,
+        "rs_z_52w": -0.84,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.211,
+        "breadth_above50_rank": 0.068,
+        "rotation_score": 0.122,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Insurance - Specialty": {
+        "heat_state": "COLD",
+        "spell_months": 4,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -8.8,
+        "rs_rank_xs": 0.137,
+        "rs_z_52w": -1.04,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.137,
+        "breadth_above50_rank": 0.095,
+        "rotation_score": 0.092,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Insurance Brokers": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -3.7,
+        "rs_rank_xs": 0.042,
+        "rs_z_52w": -1.16,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.042,
+        "breadth_above50_rank": 0.032,
+        "rotation_score": 0.029,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Integrated Freight & Logistics": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 5.0,
+        "rs_rank_xs": 0.568,
+        "rs_z_52w": 0.06,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.568,
+        "breadth_above50_rank": 0.637,
+        "rotation_score": 0.443,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Internet Content & Information": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.182,
+        "spell_extended": false,
+        "spell_gain_pct": -5.2,
+        "rs_rank_xs": 0.063,
+        "rs_z_52w": -1.05,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.063,
+        "breadth_above50_rank": 0.379,
+        "rotation_score": 0.126,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Internet Retail": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -3.8,
+        "rs_rank_xs": 0.084,
+        "rs_z_52w": -0.77,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.084,
+        "breadth_above50_rank": 0.284,
+        "rotation_score": 0.113,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Leisure": {
+        "heat_state": "CHOPPY",
+        "spell_months": 6,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 4.1,
+        "rs_rank_xs": 0.263,
+        "rs_z_52w": -0.55,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.263,
+        "breadth_above50_rank": 0.389,
+        "rotation_score": 0.229,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Medical Care Facilities": {
+        "heat_state": "HOT",
+        "spell_months": 8,
+        "spell_frac": 1.6,
+        "spell_extended": false,
+        "spell_gain_pct": 42.6,
+        "rs_rank_xs": 0.326,
+        "rs_z_52w": -0.83,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.326,
+        "breadth_above50_rank": 0.432,
+        "rotation_score": 0.271,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Medical Devices": {
+        "heat_state": "COLD",
+        "spell_months": 4,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -13.0,
+        "rs_rank_xs": 0.653,
+        "rs_z_52w": 0.4,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.653,
+        "breadth_above50_rank": 0.226,
+        "rotation_score": 0.383,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Medical Instruments & Supplies": {
+        "heat_state": "COLD",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 0.9,
+        "rs_rank_xs": 0.305,
+        "rs_z_52w": -0.58,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.305,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.237,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Metal Fabrication": {
+        "heat_state": "HOT",
+        "spell_months": 6,
+        "spell_frac": 1.5,
+        "spell_extended": false,
+        "spell_gain_pct": 20.5,
+        "rs_rank_xs": 0.853,
+        "rs_z_52w": 0.89,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.853,
+        "breadth_above50_rank": 0.789,
+        "rotation_score": 0.624,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Oil & Gas E&P": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 23.8,
+        "rs_rank_xs": 0.758,
+        "rs_z_52w": 0.12,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.758,
+        "breadth_above50_rank": 0.179,
+        "rotation_score": 0.424,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Oil & Gas Equipment & Services": {
+        "heat_state": "HOT",
+        "spell_months": 11,
+        "spell_frac": 2.75,
+        "spell_extended": true,
+        "spell_gain_pct": 88.8,
+        "rs_rank_xs": 0.747,
+        "rs_z_52w": -0.27,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.747,
+        "breadth_above50_rank": 0.921,
+        "rotation_score": 0.604,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Oil & Gas Midstream": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 3.4,
+        "rs_rank_xs": 0.663,
+        "rs_z_52w": -0.05,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.663,
+        "breadth_above50_rank": 0.674,
+        "rotation_score": 0.5,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Oil & Gas Refining & Marketing": {
+        "heat_state": "HOT",
+        "spell_months": 3,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": 5.4,
+        "rs_rank_xs": 0.705,
+        "rs_z_52w": -0.14,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.705,
+        "breadth_above50_rank": 0.905,
+        "rotation_score": 0.829,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Other Industrial Metals & Mining": {
+        "heat_state": "HOT",
+        "spell_months": 21,
+        "spell_frac": 5.25,
+        "spell_extended": true,
+        "spell_gain_pct": 369.7,
+        "rs_rank_xs": 0.337,
+        "rs_z_52w": -0.7,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.337,
+        "breadth_above50_rank": 0.737,
+        "rotation_score": 0.353,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Packaged Foods": {
+        "heat_state": "COLD",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -7.8,
+        "rs_rank_xs": 0.2,
+        "rs_z_52w": -0.36,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.2,
+        "breadth_above50_rank": 0.121,
+        "rotation_score": 0.13,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Packaging & Containers": {
+        "heat_state": "COLD",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 3.5,
+        "rs_rank_xs": 0.242,
+        "rs_z_52w": -0.43,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.242,
+        "breadth_above50_rank": 0.4,
+        "rotation_score": 0.221,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Pollution & Treatment Controls": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.167,
+        "spell_extended": false,
+        "spell_gain_pct": 18.0,
+        "rs_rank_xs": 0.989,
+        "rs_z_52w": 3.93,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.989,
+        "breadth_above50_rank": 0.805,
+        "rotation_score": 0.946,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Diversified": {
+        "heat_state": "CHOPPY",
+        "spell_months": 5,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -0.4,
+        "rs_rank_xs": 0.432,
+        "rs_z_52w": -0.47,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.432,
+        "breadth_above50_rank": 0.553,
+        "rotation_score": 0.354,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Healthcare Facilities": {
+        "heat_state": "HOT",
+        "spell_months": 10,
+        "spell_frac": 2.0,
+        "spell_extended": true,
+        "spell_gain_pct": 18.5,
+        "rs_rank_xs": 0.179,
+        "rs_z_52w": -1.72,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.179,
+        "breadth_above50_rank": 0.295,
+        "rotation_score": 0.163,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Hotel & Motel": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.111,
+        "spell_extended": false,
+        "spell_gain_pct": 26.2,
+        "rs_rank_xs": 0.821,
+        "rs_z_52w": 0.69,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.821,
+        "breadth_above50_rank": 0.984,
+        "rotation_score": 0.657,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Industrial": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": 2.2,
+        "rs_rank_xs": 0.316,
+        "rs_z_52w": -1.03,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.316,
+        "breadth_above50_rank": 0.595,
+        "rotation_score": 0.307,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Mortgage": {
+        "heat_state": "CHOPPY",
+        "spell_months": 12,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 4.6,
+        "rs_rank_xs": 0.105,
+        "rs_z_52w": -1.71,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.105,
+        "breadth_above50_rank": 0.121,
+        "rotation_score": 0.083,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Office": {
+        "heat_state": "COLD",
+        "spell_months": 7,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -10.6,
+        "rs_rank_xs": 0.379,
+        "rs_z_52w": -0.2,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.379,
+        "breadth_above50_rank": 0.853,
+        "rotation_score": 0.403,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Residential": {
+        "heat_state": "CHOPPY",
+        "spell_months": 10,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -1.8,
+        "rs_rank_xs": 0.442,
+        "rs_z_52w": -0.22,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.442,
+        "breadth_above50_rank": 0.637,
+        "rotation_score": 0.38,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Retail": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.111,
+        "spell_extended": false,
+        "spell_gain_pct": 10.1,
+        "rs_rank_xs": 0.463,
+        "rs_z_52w": -0.47,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.463,
+        "breadth_above50_rank": 0.674,
+        "rotation_score": 0.4,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "REIT - Specialty": {
+        "heat_state": "HOT",
+        "spell_months": 4,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 1.9,
+        "rs_rank_xs": 0.484,
+        "rs_z_52w": -0.24,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.484,
+        "breadth_above50_rank": 0.726,
+        "rotation_score": 0.424,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Real Estate Services": {
+        "heat_state": "COLD",
+        "spell_months": 6,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -35.0,
+        "rs_rank_xs": 0.032,
+        "rs_z_52w": -0.89,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.032,
+        "breadth_above50_rank": 0.147,
+        "rotation_score": 0.053,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Recreational Vehicles": {
+        "heat_state": "COLD",
+        "spell_months": 4,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -10.2,
+        "rs_rank_xs": 0.168,
+        "rs_z_52w": -0.66,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.168,
+        "breadth_above50_rank": 0.195,
+        "rotation_score": 0.133,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Rental & Leasing Services": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 15.5,
+        "rs_rank_xs": 0.579,
+        "rs_z_52w": -0.21,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.579,
+        "breadth_above50_rank": 0.595,
+        "rotation_score": 0.438,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Residential Construction": {
+        "heat_state": "CHOPPY",
+        "spell_months": 5,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -3.3,
+        "rs_rank_xs": 0.737,
+        "rs_z_52w": 0.36,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.737,
+        "breadth_above50_rank": 0.474,
+        "rotation_score": 0.487,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Resorts & Casinos": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.4,
+        "spell_extended": false,
+        "spell_gain_pct": 6.0,
+        "rs_rank_xs": 0.768,
+        "rs_z_52w": 0.41,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.768,
+        "breadth_above50_rank": 0.895,
+        "rotation_score": 0.858,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Restaurants": {
+        "heat_state": "CHOPPY",
+        "spell_months": 3,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 4.7,
+        "rs_rank_xs": 0.421,
+        "rs_z_52w": -0.1,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.421,
+        "breadth_above50_rank": 0.268,
+        "rotation_score": 0.278,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Scientific & Technical Instruments": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.25,
+        "spell_extended": false,
+        "spell_gain_pct": -0.3,
+        "rs_rank_xs": 1.0,
+        "rs_z_52w": 6.57,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 1.0,
+        "breadth_above50_rank": 0.432,
+        "rotation_score": 0.858,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Security & Protection Services": {
+        "heat_state": "CHOPPY",
+        "spell_months": 5,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -3.1,
+        "rs_rank_xs": 0.6,
+        "rs_z_52w": 0.07,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.6,
+        "breadth_above50_rank": 0.526,
+        "rotation_score": 0.432,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Semiconductor Equipment & Materials": {
+        "heat_state": "HOT",
+        "spell_months": 12,
+        "spell_frac": 1.091,
+        "spell_extended": false,
+        "spell_gain_pct": 287.9,
+        "rs_rank_xs": 0.832,
+        "rs_z_52w": -0.55,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.832,
+        "breadth_above50_rank": 0.953,
+        "rotation_score": 0.654,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Semiconductors": {
+        "heat_state": "HOT",
+        "spell_months": 13,
+        "spell_frac": 1.529,
+        "spell_extended": false,
+        "spell_gain_pct": 258.1,
+        "rs_rank_xs": 0.947,
+        "rs_z_52w": 0.96,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.947,
+        "breadth_above50_rank": 0.984,
+        "rotation_score": 0.72,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Software - Application": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.167,
+        "spell_extended": false,
+        "spell_gain_pct": -2.3,
+        "rs_rank_xs": 0.8,
+        "rs_z_52w": 1.2,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.8,
+        "breadth_above50_rank": 0.832,
+        "rotation_score": 0.858,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Software - Infrastructure": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.143,
+        "spell_extended": false,
+        "spell_gain_pct": 2.9,
+        "rs_rank_xs": 0.937,
+        "rs_z_52w": 1.68,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.937,
+        "breadth_above50_rank": 0.953,
+        "rotation_score": 0.957,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Solar": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.125,
+        "spell_extended": false,
+        "spell_gain_pct": -2.8,
+        "rs_rank_xs": 0.884,
+        "rs_z_52w": 0.83,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.884,
+        "breadth_above50_rank": 0.616,
+        "rotation_score": 0.846,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Specialty Business Services": {
+        "heat_state": "HOT",
+        "spell_months": 2,
+        "spell_frac": 0.5,
+        "spell_extended": false,
+        "spell_gain_pct": -0.6,
+        "rs_rank_xs": 0.411,
+        "rs_z_52w": -0.79,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.411,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.289,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Specialty Chemicals": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.667,
+        "spell_extended": false,
+        "spell_gain_pct": 24.0,
+        "rs_rank_xs": 0.474,
+        "rs_z_52w": -0.76,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.474,
+        "breadth_above50_rank": 0.763,
+        "rotation_score": 0.428,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Specialty Industrial Machinery": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 4.8,
+        "rs_rank_xs": 0.189,
+        "rs_z_52w": -1.25,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.189,
+        "breadth_above50_rank": 0.553,
+        "rotation_score": 0.233,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Specialty Retail": {
+        "heat_state": "COLD",
+        "spell_months": 2,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -0.9,
+        "rs_rank_xs": 0.358,
+        "rs_z_52w": -0.58,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.358,
+        "breadth_above50_rank": 0.337,
+        "rotation_score": 0.263,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Staffing & Employment Services": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.182,
+        "spell_extended": false,
+        "spell_gain_pct": -1.6,
+        "rs_rank_xs": 0.811,
+        "rs_z_52w": 0.64,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.811,
+        "breadth_above50_rank": 0.832,
+        "rotation_score": 0.863,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Telecom Services": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -5.3,
+        "rs_rank_xs": 0.126,
+        "rs_z_52w": -0.94,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.126,
+        "breadth_above50_rank": 0.168,
+        "rotation_score": 0.105,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "neutral",
+        "excluded_from_group_counts": false
+      },
+      "Travel Services": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.167,
+        "spell_extended": false,
+        "spell_gain_pct": 0.2,
+        "rs_rank_xs": 0.695,
+        "rs_z_52w": 0.2,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.695,
+        "breadth_above50_rank": 0.805,
+        "rotation_score": 0.799,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      },
+      "Trucking": {
+        "heat_state": "HOT",
+        "spell_months": 5,
+        "spell_frac": 1.0,
+        "spell_extended": false,
+        "spell_gain_pct": 63.7,
+        "rs_rank_xs": 0.968,
+        "rs_z_52w": 2.9,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.968,
+        "breadth_above50_rank": 0.984,
+        "rotation_score": 0.73,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": false,
+        "tailwind": "late_hot",
+        "excluded_from_group_counts": false
+      },
+      "Utilities - Regulated Electric": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": 0.7,
+        "rs_rank_xs": 0.632,
+        "rs_z_52w": 0.03,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.632,
+        "breadth_above50_rank": 0.068,
+        "rotation_score": 0.333,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Utilities - Regulated Gas": {
+        "heat_state": "CHOPPY",
+        "spell_months": 1,
+        "spell_frac": null,
+        "spell_extended": false,
+        "spell_gain_pct": -0.1,
+        "rs_rank_xs": 0.253,
+        "rs_z_52w": -0.9,
+        "rs_turn_flag": true,
+        "mom_rank_4w": 0.253,
+        "breadth_above50_rank": 0.016,
+        "rotation_score": 0.13,
+        "is_early_hot": false,
+        "h1_signal": false,
+        "h3_signal": true,
+        "tailwind": "rs_turn",
+        "excluded_from_group_counts": false
+      },
+      "Utilities - Renewable": {
+        "heat_state": "HOT",
+        "spell_months": 1,
+        "spell_frac": 0.333,
+        "spell_extended": false,
+        "spell_gain_pct": 2.5,
+        "rs_rank_xs": 0.958,
+        "rs_z_52w": 2.23,
+        "rs_turn_flag": false,
+        "mom_rank_4w": 0.958,
+        "breadth_above50_rank": 0.832,
+        "rotation_score": 0.937,
+        "is_early_hot": true,
+        "h1_signal": true,
+        "h3_signal": false,
+        "tailwind": "early_runway",
+        "excluded_from_group_counts": false
+      }
+    },
+    "defensive_flag": {
+      "active": false,
+      "note": "Bull regime \u2014 composite correction overlay not active. Use Early-Runway signals for sector tailwind identification.",
+      "basis": "SPY drawdown from 52w high: -0.6%"
+    },
+    "signal_counts": {
+      "h1_early_runway": 10,
+      "h3_rs_turn_only": 8,
+      "total_industries": 95
+    },
+    "caveat": "modest cross-sectional tilt \u2014 where to hunt + crash-avoidance, not standalone alpha"
+  },
+  "brief_narrative": {
+    "as_of": "2026-06-12",
+    "signal_date": "2026-06-12",
+    "macro": {
+      "stance": "NEUTRAL",
+      "confidence": "LOW",
+      "headline": "Bull regime intact but momentum stalled; defensives lead while tech coils.",
+      "story": "The tape is in a textbook transitional zone. SPY, QQQ, Dow, and Russell 2000 all sit above their 50- and 200-day SMAs with trends still pointed UP, and SPY is only 0.6% off its 52-week high \u2014 the structural bull regime is unambiguously intact. But under the hood, momentum has rolled over: MACD histograms are negative across every major index, SPY closed below the Bollinger mid-band, and the index just delivered a -2.55% 5-day pullback before Wednesday's snapback. This is what stalling momentum inside an uptrend looks like, not a breakdown.\n\nThe dominant cross-asset story, grounded in the active themes, is the AI Infrastructure capex cycle in its CHASING stage. Institutional capital has concentrated into mega-cap compute and infrastructure software while precious metals are getting unwound \u2014 gold -10% over 21 days, silver -24.5%, both with RSI in the mid-30s and trading below both SMAs. DXY at 99.8 with bullish MACD and trend UP is the validated headwind here: dollar strength is mechanically pressuring the metals complex. WTI down -15.87% in 21 days adds to the disinflationary cross-asset signal, which would normally be risk-on fuel \u2014 except the equity response has been defensive rotation, not broad chase.\n\nThe leadership tells the real story. Healthcare and Consumer Staples sit atop the sector momentum table with HOT status, RSIs in the high-50s/low-60s, and bullish MACDs \u2014 that is not what early-cycle leadership looks like. Technology and Communication Services, the AI-theme epicenter, are NEUTRAL-to-BEARISH on the sector scoreboard despite the named capex narrative, telling us the theme is concentrated in a handful of mega-caps rather than broad participation. The 10Y-2Y spread collapsed -28% over 21 days to just 0.333, VIX is at 19.03 (still above its 50- and 200-day SMAs with rising MACD), and VIX3M/VIX contango is flattening \u2014 credit and vol markets are pricing more uncertainty than the index price suggests.\n\nNet read: Engine C is CALM (SPY above 200SMA, RSI 50.3, no washout active), and the bull regime grants the benefit of the doubt to longs in validated Early-Runway industries with confirmed continuation geometry. But macro confidence is LOW because price-above-SMAs is in genuine conflict with negative MACDs, elevated VIX, defensive sector leadership, and DXY strength. Position size accordingly and let the rotation radar \u2014 not the index tape \u2014 pick the hunting grounds.",
+      "evidence": [
+        {
+          "label": "SPY trend intact",
+          "detail": "SPY 737.76 above 50/200 SMAs, only -0.6% from 52w high \u2014 Engine C state CALM, bull regime confirmed.",
+          "tag": "bullish"
+        },
+        {
+          "label": "Momentum rolled over",
+          "detail": "SPY/QQQ/Nasdaq/Dow all show MACD below signal with negative histograms and Bollinger position below mid \u2014 uptrend stalling.",
+          "tag": "bearish"
+        },
+        {
+          "label": "Defensive leadership",
+          "detail": "Healthcare (HOT, RSI 63, score 9.8) and Staples (HOT, RSI 58.5, score 9.2) top the sector board \u2014 late-cycle character, not risk-on.",
+          "tag": "bearish"
+        },
+        {
+          "label": "AI capex theme (CHASING stage)",
+          "detail": "Active theme names mega-cap compute/software absorbing capital, funded by precious-metals unwind \u2014 concentrated, not broad.",
+          "tag": "neutral"
+        },
+        {
+          "label": "DXY \u2192 metals headwind validated",
+          "detail": "DXY trend UP, RSI 60, bullish MACD; gold -10% / silver -24.5% over 21d, both below 50/200 SMAs \u2014 validated inverse relationship active.",
+          "tag": "neutral"
+        },
+        {
+          "label": "Vol structure elevated",
+          "detail": "VIX 19.03 above 50/200 SMAs with bullish MACD; VIX3M/VIX ratio in downtrend \u2014 term structure flattening.",
+          "tag": "bearish"
+        },
+        {
+          "label": "Yield curve compression",
+          "detail": "10Y-2Y spread collapsed to 0.333 (-28% over 21d, RSI 34) \u2014 flattening signal worth watching.",
+          "tag": "bearish"
+        },
+        {
+          "label": "Energy disinflation",
+          "detail": "WTI -15.87% over 21d, RSI 38, below 50SMA \u2014 disinflationary cross-asset signal but equities haven't broadened on it.",
+          "tag": "neutral"
+        },
+        {
+          "label": "positioning/sentiment context",
+          "detail": "Breadth balanced at 36/36 bull/bear, VIX 19.03 (-11.5% in 5d), index RSIs compressed (SPY 50.3, QQQ 53.6), 8 of 11 GICS sectors above 50SMA, Engine C state CALM \u2014 transitional zone; not washed out, not euphoric; no validated market-timing signal active.",
+          "tag": "neutral"
+        }
+      ]
+    },
+    "sectors": {
+      "story": "Leadership is clearly defensive: Healthcare, Staples, Financials, and Real Estate are HOT while Tech and Comm Services lag \u2014 the index-level uptrend is being carried by a narrower, more defensive set than headlines suggest. Energy and Discretionary are weakest. The actionable edge lives one layer down in the rotation radar, which is where we hunt longs next.",
+      "items": [
+        {
+          "name": "Healthcare",
+          "stance": "BULLISH",
+          "confidence": "HIGH",
+          "why": "HOT status, score 9.8, RSI 63.1, above both SMAs, bullish MACD \u2014 every momentum signal aligned. Classic defensive leadership in a stalling-momentum tape.",
+          "evidence": [
+            {
+              "label": "Top sector score",
+              "detail": "Score 9.8, HOT, all moving averages and MACD aligned bullish.",
+              "tag": "bullish"
+            },
+            {
+              "label": "RSI 63",
+              "detail": "Elevated but not overbought \u2014 room to run.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Consumer Staples",
+          "stance": "BULLISH",
+          "confidence": "HIGH",
+          "why": "HOT, score 9.2, RSI 58.5, bullish MACD \u2014 defensives bid hard, consistent with the late-cycle character of leadership.",
+          "evidence": [
+            {
+              "label": "HOT defensive",
+              "detail": "Score 9.2, all alignment bullish.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Defensive bid",
+              "detail": "Leadership signature when index momentum stalls.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Financials",
+          "stance": "BULLISH",
+          "confidence": "MEDIUM",
+          "why": "HOT, score 8.2, RSI 59.5, bullish MACD \u2014 but yield-curve flattening (10Y-2Y at 0.333, -28% in 21d) is a structural headwind for net interest margins worth tracking.",
+          "evidence": [
+            {
+              "label": "Momentum aligned",
+              "detail": "Score 8.2, HOT, MACD bullish, above SMAs.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Curve flattening risk",
+              "detail": "10Y-2Y at 0.333 and falling fast \u2014 NIM pressure ahead.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "name": "Real Estate",
+          "stance": "BULLISH",
+          "confidence": "MEDIUM",
+          "why": "HOT, score 8.2, bullish MACD \u2014 but 10Y yield at 4.46% with trend still UP is a rate headwind. Rotation radar flags REIT-Retail with RS-Turn, which is the specific hunting ground.",
+          "evidence": [
+            {
+              "label": "Sector HOT",
+              "detail": "Score 8.2, RSI 58, above SMAs, bullish MACD.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Rate sensitivity",
+              "detail": "10Y at 4.46% with UP trend \u2014 REITs face funding-cost pressure.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "name": "Industrials",
+          "stance": "BULLISH",
+          "confidence": "MEDIUM",
+          "why": "QUALIFYING, score 6.8, above both SMAs but MACD bearish \u2014 momentum is consolidating, not breaking. Staffing & Employment Services is the radar-flagged industry inside.",
+          "evidence": [
+            {
+              "label": "QUALIFYING",
+              "detail": "Score 6.8, RSI 54, above SMAs.",
+              "tag": "bullish"
+            },
+            {
+              "label": "MACD bearish",
+              "detail": "Momentum still negative \u2014 needs to firm up.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "name": "Materials",
+          "stance": "NEUTRAL",
+          "confidence": "MEDIUM",
+          "why": "WEAK, score 4.8, RSI 52, MACD bearish despite price above SMAs \u2014 copper firmer (+1.92% 5d) but precious metals and broad commodity complex weak under DXY strength.",
+          "evidence": [
+            {
+              "label": "WEAK status",
+              "detail": "Score 4.8, MACD bearish.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Copper resilient",
+              "detail": "Copper above 50/200 SMAs, RSI 53.8 \u2014 bright spot.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Technology",
+          "stance": "NEUTRAL",
+          "confidence": "LOW",
+          "why": "WEAK, score 4.5, MACD bearish \u2014 at odds with the named AI-CHASING theme. Theme is concentrated in mega-caps; broad sector signal is weak. Look to specific Early-Runway industries (Software-Infra, IT Services).",
+          "evidence": [
+            {
+              "label": "Sector WEAK",
+              "detail": "Score 4.5, MACD bearish despite price above SMAs.",
+              "tag": "bearish"
+            },
+            {
+              "label": "AI concentration",
+              "detail": "Theme CHASING stage but narrow \u2014 flow concentrated in handful of names.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Utilities",
+          "stance": "NEUTRAL",
+          "confidence": "LOW",
+          "why": "WEAK, score 4.5, below both SMAs, but bullish MACD crossover is an early-turn tell. Rotation radar flags Regulated Electric on RS-Turn \u2014 watch, don't chase.",
+          "evidence": [
+            {
+              "label": "Below SMAs",
+              "detail": "Price under both 50- and 200-day SMAs.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Bullish MACD cross",
+              "detail": "Early momentum inflection signal.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Energy",
+          "stance": "BEARISH",
+          "confidence": "MEDIUM",
+          "why": "WEAK, score 3.2, below 50SMA, MACD bearish \u2014 WTI down -15.87% over 21d crushed the complex. Natural Gas theme is an early divergence but conviction is only 4.",
+          "evidence": [
+            {
+              "label": "WTI weakness",
+              "detail": "Crude -15.87% 21d, RSI 38 \u2014 disinflationary.",
+              "tag": "bearish"
+            },
+            {
+              "label": "NatGas divergence",
+              "detail": "Theme flagged but low conviction (4) and stage NEUTRAL.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Consumer Discretionary",
+          "stance": "BEARISH",
+          "confidence": "MEDIUM",
+          "why": "WEAK, score 2.2, below 200SMA, MACD bearish, RSI 47 \u2014 the demand-side complement to defensive leadership. Resorts & Casinos is the one Early-Runway pocket inside.",
+          "evidence": [
+            {
+              "label": "Below 200SMA",
+              "detail": "Structural weakness \u2014 score 2.2.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Defensive rotation funded by Discretionary",
+              "detail": "Risk-off cyclical character.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "name": "Communication Services",
+          "stance": "BEARISH",
+          "confidence": "HIGH",
+          "why": "Worst sector: score 1.2, RSI 40, below both SMAs, MACD bearish \u2014 every signal aligned negative. Avoid.",
+          "evidence": [
+            {
+              "label": "Worst score",
+              "detail": "1.2, RSI 40, below all SMAs.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Alignment",
+              "detail": "Trend, momentum, vol context all negative.",
+              "tag": "bearish"
+            }
+          ]
+        }
+      ]
+    },
+    "industries": {
+      "story": "The rotation radar is the actionable layer today \u2014 Early-Runway flags industries with a validated rotation tailwind regardless of the noisier sector-level signal. Software-Infrastructure, Staffing & Employment Services, Resorts & Casinos, and Scientific & Technical Instruments are where the Engine B funnel concentrates names. We'll add a few RS-Turn industries as WATCH-only since H3 turns are setup, not yet confirmed.",
+      "items": [
+        {
+          "name": "Computer Hardware",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Validated Early-Runway: RS rank 0.979, 2 months into spell at 50% of median duration with +49.6% spell gain \u2014 the rotation tailwind is confirmed and the early-runway window is still open.",
+          "evidence": [
+            {
+              "label": "Early-Runway confirmed",
+              "detail": "RS rank 0.979, spell_frac 0.5 \u2014 validated rotation tailwind.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Spell gain +49.6%",
+              "detail": "Already running \u2014 late in the runway window relative to other names.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Software - Infrastructure",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Early-Runway signal confirmed at RS rank 0.937, only 1 month into spell at 14% of median duration \u2014 best runway profile on the board. Lines up with the AI Infrastructure theme.",
+          "evidence": [
+            {
+              "label": "Best runway profile",
+              "detail": "spell_frac 0.143 \u2014 earliest in the rotation cycle.",
+              "tag": "bullish"
+            },
+            {
+              "label": "AI theme alignment",
+              "detail": "Direct overlap with active CHASING-stage theme.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Pollution & Treatment Controls",
+          "sector": "Industrials",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.989, 1 month in at 16.7% \u2014 validated tailwind with +18% spell gain already showing leadership.",
+          "evidence": [
+            {
+              "label": "Top RS rank",
+              "detail": "0.989 cross-sectional \u2014 best-in-class relative strength.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Utilities - Renewable",
+          "sector": "Utilities",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.958, spell_frac 0.333 \u2014 validated rotation tailwind in an otherwise weak Utilities sector.",
+          "evidence": [
+            {
+              "label": "Outlier in weak sector",
+              "detail": "Carries the rotation signal despite sector WEAK.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Staffing & Employment Services",
+          "sector": "Industrials",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.811, only 1 month into spell at 18% of median duration \u2014 Engine B funnel concentrated 4 candidates here.",
+          "evidence": [
+            {
+              "label": "Early in runway",
+              "detail": "spell_frac 0.182, room to run.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Funnel concentration",
+              "detail": "4 of 11 Engine B candidates from this industry.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Resorts & Casinos",
+          "sector": "Consumer Cyclical",
+          "stance": "BULLISH",
+          "why": "Early-Runway confirmed: RS rank 0.768, spell_frac 0.4, +6% spell gain. Notably bucks the broader Discretionary BEARISH read \u2014 a counter-trend rotation pocket.",
+          "evidence": [
+            {
+              "label": "Counter-trend pocket",
+              "detail": "Strong rotation inside a bearish sector.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Sector headwind",
+              "detail": "Discretionary sector BEARISH \u2014 keep size disciplined.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "name": "Scientific & Technical Instruments",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 1.0 (top of the cross-section), spell_frac 0.25 \u2014 best RS rank with runway still ahead.",
+          "evidence": [
+            {
+              "label": "Perfect RS rank",
+              "detail": "1.0 \u2014 top of the cross-section.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Software - Application",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.8, spell_frac 0.167 \u2014 early in spell with rotation tailwind validated.",
+          "evidence": [
+            {
+              "label": "Early-Runway",
+              "detail": "spell_frac 0.167 \u2014 runway intact.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Solar",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.884, spell_frac 0.125 \u2014 earliest stage of spell, validated rotation signal.",
+          "evidence": [
+            {
+              "label": "Earliest spell stage",
+              "detail": "spell_frac 0.125 \u2014 runway just opening.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Information Technology Services",
+          "sector": "Technology",
+          "stance": "BULLISH",
+          "why": "Early-Runway: RS rank 0.895, spell_frac 0.143 \u2014 early in spell with strong relative strength.",
+          "evidence": [
+            {
+              "label": "Early-Runway confirmed",
+              "detail": "RS 0.895, runway open.",
+              "tag": "bullish"
+            }
+          ]
+        },
+        {
+          "name": "Medical Devices",
+          "sector": "Healthcare",
+          "stance": "WATCH",
+          "why": "H3 RS-Turn flagged but heat-state COLD \u2014 turn signal without rotation tailwind yet. Watch for state to flip to HOT before acting.",
+          "evidence": [
+            {
+              "label": "RS-Turn only",
+              "detail": "Setup not confirmed \u2014 heat state still COLD.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Utilities - Regulated Electric",
+          "sector": "Utilities",
+          "stance": "WATCH",
+          "why": "H3 RS-Turn with CHOPPY heat state \u2014 bullish MACD crossover at sector level supports the watch but no validated tailwind yet.",
+          "evidence": [
+            {
+              "label": "RS-Turn watch",
+              "detail": "Setup forming, not confirmed.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "Integrated Freight & Logistics",
+          "sector": "Industrials",
+          "stance": "WATCH",
+          "why": "H3 RS-Turn, CHOPPY state, 3 months in \u2014 early inflection signal worth tracking but not a validated edge.",
+          "evidence": [
+            {
+              "label": "RS-Turn watch",
+              "detail": "Inflection forming.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "name": "REIT - Retail",
+          "sector": "Real Estate",
+          "stance": "WATCH",
+          "why": "H3 RS-Turn with heat state HOT but RS z-score still negative \u2014 turn-in-progress inside a HOT sector. Watch for confirmation.",
+          "evidence": [
+            {
+              "label": "Turn in HOT state",
+              "detail": "Constructive but rs_z still -0.47.",
+              "tag": "neutral"
+            }
+          ]
+        }
+      ]
+    },
+    "tickers": {
+      "story": "Engine B funnel surfaces 11 names that pass both gates \u2014 Early-Runway industry AND Accumulation Screen continuation geometry. Concentrating on the highest-rank, best-aligned setups.",
+      "items": [
+        {
+          "ticker": "DOCN",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "stance": "LONG",
+          "thesis": "DOCN sits in Software-Infrastructure, the Early-Runway industry with the best runway profile on the board (RS rank 0.937, only 14% into median spell). The Accumulation Screen continuation setup is in place with four of five supporting flags green \u2014 higher_lows, up_vol_frac, prior_trend, and rs_inflection (only base_tightness missing) \u2014 and conviction score 65.5 is the highest in the funnel. Macro backdrop is mixed (negative MACDs, defensive sector leadership, VIX 19), but the industry-level rotation tailwind is validated and the AI Infrastructure CHASING theme aligns directly. Bullish flow data ($3.55M premium across 24 prints) provides context \u2014 not a validated directional edge \u2014 though it suggests institutional interest. Key risk: name is +35.6% above its 50SMA and RSI 65.6 means it's extended; a broader-tape pullback into the SMA50 around 129 would offer a cleaner entry, and the WEAK Tech sector score warns against oversized positioning.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Top rank in funnel",
+              "detail": "rank_score 0.886, conviction 65.5 \u2014 best aligned setup.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Early-Runway validated",
+              "detail": "Software-Infra at RS rank 0.937, spell_frac 0.143.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Extended from SMA50",
+              "detail": "+35.6% above 50SMA, RSI 65.6 \u2014 chase risk.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Flow as context",
+              "detail": "Bullish flow $3.55M / 24 prints \u2014 context, not a validated directional edge.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "ticker": "FTNT",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "stance": "LONG",
+          "thesis": "FTNT shares the validated Software-Infrastructure rotation tailwind with DOCN and brings the same four-of-five Accumulation flags (higher_lows, up_vol_frac, prior_trend, rs_inflection \u2014 no base_tightness). The continuation setup geometry is intact, and at conviction 59.8 with the strongest recent move in the group (+27.4% over 21d, +4.45% today), it's confirming the industry's relative leadership in real time. Macro backdrop favors a careful long \u2014 bull regime CALM, but Technology sector itself is WEAK with bearish MACD, so the bet is industry-over-sector. Bullish flow ($962K / 4 prints) is supportive context \u2014 not a validated directional edge. Key risk: RSI 68.6 and +34.7% above SMA50 means the name is materially extended; sizing should reflect that a mean-reversion pullback to the SMA50 zone near 108 is a realistic scenario, and a break of the sector momentum signal would invalidate the theme.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Validated industry tailwind",
+              "detail": "Same Early-Runway flag as DOCN.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Momentum confirmation",
+              "detail": "+27.4% 21d, +4.45% today \u2014 leading the industry.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Extended technicals",
+              "detail": "RSI 68.6, +34.7% from SMA50.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Flow as context",
+              "detail": "Bullish flow $962K \u2014 context only, not a validated directional edge.",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "ticker": "SAIC",
+          "sector": "Technology",
+          "industry": "Information Technology Services",
+          "stance": "LONG",
+          "thesis": "SAIC sits in Information Technology Services, an Early-Runway industry (RS rank 0.895, spell_frac 0.143 \u2014 very early in the runway window). The continuation setup is in place with four Accumulation flags lit (higher_lows, up_vol_frac, rs_inflection \u2014 prior_trend missing). The 21-day move (+22.3%) shows the rotation is being expressed in price. Macro is mixed: Tech sector WEAK on the scoreboard, but the industry-level signal is the validated edge and the AI Infrastructure theme provides thematic alignment. Flow is NEUTRAL \u2014 no flow context to cite here, which means the directional edge rests entirely on the validated rotation and setup geometry. Key risk: RSI 71.7 is the highest in the funnel and the name is +15.5% above SMA50 \u2014 overbought conditions plus the broader sector WEAK reading mean this is a high-quality setup with elevated near-term pullback risk.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Early-Runway validated",
+              "detail": "IT Services RS rank 0.895, spell_frac 0.143.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Setup geometry in place",
+              "detail": "4 of 5 Accumulation flags lit.",
+              "tag": "bullish"
+            },
+            {
+              "label": "RSI 71.7",
+              "detail": "Highest in funnel \u2014 overbought near-term.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "MAN",
+          "sector": "Industrials",
+          "industry": "Staffing & Employment Services",
+          "stance": "LONG",
+          "thesis": "MAN is the cleanest expression of the Staffing & Employment Services Early-Runway flag (industry RS rank 0.811, spell_frac 0.182 \u2014 very early). Accumulation continuation setup is in place with higher_lows, up_vol_frac, and rs_inflection confirmed. Industrials sector is BULLISH/QUALIFYING which supports the industry-level edge, and the name has produced +24% over 21 days and +6.2% over 5 days \u2014 leadership is being delivered. Flow is NEUTRAL ($0 premium), so there's no flow context to cite \u2014 the edge is the validated rotation + setup combo. Key risk: RSI 67.5 is approaching overbought and the name is +16% above SMA50; conviction_score in the data field reads 0.0 (likely a data limitation) but the supporting flags and price action speak louder. Manage size and respect a stop below SMA50.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Early-Runway + supportive sector",
+              "detail": "Staffing RS 0.811, Industrials QUALIFYING.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Price confirms rotation",
+              "detail": "+24% 21d, +6.2% 5d.",
+              "tag": "bullish"
+            },
+            {
+              "label": "RSI 67.5",
+              "detail": "Approaching overbought.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "KFY",
+          "sector": "Industrials",
+          "industry": "Staffing & Employment Services",
+          "stance": "LONG",
+          "thesis": "KFY sits in the same validated Early-Runway Staffing industry as MAN but with better risk geometry \u2014 only +9.5% above SMA50 versus MAN's +16%, meaning less stretch from the moving average support. Continuation setup is in place with higher_lows, up_vol_frac, and rs_inflection confirmed. Industrials sector QUALIFYING with above-SMA support strengthens the backdrop. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: RSI 67.6 is elevated and the +11% 21-day move could pause; the missing prior_trend and base_tightness flags mean the base is less mature than ideal, so this is a momentum-continuation bet rather than a tight-base breakout.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Best risk geometry in group",
+              "detail": "Only +9.5% above SMA50 \u2014 cleanest stop placement.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Setup geometry in place",
+              "detail": "higher_lows + up_vol_frac + rs_inflection.",
+              "tag": "bullish"
+            },
+            {
+              "label": "RSI elevated",
+              "detail": "67.6 \u2014 near-term overbought.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "TNET",
+          "sector": "Industrials",
+          "industry": "Staffing & Employment Services",
+          "stance": "LONG",
+          "thesis": "TNET is the third actionable Staffing name with continuation setup geometry in place (higher_lows, up_vol_frac, rs_inflection). Validated Early-Runway industry, supportive QUALIFYING sector, +15.4% 21-day move shows rotation is being expressed. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: RSI 63.6 is elevated and +14% above SMA50; missing prior_trend flag means the base history is thinner than MAN/KFY. Use this as a second-tier add-on within a basket approach rather than a standalone large position.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Industry tailwind",
+              "detail": "Staffing Early-Runway validated.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Setup geometry in place",
+              "detail": "higher_lows + up_vol_frac + rs_inflection.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Missing prior_trend flag",
+              "detail": "Weaker base history than peers.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "MCRI",
+          "sector": "Consumer Cyclical",
+          "industry": "Resorts & Casinos",
+          "stance": "WATCH",
+          "thesis": "MCRI passes both gates \u2014 Resorts & Casinos is Early-Runway (RS rank 0.768, spell_frac 0.4, +6% spell gain) and the continuation setup is fully in place with all four supporting flags lit (higher_lows, up_vol_frac, prior_trend, rs_inflection). However, the macro/sector backdrop is the worst of any candidate: Consumer Discretionary is BEARISH (score 2.2, below 200SMA), making this a counter-trend pocket. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: RSI 74.7 is the most overbought reading in the funnel, the name is +13% above SMA50, and the sector tape works against it. Downgrade to WATCH and wait for a pullback into SMA50 or for the broader Discretionary sector to firm up.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "All Accumulation flags lit",
+              "detail": "Best supporting-flag profile in the funnel.",
+              "tag": "bullish"
+            },
+            {
+              "label": "RSI 74.7 \u2014 most overbought",
+              "detail": "Extension risk highest in the group.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Sector BEARISH",
+              "detail": "Discretionary score 2.2 \u2014 strong counter-trend headwind.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "ADP",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "stance": "WATCH",
+          "thesis": "ADP sits in Software-Application, an Early-Runway industry (RS rank 0.8, spell_frac 0.167). The continuation setup has higher_lows and rs_inflection but is missing up_vol_frac and prior_trend \u2014 geometry is weaker than the top candidates. Macro backdrop is mixed (Tech sector WEAK), and the name just dropped -2.31% on the day with only +5.6% over 21 days, signaling distribution rather than accumulation. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: the missing volume confirmation flags plus the daily drop suggest the setup is degrading. Watch only \u2014 wait for a fresh accumulation footprint and a reclaim of momentum before engaging.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Early-Runway validated",
+              "detail": "Software-Application RS 0.8.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Volume flags missing",
+              "detail": "No up_vol_frac, no prior_trend \u2014 geometry weaker.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Daily distribution",
+              "detail": "-2.31% today on weak structure.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "MLAB",
+          "sector": "Technology",
+          "industry": "Scientific & Technical Instruments",
+          "stance": "WATCH",
+          "thesis": "MLAB sits in Scientific & Technical Instruments \u2014 the industry holds the top cross-sectional RS rank (1.0) and is early in its spell (spell_frac 0.25), making the rotation tailwind validated and strong. However, the Accumulation setup is missing up_vol_frac, the price action is muted (-1.63% 5d, only +3.7% 21d), and the supporting flag profile shows the geometry is not yet aligned with the industry strength. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: this is a high-quality industry signal without confirmed price/volume accumulation in the name. Wait for the volume footprint to firm up or a tight-range breakout to engage; the industry tailwind alone isn't enough without the setup gate.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Top-rank industry",
+              "detail": "RS rank 1.0 \u2014 best in cross-section.",
+              "tag": "bullish"
+            },
+            {
+              "label": "Volume confirmation missing",
+              "detail": "No up_vol_frac flag.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Price action muted",
+              "detail": "Lagging the industry-level signal.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "FLL",
+          "sector": "Consumer Cyclical",
+          "industry": "Resorts & Casinos",
+          "stance": "AVOID",
+          "thesis": "FLL nominally passes the rotation gate via Resorts & Casinos Early-Runway, but the Accumulation Screen continuation setup is materially incomplete \u2014 only prior_trend is lit; higher_lows, up_vol_frac, rs_inflection, and base_tightness are all missing. At $2.90 it's a micro-cap with poor setup geometry inside a BEARISH Discretionary sector. Flow is NEUTRAL \u2014 no flow context to cite. Key risk: low-quality setup in a bearish sector with no confirming flags \u2014 the rotation tailwind alone does not justify engagement.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Setup flags failing",
+              "detail": "Only 1 of 5 Accumulation flags lit.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Bearish sector",
+              "detail": "Discretionary score 2.2.",
+              "tag": "bearish"
+            }
+          ]
+        },
+        {
+          "ticker": "NIXX",
+          "sector": "Industrials",
+          "industry": "Staffing & Employment Services",
+          "stance": "AVOID",
+          "thesis": "NIXX is in the Early-Runway Staffing industry but trades at $0.91 \u2014 a sub-$1 micro-cap with thin liquidity and no flow context. The Accumulation Screen is incomplete: higher_lows and rs_inflection are lit but up_vol_frac and prior_trend are missing, and the +59.6% 21-day move means the name is parabolic rather than accumulating. Flow NEUTRAL \u2014 no flow context to cite. Key risk: micro-cap with parabolic price action and weak setup geometry \u2014 let the better-quality Staffing names (MAN, KFY, TNET) carry the thematic exposure.",
+          "setup": "continuation_breakout_setup",
+          "earnings_days": null,
+          "evidence": [
+            {
+              "label": "Sub-$1 micro-cap",
+              "detail": "$0.91 \u2014 liquidity and execution risk.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Parabolic move",
+              "detail": "+59.6% 21d \u2014 distribution risk high.",
+              "tag": "bearish"
+            },
+            {
+              "label": "Volume flag missing",
+              "detail": "No up_vol_frac \u2014 weak accumulation footprint.",
+              "tag": "bearish"
+            }
+          ]
+        }
+      ]
+    },
+    "generated_at": "2026-06-12T13:12:13.448102+00:00",
+    "model": "claude-opus-4-7"
+  },
+  "washout_state": {
+    "as_of": "2026-06-11",
+    "state": "CALM",
+    "label": "Calm",
+    "guidance": "No washout active. Normal signal-based positioning rules apply. RSI(14) is above the washout threshold; the Engine C timing signal is not engaged.",
+    "confidence": "n/a",
+    "episode": null,
+    "current": {
+      "spy": 737.76,
+      "rsi_14": 50.31,
+      "sma200": 683.56,
+      "sma200_dist_pct": 7.93,
+      "above_200": true,
+      "breadth_pct": 66.67
+    },
+    "context_unvalidated": {
+      "dealer_gamma": "Dealer GEX (gamma exposure): UNVALIDATED CONTEXT \u2014 no backtested directional edge on gamma-based entries or exits. Included as qualitative color only. Large negative GEX near key strikes may amplify moves (dealer hedging flows), but this is a structural-fragility observation, not a timing signal."
+    },
+    "study_reference": {
+      "validated_combo": "RSI(14)<30 AND above 200-SMA AND breadth-thrust (>=10pp/5d)",
+      "n": 5,
+      "20d_mean_pct": 2.49,
+      "20d_ci": [
+        0.68,
+        4.11
+      ],
+      "20d_hit_rate": 0.8,
+      "10d_mean_pct": 2.77,
+      "10d_ci": [
+        1.09,
+        4.13
+      ],
+      "10d_hit_rate": 0.8,
+      "caveat": "Thin sample (n=5). Mechanism sound: thrust filters structural breaks where breadth keeps falling. Baseline RSI<30 regime-decayed post-2018 (negative mean in folds 4-5). Forward-tracking for re-scoring."
+    }
+  },
+  "themes": {
+    "active": [
+      {
+        "name": "AI Infrastructure Build-Out \u2014 Mega-Cap Compute & Software",
+        "stage": "CHASING",
+        "driver": "EQUITY_FLOW_DRIVEN",
+        "conviction": 8,
+        "health": 8.0,
+        "status": "HEALTHY",
+        "day_n": 11,
+        "watchlist": [
+          "NVDA",
+          "MSFT",
+          "META",
+          "AAPL",
+          "PLTR",
+          "QQQ",
+          "INTC"
+        ],
+        "thesis": "Institutional capital is concentrating into the AI compute stack \u2014 silicon (NVDA, INTC), infrastructure software (MSFT, PLTR), and the platform/ad layer monetizing inference (META, AAPL). With VIX at 15.88, bullish put/call, and SPY above 50SMA, the TRANSITIONAL regime is being expressed through quality mega-cap tech rather than broad risk-on, suggesting capital is rotating UP the quality curve rather than out.",
+        "evidence": "XLK accel_ratio 1.715 and QQQ accel_ratio 3.323 (14d bull rate 3.3x the 60d baseline) show genuine fresh acceleration, not just persistence. Software-Infrastructure (1.992) and Consumer Electronics (2.246) are leading the doubling-up.",
+        "invalidators": [
+          {
+            "condition": "XLK sector trajectory shifts to FADING_BULLISH or bearish",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "Software-Infrastructure or Semis industry trajectory degrades to HOLDING_BULLISH or below",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "FOMC (6/10) or CPI (6/11) prints hawkish surprise, DXY accelerates higher and breaks rate-sensitive growth multiples",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d/60d accel ratio falls below 1.0 across XLK industries",
+            "severity": "soft",
+            "triggered": false
+          },
+          {
+            "condition": "Lottery strike flow % crosses above 18% (retail blow-off signal)",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      },
+      {
+        "name": "Natural Gas Reversal \u2014 Early Commodity Flip",
+        "stage": "NEUTRAL",
+        "driver": "COMMODITY_DRIVEN",
+        "conviction": 4,
+        "health": 1.5,
+        "status": "BREAKING",
+        "day_n": 11,
+        "watchlist": [
+          "UNG",
+          "BOIL",
+          "EQT",
+          "AR",
+          "RRC",
+          "CHK",
+          "LNG"
+        ],
+        "thesis": "Natural gas has flipped from ACCELERATING_BEARISH to bullish (+0.37%/day 14d) while crude oil and broader energy commodities (USO, BNO, DBC) are flipping the other way \u2014 a divergence that historically signals supply-side gas tightening (storage draw, weather, or LNG export demand) independent of macro oil weakness. Early-stage and contrarian to the broader commodity tape.",
+        "evidence": "UNG is the ONLY commodity in the universe with a bearish-to-bullish flip; every other energy and ag commodity is rolling over. The asymmetry is the signal \u2014 but 60d base is still -9.96%, so this is an inflection trade, not a confirmed trend.",
+        "invalidators": [
+          {
+            "condition": "UNG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "UNG 14d %/day rate turns negative",
+            "severity": "hard",
+            "triggered": true
+          },
+          {
+            "condition": "EIA weekly storage report prints materially above estimates (bearish surprise)",
+            "severity": "hard",
+            "triggered": false
+          },
+          {
+            "condition": "14d rate decelerates below +0.15%/day for 5 consecutive sessions",
+            "severity": "soft",
+            "triggered": false
+          }
+        ],
+        "next_check": "2026-06-09"
+      }
+    ],
+    "fading": [
+      {
+        "name": "Precious Metals & Inflation Hedge Complex",
+        "stage": "DISTRIBUTING",
+        "reason": "GLD, SLV, GDX, GDXJ all ACCELERATING_BEARISH with SLV at -0.97%/day and miners (GDX -0.69%/day, GDXJ -0.80%/day) leading the bleed \u2014 classic hedge unwind as DXY rises and equity risk appetite holds.",
+        "exit_guidance": "Exit any residual gold/silver/miner exposure on strength; do not initiate. Stop logic: invalidate fade only if GLD prints two consecutive sessions of >+0.5% with rising DXY (genuine safe-haven re-bid).",
+        "exit_tickers": [
+          "GLD",
+          "SLV",
+          "GDX",
+          "GDXJ"
+        ]
+      },
+      {
+        "name": "Broad Commodity & Agriculture Reflation",
+        "stage": "DISTRIBUTING",
+        "reason": "DBC, GSG, DBA, WEAT, CORN, SOYB all flipped or accelerating bearish; crude (USO -0.35%/day, BNO -0.51%/day) joining the rollover. Despite copper holding +14.9% 60d, the broader complex is exiting.",
+        "exit_guidance": "Exit broad commodity ETFs and ag longs; copper-specific exposure (CPER) is FADING_BULLISH but not yet bearish \u2014 trim, don't dump. Stop: re-enter only if DXY trend flips and DBC reclaims 14d positive rate.",
+        "exit_tickers": [
+          "USO",
+          "BNO",
+          "DBO",
+          "DBC",
+          "GSG",
+          "DBA",
+          "WEAT",
+          "CORN",
+          "SOYB",
+          "URA"
+        ]
+      }
+    ],
+    "coverage": "Universe is heavily skewed to mega-cap tech (XLK/XLC/XLY) and commodity ETFs \u2014 no visibility into Financials (XLF), Industrials (XLI), Healthcare (XLV), Energy equities (XLE constituents), or small/mid-cap rotation. Cannot assess whether the AI bid is broadening down-cap or whether Financials are benefiting from the rising DXY/steeper curve (10y2y at 0.835)."
+  },
+  "options_positioning": {
+    "as_of": "2026-06-12T13:12:13.477112+00:00",
+    "signal_date": "2026-06-12",
+    "n_instruments": 22,
+    "universe": [
+      "SPY",
+      "QQQ",
+      "BAC",
+      "OSCR",
+      "C",
+      "DOCN",
+      "CRS",
+      "FTNT",
+      "APH",
+      "USB",
+      "HAE",
+      "DKNG",
+      "ABBV",
+      "KO",
+      "DNOW",
+      "NWL",
+      "HUM",
+      "RH",
+      "HIMS",
+      "UNH",
+      "DECK",
+      "GO"
+    ],
+    "uw_call_count": 88,
+    "instruments": [
+      {
+        "ticker": "SPY",
+        "spot": 739.46,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "SPY no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "QQQ",
+        "spot": 716.65,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "QQQ no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "BAC",
+        "spot": 55.34,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "BAC no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "OSCR",
+        "spot": 28.8,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "OSCR no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "C",
+        "spot": 137.72,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "C no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "DOCN",
+        "spot": 177.0,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "DOCN no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "CRS",
+        "spot": 572.1,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "CRS no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "FTNT",
+        "spot": 144.51,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "FTNT no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "APH",
+        "spot": 152.45,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "APH no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "USB",
+        "spot": 57.93,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "USB no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "HAE",
+        "spot": 79.84,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "HAE no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "DKNG",
+        "spot": 30.2,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "DKNG no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "ABBV",
+        "spot": 225.0,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "ABBV no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "KO",
+        "spot": 82.73,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "KO no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "DNOW",
+        "spot": 13.66,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "DNOW no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "NWL",
+        "spot": 4.61,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "NWL no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "HUM",
+        "spot": 368.8,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "HUM no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "RH",
+        "spot": 160.0,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": true,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "RH no GEX data (options chain not returned by UW for this session); put flow building."
+      },
+      {
+        "ticker": "HIMS",
+        "spot": 28.71,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "HIMS no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "UNH",
+        "spot": 406.78,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "UNH no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "DECK",
+        "spot": 114.59,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "DECK no GEX data (options chain not returned by UW for this session); put flow quiet."
+      },
+      {
+        "ticker": "GO",
+        "spot": 9.38,
+        "total_gex": null,
+        "gamma_regime": "UNKNOWN",
+        "gamma_flip_level": null,
+        "flip_dist_pct": null,
+        "put_walls": [],
+        "call_walls": [],
+        "put_flow_building": false,
+        "expiries_used": [],
+        "n_gex_rows": 0,
+        "read": "GO no GEX data (options chain not returned by UW for this session); put flow quiet."
+      }
+    ],
+    "caveat": "GEX assumes a dealer-positioning sign convention (model, not observed): dealers long calls / short puts. UW data is current-session snapshots, so this tool is forward-only / not backtestable."
+  },
+  "ledger": {
+    "by_signal_type": [
+      {
+        "signal_type": "track_b_continuation",
+        "n_resolved": 0,
+        "hit_rate": null,
+        "avg_fwd_return": null,
+        "n_pending": 3077
+      },
+      {
+        "signal_type": "track_b_reversal",
+        "n_resolved": 0,
+        "hit_rate": null,
+        "avg_fwd_return": null,
+        "n_pending": 627
+      },
+      {
+        "signal_type": "slow",
+        "n_resolved": 39,
+        "hit_rate": 25.6,
+        "avg_fwd_return": null,
+        "n_pending": 74
+      }
+    ],
+    "stage_behavior": [
+      {
+        "stage": "NEUTRAL",
+        "n": 2767,
+        "played_out_pct": 0.0
+      },
+      {
+        "stage": "BULLISH",
+        "n": 236,
+        "played_out_pct": 0.0
+      },
+      {
+        "stage": "LEAN BULLISH",
+        "n": 90,
+        "played_out_pct": 0.0
+      }
+    ]
+  },
+  "newsletter": "**[THE SPINE]** Dollar strength is the dominant force driving the tape this week. DXY at 99.81 is above both its 21d and 50d SMAs, RSI 60.5, up 1.37% over 21 days \u2014 and the ACTIVE DXY_METALS_TAG signal (verdict HOLDS) means this is a durable headwind, not noise. That single posture explains why Gold has bled -10.2% over 21 days, Silver -24.8%, Oil -15.9%, and why the Precious Metals theme is officially fading while the AI compute trade keeps absorbing the freed-up risk budget.\n\n**[CROSS-ASSET LENS]** The macro backdrop reinforces rather than threatens the spine. Regime is CHOPPY but tilting transitional (confidence 8/10), VIX 19.16 with a clean contango (VIX3M 21.42) \u2014 no stress bid. Yields are drifting higher across the curve (10Y 4.49, +0.13% on 21d) and the backtest is explicit: no ceiling edge there, treat as trend. SPY RSI 50.3 is mid-range \u2014 no fade setup, and per our discipline we don't fade trend posture. Gold and Silver RSIs in the mid-30s look \"oversold\" but with DXY trending, those are trend reads, not reversion setups.\n\n**[SECTOR & ROTATION LENS]** Leadership is split between defensive rotation and the compute spine. XLV leads on 21d (+5.7%), but XLK is the accelerating bullish trajectory (+4.6%, vs50 +9.7%) and that's where flow is going \u2014 into Consumer Electronics, Software - Infrastructure, and the unmapped AI-adjacent bucket. Nothing is rotating out yet, no flips, no new entrants \u2014 this is a one-way capital flow into compute and its derivatives. XLE -0.8% confirms the dollar/oil drag; XLF +2.0% with regional banks coiling suggests the financial complex is waking up underneath.\n\n**[WHERE THE OPPORTUNITY IS]** Semiconductors are the textbook extended leader: HOT 13 months, +258% \u2014 the largest run on record, CEILING flagged. That's exits-not-entries territory, even though trajectory is still HOLDING_BULLISH. The in-range, early-innings names are Software - Infrastructure (HOT 1 month, only +3% in, accelerating bullish) and Internet Content & Information (HOT 1 month, still -5% into the spell). The single cleanest un-run setup is USB in Banks - Regional: 84.2% coil, bullish flow, group itself only 3 months into a choppy spell \u2014 pre-breakout posture. Standard reminder: any washout bounce in metals or oil has an 88% retest probability within 60 days, so don't chase the Gold +3.1% / Silver +4.6% day-bars as bottoms.\n\n**[WHAT TO WATCH]** DXY 98.88 is the tripwire. A clean break below that support \u2014 with DXY losing its 21d SMA \u2014 invalidates the spine and reopens the metals/oil/EM trade in a single move. Until then, dollar-up means compute leadership, commodity weakness, and no edge in fading the trend.",
+  "health": {
+    "status": "FAILED",
+    "trading_day": "2026-06-12",
+    "checked_at": "2026-06-12T13:14:29.358700+00:00",
+    "pipeline": "ok",
+    "issues": [
+      "[CRITICAL] rotation_radar.json: STALE \u2014 as_of 2026-06-05 < expected Friday 2026-06-12 \u2014 file exists but internal data is stale",
+      "[CRITICAL] washout_state.json: STALE \u2014 as_of 2026-06-11 < expected trading day 2026-06-12 \u2014 file exists but internal data is stale"
+    ],
+    "per_output": [
+      {
+        "file": "dashboard_payload.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T13:14 UTC",
+        "detail": ""
+      },
+      {
+        "file": "brief_narrative.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T13:12 UTC",
+        "detail": ""
+      },
+      {
+        "file": "rotation_radar.json",
+        "status": "STALE",
+        "as_of": "2026-06-05",
+        "mtime": "2026-06-12T13:09 UTC",
+        "detail": "as_of 2026-06-05 < expected Friday 2026-06-12 \u2014 file exists but internal data is stale"
+      },
+      {
+        "file": "washout_state.json",
+        "status": "STALE",
+        "as_of": "2026-06-11",
+        "mtime": "2026-06-12T12:30 UTC",
+        "detail": "as_of 2026-06-11 < expected trading day 2026-06-12 \u2014 file exists but internal data is stale"
+      },
+      {
+        "file": "sector_momentum.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T12:32 UTC",
+        "detail": ""
+      },
+      {
+        "file": "options_positioning.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T13:13 UTC",
+        "detail": ""
+      },
+      {
+        "file": "commodity_trajectories.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T12:33 UTC",
+        "detail": ""
+      },
+      {
+        "file": "engine_b_candidates.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T13:09 UTC",
+        "detail": ""
+      },
+      {
+        "file": "regime_report.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T12:30 UTC",
+        "detail": ""
+      },
+      {
+        "file": "macro_instruments.json",
+        "status": "OK",
+        "as_of": "2026-06-12",
+        "mtime": "2026-06-12T12:30 UTC",
+        "detail": ""
+      }
+    ]
+  }
+}

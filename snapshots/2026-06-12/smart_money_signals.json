@@ -1,0 +1,1207 @@
+{
+  "as_of": "2026-06-12T12:35:41.373087+00:00",
+  "industry_as_of": "2026-06-12T12:33:18.994053+00:00",
+  "scanned_count": 14,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "DAL",
+      "classification": "LEAN BULLISH",
+      "score": 7.41,
+      "score_components": {
+        "directional": 7.03,
+        "conviction": 7.86,
+        "magnitude": 7.69
+      },
+      "bullish_premium_pct": 0.703,
+      "bearish_premium_pct": 0.297,
+      "total_premium": 1195795.0,
+      "bullish_premium": 620769.0,
+      "bearish_premium": 262519.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 341400.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 620769.0,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 262519.5,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 81.845
+      },
+      "spot_used": 81.845,
+      "largest_flow": {
+        "premium": 299575.0,
+        "option_type": "PUT",
+        "strike": 75.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-10T15:47:32.412821Z"
+      },
+      "reason": "moderate_bullish_flow score=7.41",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "UAL",
+      "classification": "BULLISH",
+      "score": 8.84,
+      "score_components": {
+        "directional": 8.92,
+        "conviction": 8.65,
+        "magnitude": 8.92
+      },
+      "bullish_premium_pct": 0.892,
+      "bearish_premium_pct": 0.108,
+      "total_premium": 3701144.0,
+      "bullish_premium": 2008882.5,
+      "bearish_premium": 242596.5,
+      "flow_count": 49,
+      "ask_side_bull_count": 34,
+      "ask_side_bull_premium": 1352374.0,
+      "structural_breakdown": {
+        "kept_flow_count": 38,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 11,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 213393.75,
+            "put_premium": 125146.5,
+            "flow_count": 8
+          },
+          "core_core": {
+            "call_premium": 1346325.0,
+            "put_premium": 117450.0,
+            "flow_count": 25
+          },
+          "long_core": {
+            "call_premium": 225810.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_deep_itm": {
+            "call_premium": 96663.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_deep_itm": {
+            "call_premium": 126690.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 112.3
+      },
+      "spot_used": 112.3,
+      "largest_flow": {
+        "premium": 508213.0,
+        "option_type": "CALL",
+        "strike": 115.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-11T16:30:09.729781Z"
+      },
+      "reason": "strong_bullish_flow score=8.84",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "LUV",
+      "classification": "NEUTRAL",
+      "score": 3.15,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 6.02,
+        "magnitude": 6.72
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 488888.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 161262.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 49944.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 161262.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 43.59
+      },
+      "spot_used": 43.59,
+      "largest_flow": {
+        "premium": 184000.0,
+        "option_type": "PUT",
+        "strike": 37.5,
+        "expiry": "2027-03-19",
+        "executed_at": "2026-06-10T18:52:29.425448Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AAL",
+      "classification": "NEUTRAL",
+      "score": 5.34,
+      "score_components": {
+        "directional": 4.3,
+        "conviction": 5.78,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.43,
+      "bearish_premium_pct": 0.57,
+      "total_premium": 814161.0,
+      "bullish_premium": 53429.0,
+      "bearish_premium": 70731.0,
+      "flow_count": 27,
+      "ask_side_bull_count": 6,
+      "ask_side_bull_premium": 63736.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 18,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 53429.0,
+            "put_premium": 0.0,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 22747.5,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 20547.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 27436.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 14.64
+      },
+      "spot_used": 14.64,
+      "largest_flow": {
+        "premium": 134742.0,
+        "option_type": "PUT",
+        "strike": 14.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-11T19:34:33.280952Z"
+      },
+      "reason": "bearish_flow_dominant (57% weighted bearish)",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SKYW",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ALK",
+      "classification": "BULLISH",
+      "score": 7.98,
+      "score_components": {
+        "directional": 7.33,
+        "conviction": 10.0,
+        "magnitude": 6.56
+      },
+      "bullish_premium_pct": 0.733,
+      "bearish_premium_pct": 0.267,
+      "total_premium": 419433.0,
+      "bullish_premium": 133913.75,
+      "bearish_premium": 48731.25,
+      "flow_count": 12,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 251328.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 102603.75,
+            "put_premium": 32261.25,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 31310.0,
+            "put_premium": 16470.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 46.29
+      },
+      "spot_used": 46.29,
+      "largest_flow": {
+        "premium": 126555.0,
+        "option_type": "CALL",
+        "strike": 50.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-11T15:43:06.495751Z"
+      },
+      "reason": "strong_bullish_flow score=7.98",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ALGT",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ULCC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "JBLU",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1171415.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 21,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "JPM",
+      "classification": "NEUTRAL",
+      "score": 4.86,
+      "score_components": {
+        "directional": 2.67,
+        "conviction": 5.41,
+        "magnitude": 9.52
+      },
+      "bullish_premium_pct": 0.267,
+      "bearish_premium_pct": 0.733,
+      "total_premium": 6455942.0,
+      "bullish_premium": 188000.0,
+      "bearish_premium": 516039.5,
+      "flow_count": 17,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 263227.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 167788.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 188000.0,
+            "put_premium": 348251.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 314.5
+      },
+      "spot_used": 314.5,
+      "largest_flow": {
+        "premium": 1711878.0,
+        "option_type": "CALL",
+        "strike": 330.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T16:05:17.552380Z"
+      },
+      "reason": "bearish_flow_dominant (73% weighted bearish)",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BAC",
+      "classification": "BULLISH",
+      "score": 9.32,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 8.11,
+        "magnitude": 9.45
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 6031442.0,
+      "bullish_premium": 128674.75,
+      "bearish_premium": 0.0,
+      "flow_count": 24,
+      "ask_side_bull_count": 15,
+      "ask_side_bull_premium": 1877576.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 22,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 72895.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 55779.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 55.155
+      },
+      "spot_used": 55.155,
+      "largest_flow": {
+        "premium": 2361570.0,
+        "option_type": "CALL",
+        "strike": 55.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T15:19:25.197538Z"
+      },
+      "reason": "strong_bullish_flow score=9.32",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BNY",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 487684.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "C",
+      "classification": "BULLISH",
+      "score": 8.69,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.37,
+        "magnitude": 8.91
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 3666919.0,
+      "bullish_premium": 362943.5,
+      "bearish_premium": 0.0,
+      "flow_count": 21,
+      "ask_side_bull_count": 9,
+      "ask_side_bull_premium": 501794.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 16,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 242315.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "long_core": {
+            "call_premium": 120628.5,
+            "put_premium": 0.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 137.82
+      },
+      "spot_used": 137.82,
+      "largest_flow": {
+        "premium": 1068500.0,
+        "option_type": "CALL",
+        "strike": 145.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T15:34:28.271241Z"
+      },
+      "reason": "strong_bullish_flow score=8.69",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "WFC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1264968.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "BAC",
+      "classification": "BULLISH",
+      "score": 9.32,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 8.11,
+        "magnitude": 9.45
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 6031442.0,
+      "bullish_premium": 128674.75,
+      "bearish_premium": 0.0,
+      "flow_count": 24,
+      "ask_side_bull_count": 15,
+      "ask_side_bull_premium": 1877576.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 22,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 72895.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 55779.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 55.155
+      },
+      "spot_used": 55.155,
+      "largest_flow": {
+        "premium": 2361570.0,
+        "option_type": "CALL",
+        "strike": 55.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T15:19:25.197538Z"
+      },
+      "reason": "strong_bullish_flow score=9.32",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "UAL",
+      "classification": "BULLISH",
+      "score": 8.84,
+      "score_components": {
+        "directional": 8.92,
+        "conviction": 8.65,
+        "magnitude": 8.92
+      },
+      "bullish_premium_pct": 0.892,
+      "bearish_premium_pct": 0.108,
+      "total_premium": 3701144.0,
+      "bullish_premium": 2008882.5,
+      "bearish_premium": 242596.5,
+      "flow_count": 49,
+      "ask_side_bull_count": 34,
+      "ask_side_bull_premium": 1352374.0,
+      "structural_breakdown": {
+        "kept_flow_count": 38,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 11,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 213393.75,
+            "put_premium": 125146.5,
+            "flow_count": 8
+          },
+          "core_core": {
+            "call_premium": 1346325.0,
+            "put_premium": 117450.0,
+            "flow_count": 25
+          },
+          "long_core": {
+            "call_premium": 225810.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_deep_itm": {
+            "call_premium": 96663.75,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_deep_itm": {
+            "call_premium": 126690.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 112.3
+      },
+      "spot_used": 112.3,
+      "largest_flow": {
+        "premium": 508213.0,
+        "option_type": "CALL",
+        "strike": 115.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-11T16:30:09.729781Z"
+      },
+      "reason": "strong_bullish_flow score=8.84",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "C",
+      "classification": "BULLISH",
+      "score": 8.69,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 6.37,
+        "magnitude": 8.91
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 3666919.0,
+      "bullish_premium": 362943.5,
+      "bearish_premium": 0.0,
+      "flow_count": 21,
+      "ask_side_bull_count": 9,
+      "ask_side_bull_premium": 501794.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 16,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 242315.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "long_core": {
+            "call_premium": 120628.5,
+            "put_premium": 0.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 137.82
+      },
+      "spot_used": 137.82,
+      "largest_flow": {
+        "premium": 1068500.0,
+        "option_type": "CALL",
+        "strike": 145.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T15:34:28.271241Z"
+      },
+      "reason": "strong_bullish_flow score=8.69",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ALK",
+      "classification": "BULLISH",
+      "score": 7.98,
+      "score_components": {
+        "directional": 7.33,
+        "conviction": 10.0,
+        "magnitude": 6.56
+      },
+      "bullish_premium_pct": 0.733,
+      "bearish_premium_pct": 0.267,
+      "total_premium": 419433.0,
+      "bullish_premium": 133913.75,
+      "bearish_premium": 48731.25,
+      "flow_count": 12,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 251328.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 102603.75,
+            "put_premium": 32261.25,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 31310.0,
+            "put_premium": 16470.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 46.29
+      },
+      "spot_used": 46.29,
+      "largest_flow": {
+        "premium": 126555.0,
+        "option_type": "CALL",
+        "strike": 50.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-11T15:43:06.495751Z"
+      },
+      "reason": "strong_bullish_flow score=7.98",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [
+    {
+      "ticker": "DAL",
+      "classification": "LEAN BULLISH",
+      "score": 7.41,
+      "score_components": {
+        "directional": 7.03,
+        "conviction": 7.86,
+        "magnitude": 7.69
+      },
+      "bullish_premium_pct": 0.703,
+      "bearish_premium_pct": 0.297,
+      "total_premium": 1195795.0,
+      "bullish_premium": 620769.0,
+      "bearish_premium": 262519.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 341400.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 620769.0,
+            "put_premium": 0.0,
+            "flow_count": 6
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 262519.5,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 81.845
+      },
+      "spot_used": 81.845,
+      "largest_flow": {
+        "premium": 299575.0,
+        "option_type": "PUT",
+        "strike": 75.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-10T15:47:32.412821Z"
+      },
+      "reason": "moderate_bullish_flow score=7.41",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    }
+  ],
+  "neutral": [
+    {
+      "ticker": "LUV",
+      "classification": "NEUTRAL",
+      "score": 3.15,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 6.02,
+        "magnitude": 6.72
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 488888.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 161262.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 49944.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 161262.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 43.59
+      },
+      "spot_used": 43.59,
+      "largest_flow": {
+        "premium": 184000.0,
+        "option_type": "PUT",
+        "strike": 37.5,
+        "expiry": "2027-03-19",
+        "executed_at": "2026-06-10T18:52:29.425448Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "AAL",
+      "classification": "NEUTRAL",
+      "score": 5.34,
+      "score_components": {
+        "directional": 4.3,
+        "conviction": 5.78,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.43,
+      "bearish_premium_pct": 0.57,
+      "total_premium": 814161.0,
+      "bullish_premium": 53429.0,
+      "bearish_premium": 70731.0,
+      "flow_count": 27,
+      "ask_side_bull_count": 6,
+      "ask_side_bull_premium": 63736.0,
+      "structural_breakdown": {
+        "kept_flow_count": 8,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 18,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 53429.0,
+            "put_premium": 0.0,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 22747.5,
+            "flow_count": 2
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 20547.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 27436.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 14.64
+      },
+      "spot_used": 14.64,
+      "largest_flow": {
+        "premium": 134742.0,
+        "option_type": "PUT",
+        "strike": 14.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-11T19:34:33.280952Z"
+      },
+      "reason": "bearish_flow_dominant (57% weighted bearish)",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SKYW",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ALGT",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ULCC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "JBLU",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1171415.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 21,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Airlines",
+      "sector_etf": "XLI",
+      "industry_score": 6.77,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "JPM",
+      "classification": "NEUTRAL",
+      "score": 4.86,
+      "score_components": {
+        "directional": 2.67,
+        "conviction": 5.41,
+        "magnitude": 9.52
+      },
+      "bullish_premium_pct": 0.267,
+      "bearish_premium_pct": 0.733,
+      "total_premium": 6455942.0,
+      "bullish_premium": 188000.0,
+      "bearish_premium": 516039.5,
+      "flow_count": 17,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 263227.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 167788.5,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 188000.0,
+            "put_premium": 348251.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 314.5
+      },
+      "spot_used": 314.5,
+      "largest_flow": {
+        "premium": 1711878.0,
+        "option_type": "CALL",
+        "strike": 330.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-10T16:05:17.552380Z"
+      },
+      "reason": "bearish_flow_dominant (73% weighted bearish)",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BNY",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 487684.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "WFC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 1264968.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 6,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Banks - Diversified",
+      "sector_etf": "XLF",
+      "industry_score": 6.7,
+      "is_industry_leader": true
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "BAC",
+    "UAL",
+    "C",
+    "ALK",
+    "DAL"
+  ],
+  "summary": {
+    "total_scanned": 14,
+    "bullish_count": 4,
+    "lean_bullish_count": 1,
+    "neutral_count": 9,
+    "drilldown_count": 5
+  },
+  "narrative": {
+    "headline": "Smart money is buying diversified banks and legacy airlines while selling JPM, LUV, and AAL \u2014 a clear quality-rotation trade within both industries.",
+    "bullish_themes": [
+      "Concentrated bid in money-center banks ex-JPM: BAC and C both printed 100% bullish flow on $6M and $3.7M premium, while JPM saw $6.5M of 73% bearish flow \u2014 a pair-trade signature, not broad financials buying",
+      "Airlines bifurcation favoring network carriers: UAL ($3.7M, 89% bullish, 34 ask-side prints) and ALK leading, DAL leaning bullish, while LUV (100% bearish) and AAL (57% bearish) get sold \u2014 smart money picking winners, not the industry"
+    ],
+    "notable_individual_flows": [
+      "BAC \u2014 $6M premium, 100% bullish, 15 ask-side prints: highest-conviction single name on the board",
+      "UAL \u2014 34 ask-side bullish prints is the broadest participation signal in the scan",
+      "JPM \u2014 $6.5M at 73% bearish directly contradicts the BAC/C bid; this is rotation, not sector flow",
+      "LUV \u2014 100% bearish on $489K is small but absolute; pairs cleanly against UAL/ALK longs",
+      "C \u2014 100% bullish confirms the ex-JPM money-center thesis"
+    ],
+    "absences": "No qualifying flow in tech, energy, healthcare, or consumer despite the Industry Layer surfacing 14 candidates. The entire bullish tape is concentrated in just two industries (Banks-Diversified and Airlines), which narrows but also sharpens the drilldown universe.",
+    "handoff_quality": "STRONG"
+  }
+}
