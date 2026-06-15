@@ -1,0 +1,416 @@
+{
+  "as_of": "2026-06-15T12:34:04.902180+00:00",
+  "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
+  "source_commodity_as_of": "2026-06-15T12:34:04.897135+00:00",
+  "parameters": {
+    "accel_threshold": 1.5,
+    "fade_threshold": 0.67,
+    "min_industry_premium_per_day": 50000,
+    "commodity_min_rate_pct_per_day": 0.02,
+    "normalization": "rate = total_premium / window_days"
+  },
+  "industry_trajectories": [
+    {
+      "industry": "Consumer Electronics",
+      "sector_etf": "XLK",
+      "sector_name": "Technology",
+      "top_tickers_bullish": [
+        "AAPL"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel_ratio": 2.246,
+      "net_rate_14d": 13953380.32,
+      "net_rate_60d": 6211515.38,
+      "bull_rate_14d": 13953380.32,
+      "bull_rate_60d": 6211515.38,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "industry": "Internet Content & Information",
+      "sector_etf": "XLC",
+      "sector_name": "Communication Services",
+      "top_tickers_bullish": [
+        "META"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "HOLDING_BULLISH",
+      "accel_ratio": 1.419,
+      "net_rate_14d": 15362708.93,
+      "net_rate_60d": 10827012.42,
+      "bull_rate_14d": 15362708.93,
+      "bull_rate_60d": 10827012.42,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "industry": "Internet Retail",
+      "sector_etf": "XLY",
+      "sector_name": "Consumer Cyclical",
+      "top_tickers_bullish": [
+        "AMZN"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "HOLDING_BULLISH",
+      "accel_ratio": 1.01,
+      "net_rate_14d": 12886069.43,
+      "net_rate_60d": 12760588.73,
+      "bull_rate_14d": 12886069.43,
+      "bull_rate_60d": 12760588.73,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "industry": "Semiconductors",
+      "sector_etf": "XLK",
+      "sector_name": "Technology",
+      "top_tickers_bullish": [
+        "NVDA",
+        "INTC"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "HOLDING_BULLISH",
+      "accel_ratio": 1.476,
+      "net_rate_14d": 61778369.86,
+      "net_rate_60d": 41865410.67,
+      "bull_rate_14d": 61778369.86,
+      "bull_rate_60d": 41865410.67,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "industry": "Software - Infrastructure",
+      "sector_etf": "XLK",
+      "sector_name": "Technology",
+      "top_tickers_bullish": [
+        "MSFT",
+        "PLTR"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel_ratio": 1.992,
+      "net_rate_14d": 48115736.07,
+      "net_rate_60d": 24149746.07,
+      "bull_rate_14d": 48115736.07,
+      "bull_rate_60d": 24149746.07,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "industry": "unmapped",
+      "sector_etf": null,
+      "sector_name": "",
+      "top_tickers_bullish": [
+        "QQQ"
+      ],
+      "top_tickers_bearish": [],
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel_ratio": 3.323,
+      "net_rate_14d": 11115002.43,
+      "net_rate_60d": 3344734.84,
+      "bull_rate_14d": 11115002.43,
+      "bull_rate_60d": 3344734.84,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    }
+  ],
+  "sector_trajectories": [
+    {
+      "sector_etf": "XLC",
+      "sector_name": "Communication Services",
+      "industries": [
+        "Internet Content & Information"
+      ],
+      "trajectory": "HOLDING_BULLISH",
+      "accel_ratio": 1.419,
+      "net_rate_14d": 15362708.93,
+      "net_rate_60d": 10827012.42,
+      "bull_rate_14d": 15362708.93,
+      "bull_rate_60d": 10827012.42,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "sector_etf": "XLK",
+      "sector_name": "Technology",
+      "industries": [
+        "Consumer Electronics",
+        "Semiconductors",
+        "Software - Infrastructure"
+      ],
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel_ratio": 1.715,
+      "net_rate_14d": 123847486.25,
+      "net_rate_60d": 72226672.13,
+      "bull_rate_14d": 123847486.25,
+      "bull_rate_60d": 72226672.13,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "sector_etf": "XLY",
+      "sector_name": "Consumer Cyclical",
+      "industries": [
+        "Internet Retail"
+      ],
+      "trajectory": "HOLDING_BULLISH",
+      "accel_ratio": 1.01,
+      "net_rate_14d": 12886069.43,
+      "net_rate_60d": 12760588.73,
+      "bull_rate_14d": 12886069.43,
+      "bull_rate_60d": 12760588.73,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    },
+    {
+      "sector_etf": "unmapped",
+      "sector_name": "unmapped",
+      "industries": [
+        "unmapped"
+      ],
+      "trajectory": "ACCELERATING_BULLISH",
+      "accel_ratio": 3.323,
+      "net_rate_14d": 11115002.43,
+      "net_rate_60d": 3344734.84,
+      "bull_rate_14d": 11115002.43,
+      "bull_rate_60d": 3344734.84,
+      "bear_rate_14d": 0.0,
+      "bear_rate_60d": 0.0
+    }
+  ],
+  "commodity_trajectories": {
+    "energy": {
+      "USO": {
+        "spot": 125.43,
+        "equity_expression": "XLE",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.579,
+          "status": "reliable"
+        },
+        "trajectory": "DIRECTION_FLIP_bullish_to_bearish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": -0.785,
+        "rate_60d_pct_per_day": 0.0515
+      },
+      "BNO": {
+        "spot": 47.82,
+        "equity_expression": "XLE",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.617,
+          "status": "reliable"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 6.722,
+        "rate_14d_pct_per_day": -0.9321,
+        "rate_60d_pct_per_day": -0.1387
+      },
+      "UNG": {
+        "spot": 11.35,
+        "equity_expression": "XLE",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.268,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": 0.2679,
+        "rate_60d_pct_per_day": -0.1737
+      },
+      "DBO": {
+        "spot": 20.46,
+        "equity_expression": "XLE",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.623,
+          "status": "reliable"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 13.883,
+        "rate_14d_pct_per_day": -0.6479,
+        "rate_60d_pct_per_day": -0.0467
+      }
+    },
+    "metals_precious": {
+      "GLD": {
+        "spot": 386.54,
+        "equity_expression": "GDX",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.871,
+          "status": "reliable"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 2.158,
+        "rate_14d_pct_per_day": -0.4707,
+        "rate_60d_pct_per_day": -0.2182
+      },
+      "SLV": {
+        "spot": 61.29,
+        "equity_expression": "GDXJ",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.863,
+          "status": "reliable"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 4.107,
+        "rate_14d_pct_per_day": -0.7386,
+        "rate_60d_pct_per_day": -0.1798
+      },
+      "GDX": {
+        "spot": 80.03,
+        "equity_expression": null,
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": null,
+          "status": "skipped"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 2.743,
+        "rate_14d_pct_per_day": -0.4193,
+        "rate_60d_pct_per_day": -0.1528
+      },
+      "GDXJ": {
+        "spot": 104.26,
+        "equity_expression": null,
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": null,
+          "status": "skipped"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 2.713,
+        "rate_14d_pct_per_day": -0.4707,
+        "rate_60d_pct_per_day": -0.1735
+      }
+    },
+    "metals_industrial": {
+      "CPER": {
+        "spot": 39.55,
+        "equity_expression": "XLB+XLI",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": 0.682,
+          "status": "reliable"
+        },
+        "trajectory": "FADING_BULLISH",
+        "accel_ratio": 0.396,
+        "rate_14d_pct_per_day": 0.1157,
+        "rate_60d_pct_per_day": 0.2922
+      },
+      "URA": {
+        "spot": 45.52,
+        "equity_expression": null,
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": null,
+          "status": "skipped"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 4.167,
+        "rate_14d_pct_per_day": -0.5021,
+        "rate_60d_pct_per_day": -0.1205
+      }
+    },
+    "agriculture": {
+      "DBA": {
+        "spot": 26.24,
+        "equity_expression": "XLP+XLB",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.189,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 8.244,
+        "rate_14d_pct_per_day": -0.3421,
+        "rate_60d_pct_per_day": -0.0415
+      },
+      "WEAT": {
+        "spot": 22.34,
+        "equity_expression": "XLP+XLB",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.195,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 10.286,
+        "rate_14d_pct_per_day": -0.6429,
+        "rate_60d_pct_per_day": -0.0625
+      },
+      "CORN": {
+        "spot": 16.8,
+        "equity_expression": "XLP+XLB",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.216,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 3.71,
+        "rate_14d_pct_per_day": -0.6071,
+        "rate_60d_pct_per_day": -0.1637
+      },
+      "SOYB": {
+        "spot": 24.13,
+        "equity_expression": "XLP+XLB",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.212,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 75.714,
+        "rate_14d_pct_per_day": -0.265,
+        "rate_60d_pct_per_day": -0.0035
+      }
+    },
+    "broad": {
+      "DBC": {
+        "spot": 28.55,
+        "equity_expression": "SPY",
+        "equity_lag": {
+          "lag_days": null,
+          "peak_correlation": -0.322,
+          "status": "no reliable lead/lag"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 11.359,
+        "rate_14d_pct_per_day": -0.4657,
+        "rate_60d_pct_per_day": -0.041
+      },
+      "GSG": {
+        "spot": 30.58,
+        "equity_expression": "SPY",
+        "equity_lag": {
+          "lag_days": 0,
+          "peak_correlation": -0.433,
+          "status": "reliable"
+        },
+        "trajectory": "ACCELERATING_BEARISH",
+        "accel_ratio": 8.625,
+        "rate_14d_pct_per_day": -0.5736,
+        "rate_60d_pct_per_day": -0.0665
+      }
+    }
+  },
+  "summary": {
+    "accelerating_bullish_industries": [
+      "Consumer Electronics",
+      "Software - Infrastructure",
+      "unmapped"
+    ],
+    "direction_flip_entry_industries": [],
+    "direction_flip_exit_industries": [],
+    "top_signals": [
+      "Consumer Electronics",
+      "Software - Infrastructure",
+      "unmapped"
+    ]
+  }
+}
