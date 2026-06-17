@@ -1,0 +1,921 @@
+{
+  "as_of": "2026-06-17T06:06:03.107999-07:00",
+  "as_of_et": "2026-06-17T09:06:03.108012-04:00",
+  "universe_size": 19,
+  "qualifying_count": 1,
+  "dropped_count": 18,
+  "bucket_breakdown": {
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG": 1,
+    "UP_TRENDERS": 0,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "POTENTIALLY_STRONG": 0,
+    "POTENTIAL_REVERSALS": 0
+  },
+  "signals": [
+    {
+      "ticker": "AMKR",
+      "bucket": "CURRENTLY_STRONG",
+      "bucket_priority": 2,
+      "matched_buckets": [
+        "CURRENTLY_STRONG",
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (less room \u2014 already moved)",
+      "current_price": 86.55,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rel_volume_above_1": true,
+        "rel_volume_value": 2.67,
+        "rsi_in_band": true,
+        "rsi_value": 66.87,
+        "any_breakout": true,
+        "breakout_types": [
+          "all_time_high",
+          "20_day_high",
+          "50_day_high",
+          "52_week_high"
+        ],
+        "no_proximity_to_highs": true,
+        "proximity_detail": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "all_bucket_evaluations": {
+        "CURRENTLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 2.67,
+          "rsi_in_band": true,
+          "rsi_value": 66.87,
+          "any_breakout": true,
+          "breakout_types": [
+            "all_time_high",
+            "20_day_high",
+            "50_day_high",
+            "52_week_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          }
+        },
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 66.87,
+        "rel_volume": 2.67,
+        "sma_20": 72.59,
+        "sma_50": 70.06,
+        "sma_200": 47.04,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.64,
+        "smart_money_components": {
+          "directional": 9.85,
+          "conviction": 9.73,
+          "magnitude": 8.98
+        },
+        "smart_money_industry": "Semiconductor Equipment & Materials",
+        "smart_money_industry_score": 8.19,
+        "smart_money_is_industry_leader": false,
+        "smart_money_total_premium": 3925095.0,
+        "smart_money_largest_flow": {
+          "premium": 600000.0,
+          "option_type": "CALL",
+          "strike": 90.0,
+          "expiry": "2026-07-17",
+          "executed_at": "2026-06-16T14:24:23.059543Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Semiconductor Equipment & Materials",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 5.84,
+        "sales_growth_qq": 27.48,
+        "forward_pe": 39.62,
+        "eps_growth_5y": 1.52,
+        "earnings_date": null
+      },
+      "thesis": "AMKR: BULLISH smart money (9.64); qualifies as CURRENTLY_STRONG (also matches: UP_TRENDERS)."
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "TER",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.59,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 409.35,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 56.36,
+        "rel_volume": 1.06,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ENTG",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.02,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 151.61,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 56.5,
+        "rel_volume": 1.12,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ONTO",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.28,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 316.15,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 64.15,
+        "rel_volume": 0.82,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "SNDK",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.44,
+      "industry": "Computer Hardware",
+      "current_price": 1991.55,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 65.75,
+        "rel_volume": 0.85,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "STX",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.34,
+      "industry": "Computer Hardware",
+      "current_price": 1031.34,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 67.07,
+        "rel_volume": 1.72,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "WDC",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.68,
+      "industry": "Computer Hardware",
+      "current_price": 681.08,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 69.37,
+        "rel_volume": 2.36,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "DELL",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.74,
+      "industry": "Computer Hardware",
+      "current_price": 404.08,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 65.64,
+        "rel_volume": 0.52,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ANET",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.1,
+      "industry": "Computer Hardware",
+      "current_price": 168.01,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 60.18,
+        "rel_volume": 0.92,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "SMCI",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.33,
+      "industry": "Computer Hardware",
+      "current_price": 29.22,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 39.76,
+        "rel_volume": 0.82,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "QBTS",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.59,
+      "industry": "Computer Hardware",
+      "current_price": 23.94,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 41.72,
+        "rel_volume": 0.65,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AVGO",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.88,
+      "industry": "Semiconductors",
+      "current_price": 376.71,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 40.47,
+        "rel_volume": 0.98,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "MU",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.21,
+      "industry": "Semiconductors",
+      "current_price": 1020.76,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 55.69,
+        "rel_volume": 0.82,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AMD",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.72,
+      "industry": "Semiconductors",
+      "current_price": 507.29,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.75,
+        "rel_volume": 0.88,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "NVDA",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.47,
+      "industry": "Semiconductors",
+      "current_price": 207.41,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 46.67,
+        "rel_volume": 0.72,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "MRVL",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.5,
+      "industry": "Semiconductors",
+      "current_price": 278.67,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 62.46,
+        "rel_volume": 1.04,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "QCOM",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.71,
+      "industry": "Semiconductors",
+      "current_price": 214.07,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 44.17,
+        "rel_volume": 0.9,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "TXN",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.19,
+      "industry": "Semiconductors",
+      "current_price": 305.71,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 44.98,
+        "rel_volume": 0.93,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ADI",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.15,
+      "industry": "Semiconductors",
+      "current_price": 416.0,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "mom_up",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 50.08,
+        "rel_volume": 0.82,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    }
+  ],
+  "_status": "ok"
+}

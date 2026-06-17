@@ -1,0 +1,513 @@
+{
+  "as_of": "2026-06-17T12:34:14.168498+00:00",
+  "windows": [
+    "14d",
+    "30d",
+    "60d"
+  ],
+  "parameters": {
+    "ohlc_period": "90d",
+    "corr_floor": 0.4,
+    "max_lag_days": 14,
+    "traj_strong_bullish_pct": 5.0,
+    "traj_moderate_bullish_pct": 1.5,
+    "traj_moderate_bearish_pct": -1.5,
+    "traj_strong_bearish_pct": -5.0,
+    "traj_high_rel_vol": 1.3
+  },
+  "categories": {
+    "energy": {
+      "commodities": {
+        "USO": {
+          "spot": 115.47,
+          "windows": {
+            "14d": {
+              "change_pct": -11.88,
+              "rel_volume": 0.887,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -21.77,
+              "rel_volume": 0.255,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -4.91,
+              "rel_volume": null,
+              "trajectory": "FADING"
+            }
+          },
+          "equity_expression": "XLE",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.586,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": false
+        },
+        "BNO": {
+          "spot": 43.89,
+          "windows": {
+            "14d": {
+              "change_pct": -14.18,
+              "rel_volume": 1.08,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -27.01,
+              "rel_volume": 0.591,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -17.06,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BEARISH"
+            }
+          },
+          "equity_expression": "XLE",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.624,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": false
+        },
+        "UNG": {
+          "spot": 11.76,
+          "windows": {
+            "14d": {
+              "change_pct": 5.19,
+              "rel_volume": 0.776,
+              "trajectory": "BUILDING"
+            },
+            "30d": {
+              "change_pct": 7.4,
+              "rel_volume": 0.916,
+              "trajectory": "BUILDING"
+            },
+            "60d": {
+              "change_pct": -5.08,
+              "rel_volume": null,
+              "trajectory": "BUILDING_BEARISH"
+            }
+          },
+          "equity_expression": "XLE",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": 0.26,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": false
+        },
+        "DBO": {
+          "spot": 19.0,
+          "windows": {
+            "14d": {
+              "change_pct": -10.34,
+              "rel_volume": 0.839,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -17.68,
+              "rel_volume": 0.553,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -8.65,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BEARISH"
+            }
+          },
+          "equity_expression": "XLE",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.631,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": false
+        }
+      },
+      "category_summary": {
+        "leading_commodity": "UNG",
+        "trajectory": "ACCELERATING_BEARISH",
+        "equity_following": true
+      }
+    },
+    "metals_precious": {
+      "commodities": {
+        "GLD": {
+          "spot": 397.63,
+          "windows": {
+            "14d": {
+              "change_pct": -2.66,
+              "rel_volume": 1.411,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -4.12,
+              "rel_volume": 0.687,
+              "trajectory": "FADING"
+            },
+            "60d": {
+              "change_pct": -3.81,
+              "rel_volume": null,
+              "trajectory": "FADING"
+            }
+          },
+          "equity_expression": "GDX",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.867,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": false
+        },
+        "SLV": {
+          "spot": 63.39,
+          "windows": {
+            "14d": {
+              "change_pct": -6.09,
+              "rel_volume": 0.841,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -3.87,
+              "rel_volume": 0.773,
+              "trajectory": "FADING"
+            },
+            "60d": {
+              "change_pct": 3.04,
+              "rel_volume": null,
+              "trajectory": "BUILDING"
+            }
+          },
+          "equity_expression": "GDXJ",
+          "equity_expression_note": null,
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.867,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": false
+        },
+        "GDX": {
+          "spot": 87.24,
+          "windows": {
+            "14d": {
+              "change_pct": 2.11,
+              "rel_volume": 1.209,
+              "trajectory": "BUILDING"
+            },
+            "30d": {
+              "change_pct": 1.86,
+              "rel_volume": 0.988,
+              "trajectory": "BUILDING"
+            },
+            "60d": {
+              "change_pct": 8.89,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BULLISH"
+            }
+          },
+          "equity_expression": null,
+          "equity_expression_note": "Self-referential \u2014 GDX is the gold-miners equity expression; no commodity-vs-equity lag applies.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": null,
+            "status": "skipped"
+          },
+          "is_coarse_mapping": false
+        },
+        "GDXJ": {
+          "spot": 114.44,
+          "windows": {
+            "14d": {
+              "change_pct": 1.67,
+              "rel_volume": 1.213,
+              "trajectory": "BUILDING"
+            },
+            "30d": {
+              "change_pct": 1.19,
+              "rel_volume": 1.31,
+              "trajectory": "HOLDING"
+            },
+            "60d": {
+              "change_pct": 9.23,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BULLISH"
+            }
+          },
+          "equity_expression": null,
+          "equity_expression_note": "Self-referential \u2014 GDXJ is the junior-miners equity expression; no commodity-vs-equity lag applies.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": null,
+            "status": "skipped"
+          },
+          "is_coarse_mapping": false
+        }
+      },
+      "category_summary": {
+        "leading_commodity": "GDX",
+        "trajectory": "BUILDING_BEARISH",
+        "equity_following": true
+      }
+    },
+    "metals_industrial": {
+      "commodities": {
+        "CPER": {
+          "spot": 39.55,
+          "windows": {
+            "14d": {
+              "change_pct": 2.78,
+              "rel_volume": 0.687,
+              "trajectory": "BUILDING"
+            },
+            "30d": {
+              "change_pct": 11.16,
+              "rel_volume": 1.211,
+              "trajectory": "ACCELERATING_BULLISH"
+            },
+            "60d": {
+              "change_pct": 22.26,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BULLISH"
+            }
+          },
+          "equity_expression": "XLB+XLI",
+          "equity_expression_note": "Coarse: XLB is ~10% copper-adjacent (chemicals/materials), XLI picks up industrial-metals capex. Average used; treat with caution.",
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": 0.66,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": true
+        },
+        "URA": {
+          "spot": 47.87,
+          "windows": {
+            "14d": {
+              "change_pct": -4.57,
+              "rel_volume": 1.12,
+              "trajectory": "FADING"
+            },
+            "30d": {
+              "change_pct": -12.6,
+              "rel_volume": 1.215,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": 3.08,
+              "rel_volume": null,
+              "trajectory": "BUILDING"
+            }
+          },
+          "equity_expression": null,
+          "equity_expression_note": "No clean listed uranium/nuclear equity ETF; lag computation skipped.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": null,
+            "status": "skipped"
+          },
+          "is_coarse_mapping": false
+        }
+      },
+      "category_summary": {
+        "leading_commodity": "CPER",
+        "trajectory": "BUILDING",
+        "equity_following": true
+      }
+    },
+    "agriculture": {
+      "commodities": {
+        "DBA": {
+          "spot": 26.66,
+          "windows": {
+            "14d": {
+              "change_pct": -2.95,
+              "rel_volume": 0.887,
+              "trajectory": "FADING"
+            },
+            "30d": {
+              "change_pct": -5.76,
+              "rel_volume": 0.777,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -0.71,
+              "rel_volume": null,
+              "trajectory": "HOLDING"
+            }
+          },
+          "equity_expression": "XLP+XLB",
+          "equity_expression_note": "Coarse: XLP covers food/staples companies; XLB covers fertilizer/chemical producers. Average used.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": -0.198,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": true
+        },
+        "WEAT": {
+          "spot": 22.75,
+          "windows": {
+            "14d": {
+              "change_pct": -4.25,
+              "rel_volume": 0.641,
+              "trajectory": "FADING"
+            },
+            "30d": {
+              "change_pct": -5.99,
+              "rel_volume": 0.798,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -0.44,
+              "rel_volume": null,
+              "trajectory": "HOLDING"
+            }
+          },
+          "equity_expression": "XLP+XLB",
+          "equity_expression_note": "Coarse: same as DBA.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": -0.212,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": true
+        },
+        "CORN": {
+          "spot": 16.93,
+          "windows": {
+            "14d": {
+              "change_pct": -5.94,
+              "rel_volume": 0.801,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -11.45,
+              "rel_volume": 0.472,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -9.95,
+              "rel_volume": null,
+              "trajectory": "ACCELERATING_BEARISH"
+            }
+          },
+          "equity_expression": "XLP+XLB",
+          "equity_expression_note": "Coarse: same as DBA.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": -0.193,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": true
+        },
+        "SOYB": {
+          "spot": 24.34,
+          "windows": {
+            "14d": {
+              "change_pct": -2.33,
+              "rel_volume": 1.27,
+              "trajectory": "FADING"
+            },
+            "30d": {
+              "change_pct": -3.49,
+              "rel_volume": 1.267,
+              "trajectory": "FADING"
+            },
+            "60d": {
+              "change_pct": 1.08,
+              "rel_volume": null,
+              "trajectory": "HOLDING"
+            }
+          },
+          "equity_expression": "XLP+XLB",
+          "equity_expression_note": "Coarse: same as DBA.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": -0.188,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": true
+        }
+      },
+      "category_summary": {
+        "leading_commodity": "DBA",
+        "trajectory": "FADING",
+        "equity_following": false
+      }
+    },
+    "broad": {
+      "commodities": {
+        "DBC": {
+          "spot": 27.9,
+          "windows": {
+            "14d": {
+              "change_pct": -5.39,
+              "rel_volume": 0.703,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -10.95,
+              "rel_volume": 0.692,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -3.59,
+              "rel_volume": null,
+              "trajectory": "FADING"
+            }
+          },
+          "equity_expression": "SPY",
+          "equity_expression_note": "Broad commodity basket; SPY used as equity proxy. Correlation is noisy by construction.",
+          "equity_lag": {
+            "lag_days": null,
+            "peak_correlation": -0.373,
+            "status": "no reliable lead/lag"
+          },
+          "is_coarse_mapping": true
+        },
+        "GSG": {
+          "spot": 29.66,
+          "windows": {
+            "14d": {
+              "change_pct": -7.08,
+              "rel_volume": 0.619,
+              "trajectory": "BUILDING_BEARISH"
+            },
+            "30d": {
+              "change_pct": -14.15,
+              "rel_volume": 0.65,
+              "trajectory": "ACCELERATING_BEARISH"
+            },
+            "60d": {
+              "change_pct": -6.49,
+              "rel_volume": null,
+              "trajectory": "BUILDING_BEARISH"
+            }
+          },
+          "equity_expression": "SPY",
+          "equity_expression_note": "Broad commodity basket; SPY used as equity proxy. Correlation is noisy by construction.",
+          "equity_lag": {
+            "lag_days": 0,
+            "peak_correlation": -0.467,
+            "status": "reliable"
+          },
+          "is_coarse_mapping": true
+        }
+      },
+      "category_summary": {
+        "leading_commodity": "DBC",
+        "trajectory": "BUILDING_BEARISH",
+        "equity_following": true
+      }
+    }
+  }
+}
