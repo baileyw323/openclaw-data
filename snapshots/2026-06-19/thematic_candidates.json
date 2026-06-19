@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-06-19T12:33:19.271499+00:00",
+  "source_trajectory_as_of": "2026-06-19T12:33:12.126015+00:00",
+  "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
+  "source_commodity_as_of": "2026-06-19T12:33:12.120950+00:00",
+  "regime_context": {
+    "regime": "TRANSITIONAL",
+    "confidence": 6,
+    "deployment_bias": "MODERATE"
+  },
+  "parameters": {
+    "stage_dist_etf_60d": 30.0,
+    "stage_extended_etf_60d": 30.0,
+    "stage_high_return_etf_60d": 20.0,
+    "stage_chase_etf_60d": 20.0,
+    "stage_chase_lottery_pct": 0.3,
+    "stage_noticed_etf_60d": 10.0,
+    "stage_quiet_etf_60d_min": 0.0,
+    "stage_quiet_breadth_vel": 0.2,
+    "lottery_min_total_premium": 100000.0
+  },
+  "active_theme_candidates": [
+    {
+      "seed_sector_etf": "XLK",
+      "sector_name": "Technology",
+      "driver": "EQUITY_FLOW_DRIVEN",
+      "seeding_industries": [
+        "Consumer Electronics",
+        "Software - Infrastructure"
+      ],
+      "sibling_industries": [
+        "Semiconductors"
+      ],
+      "commodity_seeds": [],
+      "candidate_watchlist_draft": [
+        "AAPL",
+        "MSFT",
+        "PLTR",
+        "NVDA",
+        "INTC"
+      ],
+      "proxies": {
+        "theme_etf_60d_change_pct": 35.67,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": 0.1519,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "sector_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory_input": "ACCELERATING_BULLISH",
+        "accel_ratios": [
+          2.246,
+          1.992
+        ],
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": 35.67,
+        "etf_above_50sma": true,
+        "lottery_pct_fetched": 0.1519
+      },
+      "tentative_stage": "CHASING",
+      "stage_inputs": {
+        "etf_60d": 35.67,
+        "etf_above_50sma": true,
+        "stage_trajectory": "ACCELERATING_BULLISH",
+        "lottery_strike_flow_pct": 0.1519,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "XLK sector trajectory shifts to FADING_BULLISH or bearish",
+          "severity": "hard",
+          "current": "ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "Majority of seeding industries (Consumer Electronics, Software - Infrastructure) shift to HOLDING_BULLISH or below",
+          "severity": "hard",
+          "current": "2 industries ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "14d/60d flow acceleration ratio falls below 1.0 (momentum lost)",
+          "severity": "soft",
+          "current": "avg accel_ratio=2.119"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'AI Infrastructure Build-Out')",
+        "Review cross-sector merge opportunities with other active candidates",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (macro/regulatory/earnings-driven)",
+        "Confirm or override tentative_stage with qualitative context"
+      ]
+    }
+  ],
+  "fading_theme_candidates": [],
+  "summary": {
+    "active_count": 1,
+    "fading_count": 0,
+    "equity_seeds": [
+      "XLK"
+    ],
+    "commodity_seeds": [],
+    "commodity_seeds_unreliable_equity_link": []
+  }
+}
