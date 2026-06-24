@@ -1,0 +1,1279 @@
+{
+  "as_of": "2026-06-24T12:35:50.502138+00:00",
+  "industry_as_of": "2026-06-24T12:33:25.295475+00:00",
+  "scanned_count": 15,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "VRT",
+      "classification": "LEAN BULLISH",
+      "score": 7.2,
+      "score_components": {
+        "directional": 7.05,
+        "conviction": 5.86,
+        "magnitude": 9.56
+      },
+      "bullish_premium_pct": 0.705,
+      "bearish_premium_pct": 0.295,
+      "total_premium": 6652809.0,
+      "bullish_premium": 1870711.25,
+      "bearish_premium": 781679.25,
+      "flow_count": 37,
+      "ask_side_bull_count": 14,
+      "ask_side_bull_premium": 573275.0,
+      "structural_breakdown": {
+        "kept_flow_count": 20,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 10,
+        "dropped_dte_filter": 7,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 435850.0,
+            "put_premium": 0.0,
+            "flow_count": 5
+          },
+          "short_core": {
+            "call_premium": 245103.75,
+            "put_premium": 63240.0,
+            "flow_count": 4
+          },
+          "long_stretch": {
+            "call_premium": 50605.0,
+            "put_premium": 147299.0,
+            "flow_count": 2
+          },
+          "long_core": {
+            "call_premium": 873138.0,
+            "put_premium": 43496.25,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 379875.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 65091.0,
+            "put_premium": 57011.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 200923.5,
+            "put_premium": 90757.5,
+            "flow_count": 4
+          }
+        },
+        "spot_used": 318.5275
+      },
+      "spot_used": 318.5275,
+      "largest_flow": {
+        "premium": 1164184.0,
+        "option_type": "CALL",
+        "strike": 330.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-23T16:20:17.382957Z"
+      },
+      "reason": "moderate_bullish_flow score=7.2",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BE",
+      "classification": "NEUTRAL",
+      "score": 4.99,
+      "score_components": {
+        "directional": 2.49,
+        "conviction": 5.82,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.249,
+      "bearish_premium_pct": 0.751,
+      "total_premium": 36204996.0,
+      "bullish_premium": 2044968.0,
+      "bearish_premium": 6168376.5,
+      "flow_count": 87,
+      "ask_side_bull_count": 22,
+      "ask_side_bull_premium": 2972198.0,
+      "structural_breakdown": {
+        "kept_flow_count": 27,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 42,
+        "dropped_dte_filter": 18,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 106865.5,
+            "put_premium": 5115751.5,
+            "flow_count": 8
+          },
+          "long_core": {
+            "call_premium": 137193.75,
+            "put_premium": 107418.75,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 150502.5,
+            "put_premium": 37755.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 1277156.25,
+            "put_premium": 232091.25,
+            "flow_count": 8
+          },
+          "core_core": {
+            "call_premium": 373250.0,
+            "put_premium": 675360.0,
+            "flow_count": 6
+          }
+        },
+        "spot_used": 321.42
+      },
+      "spot_used": 321.42,
+      "largest_flow": {
+        "premium": 11360336.0,
+        "option_type": "PUT",
+        "strike": 360.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-22T16:01:25.695663Z"
+      },
+      "reason": "bearish_flow_dominant (75% weighted bearish)",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "FCEL",
+      "classification": "BULLISH",
+      "score": 9.4,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 7.01
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 635398.0,
+      "bullish_premium": 277740.0,
+      "bearish_premium": 0.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 341730.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 5,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 15990.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 261750.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 21.46
+      },
+      "spot_used": 21.46,
+      "largest_flow": {
+        "premium": 297000.0,
+        "option_type": "CALL",
+        "strike": 24.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T15:43:07.734313Z"
+      },
+      "reason": "strong_bullish_flow score=9.4",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FPS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60800.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "POWL",
+      "classification": "LEAN BULLISH",
+      "score": 7.26,
+      "score_components": {
+        "directional": 5.47,
+        "conviction": 9.71,
+        "magnitude": 8.05
+      },
+      "bullish_premium_pct": 0.547,
+      "bearish_premium_pct": 0.453,
+      "total_premium": 1662750.0,
+      "bullish_premium": 869800.0,
+      "bearish_premium": 720625.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 783550.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 783550.0,
+            "put_premium": 589900.0,
+            "flow_count": 4
+          },
+          "core_stretch": {
+            "call_premium": 86250.0,
+            "put_premium": 130725.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 292.16
+      },
+      "spot_used": 292.16,
+      "largest_flow": {
+        "premium": 572300.0,
+        "option_type": "PUT",
+        "strike": 300.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-23T14:48:06.950487Z"
+      },
+      "reason": "moderate_bullish_flow score=7.26",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "HUBB",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 233080.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "TE",
+      "classification": "BULLISH",
+      "score": 9.44,
+      "score_components": {
+        "directional": 9.6,
+        "conviction": 10.0,
+        "magnitude": 8.22
+      },
+      "bullish_premium_pct": 0.96,
+      "bearish_premium_pct": 0.04,
+      "total_premium": 1934246.0,
+      "bullish_premium": 399862.5,
+      "bearish_premium": 16575.0,
+      "flow_count": 47,
+      "ask_side_bull_count": 26,
+      "ask_side_bull_premium": 1131657.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 17,
+        "dropped_dte_filter": 19,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 6375.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 293380.5,
+            "put_premium": 16575.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 82495.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 17612.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 9.265
+      },
+      "spot_used": 9.265,
+      "largest_flow": {
+        "premium": 257694.0,
+        "option_type": "CALL",
+        "strike": 10.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T15:11:49.298055Z"
+      },
+      "reason": "strong_bullish_flow score=9.44",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ENS",
+      "classification": "NEUTRAL",
+      "score": 2.83,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.66
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 461580.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 461580.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 1,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 461580.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 230.825
+      },
+      "spot_used": 230.825,
+      "largest_flow": {
+        "premium": 461580.0,
+        "option_type": "PUT",
+        "strike": 250.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T17:25:30.331196Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "PLUG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60927.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AMPX",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 79550.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "RKT",
+      "classification": "BULLISH",
+      "score": 9.08,
+      "score_components": {
+        "directional": 9.66,
+        "conviction": 9.3,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.966,
+      "bearish_premium_pct": 0.034,
+      "total_premium": 819255.0,
+      "bullish_premium": 521562.0,
+      "bearish_premium": 18088.0,
+      "flow_count": 31,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 352131.0,
+      "structural_breakdown": {
+        "kept_flow_count": 24,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 7,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 354193.5,
+            "put_premium": 0.0,
+            "flow_count": 11
+          },
+          "core_core": {
+            "call_premium": 107247.0,
+            "put_premium": 18088.0,
+            "flow_count": 9
+          },
+          "long_core": {
+            "call_premium": 14091.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 23628.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_deep_itm": {
+            "call_premium": 22402.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 13.585
+      },
+      "spot_used": 13.585,
+      "largest_flow": {
+        "premium": 105438.0,
+        "option_type": "CALL",
+        "strike": 15.0,
+        "expiry": "2026-07-31",
+        "executed_at": "2026-06-23T14:10:24.601178Z"
+      },
+      "reason": "strong_bullish_flow score=9.08",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "WD",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PFSI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "UWMC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 108600.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BETR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "TE",
+      "classification": "BULLISH",
+      "score": 9.44,
+      "score_components": {
+        "directional": 9.6,
+        "conviction": 10.0,
+        "magnitude": 8.22
+      },
+      "bullish_premium_pct": 0.96,
+      "bearish_premium_pct": 0.04,
+      "total_premium": 1934246.0,
+      "bullish_premium": 399862.5,
+      "bearish_premium": 16575.0,
+      "flow_count": 47,
+      "ask_side_bull_count": 26,
+      "ask_side_bull_premium": 1131657.0,
+      "structural_breakdown": {
+        "kept_flow_count": 11,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 17,
+        "dropped_dte_filter": 19,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 6375.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 293380.5,
+            "put_premium": 16575.0,
+            "flow_count": 8
+          },
+          "long_stretch": {
+            "call_premium": 82495.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 17612.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 9.265
+      },
+      "spot_used": 9.265,
+      "largest_flow": {
+        "premium": 257694.0,
+        "option_type": "CALL",
+        "strike": 10.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T15:11:49.298055Z"
+      },
+      "reason": "strong_bullish_flow score=9.44",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FCEL",
+      "classification": "BULLISH",
+      "score": 9.4,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 7.01
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 635398.0,
+      "bullish_premium": 277740.0,
+      "bearish_premium": 0.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 341730.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 5,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 15990.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 261750.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 21.46
+      },
+      "spot_used": 21.46,
+      "largest_flow": {
+        "premium": 297000.0,
+        "option_type": "CALL",
+        "strike": 24.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T15:43:07.734313Z"
+      },
+      "reason": "strong_bullish_flow score=9.4",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "RKT",
+      "classification": "BULLISH",
+      "score": 9.08,
+      "score_components": {
+        "directional": 9.66,
+        "conviction": 9.3,
+        "magnitude": 7.28
+      },
+      "bullish_premium_pct": 0.966,
+      "bearish_premium_pct": 0.034,
+      "total_premium": 819255.0,
+      "bullish_premium": 521562.0,
+      "bearish_premium": 18088.0,
+      "flow_count": 31,
+      "ask_side_bull_count": 12,
+      "ask_side_bull_premium": 352131.0,
+      "structural_breakdown": {
+        "kept_flow_count": 24,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 7,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 354193.5,
+            "put_premium": 0.0,
+            "flow_count": 11
+          },
+          "core_core": {
+            "call_premium": 107247.0,
+            "put_premium": 18088.0,
+            "flow_count": 9
+          },
+          "long_core": {
+            "call_premium": 14091.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 23628.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_deep_itm": {
+            "call_premium": 22402.5,
+            "put_premium": 0.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 13.585
+      },
+      "spot_used": 13.585,
+      "largest_flow": {
+        "premium": 105438.0,
+        "option_type": "CALL",
+        "strike": 15.0,
+        "expiry": "2026-07-31",
+        "executed_at": "2026-06-23T14:10:24.601178Z"
+      },
+      "reason": "strong_bullish_flow score=9.08",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [
+    {
+      "ticker": "POWL",
+      "classification": "LEAN BULLISH",
+      "score": 7.26,
+      "score_components": {
+        "directional": 5.47,
+        "conviction": 9.71,
+        "magnitude": 8.05
+      },
+      "bullish_premium_pct": 0.547,
+      "bearish_premium_pct": 0.453,
+      "total_premium": 1662750.0,
+      "bullish_premium": 869800.0,
+      "bearish_premium": 720625.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 783550.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 783550.0,
+            "put_premium": 589900.0,
+            "flow_count": 4
+          },
+          "core_stretch": {
+            "call_premium": 86250.0,
+            "put_premium": 130725.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 292.16
+      },
+      "spot_used": 292.16,
+      "largest_flow": {
+        "premium": 572300.0,
+        "option_type": "PUT",
+        "strike": 300.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-06-23T14:48:06.950487Z"
+      },
+      "reason": "moderate_bullish_flow score=7.26",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "VRT",
+      "classification": "LEAN BULLISH",
+      "score": 7.2,
+      "score_components": {
+        "directional": 7.05,
+        "conviction": 5.86,
+        "magnitude": 9.56
+      },
+      "bullish_premium_pct": 0.705,
+      "bearish_premium_pct": 0.295,
+      "total_premium": 6652809.0,
+      "bullish_premium": 1870711.25,
+      "bearish_premium": 781679.25,
+      "flow_count": 37,
+      "ask_side_bull_count": 14,
+      "ask_side_bull_premium": 573275.0,
+      "structural_breakdown": {
+        "kept_flow_count": 20,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 10,
+        "dropped_dte_filter": 7,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 435850.0,
+            "put_premium": 0.0,
+            "flow_count": 5
+          },
+          "short_core": {
+            "call_premium": 245103.75,
+            "put_premium": 63240.0,
+            "flow_count": 4
+          },
+          "long_stretch": {
+            "call_premium": 50605.0,
+            "put_premium": 147299.0,
+            "flow_count": 2
+          },
+          "long_core": {
+            "call_premium": 873138.0,
+            "put_premium": 43496.25,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 379875.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 65091.0,
+            "put_premium": 57011.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 200923.5,
+            "put_premium": 90757.5,
+            "flow_count": 4
+          }
+        },
+        "spot_used": 318.5275
+      },
+      "spot_used": 318.5275,
+      "largest_flow": {
+        "premium": 1164184.0,
+        "option_type": "CALL",
+        "strike": 330.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-23T16:20:17.382957Z"
+      },
+      "reason": "moderate_bullish_flow score=7.2",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    }
+  ],
+  "neutral": [
+    {
+      "ticker": "BE",
+      "classification": "NEUTRAL",
+      "score": 4.99,
+      "score_components": {
+        "directional": 2.49,
+        "conviction": 5.82,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.249,
+      "bearish_premium_pct": 0.751,
+      "total_premium": 36204996.0,
+      "bullish_premium": 2044968.0,
+      "bearish_premium": 6168376.5,
+      "flow_count": 87,
+      "ask_side_bull_count": 22,
+      "ask_side_bull_premium": 2972198.0,
+      "structural_breakdown": {
+        "kept_flow_count": 27,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 42,
+        "dropped_dte_filter": 18,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 106865.5,
+            "put_premium": 5115751.5,
+            "flow_count": 8
+          },
+          "long_core": {
+            "call_premium": 137193.75,
+            "put_premium": 107418.75,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 150502.5,
+            "put_premium": 37755.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 1277156.25,
+            "put_premium": 232091.25,
+            "flow_count": 8
+          },
+          "core_core": {
+            "call_premium": 373250.0,
+            "put_premium": 675360.0,
+            "flow_count": 6
+          }
+        },
+        "spot_used": 321.42
+      },
+      "spot_used": 321.42,
+      "largest_flow": {
+        "premium": 11360336.0,
+        "option_type": "PUT",
+        "strike": 360.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-06-22T16:01:25.695663Z"
+      },
+      "reason": "bearish_flow_dominant (75% weighted bearish)",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "FPS",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60800.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "HUBB",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 233080.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ENS",
+      "classification": "NEUTRAL",
+      "score": 2.83,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.66
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 461580.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 461580.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 1,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 461580.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 230.825
+      },
+      "spot_used": 230.825,
+      "largest_flow": {
+        "premium": 461580.0,
+        "option_type": "PUT",
+        "strike": 250.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-06-22T17:25:30.331196Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "PLUG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60927.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "AMPX",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 79550.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Electrical Equipment & Parts",
+      "sector_etf": "XLI",
+      "industry_score": 6.69,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "WD",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PFSI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "UWMC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 108600.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "BETR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Mortgage Finance",
+      "sector_etf": "XLF",
+      "industry_score": 6.63,
+      "is_industry_leader": true
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "TE",
+    "FCEL",
+    "RKT",
+    "POWL",
+    "VRT"
+  ],
+  "summary": {
+    "total_scanned": 15,
+    "bullish_count": 3,
+    "lean_bullish_count": 2,
+    "neutral_count": 10,
+    "drilldown_count": 5
+  },
+  "narrative": {
+    "headline": "Electrical Equipment & Parts dominates the tape with concentrated bullish flow, but a massive bearish print in BE creates a notable internal contradiction.",
+    "bullish_themes": [
+      "Electrical Equipment & Parts (XLI) is the clear flow magnet \u2014 4 of 5 drilldown names sit in this single industry, spanning power infrastructure (POWL, VRT), fuel cells (FCEL), and diversified electrical (TE)",
+      "Mortgage Finance shows isolated conviction via RKT \u2014 a rate-sensitive bullish signal sitting outside the dominant industrial theme"
+    ],
+    "notable_individual_flows": [
+      "TE \u2014 $1.93M premium at 96% bullish across 26 ask-side prints, the cleanest conviction signal in the scan",
+      "VRT \u2014 $6.65M premium at 70.5% bullish, the largest absolute dollar flow on the bullish side and a tier-1 datacenter power name",
+      "RKT \u2014 $819K at 96.6% bullish, suggesting positioning for a rate or housing catalyst",
+      "FCEL \u2014 100% bullish but on thin $635K premium and only 4 prints; conviction signal but small size",
+      "BE \u2014 $36.2M premium at 75% BEARISH, dwarfing every bullish print in the scan and directly contradicting the XLI Electrical Equipment thesis"
+    ],
+    "absences": "No bullish flow surfaced in tech (XLK), discretionary, or healthcare despite a 15-name scan universe. Energy and materials are also silent. The tape is narrowly concentrated in one industrial sub-industry plus one mortgage name.",
+    "handoff_quality": "MODERATE"
+  }
+}
