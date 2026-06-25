@@ -1,0 +1,200 @@
+{
+  "as_of": "2026-06-25T06:04:08.566180-07:00",
+  "as_of_et": "2026-06-25T09:04:08.566195-04:00",
+  "universe_size": 3,
+  "qualifying_count": 1,
+  "dropped_count": 2,
+  "bucket_breakdown": {
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG": 0,
+    "UP_TRENDERS": 0,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "POTENTIALLY_STRONG": 0,
+    "POTENTIAL_REVERSALS": 1
+  },
+  "signals": [
+    {
+      "ticker": "RKT",
+      "bucket": "POTENTIAL_REVERSALS",
+      "bucket_priority": 6,
+      "matched_buckets": [
+        "POTENTIAL_REVERSALS"
+      ],
+      "bucket_typical_rr": "~3-4:1 (most speculative)",
+      "current_price": 14.73,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "reversal_signature": true,
+        "above_50sma": true,
+        "below_200sma": true,
+        "rel_volume_above_1": true,
+        "rsi_in_band": true,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "POTENTIAL_REVERSALS": {
+          "prior_day_green": true,
+          "reversal_signature": true,
+          "above_50sma": true,
+          "below_200sma": true,
+          "rel_volume_above_1": true,
+          "rsi_in_band": true,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 59.82,
+        "rel_volume": 2.14,
+        "sma_20": 13.59,
+        "sma_50": 14.27,
+        "sma_200": 17.16,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": false,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.72,
+        "smart_money_components": {
+          "directional": 8.88,
+          "conviction": 8.76,
+          "magnitude": 8.24
+        },
+        "smart_money_industry": "Mortgage Finance",
+        "smart_money_industry_score": 6.63,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 1968652.0,
+        "smart_money_largest_flow": {
+          "premium": 210000.0,
+          "option_type": "PUT",
+          "strike": 15.0,
+          "expiry": "2027-03-19",
+          "executed_at": "2026-06-24T15:56:29.145000Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Mortgage Finance",
+        "industry_status": "QUALIFYING",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": -14.6,
+        "sales_growth_qq": 112.9,
+        "forward_pe": 13.96,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "RKT: BULLISH smart money (8.72); qualifies as POTENTIAL_REVERSALS."
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "BE",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.31,
+      "industry": "Electrical Equipment & Parts",
+      "current_price": 326.19,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 59.13,
+        "rel_volume": 1.01,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ENS",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.75,
+      "industry": "Electrical Equipment & Parts",
+      "current_price": 218.94,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 31.93,
+        "rel_volume": 1.68,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    }
+  ],
+  "_status": "ok"
+}
