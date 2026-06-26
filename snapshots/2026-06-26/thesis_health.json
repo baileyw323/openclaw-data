@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-26T01:59:57.766232+00:00",
-  "data_as_of": "2026-06-26T01:59:46.750450+00:00",
+  "as_of": "2026-06-26T12:33:58.528497+00:00",
+  "data_as_of": "2026-06-26T12:33:51.643162+00:00",
   "themes": [
     {
       "theme_name": "AI Infrastructure Build-Out \u2014 Mega-Cap Compute & Software",
@@ -9,7 +9,7 @@
       "thesis_health_score": 8.0,
       "status": "HEALTHY",
       "status_reason": "no invalidators triggered; health within target range",
-      "day_n": 24,
+      "day_n": 25,
       "next_check": "2026-06-09",
       "ticker_watchlist": [
         "NVDA",
@@ -102,7 +102,7 @@
       "thesis_health_score": 0.0,
       "status": "BREAKING",
       "status_reason": "HARD invalidator: UNG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEAR",
-      "day_n": 24,
+      "day_n": 25,
       "next_check": "2026-06-09",
       "ticker_watchlist": [
         "UNG",
@@ -149,14 +149,14 @@
           "severity": "hard",
           "current_at_creation": "DIRECTION_FLIP_bearish_to_bullish",
           "triggered": true,
-          "observed_today": "UNG trajectory=FADING_BULLISH"
+          "observed_today": "UNG trajectory=ACCELERATING_BEARISH"
         },
         {
           "condition": "UNG 14d %/day rate turns negative",
           "severity": "hard",
           "current_at_creation": "+0.3729%/day",
-          "triggered": false,
-          "observed_today": "UNG 14d rate=+0.0186%/day"
+          "triggered": true,
+          "observed_today": "UNG 14d rate=-0.2179%/day"
         },
         {
           "condition": "EIA weekly storage report prints materially above estimates (bearish surprise)",
