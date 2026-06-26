@@ -1,52 +1,52 @@
 {
-  "as_of": "2026-06-24T12:30:00Z",
+  "as_of": "2026-06-26T01:55:00Z",
   "regime": "TRANSITIONAL",
   "confidence": 6,
   "indicators": {
-    "vix_level": 18.75,
-    "vix_20d_change_pct": 10.88,
-    "spy_price": 736.91,
-    "spy_vs_50sma": "ABOVE",
-    "yield_curve_10y2y": 0.793,
+    "vix_level": 18.89,
+    "vix_20d_change_pct": 15.96,
+    "spy_price": 732.8,
+    "spy_vs_50sma": "BELOW",
+    "yield_curve_10y2y": 0.712,
     "dxy_trend": "RISING",
-    "put_call_sentiment": "BEARISH",
-    "oil_wti_spot": 70.92,
-    "oil_wti_20d_change_pct": -24.46,
-    "gold_spot": 4054.6001,
-    "gold_20d_change_pct": -9.91,
-    "copper_spot": 6.052,
-    "copper_20d_change_pct": -4.86,
-    "dxy_spot": 101.675,
-    "dxy_20d_change_pct": 2.53
+    "put_call_sentiment": "NEUTRAL",
+    "oil_wti_spot": 71.44,
+    "oil_wti_20d_change_pct": -19.44,
+    "gold_spot": 4038.2,
+    "gold_20d_change_pct": -9.2,
+    "copper_spot": 6.0905,
+    "copper_20d_change_pct": -3.4,
+    "dxy_spot": 101.525,
+    "dxy_20d_change_pct": 2.33
   },
   "calendar_risks": [
     {
       "event": "Monthly OpEx",
       "date": "2026-06-19",
-      "impact": "LOW"
-    },
-    {
-      "event": "FOMC Meeting (potential June)",
-      "date": "2026-06-17",
       "impact": "MEDIUM"
     },
     {
-      "event": "NFP Release (early July)",
+      "event": "Quarter-End rebalancing flows",
+      "date": "2026-06-30",
+      "impact": "HIGH"
+    },
+    {
+      "event": "NFP (Non-Farm Payrolls)",
       "date": "2026-07-02",
       "impact": "HIGH"
     },
     {
-      "event": "CPI Release (early July)",
-      "date": "2026-07-10",
+      "event": "FOMC Meeting (likely)",
+      "date": "2026-07-28",
       "impact": "HIGH"
     }
   ],
-  "key_risk": "Rising DXY and bearish sentiment undermine equities despite supportive price action.",
+  "key_risk": "SPY trend breakdown with surging VIX and rising DXY threatening risk assets",
   "supporting_evidence": [
-    "VIX below 20 and SPY above 50SMA signal residual risk-on momentum.",
-    "Yield curve +0.79% positive \u2014 no recessionary inversion signal.",
-    "Rising DXY (+2.53% 20d) and put/call 1.5 indicate growing defensive hedging.",
-    "Crude oil -24% and copper -4.9% 20d \u2014 sharp commodity selloff flags growth fears."
+    "VIX at 18.89 below 20 but surged ~16% in 20 days \u2014 momentum bearish.",
+    "SPY below 50-day SMA signals broken uptrend; DXY rising adds headwind.",
+    "Crude oil cratered -19% in 20 days \u2014 demand concerns or supply shock.",
+    "Gold down -9.2% and copper -3.4% in 20 days \u2014 risk-off commodity liquidation."
   ],
-  "deployment_bias": "MODERATE"
+  "deployment_bias": "DEFENSIVE"
 }

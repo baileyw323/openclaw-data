@@ -1,18 +1,2224 @@
 {
-  "as_of": "2026-06-25T06:04:08.566180-07:00",
-  "as_of_et": "2026-06-25T09:04:08.566195-04:00",
-  "universe_size": 3,
-  "qualifying_count": 1,
-  "dropped_count": 2,
+  "as_of": "2026-06-25T20:13:46.194939-07:00",
+  "as_of_et": "2026-06-25T23:13:46.194944-04:00",
+  "universe_size": 66,
+  "qualifying_count": 22,
+  "dropped_count": 44,
   "bucket_breakdown": {
-    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
-    "CURRENTLY_STRONG": 0,
-    "UP_TRENDERS": 0,
-    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 1,
+    "CURRENTLY_STRONG": 3,
+    "UP_TRENDERS": 14,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 3,
     "POTENTIALLY_STRONG": 0,
     "POTENTIAL_REVERSALS": 1
   },
   "signals": [
+    {
+      "ticker": "MRK",
+      "bucket": "CURRENTLY_STRONG_WITH_FUNDAMENTALS",
+      "bucket_priority": 1,
+      "matched_buckets": [
+        "CURRENTLY_STRONG_WITH_FUNDAMENTALS",
+        "CURRENTLY_STRONG",
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (less room \u2014 already moved)",
+      "current_price": 125.45,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rel_volume_above_1": true,
+        "rel_volume_value": 1.09,
+        "rsi_in_band": true,
+        "rsi_value": 63.31,
+        "any_breakout": true,
+        "breakout_types": [
+          "all_time_high",
+          "20_day_high",
+          "50_day_high",
+          "52_week_high"
+        ],
+        "no_proximity_to_highs": true,
+        "proximity_detail": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        },
+        "sales_5y_positive": true,
+        "sales_qq_positive": true,
+        "forward_pe_under_25": true,
+        "eps_5y_growth_above_10": true,
+        "sales_5y_value": 9.34,
+        "sales_qq_value": 3.72,
+        "forward_pe_value": 13.01,
+        "eps_5y_growth_value": 21.23
+      },
+      "all_bucket_evaluations": {
+        "CURRENTLY_STRONG_WITH_FUNDAMENTALS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 1.09,
+          "rsi_in_band": true,
+          "rsi_value": 63.31,
+          "any_breakout": true,
+          "breakout_types": [
+            "all_time_high",
+            "20_day_high",
+            "50_day_high",
+            "52_week_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          },
+          "sales_5y_positive": true,
+          "sales_qq_positive": true,
+          "forward_pe_under_25": true,
+          "eps_5y_growth_above_10": true,
+          "sales_5y_value": 9.34,
+          "sales_qq_value": 3.72,
+          "forward_pe_value": 13.01,
+          "eps_5y_growth_value": 21.23
+        },
+        "CURRENTLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 1.09,
+          "rsi_in_band": true,
+          "rsi_value": 63.31,
+          "any_breakout": true,
+          "breakout_types": [
+            "all_time_high",
+            "20_day_high",
+            "50_day_high",
+            "52_week_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          }
+        },
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 63.31,
+        "rel_volume": 1.09,
+        "sma_20": 117.68,
+        "sma_50": 114.93,
+        "sma_200": 104.64,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.95,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 7.87,
+          "magnitude": 7.96
+        },
+        "smart_money_industry": "Drug Manufacturers - General",
+        "smart_money_industry_score": 6.95,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 1523805.0,
+        "smart_money_largest_flow": {
+          "premium": 1001058.0,
+          "option_type": "CALL",
+          "strike": 110.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T19:43:25.286436Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Drug Manufacturers - General",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 9.34,
+        "sales_growth_qq": 3.72,
+        "forward_pe": 13.01,
+        "eps_growth_5y": 21.23,
+        "earnings_date": null
+      },
+      "thesis": "MRK: BULLISH smart money (8.95); qualifies as CURRENTLY_STRONG_WITH_FUNDAMENTALS (also matches: CURRENTLY_STRONG, UP_TRENDERS)."
+    },
+    {
+      "ticker": "ABBV",
+      "bucket": "CURRENTLY_STRONG",
+      "bucket_priority": 2,
+      "matched_buckets": [
+        "CURRENTLY_STRONG"
+      ],
+      "bucket_typical_rr": "~2:1 (less room \u2014 already moved)",
+      "current_price": 243.14,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rel_volume_above_1": true,
+        "rel_volume_value": 1.7,
+        "rsi_in_band": true,
+        "rsi_value": 67.48,
+        "any_breakout": true,
+        "breakout_types": [
+          "all_time_high",
+          "20_day_high",
+          "50_day_high",
+          "52_week_high"
+        ],
+        "no_proximity_to_highs": true,
+        "proximity_detail": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "all_bucket_evaluations": {
+        "CURRENTLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 1.7,
+          "rsi_in_band": true,
+          "rsi_value": 67.48,
+          "any_breakout": true,
+          "breakout_types": [
+            "all_time_high",
+            "20_day_high",
+            "50_day_high",
+            "52_week_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          }
+        }
+      },
+      "technical_state": {
+        "rsi_14": 67.48,
+        "rel_volume": 1.7,
+        "sma_20": 224.22,
+        "sma_50": 213.88,
+        "sma_200": 218.66,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.48,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 10.0,
+          "magnitude": 7.42
+        },
+        "smart_money_industry": "Drug Manufacturers - General",
+        "smart_money_industry_score": 6.95,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 932446.0,
+        "smart_money_largest_flow": {
+          "premium": 148895.0,
+          "option_type": "CALL",
+          "strike": 270.0,
+          "expiry": "2027-01-15",
+          "executed_at": "2026-06-25T14:18:08.855638Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Drug Manufacturers - General",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 5.95,
+        "sales_growth_qq": 12.43,
+        "forward_pe": 14.99,
+        "eps_growth_5y": -2.81,
+        "earnings_date": null
+      },
+      "thesis": "ABBV: BULLISH smart money (9.48); qualifies as CURRENTLY_STRONG."
+    },
+    {
+      "ticker": "GLW",
+      "bucket": "CURRENTLY_STRONG",
+      "bucket_priority": 2,
+      "matched_buckets": [
+        "CURRENTLY_STRONG",
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (less room \u2014 already moved)",
+      "current_price": 228.01,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rel_volume_above_1": true,
+        "rel_volume_value": 1.65,
+        "rsi_in_band": true,
+        "rsi_value": 59.14,
+        "any_breakout": true,
+        "breakout_types": [
+          "all_time_high",
+          "20_day_high",
+          "50_day_high",
+          "52_week_high"
+        ],
+        "no_proximity_to_highs": true,
+        "proximity_detail": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "all_bucket_evaluations": {
+        "CURRENTLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 1.65,
+          "rsi_in_band": true,
+          "rsi_value": 59.14,
+          "any_breakout": true,
+          "breakout_types": [
+            "all_time_high",
+            "20_day_high",
+            "50_day_high",
+            "52_week_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          }
+        },
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 59.14,
+        "rel_volume": 1.65,
+        "sma_20": 188.79,
+        "sma_50": 182.0,
+        "sma_200": 123.02,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.47,
+        "smart_money_components": {
+          "directional": 9.46,
+          "conviction": 9.14,
+          "magnitude": 10.0
+        },
+        "smart_money_industry": "Electronic Components",
+        "smart_money_industry_score": 8.69,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 24023150.0,
+        "smart_money_largest_flow": {
+          "premium": 1755000.0,
+          "option_type": "CALL",
+          "strike": 210.0,
+          "expiry": "2026-07-17",
+          "executed_at": "2026-06-25T17:22:19.370012Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Electronic Components",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 6.68,
+        "sales_growth_qq": 20.05,
+        "forward_pe": 54.19,
+        "eps_growth_5y": 27.86,
+        "earnings_date": null
+      },
+      "thesis": "GLW: BULLISH smart money (9.47); qualifies as CURRENTLY_STRONG (also matches: UP_TRENDERS)."
+    },
+    {
+      "ticker": "MOH",
+      "bucket": "CURRENTLY_STRONG",
+      "bucket_priority": 2,
+      "matched_buckets": [
+        "CURRENTLY_STRONG",
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (less room \u2014 already moved)",
+      "current_price": 216.04,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rel_volume_above_1": true,
+        "rel_volume_value": 1.45,
+        "rsi_in_band": true,
+        "rsi_value": 68.86,
+        "any_breakout": true,
+        "breakout_types": [
+          "20_day_high",
+          "50_day_high"
+        ],
+        "no_proximity_to_highs": true,
+        "proximity_detail": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "all_bucket_evaluations": {
+        "CURRENTLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rel_volume_above_1": true,
+          "rel_volume_value": 1.45,
+          "rsi_in_band": true,
+          "rsi_value": 68.86,
+          "any_breakout": true,
+          "breakout_types": [
+            "20_day_high",
+            "50_day_high"
+          ],
+          "no_proximity_to_highs": true,
+          "proximity_detail": {
+            "within_50d": false,
+            "within_52w": false,
+            "within_ath": false
+          }
+        },
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 68.86,
+        "rel_volume": 1.45,
+        "sma_20": 194.02,
+        "sma_50": 185.06,
+        "sma_200": 168.56,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.15,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 10.0,
+          "magnitude": 5.77
+        },
+        "smart_money_industry": "Healthcare Plans",
+        "smart_money_industry_score": 7.65,
+        "smart_money_is_industry_leader": false,
+        "smart_money_total_premium": 202352.0,
+        "smart_money_largest_flow": {
+          "premium": 63270.0,
+          "option_type": "CALL",
+          "strike": 220.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T15:21:20.877116Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Healthcare Plans",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 18.68,
+        "sales_growth_qq": -3.15,
+        "forward_pe": 22.86,
+        "eps_growth_5y": -4.51,
+        "earnings_date": null
+      },
+      "thesis": "MOH: BULLISH smart money (9.15); qualifies as CURRENTLY_STRONG (also matches: UP_TRENDERS)."
+    },
+    {
+      "ticker": "USB",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 61.21,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 76.89,
+        "rel_volume": 0.7,
+        "sma_20": 56.96,
+        "sma_50": 55.97,
+        "sma_200": 52.31,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.21,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 10.0,
+          "magnitude": 6.04
+        },
+        "smart_money_industry": "Banks - Regional",
+        "smart_money_industry_score": 7.39,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 260485.0,
+        "smart_money_largest_flow": {
+          "premium": 72199.0,
+          "option_type": "CALL",
+          "strike": 62.5,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-24T14:41:23.296483Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Banks - Regional",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 13.15,
+        "sales_growth_qq": 1.38,
+        "forward_pe": 10.75,
+        "eps_growth_5y": 8.57,
+        "earnings_date": null
+      },
+      "thesis": "USB: BULLISH smart money (9.21); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "CFG",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 70.66,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 80.29,
+        "rel_volume": 1.04,
+        "sma_20": 65.56,
+        "sma_50": 64.3,
+        "sma_200": 58.47,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.17,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 10.0,
+          "magnitude": 5.83
+        },
+        "smart_money_industry": "Banks - Regional",
+        "smart_money_industry_score": 7.39,
+        "smart_money_is_industry_leader": false,
+        "smart_money_total_premium": 214389.0,
+        "smart_money_largest_flow": {
+          "premium": 74174.0,
+          "option_type": "CALL",
+          "strike": 70.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T15:19:42.760380Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Banks - Regional",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 9.35,
+        "sales_growth_qq": 2.69,
+        "forward_pe": 11.05,
+        "eps_growth_5y": 11.73,
+        "earnings_date": null
+      },
+      "thesis": "CFG: BULLISH smart money (9.17); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "DAL",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 92.11,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 72.31,
+        "rel_volume": 1.22,
+        "sma_20": 82.7,
+        "sma_50": 75.76,
+        "sma_200": 66.96,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.09,
+        "smart_money_components": {
+          "directional": 9.33,
+          "conviction": 9.65,
+          "magnitude": 7.65
+        },
+        "smart_money_industry": "Airlines",
+        "smart_money_industry_score": 8.76,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 1152307.0,
+        "smart_money_largest_flow": {
+          "premium": 115455.0,
+          "option_type": "PUT",
+          "strike": 88.0,
+          "expiry": "2026-07-02",
+          "executed_at": "2026-06-25T18:57:37.829198Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Airlines",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 29.96,
+        "sales_growth_qq": 12.92,
+        "forward_pe": 11.41,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "DAL: BULLISH smart money (9.09); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "CSL",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 388.4,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 65.6,
+        "rel_volume": 0.94,
+        "sma_20": 349.72,
+        "sma_50": 349.44,
+        "sma_200": 343.58,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.55,
+        "smart_money_components": {
+          "directional": 8.17,
+          "conviction": 10.0,
+          "magnitude": 7.32
+        },
+        "smart_money_industry": "Building Products & Equipment",
+        "smart_money_industry_score": 8.02,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 843584.0,
+        "smart_money_largest_flow": {
+          "premium": 191878.0,
+          "option_type": "CALL",
+          "strike": 380.0,
+          "expiry": "2026-09-18",
+          "executed_at": "2026-06-24T14:10:49.647699Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Building Products & Equipment",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 4.79,
+        "sales_growth_qq": -3.99,
+        "forward_pe": 16.6,
+        "eps_growth_5y": 24.22,
+        "earnings_date": null
+      },
+      "thesis": "CSL: BULLISH smart money (8.55); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "AMAT",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 668.0,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 70.19,
+        "rel_volume": 1.59,
+        "sma_20": 537.94,
+        "sma_50": 463.29,
+        "sma_200": 326.42,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.35,
+        "smart_money_components": {
+          "directional": 7.11,
+          "conviction": 9.32,
+          "magnitude": 10.0
+        },
+        "smart_money_industry": "Semiconductor Equipment & Materials",
+        "smart_money_industry_score": 9.43,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 23798372.0,
+        "smart_money_largest_flow": {
+          "premium": 3972119.0,
+          "option_type": "CALL",
+          "strike": 720.0,
+          "expiry": "2027-06-17",
+          "executed_at": "2026-06-25T16:31:28.968480Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Semiconductor Equipment & Materials",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 10.52,
+        "sales_growth_qq": 11.41,
+        "forward_pe": 40.47,
+        "eps_growth_5y": 17.18,
+        "earnings_date": null
+      },
+      "thesis": "AMAT: BULLISH smart money (8.35); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "UAL",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 134.6,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 78.27,
+        "rel_volume": 1.19,
+        "sma_20": 114.51,
+        "sma_50": 103.29,
+        "sma_200": 102.66,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.25,
+        "smart_money_components": {
+          "directional": 8.47,
+          "conviction": 6.79,
+          "magnitude": 9.9
+        },
+        "smart_money_industry": "Airlines",
+        "smart_money_industry_score": 8.76,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 9125813.0,
+        "smart_money_largest_flow": {
+          "premium": 4530240.0,
+          "option_type": "CALL",
+          "strike": 115.0,
+          "expiry": "2026-07-17",
+          "executed_at": "2026-06-25T16:41:17.456869Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Airlines",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 30.93,
+        "sales_growth_qq": 10.56,
+        "forward_pe": 9.35,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "UAL: BULLISH smart money (8.25); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "CMI",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 727.59,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 59.92,
+        "rel_volume": 0.82,
+        "sma_20": 679.58,
+        "sma_50": 668.76,
+        "sma_200": 546.36,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 7.8,
+        "smart_money_components": {
+          "directional": 7.11,
+          "conviction": 10.0,
+          "magnitude": 6.23
+        },
+        "smart_money_industry": "Specialty Industrial Machinery",
+        "smart_money_industry_score": 8.49,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 311760.0,
+        "smart_money_largest_flow": {
+          "premium": 221760.0,
+          "option_type": "CALL",
+          "strike": 770.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T14:20:34.777276Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Specialty Industrial Machinery",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 11.19,
+        "sales_growth_qq": 2.74,
+        "forward_pe": 21.55,
+        "eps_growth_5y": 11.29,
+        "earnings_date": null
+      },
+      "thesis": "CMI: BULLISH smart money (7.80); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "CVS",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 104.66,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 78.54,
+        "rel_volume": 1.03,
+        "sma_20": 97.45,
+        "sma_50": 90.58,
+        "sma_200": 79.89,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 7.72,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 5.0,
+          "magnitude": 6.08
+        },
+        "smart_money_industry": "Healthcare Plans",
+        "smart_money_industry_score": 7.65,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 270726.0,
+        "smart_money_largest_flow": {
+          "premium": 100165.0,
+          "option_type": "CALL",
+          "strike": 105.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-24T13:42:34.671612Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Healthcare Plans",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 8.4,
+        "sales_growth_qq": 6.17,
+        "forward_pe": 12.47,
+        "eps_growth_5y": -23.94,
+        "earnings_date": null
+      },
+      "thesis": "CVS: BULLISH smart money (7.72); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "AAL",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 17.57,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 84.49,
+        "rel_volume": 1.69,
+        "sma_20": 14.92,
+        "sma_50": 13.49,
+        "sma_200": 13.22,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 7.45,
+        "smart_money_components": {
+          "directional": 6.82,
+          "conviction": 7.3,
+          "magnitude": 9.27
+        },
+        "smart_money_industry": "Airlines",
+        "smart_money_industry_score": 8.76,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 5121053.0,
+        "smart_money_largest_flow": {
+          "premium": 1736350.0,
+          "option_type": "CALL",
+          "strike": 15.0,
+          "expiry": "2027-01-15",
+          "executed_at": "2026-06-24T18:22:22.249129Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Airlines",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 25.8,
+        "sales_growth_qq": 10.84,
+        "forward_pe": 7.69,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "AAL: LEAN BULLISH smart money (7.45); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "JPM",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 335.12,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 72.28,
+        "rel_volume": 0.73,
+        "sma_20": 316.41,
+        "sma_50": 310.65,
+        "sma_200": 305.99,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 7.23,
+        "smart_money_components": {
+          "directional": 6.56,
+          "conviction": 7.09,
+          "magnitude": 9.11
+        },
+        "smart_money_industry": "Banks - Diversified",
+        "smart_money_industry_score": 7.43,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 4396885.0,
+        "smart_money_largest_flow": {
+          "premium": 831040.0,
+          "option_type": "CALL",
+          "strike": 345.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T15:57:49.426959Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Banks - Diversified",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 17.27,
+        "sales_growth_qq": 7.2,
+        "forward_pe": 14.17,
+        "eps_growth_5y": 17.66,
+        "earnings_date": null
+      },
+      "thesis": "JPM: LEAN BULLISH smart money (7.23); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "BAC",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 58.19,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 81.8,
+        "rel_volume": 0.66,
+        "sma_20": 54.78,
+        "sma_50": 53.04,
+        "sma_200": 51.87,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 7.05,
+        "smart_money_components": {
+          "directional": 7.6,
+          "conviction": 5.43,
+          "magnitude": 8.13
+        },
+        "smart_money_industry": "Banks - Diversified",
+        "smart_money_industry_score": 7.43,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 1779837.0,
+        "smart_money_largest_flow": {
+          "premium": 349662.0,
+          "option_type": "CALL",
+          "strike": 59.0,
+          "expiry": "2026-07-10",
+          "executed_at": "2026-06-25T14:29:36.703091Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Banks - Diversified",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 15.4,
+        "sales_growth_qq": -0.82,
+        "forward_pe": 11.45,
+        "eps_growth_5y": 15.28,
+        "earnings_date": null
+      },
+      "thesis": "BAC: LEAN BULLISH smart money (7.05); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "URI",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 1139.51,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 59.35,
+        "rel_volume": 0.99,
+        "sma_20": 1061.08,
+        "sma_50": 975.76,
+        "sma_200": 884.56,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 6.97,
+        "smart_money_components": {
+          "directional": 5.21,
+          "conviction": 8.99,
+          "magnitude": 8.34
+        },
+        "smart_money_industry": "Rental & Leasing Services",
+        "smart_money_industry_score": 8.52,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 2161009.0,
+        "smart_money_largest_flow": {
+          "premium": 490590.0,
+          "option_type": "PUT",
+          "strike": 1090.0,
+          "expiry": "2026-07-24",
+          "executed_at": "2026-06-24T17:28:17.660284Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Rental & Leasing Services",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 13.55,
+        "sales_growth_qq": 7.15,
+        "forward_pe": 21.18,
+        "eps_growth_5y": 25.9,
+        "earnings_date": null
+      },
+      "thesis": "URI: LEAN BULLISH smart money (6.97); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "UNH",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 415.53,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 66.13,
+        "rel_volume": 0.83,
+        "sma_20": 398.21,
+        "sma_50": 378.85,
+        "sma_200": 331.34,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 6.54,
+        "smart_money_components": {
+          "directional": 5.88,
+          "conviction": 5.67,
+          "magnitude": 9.51
+        },
+        "smart_money_industry": "Healthcare Plans",
+        "smart_money_industry_score": 7.65,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 6363621.0,
+        "smart_money_largest_flow": {
+          "premium": 665040.0,
+          "option_type": "CALL",
+          "strike": 410.0,
+          "expiry": "2026-09-18",
+          "executed_at": "2026-06-24T16:17:01.168571Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Healthcare Plans",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 11.72,
+        "sales_growth_qq": 1.96,
+        "forward_pe": 19.85,
+        "eps_growth_5y": -3.76,
+        "earnings_date": null
+      },
+      "thesis": "UNH: LEAN BULLISH smart money (6.54); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "RHP",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 130.91,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 81.52,
+        "rel_volume": 1.23,
+        "sma_20": 120.84,
+        "sma_50": 112.27,
+        "sma_200": 97.53,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 6.07,
+        "smart_money_components": {
+          "directional": 7.03,
+          "conviction": 5.0,
+          "magnitude": 5.29
+        },
+        "smart_money_industry": "REIT - Hotel & Motel",
+        "smart_money_industry_score": 7.25,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 130800.0,
+        "smart_money_largest_flow": {
+          "premium": 53300.0,
+          "option_type": "CALL",
+          "strike": 125.0,
+          "expiry": "2026-07-17",
+          "executed_at": "2026-06-24T18:27:07.079394Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "REIT - Hotel & Motel",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 37.49,
+        "sales_growth_qq": 13.16,
+        "forward_pe": 27.96,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "RHP: LEAN BULLISH smart money (6.07); qualifies as UP_TRENDERS."
+    },
+    {
+      "ticker": "LECO",
+      "bucket": "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+      "bucket_priority": 4,
+      "matched_buckets": [
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+        "POTENTIALLY_STRONG"
+      ],
+      "bucket_typical_rr": "~3-4:1 (more room \u2014 hasn't broken yet)",
+      "current_price": 273.72,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rsi_in_band": true,
+        "rsi_value": 58.14,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "breakout_types": [
+          "20_day_high",
+          "50_day_high"
+        ],
+        "any_proximity": true,
+        "proximity_detail": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        },
+        "sales_5y_positive": true,
+        "sales_qq_positive": true,
+        "forward_pe_under_25": true,
+        "eps_5y_growth_above_10": true,
+        "sales_5y_value": 9.75,
+        "sales_qq_value": 11.43,
+        "forward_pe_value": 22.72,
+        "eps_5y_growth_value": 22.18
+      },
+      "all_bucket_evaluations": {
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 58.14,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high",
+            "50_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": false,
+            "within_ath": false
+          },
+          "sales_5y_positive": true,
+          "sales_qq_positive": true,
+          "forward_pe_under_25": true,
+          "eps_5y_growth_above_10": true,
+          "sales_5y_value": 9.75,
+          "sales_qq_value": 11.43,
+          "forward_pe_value": 22.72,
+          "eps_5y_growth_value": 22.18
+        },
+        "POTENTIALLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 58.14,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high",
+            "50_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": false,
+            "within_ath": false
+          }
+        }
+      },
+      "technical_state": {
+        "rsi_14": 58.14,
+        "rel_volume": 0.98,
+        "sma_20": 264.05,
+        "sma_50": 263.29,
+        "sma_200": 252.57,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 7.52,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 5.0,
+          "magnitude": 5.11
+        },
+        "smart_money_industry": "Tools & Accessories",
+        "smart_money_industry_score": 8.64,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 110500.0,
+        "smart_money_largest_flow": {
+          "premium": 110500.0,
+          "option_type": "CALL",
+          "strike": 280.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T16:51:59.295688Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Tools & Accessories",
+        "industry_status": "STRONG",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 9.75,
+        "sales_growth_qq": 11.43,
+        "forward_pe": 22.72,
+        "eps_growth_5y": 22.18,
+        "earnings_date": null
+      },
+      "thesis": "LECO: BULLISH smart money (7.52); qualifies as POTENTIALLY_STRONG_WITH_FUNDAMENTALS (also matches: POTENTIALLY_STRONG)."
+    },
+    {
+      "ticker": "WFC",
+      "bucket": "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+      "bucket_priority": 4,
+      "matched_buckets": [
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+        "POTENTIALLY_STRONG"
+      ],
+      "bucket_typical_rr": "~3-4:1 (more room \u2014 hasn't broken yet)",
+      "current_price": 84.74,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rsi_in_band": true,
+        "rsi_value": 62.98,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "breakout_types": [
+          "20_day_high",
+          "50_day_high"
+        ],
+        "any_proximity": true,
+        "proximity_detail": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        },
+        "sales_5y_positive": true,
+        "sales_qq_positive": true,
+        "forward_pe_under_25": true,
+        "eps_5y_growth_above_10": true,
+        "sales_5y_value": 8.6,
+        "sales_qq_value": 4.87,
+        "forward_pe_value": 10.72,
+        "eps_5y_growth_value": 70.67
+      },
+      "all_bucket_evaluations": {
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 62.98,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high",
+            "50_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": false,
+            "within_ath": false
+          },
+          "sales_5y_positive": true,
+          "sales_qq_positive": true,
+          "forward_pe_under_25": true,
+          "eps_5y_growth_above_10": true,
+          "sales_5y_value": 8.6,
+          "sales_qq_value": 4.87,
+          "forward_pe_value": 10.72,
+          "eps_5y_growth_value": 70.67
+        },
+        "POTENTIALLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 62.98,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high",
+            "50_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": false,
+            "within_ath": false
+          }
+        }
+      },
+      "technical_state": {
+        "rsi_14": 62.98,
+        "rel_volume": 0.7,
+        "sma_20": 81.77,
+        "sma_50": 79.51,
+        "sma_200": 83.57,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 7.41,
+        "smart_money_components": {
+          "directional": 5.59,
+          "conviction": 9.11,
+          "magnitude": 9.41
+        },
+        "smart_money_industry": "Banks - Diversified",
+        "smart_money_industry_score": 7.43,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 5819328.5,
+        "smart_money_largest_flow": {
+          "premium": 295005.0,
+          "option_type": "PUT",
+          "strike": 85.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-25T15:36:12.395895Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Banks - Diversified",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 8.6,
+        "sales_growth_qq": 4.87,
+        "forward_pe": 10.72,
+        "eps_growth_5y": 70.67,
+        "earnings_date": null
+      },
+      "thesis": "WFC: LEAN BULLISH smart money (7.41); qualifies as POTENTIALLY_STRONG_WITH_FUNDAMENTALS (also matches: POTENTIALLY_STRONG)."
+    },
+    {
+      "ticker": "DUK",
+      "bucket": "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+      "bucket_priority": 4,
+      "matched_buckets": [
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS",
+        "POTENTIALLY_STRONG"
+      ],
+      "bucket_typical_rr": "~3-4:1 (more room \u2014 hasn't broken yet)",
+      "current_price": 127.11,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rsi_in_band": true,
+        "rsi_value": 65.87,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "breakout_types": [
+          "20_day_high"
+        ],
+        "any_proximity": true,
+        "proximity_detail": {
+          "within_50d": true,
+          "within_52w": true,
+          "within_ath": true
+        },
+        "sales_5y_positive": true,
+        "sales_qq_positive": true,
+        "forward_pe_under_25": true,
+        "eps_5y_growth_above_10": true,
+        "sales_5y_value": 6.2,
+        "sales_qq_value": 11.26,
+        "forward_pe_value": 17.73,
+        "eps_5y_growth_value": 29.7
+      },
+      "all_bucket_evaluations": {
+        "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 65.87,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": true,
+            "within_ath": true
+          },
+          "sales_5y_positive": true,
+          "sales_qq_positive": true,
+          "forward_pe_under_25": true,
+          "eps_5y_growth_above_10": true,
+          "sales_5y_value": 6.2,
+          "sales_qq_value": 11.26,
+          "forward_pe_value": 17.73,
+          "eps_5y_growth_value": 29.7
+        },
+        "POTENTIALLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 65.87,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": true,
+            "within_ath": true
+          }
+        }
+      },
+      "technical_state": {
+        "rsi_14": 65.87,
+        "rel_volume": 0.99,
+        "sma_20": 123.79,
+        "sma_50": 124.62,
+        "sma_200": 122.43,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": false,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": true,
+          "within_52w": true,
+          "within_ath": true
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "LEAN BULLISH",
+        "smart_money_score": 6.2,
+        "smart_money_components": {
+          "directional": 5.5,
+          "conviction": 7.67,
+          "magnitude": 5.74
+        },
+        "smart_money_industry": "Utilities - Regulated Electric",
+        "smart_money_industry_score": 6.59,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 198578.0,
+        "smart_money_largest_flow": {
+          "premium": 75471.0,
+          "option_type": "PUT",
+          "strike": 125.0,
+          "expiry": "2026-09-18",
+          "executed_at": "2026-06-25T15:19:08.714152Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Utilities - Regulated Electric",
+        "industry_status": null,
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 6.2,
+        "sales_growth_qq": 11.26,
+        "forward_pe": 17.73,
+        "eps_growth_5y": 29.7,
+        "earnings_date": null
+      },
+      "thesis": "DUK: LEAN BULLISH smart money (6.20); qualifies as POTENTIALLY_STRONG_WITH_FUNDAMENTALS (also matches: POTENTIALLY_STRONG)."
+    },
     {
       "ticker": "RKT",
       "bucket": "POTENTIAL_REVERSALS",
@@ -21,7 +2227,7 @@
         "POTENTIAL_REVERSALS"
       ],
       "bucket_typical_rr": "~3-4:1 (most speculative)",
-      "current_price": 14.73,
+      "current_price": 14.78,
       "direction": "LONG",
       "bucket_criteria_met": {
         "prior_day_green": true,
@@ -48,11 +2254,11 @@
         }
       },
       "technical_state": {
-        "rsi_14": 59.82,
-        "rel_volume": 2.14,
-        "sma_20": 13.59,
-        "sma_50": 14.27,
-        "sma_200": 17.16,
+        "rsi_14": 58.74,
+        "rel_volume": 1.6,
+        "sma_20": 13.61,
+        "sma_50": 14.26,
+        "sma_200": 17.13,
         "above_200sma": false,
         "above_50sma": true,
         "above_20sma": true,
@@ -73,16 +2279,16 @@
       },
       "supporting_signals": {
         "smart_money_classification": "BULLISH",
-        "smart_money_score": 8.72,
+        "smart_money_score": 7.74,
         "smart_money_components": {
-          "directional": 8.88,
-          "conviction": 8.76,
-          "magnitude": 8.24
+          "directional": 7.63,
+          "conviction": 7.52,
+          "magnitude": 8.33
         },
         "smart_money_industry": "Mortgage Finance",
-        "smart_money_industry_score": 6.63,
+        "smart_money_industry_score": 6.57,
         "smart_money_is_industry_leader": true,
-        "smart_money_total_premium": 1968652.0,
+        "smart_money_total_premium": 2142885.0,
         "smart_money_largest_flow": {
           "premium": 210000.0,
           "option_type": "PUT",
@@ -94,34 +2300,120 @@
         "slow_positioning_primary_date": null,
         "slow_positioning_conviction": null,
         "industry_name": "Mortgage Finance",
-        "industry_status": "QUALIFYING",
+        "industry_status": null,
         "regime": "TRANSITIONAL",
         "vol_regime": "FAIR"
       },
       "fundamentals_snapshot": {
         "sales_growth_5y": -14.6,
         "sales_growth_qq": 112.9,
-        "forward_pe": 13.96,
+        "forward_pe": 13.94,
         "eps_growth_5y": null,
         "earnings_date": null
       },
-      "thesis": "RKT: BULLISH smart money (8.72); qualifies as POTENTIAL_REVERSALS."
+      "thesis": "RKT: BULLISH smart money (7.74); qualifies as POTENTIAL_REVERSALS."
     }
   ],
   "dropped": [
     {
-      "ticker": "BE",
+      "ticker": "LRCX",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.37,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 401.82,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 62.72,
+        "rel_volume": 1.39,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "Q",
       "smart_money_classification": "BULLISH",
-      "smart_money_score": 9.31,
-      "industry": "Electrical Equipment & Parts",
-      "current_price": 326.19,
+      "smart_money_score": 8.6,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 167.49,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 56.38,
+        "rel_volume": 0.64,
+        "above_200sma": null,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AMKR",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.36,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 85.62,
       "criteria_failures": {
         "closest_eval_currently_strong": [
           "prior_day_green",
           "any_breakout"
         ],
         "up_trenders": [
-          "prior_day_green"
+          "prior_day_green",
+          "wow_up"
         ],
         "potentially_strong": [
           "prior_day_green",
@@ -136,12 +2428,751 @@
         ]
       },
       "raw_indicators": {
-        "rsi_14": 59.13,
-        "rel_volume": 1.01,
+        "rsi_14": 60.93,
+        "rel_volume": 1.0,
         "above_200sma": true,
         "above_50sma": true,
         "above_20sma": true,
         "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ENTG",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.56,
+      "industry": "Semiconductor Equipment & Materials",
+      "current_price": 176.28,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "not_at_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 63.96,
+        "rel_volume": 0.91,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "MKSI",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.65,
+      "industry": "Scientific & Technical Instruments",
+      "current_price": 410.31,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 66.48,
+        "rel_volume": 1.89,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "KEYS",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 5.76,
+      "industry": "Scientific & Technical Instruments",
+      "current_price": 360.06,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 57.3,
+        "rel_volume": 0.74,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "UNP",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.09,
+      "industry": "Railroads",
+      "current_price": 267.73,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "mom_up",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 53.54,
+        "rel_volume": 0.69,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "TMO",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.13,
+      "industry": "Diagnostics & Research",
+      "current_price": 505.75,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "above_200sma"
+        ],
+        "reversals": [
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 59.79,
+        "rel_volume": 0.96,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "DHR",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.35,
+      "industry": "Diagnostics & Research",
+      "current_price": 193.21,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "above_200sma"
+        ],
+        "reversals": [
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 58.7,
+        "rel_volume": 1.16,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "CRL",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.71,
+      "industry": "Diagnostics & Research",
+      "current_price": 212.71,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rsi_in_band"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "rsi_in_band",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rsi_in_band"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 71.3,
+        "rel_volume": 1.9,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "LUV",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.65,
+      "industry": "Airlines",
+      "current_price": 52.09,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "rsi_in_band"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 82.12,
+        "rel_volume": 1.14,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ALK",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.48,
+      "industry": "Airlines",
+      "current_price": 53.29,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "rsi_in_band",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 74.93,
+        "rel_volume": 0.95,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "FLEX",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.96,
+      "industry": "Electronic Components",
+      "current_price": 161.28,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "not_at_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.27,
+        "rel_volume": 0.85,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "PH",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.08,
+      "industry": "Specialty Industrial Machinery",
+      "current_price": 989.91,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "rsi_in_band"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 78.47,
+        "rel_volume": 0.37,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AME",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.53,
+      "industry": "Specialty Industrial Machinery",
+      "current_price": 240.95,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "not_at_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 62.44,
+        "rel_volume": 0.51,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "NUE",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.7,
+      "industry": "Steel",
+      "current_price": 248.89,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma",
+          "wow_up"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 40.11,
+        "rel_volume": 0.64,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "CLF",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.37,
+      "industry": "Steel",
+      "current_price": 10.76,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "above_200sma",
+          "rsi_in_band",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 23.29,
+        "rel_volume": 0.62,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "FDX",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.01,
+      "industry": "Integrated Freight & Logistics",
+      "current_price": 329.44,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.7,
+        "rel_volume": 0.93,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "UPS",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.75,
+      "industry": "Integrated Freight & Logistics",
+      "current_price": 109.31,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 48.35,
+        "rel_volume": 0.67,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "QXO",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.81,
+      "industry": "Industrial Distribution",
+      "current_price": 18.0,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "above_200sma",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 59.02,
+        "rel_volume": 1.52,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ARCB",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.84,
+      "industry": "Trucking",
+      "current_price": 150.02,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 52.44,
+        "rel_volume": 0.76,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": false,
+        "prior_day_green": true,
         "any_breakout_incl_ath": false,
         "any_breakout_excl_ath": false,
         "any_proximity": false,
@@ -151,19 +3182,833 @@
       "reason": "no_bucket_match"
     },
     {
-      "ticker": "ENS",
+      "ticker": "BLDR",
       "smart_money_classification": "BULLISH",
-      "smart_money_score": 7.75,
-      "industry": "Electrical Equipment & Parts",
-      "current_price": 218.94,
+      "smart_money_score": 7.91,
+      "industry": "Building Products & Equipment",
+      "current_price": 88.72,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "above_200sma"
+        ],
+        "reversals": [
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 68.16,
+        "rel_volume": 1.14,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ISRG",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.81,
+      "industry": "Medical Instruments & Supplies",
+      "current_price": 399.69,
       "criteria_failures": {
         "closest_eval_currently_strong": [
           "prior_day_green",
+          "above_200sma",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 35.3,
+        "rel_volume": 1.03,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "HUM",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.72,
+      "industry": "Healthcare Plans",
+      "current_price": 376.0,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 69.1,
+        "rel_volume": 0.66,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "CNC",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.03,
+      "industry": "Healthcare Plans",
+      "current_price": 64.77,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 55.54,
+        "rel_volume": 0.53,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "CI",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.14,
+      "industry": "Healthcare Plans",
+      "current_price": 281.87,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma",
+          "wow_up"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.24,
+        "rel_volume": 0.57,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "CF",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.13,
+      "industry": "Agricultural Inputs",
+      "current_price": 105.49,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "rsi_in_band",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 28.31,
+        "rel_volume": 0.99,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ABT",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.79,
+      "industry": "Medical Devices",
+      "current_price": 93.24,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "above_200sma",
+          "any_proximity"
+        ],
+        "reversals": [
+          "rel_volume_above_1"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 57.52,
+        "rel_volume": 0.76,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "TFC",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 5.51,
+      "industry": "Banks - Regional",
+      "current_price": 50.67,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 57.09,
+        "rel_volume": 0.76,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AWK",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.64,
+      "industry": "Utilities - Regulated Water",
+      "current_price": 130.0,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 66.97,
+        "rel_volume": 0.92,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "NEM",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 5.88,
+      "industry": "Gold",
+      "current_price": 95.35,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 36.17,
+        "rel_volume": 0.85,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AU",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.34,
+      "industry": "Gold",
+      "current_price": 79.34,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 36.04,
+        "rel_volume": 0.98,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "JNJ",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.23,
+      "industry": "Drug Manufacturers - General",
+      "current_price": 244.88,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "not_at_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 69.34,
+        "rel_volume": 1.17,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "LLY",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.3,
+      "industry": "Drug Manufacturers - General",
+      "current_price": 1127.69,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 50.79,
+        "rel_volume": 0.67,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "GILD",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.09,
+      "industry": "Drug Manufacturers - General",
+      "current_price": 123.84,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_200sma",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "above_200sma",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 39.72,
+        "rel_volume": 0.75,
+        "above_200sma": false,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "BMY",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.16,
+      "industry": "Drug Manufacturers - General",
+      "current_price": 55.39,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 44.63,
+        "rel_volume": 0.8,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "BIIB",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.7,
+      "industry": "Drug Manufacturers - General",
+      "current_price": 201.96,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "not_at_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 56.72,
+        "rel_volume": 1.03,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "ARW",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.26,
+      "industry": "Electronics & Computer Distribution",
+      "current_price": 229.03,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 54.62,
+        "rel_volume": 1.4,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "VST",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.7,
+      "industry": "Utilities - Independent Power Producers",
+      "current_price": 167.77,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "above_200sma",
+          "rel_volume_above_1"
+        ],
+        "up_trenders": [
+          "above_200sma",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "above_200sma",
+          "any_proximity"
+        ],
+        "reversals": [
+          "rel_volume_above_1"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 63.15,
+        "rel_volume": 0.81,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "TLN",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.21,
+      "industry": "Utilities - Independent Power Producers",
+      "current_price": 416.8,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 60.4,
+        "rel_volume": 1.05,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "NVDA",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.44,
+      "industry": "Semiconductors",
+      "current_price": 195.74,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
           "any_breakout"
         ],
         "up_trenders": [
           "prior_day_green",
           "above_20sma",
+          "sma_stacking_20_50_200",
           "wow_up",
           "mom_up"
         ],
@@ -177,12 +4022,13 @@
           "reversal_signature",
           "above_50sma",
           "below_200sma",
+          "rel_volume_above_1",
           "any_breakout_excl_ath"
         ]
       },
       "raw_indicators": {
-        "rsi_14": 31.93,
-        "rel_volume": 1.68,
+        "rsi_14": 32.67,
+        "rel_volume": 0.82,
         "above_200sma": true,
         "above_50sma": false,
         "above_20sma": false,
@@ -192,6 +4038,143 @@
         "any_proximity": false,
         "wow_up": false,
         "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AMD",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.17,
+      "industry": "Semiconductors",
+      "current_price": 532.57,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.37,
+        "rel_volume": 0.86,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "AVGO",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.66,
+      "industry": "Semiconductors",
+      "current_price": 378.91,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 39.35,
+        "rel_volume": 0.58,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "MRVL",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.94,
+      "industry": "Semiconductors",
+      "current_price": 281.26,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "wow_up"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 43.57,
+        "rel_volume": 0.53,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": true
       },
       "reason": "no_bucket_match"
     }
