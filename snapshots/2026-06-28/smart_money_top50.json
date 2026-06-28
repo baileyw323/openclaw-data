@@ -1,0 +1,6182 @@
+{
+  "as_of": "2026-06-28T15:44:11.448064+00:00",
+  "lookback_hours": 48,
+  "scanned_count": 50,
+  "weights": {
+    "flow": 0.6,
+    "darkpool": 0.25,
+    "blocks": 0.15
+  },
+  "thresholds": {
+    "bullish": 7.5,
+    "lean_bullish": 6.0,
+    "lean_bearish": 4.0,
+    "bearish": 2.5
+  },
+  "summary": {
+    "BULLISH": 25,
+    "LEAN BULLISH": 1,
+    "NEUTRAL": 12,
+    "LEAN BEARISH": 3,
+    "BEARISH": 9
+  },
+  "signals": [
+    {
+      "ticker": "AMZN",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 231.9,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 2974455.0,
+          "flow_count": 15,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 651236.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 13,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 651236.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 231.9
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 19077504619.13,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 19045741347.96,
+          "block_count": 274,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "WMT",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 115.65,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 435953.0,
+          "flow_count": 1,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 435953.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 435953.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 115.65
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 945224599.11,
+          "print_count": 418,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 915740586.89,
+          "block_count": 199,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "LLY",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 1211.1,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 1892107.0,
+          "flow_count": 8,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 684340.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 6,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 539440.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_stretch": {
+                "call_premium": 144900.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 1211.1
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 629384581.95,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 588389978.93,
+          "block_count": 186,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "V",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 337.1626,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 1546139.0,
+          "flow_count": 2,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 1283234.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 1283234.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 337.1626
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1301434150.5,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1262029220.57,
+          "block_count": 201,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "MA",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 499.02,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 246880.0,
+          "flow_count": 2,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 117562.5,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 117562.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 499.02
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1065362545.65,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1025025291.83,
+          "block_count": 187,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 73.8501,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 2210202.0,
+          "flow_count": 11,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 802523.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 9,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 62499.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 740024.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 73.8501
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 386506397.29,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 349058617.45,
+          "block_count": 225,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "ABBV",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 252.8,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 227158.0,
+          "flow_count": 2,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 192258.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 87558.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "long_core": {
+                "call_premium": 104700.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 252.8
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 6148475513.62,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 6112001712.4,
+          "block_count": 242,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "HD",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 345.68,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 648326.0,
+          "flow_count": 4,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 106984.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 1,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 63034.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_stretch": {
+                "call_premium": 43950.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 345.68
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 290188104.03,
+          "print_count": 461,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 257405388.89,
+          "block_count": 222,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "TXN",
+      "classification": "BULLISH",
+      "composite_score": 10.0,
+      "spot_price": 283.5739,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 425400.0,
+          "flow_count": 3,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 281475.0,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 281475.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 283.5739
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 2285814093.43,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 2247378334.83,
+          "block_count": 219,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "JPM",
+      "classification": "BULLISH",
+      "composite_score": 9.63,
+      "spot_price": 329.16,
+      "signals": {
+        "flow": {
+          "score": 9.39,
+          "premium": 3272543.0,
+          "flow_count": 7,
+          "bullish_pct": 0.939,
+          "bearish_pct": 0.061,
+          "bullish_premium": 1346523.0,
+          "bearish_premium": 87301.5,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 3,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 4,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_core": {
+                "call_premium": 1346523.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              },
+              "core_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 87301.5,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 329.16
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 646956186.59,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 604613556.06,
+          "block_count": 192,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "MS",
+      "classification": "BULLISH",
+      "composite_score": 9.53,
+      "spot_price": 212.1561,
+      "signals": {
+        "flow": {
+          "score": 10.0,
+          "premium": 319365.0,
+          "flow_count": 3,
+          "bullish_pct": 1.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 155688.75,
+          "bearish_premium": 0.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 57960.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "short_core": {
+                "call_premium": 97728.75,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 212.1561
+          }
+        },
+        "darkpool": {
+          "score": 8.95,
+          "premium": 165667748.8,
+          "print_count": 305,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 8.62,
+          "premium": 139774817.67,
+          "block_count": 109,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 8.95,
+        "blk_directional": 8.62
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "classification": "BULLISH",
+      "composite_score": 9.46,
+      "spot_price": 627.4333,
+      "signals": {
+        "flow": {
+          "score": 9.1,
+          "premium": 5831749.0,
+          "flow_count": 21,
+          "bullish_pct": 0.91,
+          "bearish_pct": 0.09,
+          "bullish_premium": 3460295.25,
+          "bearish_premium": 340867.5,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 15,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 3,
+            "dropped_dte_filter": 3,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_stretch": {
+                "call_premium": 501232.5,
+                "put_premium": 0.0,
+                "flow_count": 4
+              },
+              "short_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 52800.0,
+                "flow_count": 1
+              },
+              "short_core": {
+                "call_premium": 0.0,
+                "put_premium": 288067.5,
+                "flow_count": 2
+              },
+              "core_stretch": {
+                "call_premium": 755028.75,
+                "put_premium": 0.0,
+                "flow_count": 3
+              },
+              "core_core": {
+                "call_premium": 2204034.0,
+                "put_premium": 0.0,
+                "flow_count": 5
+              }
+            },
+            "spot_used": 627.4333
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 4753869229.36,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 4710133261.85,
+          "block_count": 168,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "classification": "BULLISH",
+      "composite_score": 9.32,
+      "spot_price": 338.12,
+      "signals": {
+        "flow": {
+          "score": 8.87,
+          "premium": 15543349.0,
+          "flow_count": 35,
+          "bullish_pct": 0.887,
+          "bearish_pct": 0.113,
+          "bullish_premium": 3035104.5,
+          "bearish_premium": 387385.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 10,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 25,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_deep_itm": {
+                "call_premium": 115440.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 2817477.0,
+                "put_premium": 387385.0,
+                "flow_count": 8
+              },
+              "core_stretch": {
+                "call_premium": 102187.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 338.12
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 13501074231.92,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 13464024827.92,
+          "block_count": 224,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "classification": "BULLISH",
+      "composite_score": 9.23,
+      "spot_price": 372.73,
+      "signals": {
+        "flow": {
+          "score": 8.71,
+          "premium": 22070380.0,
+          "flow_count": 62,
+          "bullish_pct": 0.871,
+          "bearish_pct": 0.129,
+          "bullish_premium": 14939583.75,
+          "bearish_premium": 2204251.25,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 45,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 1,
+            "dropped_dte_filter": 16,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_core": {
+                "call_premium": 0.0,
+                "put_premium": 400721.25,
+                "flow_count": 2
+              },
+              "core_core": {
+                "call_premium": 12743435.0,
+                "put_premium": 1803530.0,
+                "flow_count": 32
+              },
+              "core_stretch": {
+                "call_premium": 628489.5,
+                "put_premium": 0.0,
+                "flow_count": 6
+              },
+              "short_core": {
+                "call_premium": 1044809.25,
+                "put_premium": 0.0,
+                "flow_count": 3
+              },
+              "long_stretch": {
+                "call_premium": 522850.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 372.73
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 21220100071.61,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 21189235882.69,
+          "block_count": 267,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "GEV",
+      "classification": "BULLISH",
+      "composite_score": 9.2,
+      "spot_price": 1045.5,
+      "signals": {
+        "flow": {
+          "score": 8.67,
+          "premium": 3288184.0,
+          "flow_count": 7,
+          "bullish_pct": 0.867,
+          "bearish_pct": 0.133,
+          "bullish_premium": 2633160.0,
+          "bearish_premium": 402786.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 5,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 2,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "short_core": {
+                "call_premium": 0.0,
+                "put_premium": 254032.5,
+                "flow_count": 3
+              },
+              "core_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 148753.5,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 2633160.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 1045.5
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 419020812.1,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 373226384.84,
+          "block_count": 123,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "classification": "BULLISH",
+      "composite_score": 9.14,
+      "spot_price": 282.5007,
+      "signals": {
+        "flow": {
+          "score": 8.57,
+          "premium": 10714140.0,
+          "flow_count": 44,
+          "bullish_pct": 0.857,
+          "bearish_pct": 0.143,
+          "bullish_premium": 2564847.25,
+          "bearish_premium": 427614.25,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 14,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 30,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 419447.25,
+                "put_premium": 338864.25,
+                "flow_count": 2
+              },
+              "core_core": {
+                "call_premium": 533650.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              },
+              "long_stretch": {
+                "call_premium": 1504717.5,
+                "put_premium": 88750.0,
+                "flow_count": 9
+              },
+              "long_core": {
+                "call_premium": 107032.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 282.5007
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 21932083423.58,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 21902128847.55,
+          "block_count": 272,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "META",
+      "classification": "BULLISH",
+      "composite_score": 9.05,
+      "spot_price": 551.0864,
+      "signals": {
+        "flow": {
+          "score": 8.41,
+          "premium": 2863964.0,
+          "flow_count": 14,
+          "bullish_pct": 0.841,
+          "bearish_pct": 0.159,
+          "bullish_premium": 539964.75,
+          "bearish_premium": 102300.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 3,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 11,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 102300.0,
+                "flow_count": 1
+              },
+              "short_core": {
+                "call_premium": 369092.25,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_stretch": {
+                "call_premium": 170872.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 551.0864
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1356906358.09,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1318972593.29,
+          "block_count": 214,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "GS",
+      "classification": "BULLISH",
+      "composite_score": 9.05,
+      "spot_price": 1021.0,
+      "signals": {
+        "flow": {
+          "score": 8.41,
+          "premium": 5578693.0,
+          "flow_count": 17,
+          "bullish_pct": 0.841,
+          "bearish_pct": 0.159,
+          "bullish_premium": 469260.0,
+          "bearish_premium": 88469.5,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 7,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 1,
+            "dropped_dte_filter": 9,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 160455.0,
+                "put_premium": 38464.5,
+                "flow_count": 3
+              },
+              "core_core": {
+                "call_premium": 187595.0,
+                "put_premium": 50005.0,
+                "flow_count": 2
+              },
+              "short_stretch": {
+                "call_premium": 62410.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "long_core": {
+                "call_premium": 58800.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 1021.0
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 456930236.51,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 413864494.27,
+          "block_count": 125,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "MRK",
+      "classification": "BULLISH",
+      "composite_score": 8.97,
+      "spot_price": 127.53,
+      "signals": {
+        "flow": {
+          "score": 8.28,
+          "premium": 588539.0,
+          "flow_count": 4,
+          "bullish_pct": 0.828,
+          "bearish_pct": 0.172,
+          "bullish_premium": 185138.25,
+          "bearish_premium": 38477.25,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 3,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 128900.25,
+                "put_premium": 38477.25,
+                "flow_count": 2
+              },
+              "core_core": {
+                "call_premium": 56238.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 127.53
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 329602958.17,
+          "print_count": 472,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 290339998.39,
+          "block_count": 167,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "AMD",
+      "classification": "BULLISH",
+      "composite_score": 8.52,
+      "spot_price": 518.7227,
+      "signals": {
+        "flow": {
+          "score": 7.53,
+          "premium": 14999013.0,
+          "flow_count": 59,
+          "bullish_pct": 0.753,
+          "bearish_pct": 0.247,
+          "bullish_premium": 2065509.0,
+          "bearish_premium": 675887.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 15,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 7,
+            "dropped_dte_filter": 37,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "short_stretch": {
+                "call_premium": 427670.0,
+                "put_premium": 171192.0,
+                "flow_count": 4
+              },
+              "core_core": {
+                "call_premium": 1210234.0,
+                "put_premium": 165785.0,
+                "flow_count": 6
+              },
+              "short_core": {
+                "call_premium": 335700.0,
+                "put_premium": 257163.75,
+                "flow_count": 3
+              },
+              "core_stretch": {
+                "call_premium": 91905.0,
+                "put_premium": 81746.25,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 518.7227
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 5852183125.4,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 5817178285.91,
+          "block_count": 213,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "UNH",
+      "classification": "BULLISH",
+      "composite_score": 8.44,
+      "spot_price": 426.68,
+      "signals": {
+        "flow": {
+          "score": 7.4,
+          "premium": 2891665.0,
+          "flow_count": 13,
+          "bullish_pct": 0.74,
+          "bearish_pct": 0.26,
+          "bullish_premium": 1547347.5,
+          "bearish_premium": 543648.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 6,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 7,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 1228752.0,
+                "put_premium": 0.0,
+                "flow_count": 3
+              },
+              "core_deep_itm": {
+                "call_premium": 64072.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "long_core": {
+                "call_premium": 254523.0,
+                "put_premium": 543648.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 426.68
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 752534833.54,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 715181299.28,
+          "block_count": 222,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "classification": "BULLISH",
+      "composite_score": 8.16,
+      "spot_price": 192.71,
+      "signals": {
+        "flow": {
+          "score": 6.93,
+          "premium": 30860780.0,
+          "flow_count": 84,
+          "bullish_pct": 0.693,
+          "bearish_pct": 0.307,
+          "bullish_premium": 6288412.0,
+          "bearish_premium": 2785379.25,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 35,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 49,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 5708464.0,
+                "put_premium": 1041480.0,
+                "flow_count": 17
+              },
+              "core_stretch": {
+                "call_premium": 186096.75,
+                "put_premium": 1743899.25,
+                "flow_count": 15
+              },
+              "long_core": {
+                "call_premium": 393851.25,
+                "put_premium": 0.0,
+                "flow_count": 3
+              }
+            },
+            "spot_used": 192.71
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 5937817161.5,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 5904514711.01,
+          "block_count": 271,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "classification": "BULLISH",
+      "composite_score": 8.13,
+      "spot_price": 249.39,
+      "signals": {
+        "flow": {
+          "score": 6.88,
+          "premium": 2565352.0,
+          "flow_count": 7,
+          "bullish_pct": 0.688,
+          "bearish_pct": 0.312,
+          "bullish_premium": 121890.0,
+          "bearish_premium": 55350.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 3,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 1,
+            "dropped_dte_filter": 3,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_core": {
+                "call_premium": 0.0,
+                "put_premium": 55350.0,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 121890.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 249.39
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1306557629.36,
+          "print_count": 363,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1281845901.86,
+          "block_count": 183,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "MU",
+      "classification": "BULLISH",
+      "composite_score": 8.05,
+      "spot_price": 1133.5,
+      "signals": {
+        "flow": {
+          "score": 7.81,
+          "premium": 36419164.0,
+          "flow_count": 100,
+          "bullish_pct": 0.781,
+          "bearish_pct": 0.219,
+          "bullish_premium": 10232353.0,
+          "bearish_premium": 2865721.25,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 34,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 9,
+            "dropped_dte_filter": 57,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "short_core": {
+                "call_premium": 1222083.0,
+                "put_premium": 1115343.75,
+                "flow_count": 10
+              },
+              "core_stretch": {
+                "call_premium": 2400015.0,
+                "put_premium": 972547.5,
+                "flow_count": 8
+              },
+              "short_stretch": {
+                "call_premium": 338990.0,
+                "put_premium": 60317.5,
+                "flow_count": 3
+              },
+              "long_core": {
+                "call_premium": 1033695.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 5237570.0,
+                "put_premium": 521550.0,
+                "flow_count": 11
+              },
+              "long_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 195962.5,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 1133.5
+          }
+        },
+        "darkpool": {
+          "score": 8.6,
+          "premium": 138178519.08,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 8.11,
+          "premium": 99055546.15,
+          "block_count": 195,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 8.6,
+        "blk_directional": 8.11
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "WFC",
+      "classification": "BULLISH",
+      "composite_score": 7.76,
+      "spot_price": 84.1,
+      "signals": {
+        "flow": {
+          "score": 6.26,
+          "premium": 800958.0,
+          "flow_count": 8,
+          "bullish_pct": 0.626,
+          "bearish_pct": 0.374,
+          "bullish_premium": 138151.0,
+          "bearish_premium": 82485.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 4,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 112867.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              },
+              "long_core": {
+                "call_premium": 0.0,
+                "put_premium": 82485.0,
+                "flow_count": 1
+              },
+              "long_stretch": {
+                "call_premium": 25284.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 84.1
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 367588618.24,
+          "print_count": 154,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 357363592.73,
+          "block_count": 77,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "classification": "LEAN BULLISH",
+      "composite_score": 7.37,
+      "spot_price": 377.91,
+      "signals": {
+        "flow": {
+          "score": 5.61,
+          "premium": 18928630.0,
+          "flow_count": 96,
+          "bullish_pct": 0.561,
+          "bearish_pct": 0.439,
+          "bullish_premium": 2924633.25,
+          "bearish_premium": 2292883.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 26,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 3,
+            "dropped_dte_filter": 67,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_stretch": {
+                "call_premium": 200895.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              },
+              "core_core": {
+                "call_premium": 1529217.0,
+                "put_premium": 1179265.0,
+                "flow_count": 13
+              },
+              "short_core": {
+                "call_premium": 253044.0,
+                "put_premium": 882723.75,
+                "flow_count": 6
+              },
+              "long_core": {
+                "call_premium": 0.0,
+                "put_premium": 230894.25,
+                "flow_count": 2
+              },
+              "core_stretch": {
+                "call_premium": 941477.25,
+                "put_premium": 0.0,
+                "flow_count": 3
+              }
+            },
+            "spot_used": 377.91
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1806877578.01,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1769966594.02,
+          "block_count": 246,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bullish",
+        "dp_directional": 10.0,
+        "blk_directional": 10.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 336.1497,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 3445386.0,
+          "flow_count": 16,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 85500.0,
+          "bearish_premium": 0.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 15,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 85500.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 336.1497
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 8564927438.22,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 8533174024.66,
+          "block_count": 262,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "BRK.B",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 362.16,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 362.16
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 428776562.96,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 382268519.67,
+          "block_count": 187,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "BAC",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 57.93,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 1198047.0,
+          "flow_count": 7,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 80892.0,
+          "bearish_premium": 0.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 6,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 80892.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 57.93
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 390779608.2,
+          "print_count": 367,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 360829840.39,
+          "block_count": 152,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "CVX",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 171.9332,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 171.9332
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 281180910.78,
+          "print_count": 365,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 255285022.97,
+          "block_count": 178,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "PG",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 149.02,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 74636.0,
+          "flow_count": 1,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 74636.0,
+          "bearish_premium": 0.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 74636.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 149.02
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 424173852.73,
+          "print_count": 203,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 408082064.49,
+          "block_count": 89,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "KO",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 82.43,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 82.43
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1388960716.87,
+          "print_count": 306,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1369470404.42,
+          "block_count": 164,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "GE",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 368.6,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 195810.0,
+          "flow_count": 2,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 85680.0,
+          "bearish_premium": 0.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "short_core": {
+                "call_premium": 85680.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 368.6
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 714224429.08,
+          "print_count": 287,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 692424331.01,
+          "block_count": 127,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "PM",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 180.77,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 180.77
+          }
+        },
+        "darkpool": {
+          "score": 8.37,
+          "premium": 119318854.69,
+          "print_count": 133,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 8.26,
+          "premium": 110614879.25,
+          "block_count": 73,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "LIN",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 517.0758,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 121800.0,
+          "flow_count": 1,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 91350.0,
+          "bearish_premium": 0.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 91350.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 517.0758
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 300111426.11,
+          "print_count": 378,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 271014497.87,
+          "block_count": 133,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "RTX",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 188.4675,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 188.4675
+          }
+        },
+        "darkpool": {
+          "score": 8.73,
+          "premium": 148255485.91,
+          "print_count": 194,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 8.51,
+          "premium": 130889440.39,
+          "block_count": 63,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "AXP",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 340.43,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 868977.0,
+          "flow_count": 5,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 66650.0,
+          "reason": "below_floor",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 4,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 66650.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 340.43
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 761399551.25,
+          "print_count": 190,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 748359473.4,
+          "block_count": 92,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "PEP",
+      "classification": "NEUTRAL",
+      "composite_score": 5.0,
+      "spot_price": 140.7303,
+      "signals": {
+        "flow": {
+          "score": 5.0,
+          "premium": 0.0,
+          "flow_count": 0,
+          "bullish_pct": 0.0,
+          "bearish_pct": 0.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 0.0,
+          "reason": "no_data",
+          "structural_breakdown": {
+            "kept_flow_count": 0,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {},
+            "spot_used": 140.7303
+          }
+        },
+        "darkpool": {
+          "score": 9.45,
+          "premium": 206268906.59,
+          "print_count": 161,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 9.32,
+          "premium": 195313871.71,
+          "block_count": 81,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "neutral",
+        "dp_directional": 5.0,
+        "blk_directional": 5.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "classification": "LEAN BEARISH",
+      "composite_score": 2.99,
+      "spot_price": 112.15,
+      "signals": {
+        "flow": {
+          "score": 4.99,
+          "premium": 6644021.0,
+          "flow_count": 45,
+          "bullish_pct": 0.499,
+          "bearish_pct": 0.501,
+          "bullish_premium": 353442.0,
+          "bearish_premium": 355000.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 8,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 3,
+            "dropped_dte_filter": 34,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 106500.0,
+                "put_premium": 355000.0,
+                "flow_count": 3
+              },
+              "short_core": {
+                "call_premium": 147855.0,
+                "put_premium": 0.0,
+                "flow_count": 3
+              },
+              "core_stretch": {
+                "call_premium": 99087.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 112.15
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 425492362.16,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 387504284.24,
+          "block_count": 210,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "COST",
+      "classification": "LEAN BEARISH",
+      "composite_score": 2.83,
+      "spot_price": 949.5479,
+      "signals": {
+        "flow": {
+          "score": 4.72,
+          "premium": 339490.0,
+          "flow_count": 2,
+          "bullish_pct": 0.472,
+          "bearish_pct": 0.528,
+          "bullish_premium": 160390.0,
+          "bearish_premium": 179100.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 0,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 160390.0,
+                "put_premium": 179100.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 949.5479
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 2841903770.76,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 2795318569.31,
+          "block_count": 195,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "ORCL",
+      "classification": "LEAN BEARISH",
+      "composite_score": 2.72,
+      "spot_price": 148.9994,
+      "signals": {
+        "flow": {
+          "score": 4.54,
+          "premium": 5525298.0,
+          "flow_count": 27,
+          "bullish_pct": 0.454,
+          "bearish_pct": 0.546,
+          "bullish_premium": 641501.25,
+          "bearish_premium": 772165.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 8,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 2,
+            "dropped_dte_filter": 17,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_stretch": {
+                "call_premium": 275475.0,
+                "put_premium": 0.0,
+                "flow_count": 2
+              },
+              "core_core": {
+                "call_premium": 319500.0,
+                "put_premium": 772165.0,
+                "flow_count": 5
+              },
+              "long_core": {
+                "call_premium": 46526.25,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 148.9994
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 343843605.55,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 299818008.31,
+          "block_count": 172,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "classification": "BEARISH",
+      "composite_score": 2.01,
+      "spot_price": 366.6068,
+      "signals": {
+        "flow": {
+          "score": 3.35,
+          "premium": 6705181.0,
+          "flow_count": 22,
+          "bullish_pct": 0.335,
+          "bearish_pct": 0.665,
+          "bullish_premium": 647910.0,
+          "bearish_premium": 1286107.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 7,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 3,
+            "dropped_dte_filter": 12,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 170490.0,
+                "put_premium": 145810.0,
+                "flow_count": 2
+              },
+              "core_stretch": {
+                "call_premium": 477420.0,
+                "put_premium": 170922.0,
+                "flow_count": 4
+              },
+              "short_core": {
+                "call_premium": 0.0,
+                "put_premium": 969375.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 366.6068
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 1437540223.73,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 1394628070.05,
+          "block_count": 190,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "classification": "BEARISH",
+      "composite_score": 1.97,
+      "spot_price": 254.6124,
+      "signals": {
+        "flow": {
+          "score": 3.28,
+          "premium": 618934.0,
+          "flow_count": 4,
+          "bullish_pct": 0.328,
+          "bearish_pct": 0.672,
+          "bullish_premium": 130086.75,
+          "bearish_premium": 266410.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 3,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 266410.0,
+                "flow_count": 2
+              },
+              "core_stretch": {
+                "call_premium": 130086.75,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 254.6124
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 318019208.16,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 276358693.8,
+          "block_count": 174,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "XOM",
+      "classification": "BEARISH",
+      "composite_score": 1.83,
+      "spot_price": 137.194,
+      "signals": {
+        "flow": {
+          "score": 3.05,
+          "premium": 1324222.0,
+          "flow_count": 5,
+          "bullish_pct": 0.305,
+          "bearish_pct": 0.695,
+          "bullish_premium": 303600.0,
+          "bearish_premium": 691625.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 303600.0,
+                "put_premium": 505628.0,
+                "flow_count": 3
+              },
+              "long_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 185997.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 137.194
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 458297790.88,
+          "print_count": 459,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 419819804.6,
+          "block_count": 177,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "INTC",
+      "classification": "BEARISH",
+      "composite_score": 1.51,
+      "spot_price": 127.62,
+      "signals": {
+        "flow": {
+          "score": 2.52,
+          "premium": 2633991.0,
+          "flow_count": 12,
+          "bullish_pct": 0.252,
+          "bearish_pct": 0.748,
+          "bullish_premium": 204700.0,
+          "bearish_premium": 607530.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 8,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 122000.0,
+                "put_premium": 490000.0,
+                "flow_count": 2
+              },
+              "long_stretch": {
+                "call_premium": 82700.0,
+                "put_premium": 117530.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 127.62
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 708868577.82,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 666974251.18,
+          "block_count": 189,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "classification": "BEARISH",
+      "composite_score": 1.25,
+      "spot_price": 113.6,
+      "signals": {
+        "flow": {
+          "score": 2.09,
+          "premium": 910771.0,
+          "flow_count": 6,
+          "bullish_pct": 0.209,
+          "bearish_pct": 0.791,
+          "bullish_premium": 136562.5,
+          "bearish_premium": 517826.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 2,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 51250.0,
+                "put_premium": 517826.0,
+                "flow_count": 3
+              },
+              "long_stretch": {
+                "call_premium": 85312.5,
+                "put_premium": 0.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 113.6
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 752139774.46,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 719002815.76,
+          "block_count": 258,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "classification": "BEARISH",
+      "composite_score": 1.21,
+      "spot_price": 378.0585,
+      "signals": {
+        "flow": {
+          "score": 2.02,
+          "premium": 1644667.0,
+          "flow_count": 8,
+          "bullish_pct": 0.202,
+          "bearish_pct": 0.798,
+          "bullish_premium": 94500.0,
+          "bearish_premium": 374372.5,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 1,
+            "dropped_dte_filter": 3,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_stretch": {
+                "call_premium": 94500.0,
+                "put_premium": 0.0,
+                "flow_count": 1
+              },
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 206080.0,
+                "flow_count": 1
+              },
+              "short_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 168292.5,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 378.0585
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 996129548.17,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 957276128.42,
+          "block_count": 224,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "IBM",
+      "classification": "BEARISH",
+      "composite_score": 0.13,
+      "spot_price": 271.63,
+      "signals": {
+        "flow": {
+          "score": 0.0,
+          "premium": 773893.0,
+          "flow_count": 7,
+          "bullish_pct": 0.0,
+          "bearish_pct": 1.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 529617.75,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 4,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 2,
+            "dropped_dte_filter": 1,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 401388.0,
+                "flow_count": 3
+              },
+              "core_stretch": {
+                "call_premium": 0.0,
+                "put_premium": 128229.75,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 271.63
+          }
+        },
+        "darkpool": {
+          "score": 9.88,
+          "premium": 240229898.73,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 9.35,
+          "premium": 197959674.88,
+          "block_count": 186,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.12,
+        "blk_directional": 0.65
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "C",
+      "classification": "BEARISH",
+      "composite_score": 0.01,
+      "spot_price": 141.82,
+      "signals": {
+        "flow": {
+          "score": 0.0,
+          "premium": 1448137.0,
+          "flow_count": 8,
+          "bullish_pct": 0.0,
+          "bearish_pct": 1.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 684252.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 2,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 6,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "core_core": {
+                "call_premium": 0.0,
+                "put_premium": 684252.0,
+                "flow_count": 2
+              }
+            },
+            "spot_used": 141.82
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 283143639.22,
+          "print_count": 383,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 9.96,
+          "premium": 246770052.3,
+          "block_count": 134,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.04
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    },
+    {
+      "ticker": "CAT",
+      "classification": "BEARISH",
+      "composite_score": 0.0,
+      "spot_price": 1000.7465,
+      "signals": {
+        "flow": {
+          "score": 0.0,
+          "premium": 1171960.0,
+          "flow_count": 3,
+          "bullish_pct": 0.0,
+          "bearish_pct": 1.0,
+          "bullish_premium": 0.0,
+          "bearish_premium": 298480.0,
+          "reason": "scored_structural",
+          "structural_breakdown": {
+            "kept_flow_count": 1,
+            "dropped_no_spot": 0,
+            "dropped_no_dte": 0,
+            "dropped_lottery": 0,
+            "dropped_dte_filter": 2,
+            "dropped_unknown_type": 0,
+            "by_band": {
+              "long_deep_itm": {
+                "call_premium": 0.0,
+                "put_premium": 298480.0,
+                "flow_count": 1
+              }
+            },
+            "spot_used": 1000.7465
+          }
+        },
+        "darkpool": {
+          "score": 10.0,
+          "premium": 4536137612.36,
+          "print_count": 500,
+          "reason": "scored_magnitude_only"
+        },
+        "blocks": {
+          "score": 10.0,
+          "premium": 4489378655.52,
+          "block_count": 193,
+          "reason": "scored_magnitude_only"
+        }
+      },
+      "magnitude_direction": {
+        "flow_direction": "bearish",
+        "dp_directional": 0.0,
+        "blk_directional": 0.0
+      },
+      "weights": {
+        "flow": 0.6,
+        "darkpool": 0.25,
+        "blocks": 0.15
+      }
+    }
+  ],
+  "by_classification": {
+    "BULLISH": [
+      {
+        "ticker": "AMZN",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 231.9,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 2974455.0,
+            "flow_count": 15,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 651236.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 13,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 651236.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 231.9
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 19077504619.13,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 19045741347.96,
+            "block_count": 274,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "WMT",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 115.65,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 435953.0,
+            "flow_count": 1,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 435953.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 435953.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 115.65
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 945224599.11,
+            "print_count": 418,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 915740586.89,
+            "block_count": 199,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "LLY",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 1211.1,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 1892107.0,
+            "flow_count": 8,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 684340.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 6,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 539440.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_stretch": {
+                  "call_premium": 144900.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 1211.1
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 629384581.95,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 588389978.93,
+            "block_count": 186,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "V",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 337.1626,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 1546139.0,
+            "flow_count": 2,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 1283234.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 1283234.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 337.1626
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1301434150.5,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1262029220.57,
+            "block_count": 201,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "MA",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 499.02,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 246880.0,
+            "flow_count": 2,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 117562.5,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 117562.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 499.02
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1065362545.65,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1025025291.83,
+            "block_count": 187,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "NFLX",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 73.8501,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 2210202.0,
+            "flow_count": 11,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 802523.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 9,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 62499.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 740024.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 73.8501
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 386506397.29,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 349058617.45,
+            "block_count": 225,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "ABBV",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 252.8,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 227158.0,
+            "flow_count": 2,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 192258.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 87558.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "long_core": {
+                  "call_premium": 104700.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 252.8
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 6148475513.62,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 6112001712.4,
+            "block_count": 242,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "HD",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 345.68,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 648326.0,
+            "flow_count": 4,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 106984.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 1,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 63034.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_stretch": {
+                  "call_premium": 43950.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 345.68
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 290188104.03,
+            "print_count": 461,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 257405388.89,
+            "block_count": 222,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "TXN",
+        "classification": "BULLISH",
+        "composite_score": 10.0,
+        "spot_price": 283.5739,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 425400.0,
+            "flow_count": 3,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 281475.0,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 281475.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 283.5739
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 2285814093.43,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 2247378334.83,
+            "block_count": 219,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "JPM",
+        "classification": "BULLISH",
+        "composite_score": 9.63,
+        "spot_price": 329.16,
+        "signals": {
+          "flow": {
+            "score": 9.39,
+            "premium": 3272543.0,
+            "flow_count": 7,
+            "bullish_pct": 0.939,
+            "bearish_pct": 0.061,
+            "bullish_premium": 1346523.0,
+            "bearish_premium": 87301.5,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 3,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 4,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_core": {
+                  "call_premium": 1346523.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                },
+                "core_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 87301.5,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 329.16
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 646956186.59,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 604613556.06,
+            "block_count": 192,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "MS",
+        "classification": "BULLISH",
+        "composite_score": 9.53,
+        "spot_price": 212.1561,
+        "signals": {
+          "flow": {
+            "score": 10.0,
+            "premium": 319365.0,
+            "flow_count": 3,
+            "bullish_pct": 1.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 155688.75,
+            "bearish_premium": 0.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 57960.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "short_core": {
+                  "call_premium": 97728.75,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 212.1561
+            }
+          },
+          "darkpool": {
+            "score": 8.95,
+            "premium": 165667748.8,
+            "print_count": 305,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 8.62,
+            "premium": 139774817.67,
+            "block_count": 109,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 8.95,
+          "blk_directional": 8.62
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "AMAT",
+        "classification": "BULLISH",
+        "composite_score": 9.46,
+        "spot_price": 627.4333,
+        "signals": {
+          "flow": {
+            "score": 9.1,
+            "premium": 5831749.0,
+            "flow_count": 21,
+            "bullish_pct": 0.91,
+            "bearish_pct": 0.09,
+            "bullish_premium": 3460295.25,
+            "bearish_premium": 340867.5,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 15,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 3,
+              "dropped_dte_filter": 3,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_stretch": {
+                  "call_premium": 501232.5,
+                  "put_premium": 0.0,
+                  "flow_count": 4
+                },
+                "short_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 52800.0,
+                  "flow_count": 1
+                },
+                "short_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 288067.5,
+                  "flow_count": 2
+                },
+                "core_stretch": {
+                  "call_premium": 755028.75,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                },
+                "core_core": {
+                  "call_premium": 2204034.0,
+                  "put_premium": 0.0,
+                  "flow_count": 5
+                }
+              },
+              "spot_used": 627.4333
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 4753869229.36,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 4710133261.85,
+            "block_count": 168,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "GOOGL",
+        "classification": "BULLISH",
+        "composite_score": 9.32,
+        "spot_price": 338.12,
+        "signals": {
+          "flow": {
+            "score": 8.87,
+            "premium": 15543349.0,
+            "flow_count": 35,
+            "bullish_pct": 0.887,
+            "bearish_pct": 0.113,
+            "bullish_premium": 3035104.5,
+            "bearish_premium": 387385.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 10,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 25,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_deep_itm": {
+                  "call_premium": 115440.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 2817477.0,
+                  "put_premium": 387385.0,
+                  "flow_count": 8
+                },
+                "core_stretch": {
+                  "call_premium": 102187.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 338.12
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 13501074231.92,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 13464024827.92,
+            "block_count": 224,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "classification": "BULLISH",
+        "composite_score": 9.23,
+        "spot_price": 372.73,
+        "signals": {
+          "flow": {
+            "score": 8.71,
+            "premium": 22070380.0,
+            "flow_count": 62,
+            "bullish_pct": 0.871,
+            "bearish_pct": 0.129,
+            "bullish_premium": 14939583.75,
+            "bearish_premium": 2204251.25,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 45,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 1,
+              "dropped_dte_filter": 16,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 400721.25,
+                  "flow_count": 2
+                },
+                "core_core": {
+                  "call_premium": 12743435.0,
+                  "put_premium": 1803530.0,
+                  "flow_count": 32
+                },
+                "core_stretch": {
+                  "call_premium": 628489.5,
+                  "put_premium": 0.0,
+                  "flow_count": 6
+                },
+                "short_core": {
+                  "call_premium": 1044809.25,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                },
+                "long_stretch": {
+                  "call_premium": 522850.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 372.73
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 21220100071.61,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 21189235882.69,
+            "block_count": 267,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "GEV",
+        "classification": "BULLISH",
+        "composite_score": 9.2,
+        "spot_price": 1045.5,
+        "signals": {
+          "flow": {
+            "score": 8.67,
+            "premium": 3288184.0,
+            "flow_count": 7,
+            "bullish_pct": 0.867,
+            "bearish_pct": 0.133,
+            "bullish_premium": 2633160.0,
+            "bearish_premium": 402786.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 5,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 2,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "short_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 254032.5,
+                  "flow_count": 3
+                },
+                "core_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 148753.5,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 2633160.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 1045.5
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 419020812.1,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 373226384.84,
+            "block_count": 123,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "AAPL",
+        "classification": "BULLISH",
+        "composite_score": 9.14,
+        "spot_price": 282.5007,
+        "signals": {
+          "flow": {
+            "score": 8.57,
+            "premium": 10714140.0,
+            "flow_count": 44,
+            "bullish_pct": 0.857,
+            "bearish_pct": 0.143,
+            "bullish_premium": 2564847.25,
+            "bearish_premium": 427614.25,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 14,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 30,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 419447.25,
+                  "put_premium": 338864.25,
+                  "flow_count": 2
+                },
+                "core_core": {
+                  "call_premium": 533650.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                },
+                "long_stretch": {
+                  "call_premium": 1504717.5,
+                  "put_premium": 88750.0,
+                  "flow_count": 9
+                },
+                "long_core": {
+                  "call_premium": 107032.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 282.5007
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 21932083423.58,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 21902128847.55,
+            "block_count": 272,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "META",
+        "classification": "BULLISH",
+        "composite_score": 9.05,
+        "spot_price": 551.0864,
+        "signals": {
+          "flow": {
+            "score": 8.41,
+            "premium": 2863964.0,
+            "flow_count": 14,
+            "bullish_pct": 0.841,
+            "bearish_pct": 0.159,
+            "bullish_premium": 539964.75,
+            "bearish_premium": 102300.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 3,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 11,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 102300.0,
+                  "flow_count": 1
+                },
+                "short_core": {
+                  "call_premium": 369092.25,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_stretch": {
+                  "call_premium": 170872.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 551.0864
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1356906358.09,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1318972593.29,
+            "block_count": 214,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "GS",
+        "classification": "BULLISH",
+        "composite_score": 9.05,
+        "spot_price": 1021.0,
+        "signals": {
+          "flow": {
+            "score": 8.41,
+            "premium": 5578693.0,
+            "flow_count": 17,
+            "bullish_pct": 0.841,
+            "bearish_pct": 0.159,
+            "bullish_premium": 469260.0,
+            "bearish_premium": 88469.5,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 7,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 1,
+              "dropped_dte_filter": 9,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 160455.0,
+                  "put_premium": 38464.5,
+                  "flow_count": 3
+                },
+                "core_core": {
+                  "call_premium": 187595.0,
+                  "put_premium": 50005.0,
+                  "flow_count": 2
+                },
+                "short_stretch": {
+                  "call_premium": 62410.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "long_core": {
+                  "call_premium": 58800.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 1021.0
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 456930236.51,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 413864494.27,
+            "block_count": 125,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "MRK",
+        "classification": "BULLISH",
+        "composite_score": 8.97,
+        "spot_price": 127.53,
+        "signals": {
+          "flow": {
+            "score": 8.28,
+            "premium": 588539.0,
+            "flow_count": 4,
+            "bullish_pct": 0.828,
+            "bearish_pct": 0.172,
+            "bullish_premium": 185138.25,
+            "bearish_premium": 38477.25,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 3,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 128900.25,
+                  "put_premium": 38477.25,
+                  "flow_count": 2
+                },
+                "core_core": {
+                  "call_premium": 56238.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 127.53
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 329602958.17,
+            "print_count": 472,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 290339998.39,
+            "block_count": 167,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "AMD",
+        "classification": "BULLISH",
+        "composite_score": 8.52,
+        "spot_price": 518.7227,
+        "signals": {
+          "flow": {
+            "score": 7.53,
+            "premium": 14999013.0,
+            "flow_count": 59,
+            "bullish_pct": 0.753,
+            "bearish_pct": 0.247,
+            "bullish_premium": 2065509.0,
+            "bearish_premium": 675887.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 15,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 7,
+              "dropped_dte_filter": 37,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "short_stretch": {
+                  "call_premium": 427670.0,
+                  "put_premium": 171192.0,
+                  "flow_count": 4
+                },
+                "core_core": {
+                  "call_premium": 1210234.0,
+                  "put_premium": 165785.0,
+                  "flow_count": 6
+                },
+                "short_core": {
+                  "call_premium": 335700.0,
+                  "put_premium": 257163.75,
+                  "flow_count": 3
+                },
+                "core_stretch": {
+                  "call_premium": 91905.0,
+                  "put_premium": 81746.25,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 518.7227
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 5852183125.4,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 5817178285.91,
+            "block_count": 213,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "UNH",
+        "classification": "BULLISH",
+        "composite_score": 8.44,
+        "spot_price": 426.68,
+        "signals": {
+          "flow": {
+            "score": 7.4,
+            "premium": 2891665.0,
+            "flow_count": 13,
+            "bullish_pct": 0.74,
+            "bearish_pct": 0.26,
+            "bullish_premium": 1547347.5,
+            "bearish_premium": 543648.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 6,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 7,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 1228752.0,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                },
+                "core_deep_itm": {
+                  "call_premium": 64072.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "long_core": {
+                  "call_premium": 254523.0,
+                  "put_premium": 543648.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 426.68
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 752534833.54,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 715181299.28,
+            "block_count": 222,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "classification": "BULLISH",
+        "composite_score": 8.16,
+        "spot_price": 192.71,
+        "signals": {
+          "flow": {
+            "score": 6.93,
+            "premium": 30860780.0,
+            "flow_count": 84,
+            "bullish_pct": 0.693,
+            "bearish_pct": 0.307,
+            "bullish_premium": 6288412.0,
+            "bearish_premium": 2785379.25,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 35,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 49,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 5708464.0,
+                  "put_premium": 1041480.0,
+                  "flow_count": 17
+                },
+                "core_stretch": {
+                  "call_premium": 186096.75,
+                  "put_premium": 1743899.25,
+                  "flow_count": 15
+                },
+                "long_core": {
+                  "call_premium": 393851.25,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                }
+              },
+              "spot_used": 192.71
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 5937817161.5,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 5904514711.01,
+            "block_count": 271,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "KLAC",
+        "classification": "BULLISH",
+        "composite_score": 8.13,
+        "spot_price": 249.39,
+        "signals": {
+          "flow": {
+            "score": 6.88,
+            "premium": 2565352.0,
+            "flow_count": 7,
+            "bullish_pct": 0.688,
+            "bearish_pct": 0.312,
+            "bullish_premium": 121890.0,
+            "bearish_premium": 55350.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 3,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 1,
+              "dropped_dte_filter": 3,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 55350.0,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 121890.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 249.39
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1306557629.36,
+            "print_count": 363,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1281845901.86,
+            "block_count": 183,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "MU",
+        "classification": "BULLISH",
+        "composite_score": 8.05,
+        "spot_price": 1133.5,
+        "signals": {
+          "flow": {
+            "score": 7.81,
+            "premium": 36419164.0,
+            "flow_count": 100,
+            "bullish_pct": 0.781,
+            "bearish_pct": 0.219,
+            "bullish_premium": 10232353.0,
+            "bearish_premium": 2865721.25,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 34,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 9,
+              "dropped_dte_filter": 57,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "short_core": {
+                  "call_premium": 1222083.0,
+                  "put_premium": 1115343.75,
+                  "flow_count": 10
+                },
+                "core_stretch": {
+                  "call_premium": 2400015.0,
+                  "put_premium": 972547.5,
+                  "flow_count": 8
+                },
+                "short_stretch": {
+                  "call_premium": 338990.0,
+                  "put_premium": 60317.5,
+                  "flow_count": 3
+                },
+                "long_core": {
+                  "call_premium": 1033695.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 5237570.0,
+                  "put_premium": 521550.0,
+                  "flow_count": 11
+                },
+                "long_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 195962.5,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 1133.5
+            }
+          },
+          "darkpool": {
+            "score": 8.6,
+            "premium": 138178519.08,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 8.11,
+            "premium": 99055546.15,
+            "block_count": 195,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 8.6,
+          "blk_directional": 8.11
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "WFC",
+        "classification": "BULLISH",
+        "composite_score": 7.76,
+        "spot_price": 84.1,
+        "signals": {
+          "flow": {
+            "score": 6.26,
+            "premium": 800958.0,
+            "flow_count": 8,
+            "bullish_pct": 0.626,
+            "bearish_pct": 0.374,
+            "bullish_premium": 138151.0,
+            "bearish_premium": 82485.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 4,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 112867.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                },
+                "long_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 82485.0,
+                  "flow_count": 1
+                },
+                "long_stretch": {
+                  "call_premium": 25284.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 84.1
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 367588618.24,
+            "print_count": 154,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 357363592.73,
+            "block_count": 77,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      }
+    ],
+    "LEAN BULLISH": [
+      {
+        "ticker": "TSLA",
+        "classification": "LEAN BULLISH",
+        "composite_score": 7.37,
+        "spot_price": 377.91,
+        "signals": {
+          "flow": {
+            "score": 5.61,
+            "premium": 18928630.0,
+            "flow_count": 96,
+            "bullish_pct": 0.561,
+            "bearish_pct": 0.439,
+            "bullish_premium": 2924633.25,
+            "bearish_premium": 2292883.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 26,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 3,
+              "dropped_dte_filter": 67,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_stretch": {
+                  "call_premium": 200895.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                },
+                "core_core": {
+                  "call_premium": 1529217.0,
+                  "put_premium": 1179265.0,
+                  "flow_count": 13
+                },
+                "short_core": {
+                  "call_premium": 253044.0,
+                  "put_premium": 882723.75,
+                  "flow_count": 6
+                },
+                "long_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 230894.25,
+                  "flow_count": 2
+                },
+                "core_stretch": {
+                  "call_premium": 941477.25,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                }
+              },
+              "spot_used": 377.91
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1806877578.01,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1769966594.02,
+            "block_count": 246,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bullish",
+          "dp_directional": 10.0,
+          "blk_directional": 10.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      }
+    ],
+    "NEUTRAL": [
+      {
+        "ticker": "GOOG",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 336.1497,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 3445386.0,
+            "flow_count": 16,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 85500.0,
+            "bearish_premium": 0.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 15,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 85500.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 336.1497
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 8564927438.22,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 8533174024.66,
+            "block_count": 262,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "BRK.B",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 362.16,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 362.16
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 428776562.96,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 382268519.67,
+            "block_count": 187,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "BAC",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 57.93,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 1198047.0,
+            "flow_count": 7,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 80892.0,
+            "bearish_premium": 0.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 6,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 80892.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 57.93
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 390779608.2,
+            "print_count": 367,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 360829840.39,
+            "block_count": 152,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "CVX",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 171.9332,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 171.9332
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 281180910.78,
+            "print_count": 365,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 255285022.97,
+            "block_count": 178,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "PG",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 149.02,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 74636.0,
+            "flow_count": 1,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 74636.0,
+            "bearish_premium": 0.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 74636.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 149.02
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 424173852.73,
+            "print_count": 203,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 408082064.49,
+            "block_count": 89,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "KO",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 82.43,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 82.43
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1388960716.87,
+            "print_count": 306,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1369470404.42,
+            "block_count": 164,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "GE",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 368.6,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 195810.0,
+            "flow_count": 2,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 85680.0,
+            "bearish_premium": 0.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "short_core": {
+                  "call_premium": 85680.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 368.6
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 714224429.08,
+            "print_count": 287,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 692424331.01,
+            "block_count": 127,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "PM",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 180.77,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 180.77
+            }
+          },
+          "darkpool": {
+            "score": 8.37,
+            "premium": 119318854.69,
+            "print_count": 133,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 8.26,
+            "premium": 110614879.25,
+            "block_count": 73,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "LIN",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 517.0758,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 121800.0,
+            "flow_count": 1,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 91350.0,
+            "bearish_premium": 0.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 91350.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 517.0758
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 300111426.11,
+            "print_count": 378,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 271014497.87,
+            "block_count": 133,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "RTX",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 188.4675,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 188.4675
+            }
+          },
+          "darkpool": {
+            "score": 8.73,
+            "premium": 148255485.91,
+            "print_count": 194,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 8.51,
+            "premium": 130889440.39,
+            "block_count": 63,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "AXP",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 340.43,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 868977.0,
+            "flow_count": 5,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 66650.0,
+            "reason": "below_floor",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 4,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 66650.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 340.43
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 761399551.25,
+            "print_count": 190,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 748359473.4,
+            "block_count": 92,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "PEP",
+        "classification": "NEUTRAL",
+        "composite_score": 5.0,
+        "spot_price": 140.7303,
+        "signals": {
+          "flow": {
+            "score": 5.0,
+            "premium": 0.0,
+            "flow_count": 0,
+            "bullish_pct": 0.0,
+            "bearish_pct": 0.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 0.0,
+            "reason": "no_data",
+            "structural_breakdown": {
+              "kept_flow_count": 0,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {},
+              "spot_used": 140.7303
+            }
+          },
+          "darkpool": {
+            "score": 9.45,
+            "premium": 206268906.59,
+            "print_count": 161,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 9.32,
+            "premium": 195313871.71,
+            "block_count": 81,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "neutral",
+          "dp_directional": 5.0,
+          "blk_directional": 5.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      }
+    ],
+    "LEAN BEARISH": [
+      {
+        "ticker": "PLTR",
+        "classification": "LEAN BEARISH",
+        "composite_score": 2.99,
+        "spot_price": 112.15,
+        "signals": {
+          "flow": {
+            "score": 4.99,
+            "premium": 6644021.0,
+            "flow_count": 45,
+            "bullish_pct": 0.499,
+            "bearish_pct": 0.501,
+            "bullish_premium": 353442.0,
+            "bearish_premium": 355000.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 8,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 3,
+              "dropped_dte_filter": 34,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 106500.0,
+                  "put_premium": 355000.0,
+                  "flow_count": 3
+                },
+                "short_core": {
+                  "call_premium": 147855.0,
+                  "put_premium": 0.0,
+                  "flow_count": 3
+                },
+                "core_stretch": {
+                  "call_premium": 99087.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 112.15
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 425492362.16,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 387504284.24,
+            "block_count": 210,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "COST",
+        "classification": "LEAN BEARISH",
+        "composite_score": 2.83,
+        "spot_price": 949.5479,
+        "signals": {
+          "flow": {
+            "score": 4.72,
+            "premium": 339490.0,
+            "flow_count": 2,
+            "bullish_pct": 0.472,
+            "bearish_pct": 0.528,
+            "bullish_premium": 160390.0,
+            "bearish_premium": 179100.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 0,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 160390.0,
+                  "put_premium": 179100.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 949.5479
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 2841903770.76,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 2795318569.31,
+            "block_count": 195,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "ORCL",
+        "classification": "LEAN BEARISH",
+        "composite_score": 2.72,
+        "spot_price": 148.9994,
+        "signals": {
+          "flow": {
+            "score": 4.54,
+            "premium": 5525298.0,
+            "flow_count": 27,
+            "bullish_pct": 0.454,
+            "bearish_pct": 0.546,
+            "bullish_premium": 641501.25,
+            "bearish_premium": 772165.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 8,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 2,
+              "dropped_dte_filter": 17,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_stretch": {
+                  "call_premium": 275475.0,
+                  "put_premium": 0.0,
+                  "flow_count": 2
+                },
+                "core_core": {
+                  "call_premium": 319500.0,
+                  "put_premium": 772165.0,
+                  "flow_count": 5
+                },
+                "long_core": {
+                  "call_premium": 46526.25,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 148.9994
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 343843605.55,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 299818008.31,
+            "block_count": 172,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      }
+    ],
+    "BEARISH": [
+      {
+        "ticker": "AVGO",
+        "classification": "BEARISH",
+        "composite_score": 2.01,
+        "spot_price": 366.6068,
+        "signals": {
+          "flow": {
+            "score": 3.35,
+            "premium": 6705181.0,
+            "flow_count": 22,
+            "bullish_pct": 0.335,
+            "bearish_pct": 0.665,
+            "bullish_premium": 647910.0,
+            "bearish_premium": 1286107.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 7,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 3,
+              "dropped_dte_filter": 12,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 170490.0,
+                  "put_premium": 145810.0,
+                  "flow_count": 2
+                },
+                "core_stretch": {
+                  "call_premium": 477420.0,
+                  "put_premium": 170922.0,
+                  "flow_count": 4
+                },
+                "short_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 969375.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 366.6068
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 1437540223.73,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 1394628070.05,
+            "block_count": 190,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "JNJ",
+        "classification": "BEARISH",
+        "composite_score": 1.97,
+        "spot_price": 254.6124,
+        "signals": {
+          "flow": {
+            "score": 3.28,
+            "premium": 618934.0,
+            "flow_count": 4,
+            "bullish_pct": 0.328,
+            "bearish_pct": 0.672,
+            "bullish_premium": 130086.75,
+            "bearish_premium": 266410.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 3,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 266410.0,
+                  "flow_count": 2
+                },
+                "core_stretch": {
+                  "call_premium": 130086.75,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 254.6124
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 318019208.16,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 276358693.8,
+            "block_count": 174,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "XOM",
+        "classification": "BEARISH",
+        "composite_score": 1.83,
+        "spot_price": 137.194,
+        "signals": {
+          "flow": {
+            "score": 3.05,
+            "premium": 1324222.0,
+            "flow_count": 5,
+            "bullish_pct": 0.305,
+            "bearish_pct": 0.695,
+            "bullish_premium": 303600.0,
+            "bearish_premium": 691625.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 303600.0,
+                  "put_premium": 505628.0,
+                  "flow_count": 3
+                },
+                "long_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 185997.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 137.194
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 458297790.88,
+            "print_count": 459,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 419819804.6,
+            "block_count": 177,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "INTC",
+        "classification": "BEARISH",
+        "composite_score": 1.51,
+        "spot_price": 127.62,
+        "signals": {
+          "flow": {
+            "score": 2.52,
+            "premium": 2633991.0,
+            "flow_count": 12,
+            "bullish_pct": 0.252,
+            "bearish_pct": 0.748,
+            "bullish_premium": 204700.0,
+            "bearish_premium": 607530.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 8,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 122000.0,
+                  "put_premium": 490000.0,
+                  "flow_count": 2
+                },
+                "long_stretch": {
+                  "call_premium": 82700.0,
+                  "put_premium": 117530.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 127.62
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 708868577.82,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 666974251.18,
+            "block_count": 189,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "CSCO",
+        "classification": "BEARISH",
+        "composite_score": 1.25,
+        "spot_price": 113.6,
+        "signals": {
+          "flow": {
+            "score": 2.09,
+            "premium": 910771.0,
+            "flow_count": 6,
+            "bullish_pct": 0.209,
+            "bearish_pct": 0.791,
+            "bullish_premium": 136562.5,
+            "bearish_premium": 517826.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 2,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 51250.0,
+                  "put_premium": 517826.0,
+                  "flow_count": 3
+                },
+                "long_stretch": {
+                  "call_premium": 85312.5,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 113.6
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 752139774.46,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 719002815.76,
+            "block_count": 258,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "LRCX",
+        "classification": "BEARISH",
+        "composite_score": 1.21,
+        "spot_price": 378.0585,
+        "signals": {
+          "flow": {
+            "score": 2.02,
+            "premium": 1644667.0,
+            "flow_count": 8,
+            "bullish_pct": 0.202,
+            "bearish_pct": 0.798,
+            "bullish_premium": 94500.0,
+            "bearish_premium": 374372.5,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 1,
+              "dropped_dte_filter": 3,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_stretch": {
+                  "call_premium": 94500.0,
+                  "put_premium": 0.0,
+                  "flow_count": 1
+                },
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 206080.0,
+                  "flow_count": 1
+                },
+                "short_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 168292.5,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 378.0585
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 996129548.17,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 957276128.42,
+            "block_count": 224,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "IBM",
+        "classification": "BEARISH",
+        "composite_score": 0.13,
+        "spot_price": 271.63,
+        "signals": {
+          "flow": {
+            "score": 0.0,
+            "premium": 773893.0,
+            "flow_count": 7,
+            "bullish_pct": 0.0,
+            "bearish_pct": 1.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 529617.75,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 4,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 2,
+              "dropped_dte_filter": 1,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 401388.0,
+                  "flow_count": 3
+                },
+                "core_stretch": {
+                  "call_premium": 0.0,
+                  "put_premium": 128229.75,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 271.63
+            }
+          },
+          "darkpool": {
+            "score": 9.88,
+            "premium": 240229898.73,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 9.35,
+            "premium": 197959674.88,
+            "block_count": 186,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.12,
+          "blk_directional": 0.65
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "C",
+        "classification": "BEARISH",
+        "composite_score": 0.01,
+        "spot_price": 141.82,
+        "signals": {
+          "flow": {
+            "score": 0.0,
+            "premium": 1448137.0,
+            "flow_count": 8,
+            "bullish_pct": 0.0,
+            "bearish_pct": 1.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 684252.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 2,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 6,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "core_core": {
+                  "call_premium": 0.0,
+                  "put_premium": 684252.0,
+                  "flow_count": 2
+                }
+              },
+              "spot_used": 141.82
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 283143639.22,
+            "print_count": 383,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 9.96,
+            "premium": 246770052.3,
+            "block_count": 134,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.04
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      },
+      {
+        "ticker": "CAT",
+        "classification": "BEARISH",
+        "composite_score": 0.0,
+        "spot_price": 1000.7465,
+        "signals": {
+          "flow": {
+            "score": 0.0,
+            "premium": 1171960.0,
+            "flow_count": 3,
+            "bullish_pct": 0.0,
+            "bearish_pct": 1.0,
+            "bullish_premium": 0.0,
+            "bearish_premium": 298480.0,
+            "reason": "scored_structural",
+            "structural_breakdown": {
+              "kept_flow_count": 1,
+              "dropped_no_spot": 0,
+              "dropped_no_dte": 0,
+              "dropped_lottery": 0,
+              "dropped_dte_filter": 2,
+              "dropped_unknown_type": 0,
+              "by_band": {
+                "long_deep_itm": {
+                  "call_premium": 0.0,
+                  "put_premium": 298480.0,
+                  "flow_count": 1
+                }
+              },
+              "spot_used": 1000.7465
+            }
+          },
+          "darkpool": {
+            "score": 10.0,
+            "premium": 4536137612.36,
+            "print_count": 500,
+            "reason": "scored_magnitude_only"
+          },
+          "blocks": {
+            "score": 10.0,
+            "premium": 4489378655.52,
+            "block_count": 193,
+            "reason": "scored_magnitude_only"
+          }
+        },
+        "magnitude_direction": {
+          "flow_direction": "bearish",
+          "dp_directional": 0.0,
+          "blk_directional": 0.0
+        },
+        "weights": {
+          "flow": 0.6,
+          "darkpool": 0.25,
+          "blocks": 0.15
+        }
+      }
+    ]
+  },
+  "narrative": {
+    "headline": "Top 50 tape skews decisively bullish \u2014 25 mega-caps print full BULLISH scores led by consumer, payments, semis-cap-equipment, and mega-cap tech accumulation.",
+    "bullish_setups": [
+      "AMZN: perfect 10/10/10 composite with $19.1B dark pool prints alongside near-money call premium",
+      "MSFT: $22M flow premium + $21.2B dark pool \u2014 largest absolute institutional footprint on the board",
+      "GOOGL: $15.5M call-skewed flow + $13.5B dark pool confirms mega-cap tech accumulation",
+      "AMAT: $5.8M flow + $4.75B dark pool \u2014 semicap equipment being aggressively positioned",
+      "JPM/MS: financials cluster bullish (JPM 9.63, MS 9.53) with strong flow and block confirmation",
+      "V/MA: payments duo both 10/10/10 \u2014 coordinated structural bid",
+      "LLY/ABBV: pharma mega-caps both perfect scores, ABBV with $6.1B dark pool",
+      "WMT/HD: consumer staples + housing both 10/10/10",
+      "NFLX: $2.2M flow premium full bullish on streaming",
+      "GEV: 9.2 score, $3.3M flow + $419M dark pool \u2014 power/grid theme persists",
+      "TXN: analog semis full bullish, $2.3B dark pool"
+    ],
+    "bearish_setups": [
+      "AVGO: flow 3.35 despite mega dark pool \u2014 put-skewed positioning diverges from AI semi narrative",
+      "JNJ: flow 3.28, pharma laggard while LLY/ABBV are bid",
+      "XOM: flow 3.05 \u2014 energy mega-cap being distributed",
+      "INTC: flow 2.52 confirms continued bearish structural positioning",
+      "CSCO/LRCX: networking + semicap names show put-side flow (2.09 / 2.02)",
+      "PLTR: flow 4.99 LEAN BEARISH \u2014 momentum name losing call premium support",
+      "IBM/C/CAT: flow at 0.0 \u2014 outright put-dominant tape on legacy tech, banks, and industrials bellwether"
+    ],
+    "rotation_signal": "Institutions are accumulating mega-cap tech (MSFT/GOOGL/AMZN), payments (V/MA), pharma leaders (LLY/ABBV), financials (JPM/MS), and semicap (AMAT/TXN) while distributing energy (XOM), legacy tech (INTC/CSCO/IBM), and select semis (AVGO/LRCX). The split is sharp \u2014 25 bullish vs 12 bearish/lean-bearish \u2014 indicating high-conviction stock-picking rather than broad index buying.",
+    "diverging_from_industry_layer": "AVGO and LRCX bearish here despite broad semi strength elsewhere (AMAT/TXN bullish) \u2014 semicap is bifurcating. PLTR lean-bearish diverges from typical momentum-tech bullishness. JNJ bearish while pharma peers LLY/ABBV are full bullish \u2014 pharma is name-specific, not sector-wide."
+  }
+}
