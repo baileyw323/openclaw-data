@@ -1,10 +1,154 @@
 {
-  "as_of": "2026-06-29T06:17:20.744604-07:00",
-  "as_of_et": "2026-06-29T09:17:20.744624-04:00",
-  "universe_size": 0,
-  "qualifying_count": 0,
-  "dropped_count": 0,
-  "signals": [],
-  "dropped": [],
-  "_status": "empty_universe"
+  "as_of": "2026-06-29T09:03:38.368016-07:00",
+  "as_of_et": "2026-06-29T12:03:38.368029-04:00",
+  "universe_size": 2,
+  "qualifying_count": 1,
+  "dropped_count": 1,
+  "bucket_breakdown": {
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG": 0,
+    "UP_TRENDERS": 1,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "POTENTIALLY_STRONG": 0,
+    "POTENTIAL_REVERSALS": 0
+  },
+  "signals": [
+    {
+      "ticker": "FCEL",
+      "bucket": "UP_TRENDERS",
+      "bucket_priority": 3,
+      "matched_buckets": [
+        "UP_TRENDERS"
+      ],
+      "bucket_typical_rr": "~2:1 (continuation, lower-risk)",
+      "current_price": 30.33,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "above_20sma": true,
+        "sma_stacking_20_50_200": true,
+        "wow_up": true,
+        "mom_up": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "UP_TRENDERS": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "above_20sma": true,
+          "sma_stacking_20_50_200": true,
+          "wow_up": true,
+          "mom_up": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 76.14,
+        "rel_volume": 1.07,
+        "sma_20": 20.67,
+        "sma_50": 17.93,
+        "sma_200": 10.37,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": true,
+          "20_day_high": true,
+          "50_day_high": true,
+          "52_week_high": true
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 9.29,
+        "smart_money_components": {
+          "directional": 10.0,
+          "conviction": 10.0,
+          "magnitude": 6.46
+        },
+        "smart_money_industry": "Electrical Equipment & Parts",
+        "smart_money_industry_score": 7.67,
+        "smart_money_is_industry_leader": false,
+        "smart_money_total_premium": 384263.0,
+        "smart_money_largest_flow": {
+          "premium": 203000.0,
+          "option_type": "CALL",
+          "strike": 27.0,
+          "expiry": "2026-08-21",
+          "executed_at": "2026-06-29T14:49:52.342702Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Electrical Equipment & Parts",
+        "industry_status": "QUALIFYING",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "EXPENSIVE"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 17.42,
+        "sales_growth_qq": -4.86,
+        "forward_pe": null,
+        "eps_growth_5y": 9.89,
+        "earnings_date": null
+      },
+      "thesis": "FCEL: BULLISH smart money (9.29); qualifies as UP_TRENDERS."
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "VRT",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.19,
+      "industry": "Electrical Equipment & Parts",
+      "current_price": 305.32,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "above_20sma",
+          "sma_stacking_20_50_200",
+          "wow_up",
+          "mom_up"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "above_50sma",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 51.23,
+        "rel_volume": 0.44,
+        "above_200sma": true,
+        "above_50sma": false,
+        "above_20sma": false,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": false,
+        "mom_up": false
+      },
+      "reason": "no_bucket_match"
+    }
+  ],
+  "_status": "ok"
 }
