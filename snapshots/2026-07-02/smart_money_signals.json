@@ -1,0 +1,596 @@
+{
+  "as_of": "2026-07-02T12:36:03.321775+00:00",
+  "industry_as_of": "2026-07-02T12:33:39.953964+00:00",
+  "scanned_count": 5,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "TSLA",
+      "classification": "BULLISH",
+      "score": 8.08,
+      "score_components": {
+        "directional": 7.74,
+        "conviction": 7.38,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.774,
+      "bearish_premium_pct": 0.226,
+      "total_premium": 30167340.0,
+      "bullish_premium": 10190389.25,
+      "bearish_premium": 2979249.0,
+      "flow_count": 100,
+      "ask_side_bull_count": 42,
+      "ask_side_bull_premium": 7173082.0,
+      "structural_breakdown": {
+        "kept_flow_count": 43,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 54,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 7667411.0,
+            "put_premium": 1755558.0,
+            "flow_count": 22
+          },
+          "long_stretch": {
+            "call_premium": 99937.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 1567673.25,
+            "put_premium": 690804.75,
+            "flow_count": 10
+          },
+          "long_core": {
+            "call_premium": 397492.5,
+            "put_premium": 428396.25,
+            "flow_count": 5
+          },
+          "core_stretch": {
+            "call_premium": 377760.0,
+            "put_premium": 104490.0,
+            "flow_count": 4
+          },
+          "short_stretch": {
+            "call_premium": 80115.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 425.45
+      },
+      "spot_used": 425.45,
+      "largest_flow": {
+        "premium": 3327137.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-01T17:15:22.403824Z"
+      },
+      "reason": "strong_bullish_flow score=8.08",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "RIVN",
+      "classification": "BULLISH",
+      "score": 7.99,
+      "score_components": {
+        "directional": 7.7,
+        "conviction": 8.15,
+        "magnitude": 8.48
+      },
+      "bullish_premium_pct": 0.77,
+      "bearish_premium_pct": 0.23,
+      "total_premium": 2477349.0,
+      "bullish_premium": 541130.5,
+      "bearish_premium": 162034.5,
+      "flow_count": 69,
+      "ask_side_bull_count": 38,
+      "ask_side_bull_premium": 781398.0,
+      "structural_breakdown": {
+        "kept_flow_count": 27,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 11,
+        "dropped_dte_filter": 31,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 451317.0,
+            "put_premium": 119601.0,
+            "flow_count": 20
+          },
+          "core_stretch": {
+            "call_premium": 54216.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 9300.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 10132.5,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 32301.0,
+            "flow_count": 1
+          },
+          "long_deep_itm": {
+            "call_premium": 26297.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 17.1851
+      },
+      "spot_used": 17.1851,
+      "largest_flow": {
+        "premium": 202188.0,
+        "option_type": "PUT",
+        "strike": 14.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-30T15:03:06.599843Z"
+      },
+      "reason": "strong_bullish_flow score=7.99",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "GM",
+      "classification": "NEUTRAL",
+      "score": 4.07,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.0,
+        "magnitude": 7.84
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 1371472.0,
+      "bullish_premium": 125832.0,
+      "bearish_premium": 501559.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 3,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 301065.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 125832.0,
+            "put_premium": 79279.5,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 121215.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 76.15
+      },
+      "spot_used": 76.15,
+      "largest_flow": {
+        "premium": 336815.0,
+        "option_type": "PUT",
+        "strike": 80.0,
+        "expiry": "2026-07-02",
+        "executed_at": "2026-06-30T16:41:43.800625Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "F",
+      "classification": "NEUTRAL",
+      "score": 5.41,
+      "score_components": {
+        "directional": 4.49,
+        "conviction": 6.09,
+        "magnitude": 6.7
+      },
+      "bullish_premium_pct": 0.449,
+      "bearish_premium_pct": 0.551,
+      "total_premium": 480756.0,
+      "bullish_premium": 132736.0,
+      "bearish_premium": 162868.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 52484.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 162868.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 132736.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 13.735
+      },
+      "spot_used": 13.735,
+      "largest_flow": {
+        "premium": 265472.0,
+        "option_type": "CALL",
+        "strike": 15.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-30T14:50:46.889741Z"
+      },
+      "reason": "bearish_flow_dominant (55% weighted bearish)",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "LCID",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 534597.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 17,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "TSLA",
+      "classification": "BULLISH",
+      "score": 8.08,
+      "score_components": {
+        "directional": 7.74,
+        "conviction": 7.38,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.774,
+      "bearish_premium_pct": 0.226,
+      "total_premium": 30167340.0,
+      "bullish_premium": 10190389.25,
+      "bearish_premium": 2979249.0,
+      "flow_count": 100,
+      "ask_side_bull_count": 42,
+      "ask_side_bull_premium": 7173082.0,
+      "structural_breakdown": {
+        "kept_flow_count": 43,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 3,
+        "dropped_dte_filter": 54,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 7667411.0,
+            "put_premium": 1755558.0,
+            "flow_count": 22
+          },
+          "long_stretch": {
+            "call_premium": 99937.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 1567673.25,
+            "put_premium": 690804.75,
+            "flow_count": 10
+          },
+          "long_core": {
+            "call_premium": 397492.5,
+            "put_premium": 428396.25,
+            "flow_count": 5
+          },
+          "core_stretch": {
+            "call_premium": 377760.0,
+            "put_premium": 104490.0,
+            "flow_count": 4
+          },
+          "short_stretch": {
+            "call_premium": 80115.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 425.45
+      },
+      "spot_used": 425.45,
+      "largest_flow": {
+        "premium": 3327137.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-01T17:15:22.403824Z"
+      },
+      "reason": "strong_bullish_flow score=8.08",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "RIVN",
+      "classification": "BULLISH",
+      "score": 7.99,
+      "score_components": {
+        "directional": 7.7,
+        "conviction": 8.15,
+        "magnitude": 8.48
+      },
+      "bullish_premium_pct": 0.77,
+      "bearish_premium_pct": 0.23,
+      "total_premium": 2477349.0,
+      "bullish_premium": 541130.5,
+      "bearish_premium": 162034.5,
+      "flow_count": 69,
+      "ask_side_bull_count": 38,
+      "ask_side_bull_premium": 781398.0,
+      "structural_breakdown": {
+        "kept_flow_count": 27,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 11,
+        "dropped_dte_filter": 31,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 451317.0,
+            "put_premium": 119601.0,
+            "flow_count": 20
+          },
+          "core_stretch": {
+            "call_premium": 54216.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "short_core": {
+            "call_premium": 9300.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 10132.5,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 32301.0,
+            "flow_count": 1
+          },
+          "long_deep_itm": {
+            "call_premium": 26297.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 17.1851
+      },
+      "spot_used": 17.1851,
+      "largest_flow": {
+        "premium": 202188.0,
+        "option_type": "PUT",
+        "strike": 14.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-30T15:03:06.599843Z"
+      },
+      "reason": "strong_bullish_flow score=7.99",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [],
+  "neutral": [
+    {
+      "ticker": "GM",
+      "classification": "NEUTRAL",
+      "score": 4.07,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.0,
+        "magnitude": 7.84
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 1371472.0,
+      "bullish_premium": 125832.0,
+      "bearish_premium": 501559.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 3,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 301065.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 125832.0,
+            "put_premium": 79279.5,
+            "flow_count": 4
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 121215.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 76.15
+      },
+      "spot_used": 76.15,
+      "largest_flow": {
+        "premium": 336815.0,
+        "option_type": "PUT",
+        "strike": 80.0,
+        "expiry": "2026-07-02",
+        "executed_at": "2026-06-30T16:41:43.800625Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "F",
+      "classification": "NEUTRAL",
+      "score": 5.41,
+      "score_components": {
+        "directional": 4.49,
+        "conviction": 6.09,
+        "magnitude": 6.7
+      },
+      "bullish_premium_pct": 0.449,
+      "bearish_premium_pct": 0.551,
+      "total_premium": 480756.0,
+      "bullish_premium": 132736.0,
+      "bearish_premium": 162868.0,
+      "flow_count": 5,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 52484.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 1,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 162868.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 132736.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 13.735
+      },
+      "spot_used": 13.735,
+      "largest_flow": {
+        "premium": 265472.0,
+        "option_type": "CALL",
+        "strike": 15.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-06-30T14:50:46.889741Z"
+      },
+      "reason": "bearish_flow_dominant (55% weighted bearish)",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "LCID",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 534597.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 17,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Auto Manufacturers",
+      "sector_etf": "XLY",
+      "industry_score": 6.89,
+      "is_industry_leader": true
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "TSLA",
+    "RIVN"
+  ],
+  "summary": {
+    "total_scanned": 5,
+    "bullish_count": 2,
+    "lean_bullish_count": 0,
+    "neutral_count": 3,
+    "drilldown_count": 2
+  },
+  "narrative": {
+    "headline": "Auto Manufacturers show a clear EV vs legacy split \u2014 aggressive bullish flow into TSLA and RIVN while GM and F see heavy bearish positioning.",
+    "bullish_themes": [
+      "EV names dominating auto sector call flow (TSLA, RIVN) with strong ask-side aggression and 77%+ bullish premium concentration",
+      "Premium heavily weighted to TSLA at $30M \u2014 institutional-size conviction rather than retail chase"
+    ],
+    "notable_individual_flows": [
+      "TSLA: $30.2M premium, 77.4% bullish, 42 ask-side bull prints \u2014 anchor trade of the day",
+      "RIVN: score 7.99 nearly matches TSLA despite $2.5M premium \u2014 smart money treating it as a leveraged EV proxy",
+      "GM: 79.9% bearish on $1.37M premium \u2014 clean short signal against the EV bid",
+      "F: 55.1% bearish, confirming legacy auto rotation out"
+    ],
+    "absences": "Scan is narrow \u2014 only Auto Manufacturers surfaced today. No cross-sector confirmation, no adjacent industry flow (semis, EV supply chain, charging infra) to validate the EV thesis.",
+    "handoff_quality": "MODERATE"
+  }
+}

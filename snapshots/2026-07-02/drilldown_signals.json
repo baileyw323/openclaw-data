@@ -1,0 +1,170 @@
+{
+  "as_of": "2026-07-02T05:59:22.516291-07:00",
+  "as_of_et": "2026-07-02T08:59:22.516307-04:00",
+  "universe_size": 2,
+  "qualifying_count": 1,
+  "dropped_count": 1,
+  "bucket_breakdown": {
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG": 0,
+    "UP_TRENDERS": 0,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "POTENTIALLY_STRONG": 1,
+    "POTENTIAL_REVERSALS": 0
+  },
+  "signals": [
+    {
+      "ticker": "TSLA",
+      "bucket": "POTENTIALLY_STRONG",
+      "bucket_priority": 5,
+      "matched_buckets": [
+        "POTENTIALLY_STRONG"
+      ],
+      "bucket_typical_rr": "~3-4:1 (more room \u2014 hasn't broken yet)",
+      "current_price": 425.3,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "above_200sma": true,
+        "rsi_in_band": true,
+        "rsi_value": 66.42,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "breakout_types": [
+          "20_day_high"
+        ],
+        "any_proximity": true,
+        "proximity_detail": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "all_bucket_evaluations": {
+        "POTENTIALLY_STRONG": {
+          "prior_day_green": true,
+          "above_200sma": true,
+          "rsi_in_band": true,
+          "rsi_value": 66.42,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "breakout_types": [
+            "20_day_high"
+          ],
+          "any_proximity": true,
+          "proximity_detail": {
+            "within_50d": true,
+            "within_52w": false,
+            "within_ath": false
+          }
+        }
+      },
+      "technical_state": {
+        "rsi_14": 66.42,
+        "rel_volume": 0.83,
+        "sma_20": 400.67,
+        "sma_50": 406.28,
+        "sma_200": 418.69,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": false,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": true,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.08,
+        "smart_money_components": {
+          "directional": 7.74,
+          "conviction": 7.38,
+          "magnitude": 10.0
+        },
+        "smart_money_industry": "Auto Manufacturers",
+        "smart_money_industry_score": 6.89,
+        "smart_money_is_industry_leader": true,
+        "smart_money_total_premium": 30167340.0,
+        "smart_money_largest_flow": {
+          "premium": 3327137.0,
+          "option_type": "CALL",
+          "strike": 400.0,
+          "expiry": "2026-07-17",
+          "executed_at": "2026-07-01T17:15:22.403824Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Auto Manufacturers",
+        "industry_status": "QUALIFYING",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 24.63,
+        "sales_growth_qq": 15.78,
+        "forward_pe": 177.14,
+        "eps_growth_5y": 38.32,
+        "earnings_date": null
+      },
+      "thesis": "TSLA: BULLISH smart money (8.08); qualifies as POTENTIALLY_STRONG."
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "RIVN",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 7.99,
+      "industry": "Auto Manufacturers",
+      "current_price": 17.18,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "any_breakout"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "any_breakout_excl_ath",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "any_breakout_excl_ath"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 64.79,
+        "rel_volume": 0.85,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    }
+  ],
+  "_status": "ok"
+}
