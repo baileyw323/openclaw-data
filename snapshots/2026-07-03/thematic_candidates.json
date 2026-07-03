@@ -1,0 +1,461 @@
+{
+  "as_of": "2026-07-03T12:34:08.662059+00:00",
+  "source_trajectory_as_of": "2026-07-03T12:34:01.581389+00:00",
+  "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
+  "source_commodity_as_of": "2026-07-03T12:34:01.575102+00:00",
+  "regime_context": {
+    "regime": "TRANSITIONAL",
+    "confidence": 6,
+    "deployment_bias": "DEFENSIVE"
+  },
+  "parameters": {
+    "stage_dist_etf_60d": 30.0,
+    "stage_extended_etf_60d": 30.0,
+    "stage_high_return_etf_60d": 20.0,
+    "stage_chase_etf_60d": 20.0,
+    "stage_chase_lottery_pct": 0.3,
+    "stage_noticed_etf_60d": 10.0,
+    "stage_quiet_etf_60d_min": 0.0,
+    "stage_quiet_breadth_vel": 0.2,
+    "lottery_min_total_premium": 100000.0
+  },
+  "active_theme_candidates": [
+    {
+      "seed_sector_etf": "XLK",
+      "sector_name": "Technology",
+      "driver": "EQUITY_FLOW_DRIVEN",
+      "seeding_industries": [
+        "Consumer Electronics",
+        "Software - Infrastructure"
+      ],
+      "sibling_industries": [
+        "Semiconductors"
+      ],
+      "commodity_seeds": [],
+      "candidate_watchlist_draft": [
+        "AAPL",
+        "MSFT",
+        "PLTR",
+        "NVDA",
+        "INTC"
+      ],
+      "proxies": {
+        "theme_etf_60d_change_pct": 31.56,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": 0.0871,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "sector_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory_input": "ACCELERATING_BULLISH",
+        "accel_ratios": [
+          2.246,
+          1.992
+        ],
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": 31.56,
+        "etf_above_50sma": true,
+        "lottery_pct_fetched": 0.0871
+      },
+      "tentative_stage": "CHASING",
+      "stage_inputs": {
+        "etf_60d": 31.56,
+        "etf_above_50sma": true,
+        "stage_trajectory": "ACCELERATING_BULLISH",
+        "lottery_strike_flow_pct": 0.0871,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "XLK sector trajectory shifts to FADING_BULLISH or bearish",
+          "severity": "hard",
+          "current": "ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "Majority of seeding industries (Consumer Electronics, Software - Infrastructure) shift to HOLDING_BULLISH or below",
+          "severity": "hard",
+          "current": "2 industries ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "14d/60d flow acceleration ratio falls below 1.0 (momentum lost)",
+          "severity": "soft",
+          "current": "avg accel_ratio=2.119"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'AI Infrastructure Build-Out')",
+        "Review cross-sector merge opportunities with other active candidates",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (macro/regulatory/earnings-driven)",
+        "Confirm or override tentative_stage with qualitative context"
+      ]
+    },
+    {
+      "seed_sector_etf": "UNG",
+      "sector_name": "Energy / UNG (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "UNG"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": 0.26,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory_input": "ACCELERATING_BULLISH",
+        "rate_14d_pct_per_day": 0.2686,
+        "rate_60d_pct_per_day": 0.0043,
+        "commodity_60d_change_pct": 0.26,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": 0.26,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": 0.26,
+        "etf_above_50sma": false,
+        "stage_trajectory": "ACCELERATING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "UNG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "UNG 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.2686%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    },
+    {
+      "seed_sector_etf": "GDX",
+      "sector_name": "Metals Precious / GDX (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "GDX"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": -17.42,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 0.065,
+        "rate_60d_pct_per_day": -0.2903,
+        "commodity_60d_change_pct": -17.42,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": -17.42,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": -17.42,
+        "etf_above_50sma": false,
+        "stage_trajectory": "BUILDING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "GDX trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
+        },
+        {
+          "condition": "GDX 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.0650%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    },
+    {
+      "seed_sector_etf": "GDXJ",
+      "sector_name": "Metals Precious / GDXJ (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "GDXJ"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": -16.27,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 0.1293,
+        "rate_60d_pct_per_day": -0.2712,
+        "commodity_60d_change_pct": -16.27,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": -16.27,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": -16.27,
+        "etf_above_50sma": false,
+        "stage_trajectory": "BUILDING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "GDXJ trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
+        },
+        {
+          "condition": "GDXJ 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.1293%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    },
+    {
+      "seed_sector_etf": "DBA",
+      "sector_name": "Agriculture / DBA (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "DBA"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": -1.0,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory_input": "ACCELERATING_BULLISH",
+        "rate_14d_pct_per_day": 0.1193,
+        "rate_60d_pct_per_day": -0.0167,
+        "commodity_60d_change_pct": -1.0,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": -1.0,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": -1.0,
+        "etf_above_50sma": false,
+        "stage_trajectory": "ACCELERATING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "DBA trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "DBA 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.1193%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    },
+    {
+      "seed_sector_etf": "CORN",
+      "sector_name": "Agriculture / CORN (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "CORN"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": -6.59,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 0.06,
+        "rate_60d_pct_per_day": -0.1098,
+        "commodity_60d_change_pct": -6.59,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": -6.59,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": -6.59,
+        "etf_above_50sma": false,
+        "stage_trajectory": "BUILDING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "CORN trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
+        },
+        {
+          "condition": "CORN 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.0600%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    },
+    {
+      "seed_sector_etf": "SOYB",
+      "sector_name": "Agriculture / SOYB (commodity-only)",
+      "driver": "COMMODITY_DRIVEN",
+      "equity_link_reliable": false,
+      "seeding_industries": [],
+      "sibling_industries": [],
+      "commodity_seeds": [
+        "SOYB"
+      ],
+      "candidate_watchlist_draft": [],
+      "proxies": {
+        "theme_etf_60d_change_pct": 0.66,
+        "theme_breadth_widening_velocity": 0.0,
+        "commodity_lead_days": null,
+        "lottery_strike_flow_pct": null,
+        "news_keyword_volume": null
+      },
+      "proxy_instrumentation": {
+        "commodity_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory_input": "ACCELERATING_BULLISH",
+        "rate_14d_pct_per_day": 0.095,
+        "rate_60d_pct_per_day": 0.011,
+        "commodity_60d_change_pct": 0.66,
+        "equity_link_reliable": false,
+        "breadth_widening_velocity": 0.0,
+        "etf_60d_fetched": 0.66,
+        "etf_above_50sma": false
+      },
+      "tentative_stage": "NEUTRAL",
+      "stage_inputs": {
+        "etf_60d": 0.66,
+        "etf_above_50sma": false,
+        "stage_trajectory": "ACCELERATING_BULLISH",
+        "lottery_strike_flow_pct": null,
+        "breadth_widening_velocity": 0.0
+      },
+      "invalidators": [
+        {
+          "condition": "SOYB trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
+          "severity": "hard",
+          "current": "ACCELERATING_BULLISH"
+        },
+        {
+          "condition": "SOYB 14d %/day rate turns negative",
+          "severity": "hard",
+          "current": "+0.0950%/day"
+        }
+      ],
+      "_claude_todo": [
+        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
+        "Identify equity names that express the commodity move (sector constituents)",
+        "Curate watchlist to 5-10 tickers with conviction ranking",
+        "Add narrative invalidators (storage, weather, geopolitics)",
+        "Confirm or override tentative_stage"
+      ]
+    }
+  ],
+  "fading_theme_candidates": [],
+  "summary": {
+    "active_count": 7,
+    "fading_count": 0,
+    "equity_seeds": [
+      "XLK"
+    ],
+    "commodity_seeds": [
+      "UNG",
+      "GDX",
+      "GDXJ",
+      "DBA",
+      "CORN",
+      "SOYB"
+    ],
+    "commodity_seeds_unreliable_equity_link": [
+      "UNG",
+      "GDX",
+      "GDXJ",
+      "DBA",
+      "CORN",
+      "SOYB"
+    ]
+  }
+}
