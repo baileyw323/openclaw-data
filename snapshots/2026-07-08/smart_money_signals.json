@@ -1,0 +1,885 @@
+{
+  "as_of": "2026-07-08T12:35:14.107309+00:00",
+  "industry_as_of": "2026-07-08T12:34:49.935577+00:00",
+  "scanned_count": 10,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "COP",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 111315.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "OXY",
+      "classification": "BULLISH",
+      "score": 8.23,
+      "score_components": {
+        "directional": 7.23,
+        "conviction": 10.0,
+        "magnitude": 8.09
+      },
+      "bullish_premium_pct": 0.723,
+      "bearish_premium_pct": 0.277,
+      "total_premium": 1717075.0,
+      "bullish_premium": 354950.0,
+      "bearish_premium": 135786.0,
+      "flow_count": 49,
+      "ask_side_bull_count": 35,
+      "ask_side_bull_premium": 1232858.0,
+      "structural_breakdown": {
+        "kept_flow_count": 28,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 20,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 91491.0,
+            "put_premium": 34605.0,
+            "flow_count": 6
+          },
+          "short_core": {
+            "call_premium": 55143.0,
+            "put_premium": 0.0,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 136046.0,
+            "put_premium": 35691.0,
+            "flow_count": 8
+          },
+          "long_core": {
+            "call_premium": 16903.5,
+            "put_premium": 53250.0,
+            "flow_count": 5
+          },
+          "long_stretch": {
+            "call_premium": 55366.5,
+            "put_premium": 12240.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 51.745
+      },
+      "spot_used": 51.745,
+      "largest_flow": {
+        "premium": 282880.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-11-20",
+        "executed_at": "2026-07-07T19:01:10.909121Z"
+      },
+      "reason": "strong_bullish_flow score=8.23",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "EOG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 107685.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "DVN",
+      "classification": "BULLISH",
+      "score": 7.79,
+      "score_components": {
+        "directional": 8.47,
+        "conviction": 5.9,
+        "magnitude": 8.91
+      },
+      "bullish_premium_pct": 0.847,
+      "bearish_premium_pct": 0.153,
+      "total_premium": 3667150.0,
+      "bullish_premium": 368164.75,
+      "bearish_premium": 66661.5,
+      "flow_count": 28,
+      "ask_side_bull_count": 16,
+      "ask_side_bull_premium": 328663.0,
+      "structural_breakdown": {
+        "kept_flow_count": 22,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 86067.75,
+            "put_premium": 23126.25,
+            "flow_count": 7
+          },
+          "core_core": {
+            "call_premium": 244462.0,
+            "put_premium": 0.0,
+            "flow_count": 11
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 10695.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 37635.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 32840.25,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 42.685
+      },
+      "spot_used": 42.685,
+      "largest_flow": {
+        "premium": 2960000.0,
+        "option_type": "PUT",
+        "strike": 40.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-07-06T14:48:35.676777Z"
+      },
+      "reason": "strong_bullish_flow score=7.79",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 11497.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FANG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "OVV",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60044.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "EXE",
+      "classification": "NEUTRAL",
+      "score": 3.83,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.34,
+        "magnitude": 6.12
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 280970.0,
+      "bullish_premium": 46525.0,
+      "bearish_premium": 185185.0,
+      "flow_count": 16,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 9690.0,
+      "structural_breakdown": {
+        "kept_flow_count": 16,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 10390.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 104710.0,
+            "flow_count": 5
+          },
+          "long_core": {
+            "call_premium": 36135.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 80475.0,
+            "flow_count": 7
+          }
+        },
+        "spot_used": 89.07
+      },
+      "spot_used": 89.07,
+      "largest_flow": {
+        "premium": 37340.0,
+        "option_type": "PUT",
+        "strike": 90.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-07T14:07:34.614199Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "TPL",
+      "classification": "LEAN BULLISH",
+      "score": 5.77,
+      "score_components": {
+        "directional": 6.28,
+        "conviction": 5.0,
+        "magnitude": 5.67
+      },
+      "bullish_premium_pct": 0.628,
+      "bearish_premium_pct": 0.372,
+      "total_premium": 185386.0,
+      "bullish_premium": 87364.5,
+      "bearish_premium": 51675.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 87364.5,
+            "put_premium": 51675.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 403.01
+      },
+      "spot_used": 403.01,
+      "largest_flow": {
+        "premium": 93486.0,
+        "option_type": "CALL",
+        "strike": 420.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-06T18:09:16.789301Z"
+      },
+      "reason": "moderate_bullish_flow score=5.77",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "APA",
+      "classification": "BULLISH",
+      "score": 8.8,
+      "score_components": {
+        "directional": 9.32,
+        "conviction": 10.0,
+        "magnitude": 5.72
+      },
+      "bullish_premium_pct": 0.932,
+      "bearish_premium_pct": 0.068,
+      "total_premium": 194191.0,
+      "bullish_premium": 152476.25,
+      "bearish_premium": 11046.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 122055.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 49424.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 103052.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 11046.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 33.7
+      },
+      "spot_used": 33.7,
+      "largest_flow": {
+        "premium": 55098.0,
+        "option_type": "CALL",
+        "strike": 34.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-07T19:00:02.568759Z"
+      },
+      "reason": "strong_bullish_flow score=8.8",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "APA",
+      "classification": "BULLISH",
+      "score": 8.8,
+      "score_components": {
+        "directional": 9.32,
+        "conviction": 10.0,
+        "magnitude": 5.72
+      },
+      "bullish_premium_pct": 0.932,
+      "bearish_premium_pct": 0.068,
+      "total_premium": 194191.0,
+      "bullish_premium": 152476.25,
+      "bearish_premium": 11046.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 122055.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 49424.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 103052.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 11046.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 33.7
+      },
+      "spot_used": 33.7,
+      "largest_flow": {
+        "premium": 55098.0,
+        "option_type": "CALL",
+        "strike": 34.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-07T19:00:02.568759Z"
+      },
+      "reason": "strong_bullish_flow score=8.8",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "OXY",
+      "classification": "BULLISH",
+      "score": 8.23,
+      "score_components": {
+        "directional": 7.23,
+        "conviction": 10.0,
+        "magnitude": 8.09
+      },
+      "bullish_premium_pct": 0.723,
+      "bearish_premium_pct": 0.277,
+      "total_premium": 1717075.0,
+      "bullish_premium": 354950.0,
+      "bearish_premium": 135786.0,
+      "flow_count": 49,
+      "ask_side_bull_count": 35,
+      "ask_side_bull_premium": 1232858.0,
+      "structural_breakdown": {
+        "kept_flow_count": 28,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 20,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 91491.0,
+            "put_premium": 34605.0,
+            "flow_count": 6
+          },
+          "short_core": {
+            "call_premium": 55143.0,
+            "put_premium": 0.0,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 136046.0,
+            "put_premium": 35691.0,
+            "flow_count": 8
+          },
+          "long_core": {
+            "call_premium": 16903.5,
+            "put_premium": 53250.0,
+            "flow_count": 5
+          },
+          "long_stretch": {
+            "call_premium": 55366.5,
+            "put_premium": 12240.0,
+            "flow_count": 5
+          }
+        },
+        "spot_used": 51.745
+      },
+      "spot_used": 51.745,
+      "largest_flow": {
+        "premium": 282880.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-11-20",
+        "executed_at": "2026-07-07T19:01:10.909121Z"
+      },
+      "reason": "strong_bullish_flow score=8.23",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "DVN",
+      "classification": "BULLISH",
+      "score": 7.79,
+      "score_components": {
+        "directional": 8.47,
+        "conviction": 5.9,
+        "magnitude": 8.91
+      },
+      "bullish_premium_pct": 0.847,
+      "bearish_premium_pct": 0.153,
+      "total_premium": 3667150.0,
+      "bullish_premium": 368164.75,
+      "bearish_premium": 66661.5,
+      "flow_count": 28,
+      "ask_side_bull_count": 16,
+      "ask_side_bull_premium": 328663.0,
+      "structural_breakdown": {
+        "kept_flow_count": 22,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 86067.75,
+            "put_premium": 23126.25,
+            "flow_count": 7
+          },
+          "core_core": {
+            "call_premium": 244462.0,
+            "put_premium": 0.0,
+            "flow_count": 11
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 10695.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 37635.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 32840.25,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 42.685
+      },
+      "spot_used": 42.685,
+      "largest_flow": {
+        "premium": 2960000.0,
+        "option_type": "PUT",
+        "strike": 40.0,
+        "expiry": "2026-10-16",
+        "executed_at": "2026-07-06T14:48:35.676777Z"
+      },
+      "reason": "strong_bullish_flow score=7.79",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [
+    {
+      "ticker": "TPL",
+      "classification": "LEAN BULLISH",
+      "score": 5.77,
+      "score_components": {
+        "directional": 6.28,
+        "conviction": 5.0,
+        "magnitude": 5.67
+      },
+      "bullish_premium_pct": 0.628,
+      "bearish_premium_pct": 0.372,
+      "total_premium": 185386.0,
+      "bullish_premium": 87364.5,
+      "bearish_premium": 51675.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 3,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_core": {
+            "call_premium": 87364.5,
+            "put_premium": 51675.0,
+            "flow_count": 3
+          }
+        },
+        "spot_used": 403.01
+      },
+      "spot_used": 403.01,
+      "largest_flow": {
+        "premium": 93486.0,
+        "option_type": "CALL",
+        "strike": 420.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-06T18:09:16.789301Z"
+      },
+      "reason": "moderate_bullish_flow score=5.77",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    }
+  ],
+  "neutral": [
+    {
+      "ticker": "COP",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 111315.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "EOG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 107685.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 11497.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "FANG",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "OVV",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 60044.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "EXE",
+      "classification": "NEUTRAL",
+      "score": 3.83,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.34,
+        "magnitude": 6.12
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 280970.0,
+      "bullish_premium": 46525.0,
+      "bearish_premium": 185185.0,
+      "flow_count": 16,
+      "ask_side_bull_count": 1,
+      "ask_side_bull_premium": 9690.0,
+      "structural_breakdown": {
+        "kept_flow_count": 16,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 10390.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 104710.0,
+            "flow_count": 5
+          },
+          "long_core": {
+            "call_premium": 36135.0,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 80475.0,
+            "flow_count": 7
+          }
+        },
+        "spot_used": 89.07
+      },
+      "spot_used": 89.07,
+      "largest_flow": {
+        "premium": 37340.0,
+        "option_type": "PUT",
+        "strike": 90.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-07T14:07:34.614199Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Oil & Gas E&P",
+      "sector_etf": "XLE",
+      "industry_score": 6.84,
+      "is_industry_leader": false
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "APA",
+    "OXY",
+    "DVN",
+    "TPL"
+  ],
+  "summary": {
+    "total_scanned": 10,
+    "bullish_count": 3,
+    "lean_bullish_count": 1,
+    "neutral_count": 6,
+    "drilldown_count": 4
+  },
+  "narrative": {
+    "headline": "Oil & Gas E&P is the sole flow story today \u2014 smart money is loading long across the entire industry basket.",
+    "bullish_themes": [
+      "Concentrated bullish positioning in Oil & Gas E&P names (APA, OXY, DVN) with ask-side aggression signaling directional conviction, not hedging",
+      "Industry-wide participation: 4 of the E&P candidates cleared the bullish or lean-bullish threshold, suggesting a thematic bid rather than single-name idiosyncratic flow"
+    ],
+    "notable_individual_flows": [
+      "DVN: $3.67M total premium with 84.7% bullish and 16 ask-side bullish prints \u2014 the highest-conviction name by size",
+      "OXY: $1.72M premium with 35 ask-side bullish prints \u2014 broadest participation, retail+institutional alignment",
+      "APA: 93.2% bullish skew, cleanest directional read despite smaller ticket size",
+      "EXE: contrarian standout \u2014 79.9% bearish flow within an otherwise bullish industry, worth flagging as a relative-weakness pair candidate"
+    ],
+    "absences": "Zero qualifying flow outside of XLE \u2014 no bullish smart money footprint in any other Industry Layer candidate today. The scan is a single-sector story.",
+    "handoff_quality": "STRONG"
+  }
+}
