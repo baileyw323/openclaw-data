@@ -1,0 +1,3871 @@
+{
+  "as_of": "2026-07-10T13:11:47.092597+00:00",
+  "signal_date": "2026-07-10",
+  "n_instruments": 36,
+  "universe": [
+    "SPX",
+    "SPY",
+    "QQQ",
+    "AAPL",
+    "BNY",
+    "META",
+    "MPC",
+    "ETSY",
+    "PBF",
+    "IBRX",
+    "LMT",
+    "KO",
+    "TFC",
+    "PG",
+    "MNST",
+    "TMO",
+    "DINO",
+    "ALNY",
+    "LQDA",
+    "PINS",
+    "CVS",
+    "CSX",
+    "UHS",
+    "NTRA",
+    "RDDT",
+    "V",
+    "VLO",
+    "AXP",
+    "HIMS",
+    "FICO",
+    "WDAY",
+    "PAYX",
+    "U",
+    "TEM",
+    "DGX",
+    "VEEV"
+  ],
+  "uw_call_count": 144,
+  "instruments": [
+    {
+      "ticker": "SPY",
+      "spot": 738.65,
+      "total_gex": 3044622616.56,
+      "gamma_regime": "LONG_CUSHIONED",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [
+        {
+          "strike": 731.0,
+          "oi": 8735
+        },
+        {
+          "strike": 725.0,
+          "oi": 8516
+        },
+        {
+          "strike": 720.0,
+          "oi": 8820
+        }
+      ],
+      "call_walls": [
+        {
+          "strike": 740.0,
+          "oi": 9120
+        },
+        {
+          "strike": 745.0,
+          "oi": 6934
+        },
+        {
+          "strike": 750.0,
+          "oi": 6691
+        }
+      ],
+      "put_flow_building": true,
+      "expiries_used": [
+        "2026-06-29"
+      ],
+      "n_gex_rows": 173,
+      "read": "SPY long-gamma \u2014 dips cushioned; gamma flip far below beyond \u00b110% range; put-wall support 731/725/720; put flow building.",
+      "gex_levels": {
+        "ticker": "SPY",
+        "spot": 738.65,
+        "as_of": "2026-06-29",
+        "gex_loaded": true,
+        "regime": "positive",
+        "net_gamma_usd": 3044622617.0,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 738.0,
+        "oi_resistance": 739.0,
+        "oi_support_major": 700.0,
+        "oi_resistance_major": 750.0,
+        "implied_range_1d": {
+          "low": 731.21,
+          "high": 746.1,
+          "pct": 1.01
+        },
+        "implied_range_1w": {
+          "low": 722.0,
+          "high": 755.31,
+          "pct": 2.25
+        },
+        "magnet_strike": 605.0,
+        "suggested_stop": {
+          "level": 730.54,
+          "dist_pct": 1.1,
+          "rationale": "Below OI support at 738.00 (0.1% below spot) minus 1.0% daily-range buffer"
+        },
+        "confidence": "ok",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal.",
+        "session_date": "2026-07-09",
+        "session_fallback": true
+      },
+      "session_fallback": true,
+      "session_date": "2026-07-09"
+    },
+    {
+      "ticker": "SPX",
+      "spot": 7543.64,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "SPX no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "SPX",
+        "spot": 7543.64,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 7540.0,
+        "oi_resistance": 7545.0,
+        "oi_support_major": 7000.0,
+        "oi_resistance_major": 8000.0,
+        "implied_range_1d": {
+          "low": 7479.63,
+          "high": 7607.65,
+          "pct": 0.85
+        },
+        "implied_range_1w": {
+          "low": 7400.51,
+          "high": 7686.77,
+          "pct": 1.9
+        },
+        "magnet_strike": 7500.0,
+        "magnet": {
+          "near": {
+            "strike": 7500.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 9427
+          },
+          "opex": {
+            "strike": 7500.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 9427
+          }
+        },
+        "suggested_stop": {
+          "level": 7475.88,
+          "dist_pct": 0.9,
+          "rationale": "Below OI support at 7540.00 (0.0% below spot) minus 0.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "spot": 719.82,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "QQQ no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "QQQ",
+        "spot": 719.82,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 719.0,
+        "oi_resistance": 720.0,
+        "oi_support_major": 700.0,
+        "oi_resistance_major": 740.0,
+        "implied_range_1d": {
+          "low": 708.87,
+          "high": 730.77,
+          "pct": 1.52
+        },
+        "implied_range_1w": {
+          "low": 695.33,
+          "high": 744.31,
+          "pct": 3.4
+        },
+        "magnet_strike": 700.0,
+        "magnet": {
+          "near": {
+            "strike": 700.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 18210
+          },
+          "opex": {
+            "strike": 700.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 18210
+          }
+        },
+        "suggested_stop": {
+          "level": 708.06,
+          "dist_pct": 1.6,
+          "rationale": "Below OI support at 719.00 (0.1% below spot) minus 1.5% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "spot": 314.78,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "AAPL no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "AAPL",
+        "spot": 314.78,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 318.68,
+        "dist_to_flip_pct": 1.24,
+        "oi_support": 312.5,
+        "oi_resistance": 315.0,
+        "oi_support_major": 300.0,
+        "oi_resistance_major": 320.0,
+        "implied_range_1d": {
+          "low": 309.84,
+          "high": 319.72,
+          "pct": 1.57
+        },
+        "implied_range_1w": {
+          "low": 303.74,
+          "high": 325.82,
+          "pct": 3.51
+        },
+        "magnet_strike": 320.0,
+        "magnet": {
+          "near": {
+            "strike": 320.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 23597
+          },
+          "opex": {
+            "strike": 320.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 23597
+          }
+        },
+        "suggested_stop": {
+          "level": 307.56,
+          "dist_pct": 2.3,
+          "rationale": "Below OI support at 312.50 (0.7% below spot) minus 1.6% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "BNY",
+      "spot": 155.53,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "BNY no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "BNY",
+        "spot": 155.53,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 152.31,
+        "dist_to_flip_pct": -2.07,
+        "oi_support": 145.0,
+        "oi_resistance": 160.0,
+        "oi_support_major": null,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 151.65,
+          "high": 159.41,
+          "pct": 2.49
+        },
+        "implied_range_1w": {
+          "low": 146.86,
+          "high": 164.21,
+          "pct": 5.58
+        },
+        "magnet_strike": 140.0,
+        "magnet": {
+          "near": {
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1415
+          },
+          "opex": {
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1415
+          }
+        },
+        "suggested_stop": {
+          "level": 148.44,
+          "dist_pct": 4.6,
+          "rationale": "Below gamma flip at 152.31 (2.1% below spot) minus 2.5% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "META",
+      "spot": 658.8,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "META no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "META",
+        "spot": 658.8,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 647.6,
+        "dist_to_flip_pct": -1.7,
+        "oi_support": 630.0,
+        "oi_resistance": 660.0,
+        "oi_support_major": 550.0,
+        "oi_resistance_major": 700.0,
+        "implied_range_1d": {
+          "low": 632.77,
+          "high": 684.83,
+          "pct": 3.95
+        },
+        "implied_range_1w": {
+          "low": 600.6,
+          "high": 717.0,
+          "pct": 8.83
+        },
+        "magnet_strike": 650.0,
+        "magnet": {
+          "near": {
+            "strike": 650.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 9797
+          },
+          "opex": {
+            "strike": 650.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 9797
+          }
+        },
+        "suggested_stop": {
+          "level": 621.58,
+          "dist_pct": 5.6,
+          "rationale": "Below gamma flip at 647.60 (1.7% below spot) minus 4.0% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "MPC",
+      "spot": 285.74,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "MPC no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "MPC",
+        "spot": 285.74,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 264.71,
+        "dist_to_flip_pct": -7.36,
+        "oi_support": 280.0,
+        "oi_resistance": 290.0,
+        "oi_support_major": 210.0,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 278.77,
+          "high": 292.71,
+          "pct": 2.44
+        },
+        "implied_range_1w": {
+          "low": 270.15,
+          "high": 301.33,
+          "pct": 5.46
+        },
+        "magnet_strike": 270.0,
+        "magnet": {
+          "near": {
+            "strike": 270.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2636
+          },
+          "opex": {
+            "strike": 270.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2636
+          }
+        },
+        "suggested_stop": {
+          "level": 257.74,
+          "dist_pct": 9.8,
+          "rationale": "Below gamma flip at 264.71 (7.4% below spot) minus 2.4% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "ETSY",
+      "spot": 77.72,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "ETSY no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "ETSY",
+        "spot": 77.72,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 79.5,
+        "dist_to_flip_pct": 2.29,
+        "oi_support": 77.5,
+        "oi_resistance": 78.0,
+        "oi_support_major": 50.0,
+        "oi_resistance_major": 80.0,
+        "implied_range_1d": {
+          "low": 74.61,
+          "high": 80.83,
+          "pct": 4.01
+        },
+        "implied_range_1w": {
+          "low": 70.76,
+          "high": 84.68,
+          "pct": 8.96
+        },
+        "magnet_strike": 73.0,
+        "magnet": {
+          "near": {
+            "strike": 73.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 551
+          },
+          "opex": {
+            "strike": 73.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 551
+          }
+        },
+        "suggested_stop": {
+          "level": 74.38,
+          "dist_pct": 4.3,
+          "rationale": "Below OI support at 77.50 (0.3% below spot) minus 4.0% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "PBF",
+      "spot": 53.31,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "PBF no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "PBF",
+        "spot": 53.31,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 50.0,
+        "oi_resistance": 55.0,
+        "oi_support_major": 35.0,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 51.13,
+          "high": 55.49,
+          "pct": 4.09
+        },
+        "implied_range_1w": {
+          "low": 48.44,
+          "high": 58.18,
+          "pct": 9.14
+        },
+        "magnet_strike": 50.0,
+        "magnet": {
+          "near": {
+            "strike": 50.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2954
+          },
+          "opex": {
+            "strike": 50.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2954
+          }
+        },
+        "suggested_stop": {
+          "level": 47.82,
+          "dist_pct": 10.3,
+          "rationale": "Below OI support at 50.00 (6.2% below spot) minus 4.1% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "IBRX",
+      "spot": 8.9,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "IBRX no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "IBRX",
+        "spot": 8.9,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 8.5,
+        "oi_resistance": 9.0,
+        "oi_support_major": 7.5,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 8.42,
+          "high": 9.38,
+          "pct": 5.42
+        },
+        "implied_range_1w": {
+          "low": 7.82,
+          "high": 9.98,
+          "pct": 12.13
+        },
+        "magnet_strike": 9.0,
+        "magnet": {
+          "near": {
+            "strike": 9.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2949
+          },
+          "opex": {
+            "strike": 9.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2949
+          }
+        },
+        "suggested_stop": {
+          "level": 8.02,
+          "dist_pct": 9.9,
+          "rationale": "Below OI support at 8.50 (4.5% below spot) minus 5.4% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "LMT",
+      "spot": 520.63,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "LMT no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "LMT",
+        "spot": 520.63,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 520.0,
+        "oi_resistance": 525.0,
+        "oi_support_major": 420.0,
+        "oi_resistance_major": 575.0,
+        "implied_range_1d": {
+          "low": 509.64,
+          "high": 531.62,
+          "pct": 2.11
+        },
+        "implied_range_1w": {
+          "low": 496.06,
+          "high": 545.2,
+          "pct": 4.72
+        },
+        "magnet_strike": 517.5,
+        "magnet": {
+          "near": {
+            "strike": 517.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 635
+          },
+          "opex": {
+            "strike": 517.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 635
+          }
+        },
+        "suggested_stop": {
+          "level": 509.01,
+          "dist_pct": 2.2,
+          "rationale": "Below OI support at 520.00 (0.1% below spot) minus 2.1% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "KO",
+      "spot": 82.79,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "KO no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "KO",
+        "spot": 82.79,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 84.71,
+        "dist_to_flip_pct": 2.32,
+        "oi_support": 82.5,
+        "oi_resistance": 83.0,
+        "oi_support_major": 75.0,
+        "oi_resistance_major": 85.0,
+        "implied_range_1d": {
+          "low": 81.78,
+          "high": 83.8,
+          "pct": 1.22
+        },
+        "implied_range_1w": {
+          "low": 80.54,
+          "high": 85.04,
+          "pct": 2.72
+        },
+        "magnet_strike": 83.0,
+        "magnet": {
+          "near": {
+            "strike": 83.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7921
+          },
+          "opex": {
+            "strike": 83.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7921
+          }
+        },
+        "suggested_stop": {
+          "level": 81.49,
+          "dist_pct": 1.6,
+          "rationale": "Below OI support at 82.50 (0.4% below spot) minus 1.2% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "TFC",
+      "spot": 51.39,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "TFC no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "TFC",
+        "spot": 51.39,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 51.72,
+        "dist_to_flip_pct": 0.64,
+        "oi_support": 50.0,
+        "oi_resistance": 52.5,
+        "oi_support_major": 45.0,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 50.6,
+          "high": 52.18,
+          "pct": 1.55
+        },
+        "implied_range_1w": {
+          "low": 49.61,
+          "high": 53.17,
+          "pct": 3.46
+        },
+        "magnet_strike": 52.5,
+        "magnet": {
+          "near": {
+            "strike": 52.5,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 11922
+          },
+          "opex": {
+            "strike": 52.5,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 11922
+          }
+        },
+        "suggested_stop": {
+          "level": 49.2,
+          "dist_pct": 4.3,
+          "rationale": "Below OI support at 50.00 (2.7% below spot) minus 1.6% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "PG",
+      "spot": 147.36,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "PG no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "PG",
+        "spot": 147.36,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 153.87,
+        "dist_to_flip_pct": 4.42,
+        "oi_support": 147.0,
+        "oi_resistance": 148.0,
+        "oi_support_major": 135.0,
+        "oi_resistance_major": 155.0,
+        "implied_range_1d": {
+          "low": 144.68,
+          "high": 150.04,
+          "pct": 1.82
+        },
+        "implied_range_1w": {
+          "low": 141.37,
+          "high": 153.35,
+          "pct": 4.07
+        },
+        "magnet_strike": 160.0,
+        "magnet": {
+          "near": {
+            "strike": 160.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7242
+          },
+          "opex": {
+            "strike": 160.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7242
+          }
+        },
+        "suggested_stop": {
+          "level": 144.32,
+          "dist_pct": 2.1,
+          "rationale": "Below OI support at 147.00 (0.2% below spot) minus 1.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "MNST",
+      "spot": 96.54,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "MNST no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "MNST",
+        "spot": 96.54,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 96.11,
+        "dist_to_flip_pct": -0.45,
+        "oi_support": 95.0,
+        "oi_resistance": 97.5,
+        "oi_support_major": null,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 95.04,
+          "high": 98.04,
+          "pct": 1.56
+        },
+        "implied_range_1w": {
+          "low": 93.18,
+          "high": 99.9,
+          "pct": 3.48
+        },
+        "magnet_strike": 95.0,
+        "magnet": {
+          "near": {
+            "strike": 95.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 3493
+          },
+          "opex": {
+            "strike": 95.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 3493
+          }
+        },
+        "suggested_stop": {
+          "level": 94.6,
+          "dist_pct": 2.0,
+          "rationale": "Below gamma flip at 96.11 (0.4% below spot) minus 1.6% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "TMO",
+      "spot": 522.9,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "TMO no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "TMO",
+        "spot": 522.9,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 515.0,
+        "oi_resistance": 525.0,
+        "oi_support_major": 470.0,
+        "oi_resistance_major": 530.0,
+        "implied_range_1d": {
+          "low": 503.22,
+          "high": 542.58,
+          "pct": 3.76
+        },
+        "implied_range_1w": {
+          "low": 478.88,
+          "high": 566.92,
+          "pct": 8.42
+        },
+        "magnet_strike": 525.0,
+        "magnet": {
+          "near": {
+            "strike": 525.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 153
+          },
+          "opex": {
+            "strike": 525.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 153
+          }
+        },
+        "suggested_stop": {
+          "level": 495.34,
+          "dist_pct": 5.3,
+          "rationale": "Below OI support at 515.00 (1.5% below spot) minus 3.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "DINO",
+      "spot": 77.0,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "DINO no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "DINO",
+        "spot": 77.0,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 70.98,
+        "dist_to_flip_pct": -7.82,
+        "oi_support": 75.0,
+        "oi_resistance": 77.5,
+        "oi_support_major": 62.5,
+        "oi_resistance_major": 80.0,
+        "implied_range_1d": {
+          "low": 74.86,
+          "high": 79.14,
+          "pct": 2.78
+        },
+        "implied_range_1w": {
+          "low": 72.22,
+          "high": 81.78,
+          "pct": 6.21
+        },
+        "magnet_strike": 72.5,
+        "magnet": {
+          "near": {
+            "strike": 72.5,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2691
+          },
+          "opex": {
+            "strike": 72.5,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2691
+          }
+        },
+        "suggested_stop": {
+          "level": 68.84,
+          "dist_pct": 10.6,
+          "rationale": "Below gamma flip at 70.98 (7.8% below spot) minus 2.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "ALNY",
+      "spot": 317.0,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "ALNY no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "ALNY",
+        "spot": 317.0,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 328.53,
+        "dist_to_flip_pct": 3.64,
+        "oi_support": 300.0,
+        "oi_resistance": 320.0,
+        "oi_support_major": 290.0,
+        "oi_resistance_major": 330.0,
+        "implied_range_1d": {
+          "low": 308.01,
+          "high": 325.99,
+          "pct": 2.84
+        },
+        "implied_range_1w": {
+          "low": 296.89,
+          "high": 337.11,
+          "pct": 6.34
+        },
+        "magnet_strike": 260.0,
+        "magnet": {
+          "near": {
+            "strike": 260.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 772
+          },
+          "opex": {
+            "strike": 260.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 772
+          }
+        },
+        "suggested_stop": {
+          "level": 291.0,
+          "dist_pct": 8.2,
+          "rationale": "Below OI support at 300.00 (5.4% below spot) minus 2.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "LQDA",
+      "spot": 82.0,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "LQDA no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "LQDA",
+        "spot": 82.0,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 75.0,
+        "oi_resistance": 85.0,
+        "oi_support_major": 55.0,
+        "oi_resistance_major": 90.0,
+        "implied_range_1d": {
+          "low": 78.07,
+          "high": 85.93,
+          "pct": 4.8
+        },
+        "implied_range_1w": {
+          "low": 73.2,
+          "high": 90.8,
+          "pct": 10.73
+        },
+        "magnet_strike": 70.0,
+        "magnet": {
+          "near": {
+            "strike": 70.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1355
+          },
+          "opex": {
+            "strike": 70.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1355
+          }
+        },
+        "suggested_stop": {
+          "level": 71.06,
+          "dist_pct": 13.3,
+          "rationale": "Below OI support at 75.00 (8.5% below spot) minus 4.8% daily-range buffer; no tight structural stop \u2014 size smaller (13.3% from spot)"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "PINS",
+      "spot": 22.84,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "PINS no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "PINS",
+        "spot": 22.84,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": 22.5,
+        "oi_resistance": 23.0,
+        "oi_support_major": 18.0,
+        "oi_resistance_major": 24.0,
+        "implied_range_1d": {
+          "low": 21.89,
+          "high": 23.79,
+          "pct": 4.16
+        },
+        "implied_range_1w": {
+          "low": 20.72,
+          "high": 24.96,
+          "pct": 9.3
+        },
+        "magnet_strike": 17.0,
+        "magnet": {
+          "near": {
+            "strike": 17.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2513
+          },
+          "opex": {
+            "strike": 17.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2513
+          }
+        },
+        "suggested_stop": {
+          "level": 21.55,
+          "dist_pct": 5.6,
+          "rationale": "Below OI support at 22.50 (1.5% below spot) minus 4.2% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "CVS",
+      "spot": 102.95,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "CVS no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "CVS",
+        "spot": 102.95,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 94.58,
+        "dist_to_flip_pct": -8.13,
+        "oi_support": 102.0,
+        "oi_resistance": 103.0,
+        "oi_support_major": 100.0,
+        "oi_resistance_major": 110.0,
+        "implied_range_1d": {
+          "low": 100.8,
+          "high": 105.1,
+          "pct": 2.09
+        },
+        "implied_range_1w": {
+          "low": 98.15,
+          "high": 107.75,
+          "pct": 4.67
+        },
+        "magnet_strike": 110.0,
+        "magnet": {
+          "near": {
+            "strike": 110.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 6896
+          },
+          "opex": {
+            "strike": 110.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 6896
+          }
+        },
+        "suggested_stop": {
+          "level": 92.43,
+          "dist_pct": 10.2,
+          "rationale": "Below gamma flip at 94.58 (8.1% below spot) minus 2.1% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "CSX",
+      "spot": 49.35,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "CSX no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "CSX",
+        "spot": 49.35,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 48.61,
+        "dist_to_flip_pct": -1.5,
+        "oi_support": 48.5,
+        "oi_resistance": 49.5,
+        "oi_support_major": 42.5,
+        "oi_resistance_major": 51.0,
+        "implied_range_1d": {
+          "low": 48.56,
+          "high": 50.14,
+          "pct": 1.61
+        },
+        "implied_range_1w": {
+          "low": 47.58,
+          "high": 51.12,
+          "pct": 3.59
+        },
+        "magnet_strike": 49.5,
+        "magnet": {
+          "near": {
+            "strike": 49.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1551
+          },
+          "opex": {
+            "strike": 49.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1551
+          }
+        },
+        "suggested_stop": {
+          "level": 47.82,
+          "dist_pct": 3.1,
+          "rationale": "Below gamma flip at 48.61 (1.5% below spot) minus 1.6% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "UHS",
+      "spot": 155.2,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "UHS no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "UHS",
+        "spot": 155.2,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 160.43,
+        "dist_to_flip_pct": 3.37,
+        "oi_support": 150.0,
+        "oi_resistance": 160.0,
+        "oi_support_major": 130.0,
+        "oi_resistance_major": 165.0,
+        "implied_range_1d": {
+          "low": 150.98,
+          "high": 159.42,
+          "pct": 2.72
+        },
+        "implied_range_1w": {
+          "low": 145.75,
+          "high": 164.65,
+          "pct": 6.09
+        },
+        "magnet_strike": 150.0,
+        "magnet": {
+          "near": {
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 377
+          },
+          "opex": {
+            "strike": 150.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 377
+          }
+        },
+        "suggested_stop": {
+          "level": 145.78,
+          "dist_pct": 6.1,
+          "rationale": "Below OI support at 150.00 (3.4% below spot) minus 2.7% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "NTRA",
+      "spot": 281.85,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "NTRA no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "NTRA",
+        "spot": 281.85,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": null,
+        "oi_resistance": 290.0,
+        "oi_support_major": 160.0,
+        "oi_resistance_major": 300.0,
+        "implied_range_1d": {
+          "low": 272.61,
+          "high": 291.09,
+          "pct": 3.28
+        },
+        "implied_range_1w": {
+          "low": 261.18,
+          "high": 302.52,
+          "pct": 7.33
+        },
+        "magnet_strike": 220.0,
+        "magnet": {
+          "near": {
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1745
+          },
+          "opex": {
+            "strike": 220.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1745
+          }
+        },
+        "suggested_stop": {
+          "level": 267.98,
+          "dist_pct": 4.9,
+          "rationale": "No near-field structural support \u2014 volatility stop (1.5\u00d7 3.3% daily range from spot)"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "RDDT",
+      "spot": 204.41,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "RDDT no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "RDDT",
+        "spot": 204.41,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 209.48,
+        "dist_to_flip_pct": 2.48,
+        "oi_support": 202.5,
+        "oi_resistance": 205.0,
+        "oi_support_major": 150.0,
+        "oi_resistance_major": 220.0,
+        "implied_range_1d": {
+          "low": 194.35,
+          "high": 214.47,
+          "pct": 4.92
+        },
+        "implied_range_1w": {
+          "low": 181.91,
+          "high": 226.91,
+          "pct": 11.01
+        },
+        "magnet_strike": 180.0,
+        "magnet": {
+          "near": {
+            "strike": 180.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 3126
+          },
+          "opex": {
+            "strike": 180.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 3126
+          }
+        },
+        "suggested_stop": {
+          "level": 192.44,
+          "dist_pct": 5.9,
+          "rationale": "Below OI support at 202.50 (0.9% below spot) minus 4.9% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "V",
+      "spot": 349.89,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": true,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "V no GEX data (options chain not returned by UW for this session); put flow building.",
+      "gex_levels": {
+        "ticker": "V",
+        "spot": 349.89,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 373.67,
+        "dist_to_flip_pct": 6.8,
+        "oi_support": 347.5,
+        "oi_resistance": 350.0,
+        "oi_support_major": 330.0,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 344.69,
+          "high": 355.09,
+          "pct": 1.49
+        },
+        "implied_range_1w": {
+          "low": 338.25,
+          "high": 361.53,
+          "pct": 3.33
+        },
+        "magnet_strike": 355.0,
+        "magnet": {
+          "near": {
+            "strike": 355.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2696
+          },
+          "opex": {
+            "strike": 355.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2696
+          }
+        },
+        "suggested_stop": {
+          "level": 342.29,
+          "dist_pct": 2.2,
+          "rationale": "Below OI support at 347.50 (0.7% below spot) minus 1.5% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "VLO",
+      "spot": 283.0,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "VLO no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "VLO",
+        "spot": 283.0,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 279.47,
+        "dist_to_flip_pct": -1.25,
+        "oi_support": 280.0,
+        "oi_resistance": 285.0,
+        "oi_support_major": 240.0,
+        "oi_resistance_major": 300.0,
+        "implied_range_1d": {
+          "low": 275.94,
+          "high": 290.06,
+          "pct": 2.5
+        },
+        "implied_range_1w": {
+          "low": 267.21,
+          "high": 298.79,
+          "pct": 5.58
+        },
+        "magnet_strike": 267.5,
+        "magnet": {
+          "near": {
+            "strike": 267.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 516
+          },
+          "opex": {
+            "strike": 267.5,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 516
+          }
+        },
+        "suggested_stop": {
+          "level": 272.4,
+          "dist_pct": 3.7,
+          "rationale": "Below gamma flip at 279.47 (1.2% below spot) minus 2.5% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "AXP",
+      "spot": 348.5,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "AXP no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "AXP",
+        "spot": 348.5,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 375.17,
+        "dist_to_flip_pct": 7.65,
+        "oi_support": 347.5,
+        "oi_resistance": 350.0,
+        "oi_support_major": 310.0,
+        "oi_resistance_major": 360.0,
+        "implied_range_1d": {
+          "low": 340.38,
+          "high": 356.62,
+          "pct": 2.33
+        },
+        "implied_range_1w": {
+          "low": 330.35,
+          "high": 366.65,
+          "pct": 5.21
+        },
+        "magnet_strike": 360.0,
+        "magnet": {
+          "near": {
+            "strike": 360.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2012
+          },
+          "opex": {
+            "strike": 360.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2012
+          }
+        },
+        "suggested_stop": {
+          "level": 339.38,
+          "dist_pct": 2.6,
+          "rationale": "Below OI support at 347.50 (0.3% below spot) minus 2.3% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "HIMS",
+      "spot": 35.51,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "HIMS no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "HIMS",
+        "spot": 35.51,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 38.96,
+        "dist_to_flip_pct": 9.72,
+        "oi_support": 35.5,
+        "oi_resistance": 36.0,
+        "oi_support_major": 30.0,
+        "oi_resistance_major": 40.0,
+        "implied_range_1d": {
+          "low": 33.74,
+          "high": 37.28,
+          "pct": 4.99
+        },
+        "implied_range_1w": {
+          "low": 31.54,
+          "high": 39.48,
+          "pct": 11.17
+        },
+        "magnet_strike": 40.0,
+        "magnet": {
+          "near": {
+            "strike": 40.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7106
+          },
+          "opex": {
+            "strike": 40.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 7106
+          }
+        },
+        "suggested_stop": {
+          "level": 33.73,
+          "dist_pct": 5.0,
+          "rationale": "Below OI support at 35.50 (0.0% below spot) minus 5.0% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "FICO",
+      "spot": 1284.14,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "FICO no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "FICO",
+        "spot": 1284.14,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": null,
+        "dist_to_flip_pct": null,
+        "oi_support": null,
+        "oi_resistance": 1400.0,
+        "oi_support_major": 1100.0,
+        "oi_resistance_major": 3000.0,
+        "implied_range_1d": {
+          "low": 1240.09,
+          "high": 1328.19,
+          "pct": 3.43
+        },
+        "implied_range_1w": {
+          "low": 1185.65,
+          "high": 1382.63,
+          "pct": 7.67
+        },
+        "magnet_strike": 1750.0,
+        "magnet": {
+          "near": {
+            "strike": 1750.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 299
+          },
+          "opex": {
+            "strike": 1750.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 299
+          }
+        },
+        "suggested_stop": {
+          "level": 1218.07,
+          "dist_pct": 5.1,
+          "rationale": "No near-field structural support \u2014 volatility stop (1.5\u00d7 3.4% daily range from spot)"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "WDAY",
+      "spot": 140.0,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "WDAY no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "WDAY",
+        "spot": 140.0,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 153.56,
+        "dist_to_flip_pct": 9.69,
+        "oi_support": 137.0,
+        "oi_resistance": 143.0,
+        "oi_support_major": 100.0,
+        "oi_resistance_major": 150.0,
+        "implied_range_1d": {
+          "low": 135.06,
+          "high": 144.94,
+          "pct": 3.53
+        },
+        "implied_range_1w": {
+          "low": 128.95,
+          "high": 151.05,
+          "pct": 7.89
+        },
+        "magnet_strike": 150.0,
+        "magnet": {
+          "near": {
+            "strike": 150.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1629
+          },
+          "opex": {
+            "strike": 150.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1629
+          }
+        },
+        "suggested_stop": {
+          "level": 132.06,
+          "dist_pct": 5.7,
+          "rationale": "Below OI support at 137.00 (2.1% below spot) minus 3.5% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "PAYX",
+      "spot": 106.26,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "PAYX no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "PAYX",
+        "spot": 106.26,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 107.94,
+        "dist_to_flip_pct": 1.58,
+        "oi_support": 105.0,
+        "oi_resistance": 110.0,
+        "oi_support_major": 90.0,
+        "oi_resistance_major": null,
+        "implied_range_1d": {
+          "low": 104.33,
+          "high": 108.19,
+          "pct": 1.81
+        },
+        "implied_range_1w": {
+          "low": 101.95,
+          "high": 110.57,
+          "pct": 4.06
+        },
+        "magnet_strike": 110.0,
+        "magnet": {
+          "near": {
+            "strike": 110.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2912
+          },
+          "opex": {
+            "strike": 110.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2912
+          }
+        },
+        "suggested_stop": {
+          "level": 103.08,
+          "dist_pct": 3.0,
+          "rationale": "Below OI support at 105.00 (1.2% below spot) minus 1.8% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "U",
+      "spot": 31.83,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "U no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "U",
+        "spot": 31.83,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 34.96,
+        "dist_to_flip_pct": 9.83,
+        "oi_support": 31.0,
+        "oi_resistance": 32.0,
+        "oi_support_major": 20.0,
+        "oi_resistance_major": 40.0,
+        "implied_range_1d": {
+          "low": 30.21,
+          "high": 33.45,
+          "pct": 5.1
+        },
+        "implied_range_1w": {
+          "low": 28.2,
+          "high": 35.46,
+          "pct": 11.41
+        },
+        "magnet_strike": 30.0,
+        "magnet": {
+          "near": {
+            "strike": 30.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1857
+          },
+          "opex": {
+            "strike": 30.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 1857
+          }
+        },
+        "suggested_stop": {
+          "level": 29.38,
+          "dist_pct": 7.7,
+          "rationale": "Below OI support at 31.00 (2.6% below spot) minus 5.1% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "TEM",
+      "spot": 61.72,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "TEM no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "TEM",
+        "spot": 61.72,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 61.92,
+        "dist_to_flip_pct": 0.32,
+        "oi_support": 61.0,
+        "oi_resistance": 62.0,
+        "oi_support_major": 40.0,
+        "oi_resistance_major": 70.0,
+        "implied_range_1d": {
+          "low": 58.7,
+          "high": 64.74,
+          "pct": 4.89
+        },
+        "implied_range_1w": {
+          "low": 54.97,
+          "high": 68.48,
+          "pct": 10.94
+        },
+        "magnet_strike": 65.0,
+        "magnet": {
+          "near": {
+            "strike": 65.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2727
+          },
+          "opex": {
+            "strike": 65.0,
+            "expiry": "2026-07-10",
+            "dte": 0,
+            "oi": 2727
+          }
+        },
+        "suggested_stop": {
+          "level": 57.98,
+          "dist_pct": 6.1,
+          "rationale": "Below OI support at 61.00 (1.2% below spot) minus 4.9% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "DGX",
+      "spot": 208.05,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "DGX no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "DGX",
+        "spot": 208.05,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 221.3,
+        "dist_to_flip_pct": 6.37,
+        "oi_support": 200.0,
+        "oi_resistance": 210.0,
+        "oi_support_major": 185.0,
+        "oi_resistance_major": 220.0,
+        "implied_range_1d": {
+          "low": 204.1,
+          "high": 212.0,
+          "pct": 1.9
+        },
+        "implied_range_1w": {
+          "low": 199.21,
+          "high": 216.89,
+          "pct": 4.25
+        },
+        "magnet_strike": 185.0,
+        "magnet": {
+          "near": {
+            "strike": 185.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1397
+          },
+          "opex": {
+            "strike": 185.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 1397
+          }
+        },
+        "suggested_stop": {
+          "level": 196.05,
+          "dist_pct": 5.8,
+          "rationale": "Below OI support at 200.00 (3.9% below spot) minus 1.9% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    },
+    {
+      "ticker": "VEEV",
+      "spot": 193.48,
+      "total_gex": null,
+      "gamma_regime": "UNKNOWN",
+      "gamma_flip_level": null,
+      "flip_dist_pct": null,
+      "put_walls": [],
+      "call_walls": [],
+      "put_flow_building": false,
+      "expiries_used": [],
+      "n_gex_rows": 0,
+      "read": "VEEV no GEX data (options chain not returned by UW for this session); put flow quiet.",
+      "gex_levels": {
+        "ticker": "VEEV",
+        "spot": 193.48,
+        "as_of": "2026-07-10",
+        "gex_loaded": false,
+        "regime": null,
+        "net_gamma_usd": null,
+        "gamma_flip": 180.45,
+        "dist_to_flip_pct": -6.73,
+        "oi_support": 190.0,
+        "oi_resistance": 195.0,
+        "oi_support_major": 175.0,
+        "oi_resistance_major": 200.0,
+        "implied_range_1d": {
+          "low": 187.96,
+          "high": 199.0,
+          "pct": 2.85
+        },
+        "implied_range_1w": {
+          "low": 181.13,
+          "high": 205.83,
+          "pct": 6.38
+        },
+        "magnet_strike": 140.0,
+        "magnet": {
+          "near": {
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2734
+          },
+          "opex": {
+            "strike": 140.0,
+            "expiry": "2026-07-17",
+            "dte": 7,
+            "oi": 2734
+          }
+        },
+        "suggested_stop": {
+          "level": 174.94,
+          "dist_pct": 9.6,
+          "rationale": "Below gamma flip at 180.45 (6.7% below spot) minus 2.9% daily-range buffer"
+        },
+        "confidence": "thin",
+        "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+      }
+    }
+  ],
+  "gex_levels_by_ticker": {
+    "SPY": {
+      "ticker": "SPY",
+      "spot": 738.65,
+      "as_of": "2026-06-29",
+      "gex_loaded": true,
+      "regime": "positive",
+      "net_gamma_usd": 3044622617.0,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 738.0,
+      "oi_resistance": 739.0,
+      "oi_support_major": 700.0,
+      "oi_resistance_major": 750.0,
+      "implied_range_1d": {
+        "low": 731.21,
+        "high": 746.1,
+        "pct": 1.01
+      },
+      "implied_range_1w": {
+        "low": 722.0,
+        "high": 755.31,
+        "pct": 2.25
+      },
+      "magnet_strike": 605.0,
+      "suggested_stop": {
+        "level": 730.54,
+        "dist_pct": 1.1,
+        "rationale": "Below OI support at 738.00 (0.1% below spot) minus 1.0% daily-range buffer"
+      },
+      "confidence": "ok",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal.",
+      "session_date": "2026-07-09",
+      "session_fallback": true
+    },
+    "SPX": {
+      "ticker": "SPX",
+      "spot": 7543.64,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 7540.0,
+      "oi_resistance": 7545.0,
+      "oi_support_major": 7000.0,
+      "oi_resistance_major": 8000.0,
+      "implied_range_1d": {
+        "low": 7479.63,
+        "high": 7607.65,
+        "pct": 0.85
+      },
+      "implied_range_1w": {
+        "low": 7400.51,
+        "high": 7686.77,
+        "pct": 1.9
+      },
+      "magnet_strike": 7500.0,
+      "magnet": {
+        "near": {
+          "strike": 7500.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 9427
+        },
+        "opex": {
+          "strike": 7500.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 9427
+        }
+      },
+      "suggested_stop": {
+        "level": 7475.88,
+        "dist_pct": 0.9,
+        "rationale": "Below OI support at 7540.00 (0.0% below spot) minus 0.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "spot": 719.82,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 719.0,
+      "oi_resistance": 720.0,
+      "oi_support_major": 700.0,
+      "oi_resistance_major": 740.0,
+      "implied_range_1d": {
+        "low": 708.87,
+        "high": 730.77,
+        "pct": 1.52
+      },
+      "implied_range_1w": {
+        "low": 695.33,
+        "high": 744.31,
+        "pct": 3.4
+      },
+      "magnet_strike": 700.0,
+      "magnet": {
+        "near": {
+          "strike": 700.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 18210
+        },
+        "opex": {
+          "strike": 700.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 18210
+        }
+      },
+      "suggested_stop": {
+        "level": 708.06,
+        "dist_pct": 1.6,
+        "rationale": "Below OI support at 719.00 (0.1% below spot) minus 1.5% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "spot": 314.78,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 318.68,
+      "dist_to_flip_pct": 1.24,
+      "oi_support": 312.5,
+      "oi_resistance": 315.0,
+      "oi_support_major": 300.0,
+      "oi_resistance_major": 320.0,
+      "implied_range_1d": {
+        "low": 309.84,
+        "high": 319.72,
+        "pct": 1.57
+      },
+      "implied_range_1w": {
+        "low": 303.74,
+        "high": 325.82,
+        "pct": 3.51
+      },
+      "magnet_strike": 320.0,
+      "magnet": {
+        "near": {
+          "strike": 320.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 23597
+        },
+        "opex": {
+          "strike": 320.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 23597
+        }
+      },
+      "suggested_stop": {
+        "level": 307.56,
+        "dist_pct": 2.3,
+        "rationale": "Below OI support at 312.50 (0.7% below spot) minus 1.6% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "BNY": {
+      "ticker": "BNY",
+      "spot": 155.53,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 152.31,
+      "dist_to_flip_pct": -2.07,
+      "oi_support": 145.0,
+      "oi_resistance": 160.0,
+      "oi_support_major": null,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 151.65,
+        "high": 159.41,
+        "pct": 2.49
+      },
+      "implied_range_1w": {
+        "low": 146.86,
+        "high": 164.21,
+        "pct": 5.58
+      },
+      "magnet_strike": 140.0,
+      "magnet": {
+        "near": {
+          "strike": 140.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1415
+        },
+        "opex": {
+          "strike": 140.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1415
+        }
+      },
+      "suggested_stop": {
+        "level": 148.44,
+        "dist_pct": 4.6,
+        "rationale": "Below gamma flip at 152.31 (2.1% below spot) minus 2.5% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "META": {
+      "ticker": "META",
+      "spot": 658.8,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 647.6,
+      "dist_to_flip_pct": -1.7,
+      "oi_support": 630.0,
+      "oi_resistance": 660.0,
+      "oi_support_major": 550.0,
+      "oi_resistance_major": 700.0,
+      "implied_range_1d": {
+        "low": 632.77,
+        "high": 684.83,
+        "pct": 3.95
+      },
+      "implied_range_1w": {
+        "low": 600.6,
+        "high": 717.0,
+        "pct": 8.83
+      },
+      "magnet_strike": 650.0,
+      "magnet": {
+        "near": {
+          "strike": 650.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 9797
+        },
+        "opex": {
+          "strike": 650.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 9797
+        }
+      },
+      "suggested_stop": {
+        "level": 621.58,
+        "dist_pct": 5.6,
+        "rationale": "Below gamma flip at 647.60 (1.7% below spot) minus 4.0% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "MPC": {
+      "ticker": "MPC",
+      "spot": 285.74,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 264.71,
+      "dist_to_flip_pct": -7.36,
+      "oi_support": 280.0,
+      "oi_resistance": 290.0,
+      "oi_support_major": 210.0,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 278.77,
+        "high": 292.71,
+        "pct": 2.44
+      },
+      "implied_range_1w": {
+        "low": 270.15,
+        "high": 301.33,
+        "pct": 5.46
+      },
+      "magnet_strike": 270.0,
+      "magnet": {
+        "near": {
+          "strike": 270.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2636
+        },
+        "opex": {
+          "strike": 270.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2636
+        }
+      },
+      "suggested_stop": {
+        "level": 257.74,
+        "dist_pct": 9.8,
+        "rationale": "Below gamma flip at 264.71 (7.4% below spot) minus 2.4% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "ETSY": {
+      "ticker": "ETSY",
+      "spot": 77.72,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 79.5,
+      "dist_to_flip_pct": 2.29,
+      "oi_support": 77.5,
+      "oi_resistance": 78.0,
+      "oi_support_major": 50.0,
+      "oi_resistance_major": 80.0,
+      "implied_range_1d": {
+        "low": 74.61,
+        "high": 80.83,
+        "pct": 4.01
+      },
+      "implied_range_1w": {
+        "low": 70.76,
+        "high": 84.68,
+        "pct": 8.96
+      },
+      "magnet_strike": 73.0,
+      "magnet": {
+        "near": {
+          "strike": 73.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 551
+        },
+        "opex": {
+          "strike": 73.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 551
+        }
+      },
+      "suggested_stop": {
+        "level": 74.38,
+        "dist_pct": 4.3,
+        "rationale": "Below OI support at 77.50 (0.3% below spot) minus 4.0% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "PBF": {
+      "ticker": "PBF",
+      "spot": 53.31,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 50.0,
+      "oi_resistance": 55.0,
+      "oi_support_major": 35.0,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 51.13,
+        "high": 55.49,
+        "pct": 4.09
+      },
+      "implied_range_1w": {
+        "low": 48.44,
+        "high": 58.18,
+        "pct": 9.14
+      },
+      "magnet_strike": 50.0,
+      "magnet": {
+        "near": {
+          "strike": 50.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2954
+        },
+        "opex": {
+          "strike": 50.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2954
+        }
+      },
+      "suggested_stop": {
+        "level": 47.82,
+        "dist_pct": 10.3,
+        "rationale": "Below OI support at 50.00 (6.2% below spot) minus 4.1% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "IBRX": {
+      "ticker": "IBRX",
+      "spot": 8.9,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 8.5,
+      "oi_resistance": 9.0,
+      "oi_support_major": 7.5,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 8.42,
+        "high": 9.38,
+        "pct": 5.42
+      },
+      "implied_range_1w": {
+        "low": 7.82,
+        "high": 9.98,
+        "pct": 12.13
+      },
+      "magnet_strike": 9.0,
+      "magnet": {
+        "near": {
+          "strike": 9.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2949
+        },
+        "opex": {
+          "strike": 9.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2949
+        }
+      },
+      "suggested_stop": {
+        "level": 8.02,
+        "dist_pct": 9.9,
+        "rationale": "Below OI support at 8.50 (4.5% below spot) minus 5.4% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "LMT": {
+      "ticker": "LMT",
+      "spot": 520.63,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 520.0,
+      "oi_resistance": 525.0,
+      "oi_support_major": 420.0,
+      "oi_resistance_major": 575.0,
+      "implied_range_1d": {
+        "low": 509.64,
+        "high": 531.62,
+        "pct": 2.11
+      },
+      "implied_range_1w": {
+        "low": 496.06,
+        "high": 545.2,
+        "pct": 4.72
+      },
+      "magnet_strike": 517.5,
+      "magnet": {
+        "near": {
+          "strike": 517.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 635
+        },
+        "opex": {
+          "strike": 517.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 635
+        }
+      },
+      "suggested_stop": {
+        "level": 509.01,
+        "dist_pct": 2.2,
+        "rationale": "Below OI support at 520.00 (0.1% below spot) minus 2.1% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "KO": {
+      "ticker": "KO",
+      "spot": 82.79,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 84.71,
+      "dist_to_flip_pct": 2.32,
+      "oi_support": 82.5,
+      "oi_resistance": 83.0,
+      "oi_support_major": 75.0,
+      "oi_resistance_major": 85.0,
+      "implied_range_1d": {
+        "low": 81.78,
+        "high": 83.8,
+        "pct": 1.22
+      },
+      "implied_range_1w": {
+        "low": 80.54,
+        "high": 85.04,
+        "pct": 2.72
+      },
+      "magnet_strike": 83.0,
+      "magnet": {
+        "near": {
+          "strike": 83.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7921
+        },
+        "opex": {
+          "strike": 83.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7921
+        }
+      },
+      "suggested_stop": {
+        "level": 81.49,
+        "dist_pct": 1.6,
+        "rationale": "Below OI support at 82.50 (0.4% below spot) minus 1.2% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "TFC": {
+      "ticker": "TFC",
+      "spot": 51.39,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 51.72,
+      "dist_to_flip_pct": 0.64,
+      "oi_support": 50.0,
+      "oi_resistance": 52.5,
+      "oi_support_major": 45.0,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 50.6,
+        "high": 52.18,
+        "pct": 1.55
+      },
+      "implied_range_1w": {
+        "low": 49.61,
+        "high": 53.17,
+        "pct": 3.46
+      },
+      "magnet_strike": 52.5,
+      "magnet": {
+        "near": {
+          "strike": 52.5,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 11922
+        },
+        "opex": {
+          "strike": 52.5,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 11922
+        }
+      },
+      "suggested_stop": {
+        "level": 49.2,
+        "dist_pct": 4.3,
+        "rationale": "Below OI support at 50.00 (2.7% below spot) minus 1.6% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "PG": {
+      "ticker": "PG",
+      "spot": 147.36,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 153.87,
+      "dist_to_flip_pct": 4.42,
+      "oi_support": 147.0,
+      "oi_resistance": 148.0,
+      "oi_support_major": 135.0,
+      "oi_resistance_major": 155.0,
+      "implied_range_1d": {
+        "low": 144.68,
+        "high": 150.04,
+        "pct": 1.82
+      },
+      "implied_range_1w": {
+        "low": 141.37,
+        "high": 153.35,
+        "pct": 4.07
+      },
+      "magnet_strike": 160.0,
+      "magnet": {
+        "near": {
+          "strike": 160.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7242
+        },
+        "opex": {
+          "strike": 160.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7242
+        }
+      },
+      "suggested_stop": {
+        "level": 144.32,
+        "dist_pct": 2.1,
+        "rationale": "Below OI support at 147.00 (0.2% below spot) minus 1.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "MNST": {
+      "ticker": "MNST",
+      "spot": 96.54,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 96.11,
+      "dist_to_flip_pct": -0.45,
+      "oi_support": 95.0,
+      "oi_resistance": 97.5,
+      "oi_support_major": null,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 95.04,
+        "high": 98.04,
+        "pct": 1.56
+      },
+      "implied_range_1w": {
+        "low": 93.18,
+        "high": 99.9,
+        "pct": 3.48
+      },
+      "magnet_strike": 95.0,
+      "magnet": {
+        "near": {
+          "strike": 95.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 3493
+        },
+        "opex": {
+          "strike": 95.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 3493
+        }
+      },
+      "suggested_stop": {
+        "level": 94.6,
+        "dist_pct": 2.0,
+        "rationale": "Below gamma flip at 96.11 (0.4% below spot) minus 1.6% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "TMO": {
+      "ticker": "TMO",
+      "spot": 522.9,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 515.0,
+      "oi_resistance": 525.0,
+      "oi_support_major": 470.0,
+      "oi_resistance_major": 530.0,
+      "implied_range_1d": {
+        "low": 503.22,
+        "high": 542.58,
+        "pct": 3.76
+      },
+      "implied_range_1w": {
+        "low": 478.88,
+        "high": 566.92,
+        "pct": 8.42
+      },
+      "magnet_strike": 525.0,
+      "magnet": {
+        "near": {
+          "strike": 525.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 153
+        },
+        "opex": {
+          "strike": 525.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 153
+        }
+      },
+      "suggested_stop": {
+        "level": 495.34,
+        "dist_pct": 5.3,
+        "rationale": "Below OI support at 515.00 (1.5% below spot) minus 3.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "spot": 77.0,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 70.98,
+      "dist_to_flip_pct": -7.82,
+      "oi_support": 75.0,
+      "oi_resistance": 77.5,
+      "oi_support_major": 62.5,
+      "oi_resistance_major": 80.0,
+      "implied_range_1d": {
+        "low": 74.86,
+        "high": 79.14,
+        "pct": 2.78
+      },
+      "implied_range_1w": {
+        "low": 72.22,
+        "high": 81.78,
+        "pct": 6.21
+      },
+      "magnet_strike": 72.5,
+      "magnet": {
+        "near": {
+          "strike": 72.5,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2691
+        },
+        "opex": {
+          "strike": 72.5,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2691
+        }
+      },
+      "suggested_stop": {
+        "level": 68.84,
+        "dist_pct": 10.6,
+        "rationale": "Below gamma flip at 70.98 (7.8% below spot) minus 2.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "spot": 317.0,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 328.53,
+      "dist_to_flip_pct": 3.64,
+      "oi_support": 300.0,
+      "oi_resistance": 320.0,
+      "oi_support_major": 290.0,
+      "oi_resistance_major": 330.0,
+      "implied_range_1d": {
+        "low": 308.01,
+        "high": 325.99,
+        "pct": 2.84
+      },
+      "implied_range_1w": {
+        "low": 296.89,
+        "high": 337.11,
+        "pct": 6.34
+      },
+      "magnet_strike": 260.0,
+      "magnet": {
+        "near": {
+          "strike": 260.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 772
+        },
+        "opex": {
+          "strike": 260.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 772
+        }
+      },
+      "suggested_stop": {
+        "level": 291.0,
+        "dist_pct": 8.2,
+        "rationale": "Below OI support at 300.00 (5.4% below spot) minus 2.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "LQDA": {
+      "ticker": "LQDA",
+      "spot": 82.0,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 75.0,
+      "oi_resistance": 85.0,
+      "oi_support_major": 55.0,
+      "oi_resistance_major": 90.0,
+      "implied_range_1d": {
+        "low": 78.07,
+        "high": 85.93,
+        "pct": 4.8
+      },
+      "implied_range_1w": {
+        "low": 73.2,
+        "high": 90.8,
+        "pct": 10.73
+      },
+      "magnet_strike": 70.0,
+      "magnet": {
+        "near": {
+          "strike": 70.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1355
+        },
+        "opex": {
+          "strike": 70.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1355
+        }
+      },
+      "suggested_stop": {
+        "level": 71.06,
+        "dist_pct": 13.3,
+        "rationale": "Below OI support at 75.00 (8.5% below spot) minus 4.8% daily-range buffer; no tight structural stop \u2014 size smaller (13.3% from spot)"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "PINS": {
+      "ticker": "PINS",
+      "spot": 22.84,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": 22.5,
+      "oi_resistance": 23.0,
+      "oi_support_major": 18.0,
+      "oi_resistance_major": 24.0,
+      "implied_range_1d": {
+        "low": 21.89,
+        "high": 23.79,
+        "pct": 4.16
+      },
+      "implied_range_1w": {
+        "low": 20.72,
+        "high": 24.96,
+        "pct": 9.3
+      },
+      "magnet_strike": 17.0,
+      "magnet": {
+        "near": {
+          "strike": 17.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2513
+        },
+        "opex": {
+          "strike": 17.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2513
+        }
+      },
+      "suggested_stop": {
+        "level": 21.55,
+        "dist_pct": 5.6,
+        "rationale": "Below OI support at 22.50 (1.5% below spot) minus 4.2% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "CVS": {
+      "ticker": "CVS",
+      "spot": 102.95,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 94.58,
+      "dist_to_flip_pct": -8.13,
+      "oi_support": 102.0,
+      "oi_resistance": 103.0,
+      "oi_support_major": 100.0,
+      "oi_resistance_major": 110.0,
+      "implied_range_1d": {
+        "low": 100.8,
+        "high": 105.1,
+        "pct": 2.09
+      },
+      "implied_range_1w": {
+        "low": 98.15,
+        "high": 107.75,
+        "pct": 4.67
+      },
+      "magnet_strike": 110.0,
+      "magnet": {
+        "near": {
+          "strike": 110.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 6896
+        },
+        "opex": {
+          "strike": 110.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 6896
+        }
+      },
+      "suggested_stop": {
+        "level": 92.43,
+        "dist_pct": 10.2,
+        "rationale": "Below gamma flip at 94.58 (8.1% below spot) minus 2.1% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "CSX": {
+      "ticker": "CSX",
+      "spot": 49.35,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 48.61,
+      "dist_to_flip_pct": -1.5,
+      "oi_support": 48.5,
+      "oi_resistance": 49.5,
+      "oi_support_major": 42.5,
+      "oi_resistance_major": 51.0,
+      "implied_range_1d": {
+        "low": 48.56,
+        "high": 50.14,
+        "pct": 1.61
+      },
+      "implied_range_1w": {
+        "low": 47.58,
+        "high": 51.12,
+        "pct": 3.59
+      },
+      "magnet_strike": 49.5,
+      "magnet": {
+        "near": {
+          "strike": 49.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1551
+        },
+        "opex": {
+          "strike": 49.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1551
+        }
+      },
+      "suggested_stop": {
+        "level": 47.82,
+        "dist_pct": 3.1,
+        "rationale": "Below gamma flip at 48.61 (1.5% below spot) minus 1.6% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "UHS": {
+      "ticker": "UHS",
+      "spot": 155.2,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 160.43,
+      "dist_to_flip_pct": 3.37,
+      "oi_support": 150.0,
+      "oi_resistance": 160.0,
+      "oi_support_major": 130.0,
+      "oi_resistance_major": 165.0,
+      "implied_range_1d": {
+        "low": 150.98,
+        "high": 159.42,
+        "pct": 2.72
+      },
+      "implied_range_1w": {
+        "low": 145.75,
+        "high": 164.65,
+        "pct": 6.09
+      },
+      "magnet_strike": 150.0,
+      "magnet": {
+        "near": {
+          "strike": 150.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 377
+        },
+        "opex": {
+          "strike": 150.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 377
+        }
+      },
+      "suggested_stop": {
+        "level": 145.78,
+        "dist_pct": 6.1,
+        "rationale": "Below OI support at 150.00 (3.4% below spot) minus 2.7% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "NTRA": {
+      "ticker": "NTRA",
+      "spot": 281.85,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": null,
+      "oi_resistance": 290.0,
+      "oi_support_major": 160.0,
+      "oi_resistance_major": 300.0,
+      "implied_range_1d": {
+        "low": 272.61,
+        "high": 291.09,
+        "pct": 3.28
+      },
+      "implied_range_1w": {
+        "low": 261.18,
+        "high": 302.52,
+        "pct": 7.33
+      },
+      "magnet_strike": 220.0,
+      "magnet": {
+        "near": {
+          "strike": 220.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1745
+        },
+        "opex": {
+          "strike": 220.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1745
+        }
+      },
+      "suggested_stop": {
+        "level": 267.98,
+        "dist_pct": 4.9,
+        "rationale": "No near-field structural support \u2014 volatility stop (1.5\u00d7 3.3% daily range from spot)"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "RDDT": {
+      "ticker": "RDDT",
+      "spot": 204.41,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 209.48,
+      "dist_to_flip_pct": 2.48,
+      "oi_support": 202.5,
+      "oi_resistance": 205.0,
+      "oi_support_major": 150.0,
+      "oi_resistance_major": 220.0,
+      "implied_range_1d": {
+        "low": 194.35,
+        "high": 214.47,
+        "pct": 4.92
+      },
+      "implied_range_1w": {
+        "low": 181.91,
+        "high": 226.91,
+        "pct": 11.01
+      },
+      "magnet_strike": 180.0,
+      "magnet": {
+        "near": {
+          "strike": 180.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 3126
+        },
+        "opex": {
+          "strike": 180.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 3126
+        }
+      },
+      "suggested_stop": {
+        "level": 192.44,
+        "dist_pct": 5.9,
+        "rationale": "Below OI support at 202.50 (0.9% below spot) minus 4.9% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "V": {
+      "ticker": "V",
+      "spot": 349.89,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 373.67,
+      "dist_to_flip_pct": 6.8,
+      "oi_support": 347.5,
+      "oi_resistance": 350.0,
+      "oi_support_major": 330.0,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 344.69,
+        "high": 355.09,
+        "pct": 1.49
+      },
+      "implied_range_1w": {
+        "low": 338.25,
+        "high": 361.53,
+        "pct": 3.33
+      },
+      "magnet_strike": 355.0,
+      "magnet": {
+        "near": {
+          "strike": 355.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2696
+        },
+        "opex": {
+          "strike": 355.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2696
+        }
+      },
+      "suggested_stop": {
+        "level": 342.29,
+        "dist_pct": 2.2,
+        "rationale": "Below OI support at 347.50 (0.7% below spot) minus 1.5% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "VLO": {
+      "ticker": "VLO",
+      "spot": 283.0,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 279.47,
+      "dist_to_flip_pct": -1.25,
+      "oi_support": 280.0,
+      "oi_resistance": 285.0,
+      "oi_support_major": 240.0,
+      "oi_resistance_major": 300.0,
+      "implied_range_1d": {
+        "low": 275.94,
+        "high": 290.06,
+        "pct": 2.5
+      },
+      "implied_range_1w": {
+        "low": 267.21,
+        "high": 298.79,
+        "pct": 5.58
+      },
+      "magnet_strike": 267.5,
+      "magnet": {
+        "near": {
+          "strike": 267.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 516
+        },
+        "opex": {
+          "strike": 267.5,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 516
+        }
+      },
+      "suggested_stop": {
+        "level": 272.4,
+        "dist_pct": 3.7,
+        "rationale": "Below gamma flip at 279.47 (1.2% below spot) minus 2.5% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "AXP": {
+      "ticker": "AXP",
+      "spot": 348.5,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 375.17,
+      "dist_to_flip_pct": 7.65,
+      "oi_support": 347.5,
+      "oi_resistance": 350.0,
+      "oi_support_major": 310.0,
+      "oi_resistance_major": 360.0,
+      "implied_range_1d": {
+        "low": 340.38,
+        "high": 356.62,
+        "pct": 2.33
+      },
+      "implied_range_1w": {
+        "low": 330.35,
+        "high": 366.65,
+        "pct": 5.21
+      },
+      "magnet_strike": 360.0,
+      "magnet": {
+        "near": {
+          "strike": 360.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2012
+        },
+        "opex": {
+          "strike": 360.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2012
+        }
+      },
+      "suggested_stop": {
+        "level": 339.38,
+        "dist_pct": 2.6,
+        "rationale": "Below OI support at 347.50 (0.3% below spot) minus 2.3% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "HIMS": {
+      "ticker": "HIMS",
+      "spot": 35.51,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 38.96,
+      "dist_to_flip_pct": 9.72,
+      "oi_support": 35.5,
+      "oi_resistance": 36.0,
+      "oi_support_major": 30.0,
+      "oi_resistance_major": 40.0,
+      "implied_range_1d": {
+        "low": 33.74,
+        "high": 37.28,
+        "pct": 4.99
+      },
+      "implied_range_1w": {
+        "low": 31.54,
+        "high": 39.48,
+        "pct": 11.17
+      },
+      "magnet_strike": 40.0,
+      "magnet": {
+        "near": {
+          "strike": 40.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7106
+        },
+        "opex": {
+          "strike": 40.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 7106
+        }
+      },
+      "suggested_stop": {
+        "level": 33.73,
+        "dist_pct": 5.0,
+        "rationale": "Below OI support at 35.50 (0.0% below spot) minus 5.0% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "FICO": {
+      "ticker": "FICO",
+      "spot": 1284.14,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": null,
+      "dist_to_flip_pct": null,
+      "oi_support": null,
+      "oi_resistance": 1400.0,
+      "oi_support_major": 1100.0,
+      "oi_resistance_major": 3000.0,
+      "implied_range_1d": {
+        "low": 1240.09,
+        "high": 1328.19,
+        "pct": 3.43
+      },
+      "implied_range_1w": {
+        "low": 1185.65,
+        "high": 1382.63,
+        "pct": 7.67
+      },
+      "magnet_strike": 1750.0,
+      "magnet": {
+        "near": {
+          "strike": 1750.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 299
+        },
+        "opex": {
+          "strike": 1750.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 299
+        }
+      },
+      "suggested_stop": {
+        "level": 1218.07,
+        "dist_pct": 5.1,
+        "rationale": "No near-field structural support \u2014 volatility stop (1.5\u00d7 3.4% daily range from spot)"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "WDAY": {
+      "ticker": "WDAY",
+      "spot": 140.0,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 153.56,
+      "dist_to_flip_pct": 9.69,
+      "oi_support": 137.0,
+      "oi_resistance": 143.0,
+      "oi_support_major": 100.0,
+      "oi_resistance_major": 150.0,
+      "implied_range_1d": {
+        "low": 135.06,
+        "high": 144.94,
+        "pct": 3.53
+      },
+      "implied_range_1w": {
+        "low": 128.95,
+        "high": 151.05,
+        "pct": 7.89
+      },
+      "magnet_strike": 150.0,
+      "magnet": {
+        "near": {
+          "strike": 150.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1629
+        },
+        "opex": {
+          "strike": 150.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1629
+        }
+      },
+      "suggested_stop": {
+        "level": 132.06,
+        "dist_pct": 5.7,
+        "rationale": "Below OI support at 137.00 (2.1% below spot) minus 3.5% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "PAYX": {
+      "ticker": "PAYX",
+      "spot": 106.26,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 107.94,
+      "dist_to_flip_pct": 1.58,
+      "oi_support": 105.0,
+      "oi_resistance": 110.0,
+      "oi_support_major": 90.0,
+      "oi_resistance_major": null,
+      "implied_range_1d": {
+        "low": 104.33,
+        "high": 108.19,
+        "pct": 1.81
+      },
+      "implied_range_1w": {
+        "low": 101.95,
+        "high": 110.57,
+        "pct": 4.06
+      },
+      "magnet_strike": 110.0,
+      "magnet": {
+        "near": {
+          "strike": 110.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2912
+        },
+        "opex": {
+          "strike": 110.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2912
+        }
+      },
+      "suggested_stop": {
+        "level": 103.08,
+        "dist_pct": 3.0,
+        "rationale": "Below OI support at 105.00 (1.2% below spot) minus 1.8% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "U": {
+      "ticker": "U",
+      "spot": 31.83,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 34.96,
+      "dist_to_flip_pct": 9.83,
+      "oi_support": 31.0,
+      "oi_resistance": 32.0,
+      "oi_support_major": 20.0,
+      "oi_resistance_major": 40.0,
+      "implied_range_1d": {
+        "low": 30.21,
+        "high": 33.45,
+        "pct": 5.1
+      },
+      "implied_range_1w": {
+        "low": 28.2,
+        "high": 35.46,
+        "pct": 11.41
+      },
+      "magnet_strike": 30.0,
+      "magnet": {
+        "near": {
+          "strike": 30.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1857
+        },
+        "opex": {
+          "strike": 30.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 1857
+        }
+      },
+      "suggested_stop": {
+        "level": 29.38,
+        "dist_pct": 7.7,
+        "rationale": "Below OI support at 31.00 (2.6% below spot) minus 5.1% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "spot": 61.72,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 61.92,
+      "dist_to_flip_pct": 0.32,
+      "oi_support": 61.0,
+      "oi_resistance": 62.0,
+      "oi_support_major": 40.0,
+      "oi_resistance_major": 70.0,
+      "implied_range_1d": {
+        "low": 58.7,
+        "high": 64.74,
+        "pct": 4.89
+      },
+      "implied_range_1w": {
+        "low": 54.97,
+        "high": 68.48,
+        "pct": 10.94
+      },
+      "magnet_strike": 65.0,
+      "magnet": {
+        "near": {
+          "strike": 65.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2727
+        },
+        "opex": {
+          "strike": 65.0,
+          "expiry": "2026-07-10",
+          "dte": 0,
+          "oi": 2727
+        }
+      },
+      "suggested_stop": {
+        "level": 57.98,
+        "dist_pct": 6.1,
+        "rationale": "Below OI support at 61.00 (1.2% below spot) minus 4.9% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "DGX": {
+      "ticker": "DGX",
+      "spot": 208.05,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 221.3,
+      "dist_to_flip_pct": 6.37,
+      "oi_support": 200.0,
+      "oi_resistance": 210.0,
+      "oi_support_major": 185.0,
+      "oi_resistance_major": 220.0,
+      "implied_range_1d": {
+        "low": 204.1,
+        "high": 212.0,
+        "pct": 1.9
+      },
+      "implied_range_1w": {
+        "low": 199.21,
+        "high": 216.89,
+        "pct": 4.25
+      },
+      "magnet_strike": 185.0,
+      "magnet": {
+        "near": {
+          "strike": 185.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1397
+        },
+        "opex": {
+          "strike": 185.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 1397
+        }
+      },
+      "suggested_stop": {
+        "level": 196.05,
+        "dist_pct": 5.8,
+        "rationale": "Below OI support at 200.00 (3.9% below spot) minus 1.9% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    },
+    "VEEV": {
+      "ticker": "VEEV",
+      "spot": 193.48,
+      "as_of": "2026-07-10",
+      "gex_loaded": false,
+      "regime": null,
+      "net_gamma_usd": null,
+      "gamma_flip": 180.45,
+      "dist_to_flip_pct": -6.73,
+      "oi_support": 190.0,
+      "oi_resistance": 195.0,
+      "oi_support_major": 175.0,
+      "oi_resistance_major": 200.0,
+      "implied_range_1d": {
+        "low": 187.96,
+        "high": 199.0,
+        "pct": 2.85
+      },
+      "implied_range_1w": {
+        "low": 181.13,
+        "high": 205.83,
+        "pct": 6.38
+      },
+      "magnet_strike": 140.0,
+      "magnet": {
+        "near": {
+          "strike": 140.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2734
+        },
+        "opex": {
+          "strike": 140.0,
+          "expiry": "2026-07-17",
+          "dte": 7,
+          "oi": 2734
+        }
+      },
+      "suggested_stop": {
+        "level": 174.94,
+        "dist_pct": 9.6,
+        "rationale": "Below gamma flip at 180.45 (6.7% below spot) minus 2.9% daily-range buffer"
+      },
+      "confidence": "thin",
+      "note": "Execution levels \u2014 dealer-positioning mechanics (support/resistance, timing, stops). Not a directional or validated signal."
+    }
+  },
+  "caveat": "GEX assumes a dealer-positioning sign convention (model, not observed): dealers long calls / short puts. UW data is current-session snapshots, so this tool is forward-only / not backtestable."
+}
