@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-07-14T12:33:00Z",
+  "vix_level": 17.13,
+  "vix3m_level": 18.57,
+  "term_structure": "CONTANGO",
+  "overall_vol_regime": "FAIR",
+  "environment_summary": "Broad market vol modest and contango-intact; sector vol bifurcated with tech/comms expensive, healthcare/real estate/financials cheap. No backwardation stress signal.",
+  "tickers": [
+    {
+      "ticker": "XLK",
+      "is_index_tracker": false,
+      "iv_rank": 88.9,
+      "current_iv_pct": 35.4,
+      "hv_20d_pct": 38.1,
+      "iv_vs_hv_spread": -2.71,
+      "vol_regime": "EXPENSIVE",
+      "options_edge": "High IV rank drives expensive tag despite IV trailing HV; premium selling environment for tech sector."
+    },
+    {
+      "ticker": "QQQ",
+      "is_index_tracker": true,
+      "iv_rank": 66.8,
+      "current_iv_pct": 24.7,
+      "hv_20d_pct": 30.1,
+      "iv_vs_hv_spread": -5.41,
+      "vol_regime": "EXPENSIVE",
+      "options_regime_note": "IV rank >= 60 triggers EXPENSIVE; however IV-HV spread of -5.41 is a notable contradiction \u2014 realized moves significantly exceed implied, partially eroding the premium-selling edge.",
+      "options_edge": "Nasdaq-100 options ranked expensive, but IV sharply trails realized vol; premium-selling edge weaker than rank implies."
+    },
+    {
+      "ticker": "XLC",
+      "is_index_tracker": false,
+      "iv_rank": 64.3,
+      "current_iv_pct": 20.2,
+      "hv_20d_pct": 19.6,
+      "iv_vs_hv_spread": 0.6,
+      "vol_regime": "EXPENSIVE",
+      "options_edge": "Comms vol elevated on rank basis with IV slightly above HV; cleaner premium-selling setup than XLK."
+    },
+    {
+      "ticker": "XLE",
+      "is_index_tracker": false,
+      "iv_rank": 55.9,
+      "current_iv_pct": 26.5,
+      "hv_20d_pct": 25.0,
+      "iv_vs_hv_spread": 1.47,
+      "vol_regime": "FAIR",
+      "options_edge": "Energy vol fairly priced; IV modestly above HV and mid-rank. No clear directional options edge."
+    },
+    {
+      "ticker": "XLB",
+      "is_index_tracker": false,
+      "iv_rank": 51.9,
+      "current_iv_pct": 20.2,
+      "hv_20d_pct": 21.8,
+      "iv_vs_hv_spread": -1.63,
+      "vol_regime": "FAIR",
+      "options_edge": "Materials vol mid-range; IV slightly below HV but spread not extreme. Equity preferred over options here."
+    },
+    {
+      "ticker": "XLI",
+      "is_index_tracker": false,
+      "iv_rank": 50.3,
+      "current_iv_pct": 21.5,
+      "hv_20d_pct": 20.8,
+      "iv_vs_hv_spread": 0.74,
+      "vol_regime": "FAIR",
+      "options_edge": "Industrials near median rank with IV roughly matching HV; no vol mispricing to exploit directionally."
+    },
+    {
+      "ticker": "XLP",
+      "is_index_tracker": false,
+      "iv_rank": 47.8,
+      "current_iv_pct": 15.3,
+      "hv_20d_pct": 17.9,
+      "iv_vs_hv_spread": -2.64,
+      "vol_regime": "FAIR",
+      "options_edge": "Staples IV mildly below HV but rank keeps it in FAIR; near threshold, options modestly attractive directionally."
+    },
+    {
+      "ticker": "XLU",
+      "is_index_tracker": false,
+      "iv_rank": 45.0,
+      "current_iv_pct": 17.3,
+      "hv_20d_pct": 15.2,
+      "iv_vs_hv_spread": 2.09,
+      "vol_regime": "FAIR",
+      "options_edge": "Utilities IV above realized vol with middling rank; fairly priced, slight edge for premium sellers but not compelling."
+    },
+    {
+      "ticker": "XLV",
+      "is_index_tracker": false,
+      "iv_rank": 38.8,
+      "current_iv_pct": 15.2,
+      "hv_20d_pct": 19.8,
+      "iv_vs_hv_spread": -4.63,
+      "vol_regime": "CHEAP",
+      "options_edge": "Healthcare IV materially underpricing realized moves by 4.6 pts; long options cheap relative to what sector is actually moving."
+    },
+    {
+      "ticker": "XLY",
+      "is_index_tracker": false,
+      "iv_rank": 32.3,
+      "current_iv_pct": 20.8,
+      "hv_20d_pct": 22.5,
+      "iv_vs_hv_spread": -1.69,
+      "vol_regime": "FAIR",
+      "options_edge": "Consumer discretionary low-ranked but spread not extreme; sits just above CHEAP threshold, equity expression preferred."
+    },
+    {
+      "ticker": "XLF",
+      "is_index_tracker": false,
+      "iv_rank": 26.5,
+      "current_iv_pct": 16.8,
+      "hv_20d_pct": 14.8,
+      "iv_vs_hv_spread": 2.03,
+      "vol_regime": "CHEAP",
+      "options_edge": "Financials IV rank in low quartile; IV above HV limits conviction but rank clearly flags options as cheap historically."
+    },
+    {
+      "ticker": "IWM",
+      "is_index_tracker": true,
+      "iv_rank": 23.4,
+      "current_iv_pct": 20.7,
+      "hv_20d_pct": 16.6,
+      "iv_vs_hv_spread": 4.13,
+      "vol_regime": "CHEAP",
+      "options_edge": "Russell 2000 options at low historical rank; IV above HV provides partial offset, but rank signals broad small-cap options cheap."
+    },
+    {
+      "ticker": "XLRE",
+      "is_index_tracker": false,
+      "iv_rank": 20.9,
+      "current_iv_pct": 13.4,
+      "hv_20d_pct": 17.5,
+      "iv_vs_hv_spread": -4.09,
+      "vol_regime": "CHEAP",
+      "options_edge": "Real estate IV significantly below realized vol and near rank lows; strong dual signal that options are cheap to express directional views."
+    },
+    {
+      "ticker": "SPY",
+      "is_index_tracker": true,
+      "iv_rank": 20.8,
+      "current_iv_pct": 14.3,
+      "hv_20d_pct": 14.6,
+      "iv_vs_hv_spread": -0.29,
+      "vol_regime": "CHEAP",
+      "options_edge": "S&P 500 options near rank lows; IV nearly matches HV so absolute cheapness is moderate, but historically inexpensive."
+    }
+  ],
+  "best_for_long_options": [
+    "XLV",
+    "XLF",
+    "IWM",
+    "XLRE",
+    "SPY"
+  ]
+}
