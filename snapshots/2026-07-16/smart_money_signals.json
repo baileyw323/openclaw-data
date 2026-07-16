@@ -1,0 +1,987 @@
+{
+  "as_of": "2026-07-16T12:34:15.781128+00:00",
+  "industry_as_of": "2026-07-16T12:33:54.147827+00:00",
+  "scanned_count": 10,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "UNH",
+      "classification": "LEAN BULLISH",
+      "score": 7.21,
+      "score_components": {
+        "directional": 5.18,
+        "conviction": 8.74,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.518,
+      "bearish_premium_pct": 0.482,
+      "total_premium": 13239836.0,
+      "bullish_premium": 1541140.0,
+      "bearish_premium": 1432116.75,
+      "flow_count": 73,
+      "ask_side_bull_count": 29,
+      "ask_side_bull_premium": 4953776.0,
+      "structural_breakdown": {
+        "kept_flow_count": 21,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 50,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 1198420.0,
+            "put_premium": 1282371.0,
+            "flow_count": 12
+          },
+          "short_core": {
+            "call_premium": 41070.0,
+            "put_premium": 45472.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 222375.0,
+            "put_premium": 39281.25,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 40177.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 64992.0,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 39097.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 418.805
+      },
+      "spot_used": 418.805,
+      "largest_flow": {
+        "premium": 814000.0,
+        "option_type": "CALL",
+        "strike": 380.0,
+        "expiry": "2027-03-19",
+        "executed_at": "2026-07-14T14:25:23.280782Z"
+      },
+      "reason": "moderate_bullish_flow score=7.21",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CVS",
+      "classification": "NEUTRAL",
+      "score": 4.32,
+      "score_components": {
+        "directional": 1.63,
+        "conviction": 6.3,
+        "magnitude": 8.09
+      },
+      "bullish_premium_pct": 0.163,
+      "bearish_premium_pct": 0.837,
+      "total_premium": 1719395.0,
+      "bullish_premium": 170462.5,
+      "bearish_premium": 875929.75,
+      "flow_count": 9,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 223316.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 94885.0,
+            "put_premium": 626305.0,
+            "flow_count": 4
+          },
+          "short_core": {
+            "call_premium": 75577.5,
+            "put_premium": 214029.75,
+            "flow_count": 2
+          },
+          "long_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 35595.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 106.1795
+      },
+      "spot_used": 106.1795,
+      "largest_flow": {
+        "premium": 461465.0,
+        "option_type": "PUT",
+        "strike": 115.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-14T16:58:36.384711Z"
+      },
+      "reason": "bearish_flow_dominant (84% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CI",
+      "classification": "NEUTRAL",
+      "score": 2.71,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.07
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 268558.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 250918.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 197998.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 52920.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 299.5
+      },
+      "spot_used": 299.5,
+      "largest_flow": {
+        "premium": 197998.0,
+        "option_type": "PUT",
+        "strike": 302.5,
+        "expiry": "2026-07-31",
+        "executed_at": "2026-07-15T19:06:37.931073Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "HUM",
+      "classification": "BULLISH",
+      "score": 8.77,
+      "score_components": {
+        "directional": 8.89,
+        "conviction": 8.54,
+        "magnitude": 8.8
+      },
+      "bullish_premium_pct": 0.889,
+      "bearish_premium_pct": 0.111,
+      "total_premium": 3315753.0,
+      "bullish_premium": 794425.0,
+      "bearish_premium": 99502.5,
+      "flow_count": 30,
+      "ask_side_bull_count": 11,
+      "ask_side_bull_premium": 1172410.0,
+      "structural_breakdown": {
+        "kept_flow_count": 15,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 15,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 15690.0,
+            "put_premium": 36690.0,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 117040.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 661695.0,
+            "put_premium": 41415.0,
+            "flow_count": 9
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 21397.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 408.01
+      },
+      "spot_used": 408.01,
+      "largest_flow": {
+        "premium": 523370.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-07-24",
+        "executed_at": "2026-07-15T17:04:06.030884Z"
+      },
+      "reason": "strong_bullish_flow score=8.77",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ELV",
+      "classification": "NEUTRAL",
+      "score": 4.95,
+      "score_components": {
+        "directional": 3.11,
+        "conviction": 6.62,
+        "magnitude": 7.02
+      },
+      "bullish_premium_pct": 0.311,
+      "bearish_premium_pct": 0.689,
+      "total_premium": 645591.0,
+      "bullish_premium": 66300.0,
+      "bearish_premium": 147190.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 104399.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 66300.0,
+            "put_premium": 147190.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 388.7775
+      },
+      "spot_used": 388.7775,
+      "largest_flow": {
+        "premium": 147190.0,
+        "option_type": "PUT",
+        "strike": 420.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-15T19:46:55.681962Z"
+      },
+      "reason": "bearish_flow_dominant (69% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CNC",
+      "classification": "NEUTRAL",
+      "score": 3.92,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.46,
+        "magnitude": 6.41
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 364820.0,
+      "bullish_premium": 25665.0,
+      "bearish_premium": 102165.75,
+      "flow_count": 12,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 16683.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 25665.0,
+            "put_premium": 20100.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 8964.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 22503.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50598.75,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 66.6801
+      },
+      "spot_used": 66.6801,
+      "largest_flow": {
+        "premium": 57760.0,
+        "option_type": "PUT",
+        "strike": 69.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-14T15:53:24.294163Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "MOH",
+      "classification": "BULLISH",
+      "score": 9.72,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 8.62
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 2816144.0,
+      "bullish_premium": 916800.0,
+      "bearish_premium": 0.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 1607822.0,
+      "structural_breakdown": {
+        "kept_flow_count": 1,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 916800.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 233.39
+      },
+      "spot_used": 233.39,
+      "largest_flow": {
+        "premium": 1222400.0,
+        "option_type": "CALL",
+        "strike": 250.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-14T18:35:14.599739Z"
+      },
+      "reason": "strong_bullish_flow score=9.72",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "OSCR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 58645.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ALHC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 36722.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "CLOV",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 37060.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "MOH",
+      "classification": "BULLISH",
+      "score": 9.72,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 8.62
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 2816144.0,
+      "bullish_premium": 916800.0,
+      "bearish_premium": 0.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 1607822.0,
+      "structural_breakdown": {
+        "kept_flow_count": 1,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 12,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_stretch": {
+            "call_premium": 916800.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 233.39
+      },
+      "spot_used": 233.39,
+      "largest_flow": {
+        "premium": 1222400.0,
+        "option_type": "CALL",
+        "strike": 250.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-14T18:35:14.599739Z"
+      },
+      "reason": "strong_bullish_flow score=9.72",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "HUM",
+      "classification": "BULLISH",
+      "score": 8.77,
+      "score_components": {
+        "directional": 8.89,
+        "conviction": 8.54,
+        "magnitude": 8.8
+      },
+      "bullish_premium_pct": 0.889,
+      "bearish_premium_pct": 0.111,
+      "total_premium": 3315753.0,
+      "bullish_premium": 794425.0,
+      "bearish_premium": 99502.5,
+      "flow_count": 30,
+      "ask_side_bull_count": 11,
+      "ask_side_bull_premium": 1172410.0,
+      "structural_breakdown": {
+        "kept_flow_count": 15,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 15,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "short_stretch": {
+            "call_premium": 15690.0,
+            "put_premium": 36690.0,
+            "flow_count": 4
+          },
+          "core_core": {
+            "call_premium": 117040.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 661695.0,
+            "put_premium": 41415.0,
+            "flow_count": 9
+          },
+          "long_core": {
+            "call_premium": 0.0,
+            "put_premium": 21397.5,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 408.01
+      },
+      "spot_used": 408.01,
+      "largest_flow": {
+        "premium": 523370.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2026-07-24",
+        "executed_at": "2026-07-15T17:04:06.030884Z"
+      },
+      "reason": "strong_bullish_flow score=8.77",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [
+    {
+      "ticker": "UNH",
+      "classification": "LEAN BULLISH",
+      "score": 7.21,
+      "score_components": {
+        "directional": 5.18,
+        "conviction": 8.74,
+        "magnitude": 10.0
+      },
+      "bullish_premium_pct": 0.518,
+      "bearish_premium_pct": 0.482,
+      "total_premium": 13239836.0,
+      "bullish_premium": 1541140.0,
+      "bearish_premium": 1432116.75,
+      "flow_count": 73,
+      "ask_side_bull_count": 29,
+      "ask_side_bull_premium": 4953776.0,
+      "structural_breakdown": {
+        "kept_flow_count": 21,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 50,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 1198420.0,
+            "put_premium": 1282371.0,
+            "flow_count": 12
+          },
+          "short_core": {
+            "call_premium": 41070.0,
+            "put_premium": 45472.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 222375.0,
+            "put_premium": 39281.25,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 40177.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 64992.0,
+            "flow_count": 2
+          },
+          "core_deep_itm": {
+            "call_premium": 39097.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 418.805
+      },
+      "spot_used": 418.805,
+      "largest_flow": {
+        "premium": 814000.0,
+        "option_type": "CALL",
+        "strike": 380.0,
+        "expiry": "2027-03-19",
+        "executed_at": "2026-07-14T14:25:23.280782Z"
+      },
+      "reason": "moderate_bullish_flow score=7.21",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    }
+  ],
+  "neutral": [
+    {
+      "ticker": "CVS",
+      "classification": "NEUTRAL",
+      "score": 4.32,
+      "score_components": {
+        "directional": 1.63,
+        "conviction": 6.3,
+        "magnitude": 8.09
+      },
+      "bullish_premium_pct": 0.163,
+      "bearish_premium_pct": 0.837,
+      "total_premium": 1719395.0,
+      "bullish_premium": 170462.5,
+      "bearish_premium": 875929.75,
+      "flow_count": 9,
+      "ask_side_bull_count": 4,
+      "ask_side_bull_premium": 223316.0,
+      "structural_breakdown": {
+        "kept_flow_count": 7,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 94885.0,
+            "put_premium": 626305.0,
+            "flow_count": 4
+          },
+          "short_core": {
+            "call_premium": 75577.5,
+            "put_premium": 214029.75,
+            "flow_count": 2
+          },
+          "long_deep_itm": {
+            "call_premium": 0.0,
+            "put_premium": 35595.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 106.1795
+      },
+      "spot_used": 106.1795,
+      "largest_flow": {
+        "premium": 461465.0,
+        "option_type": "PUT",
+        "strike": 115.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-14T16:58:36.384711Z"
+      },
+      "reason": "bearish_flow_dominant (84% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CI",
+      "classification": "NEUTRAL",
+      "score": 2.71,
+      "score_components": {
+        "directional": 0.0,
+        "conviction": 5.0,
+        "magnitude": 6.07
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 1.0,
+      "total_premium": 268558.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 250918.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 0.0,
+            "put_premium": 197998.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 52920.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 299.5
+      },
+      "spot_used": 299.5,
+      "largest_flow": {
+        "premium": 197998.0,
+        "option_type": "PUT",
+        "strike": 302.5,
+        "expiry": "2026-07-31",
+        "executed_at": "2026-07-15T19:06:37.931073Z"
+      },
+      "reason": "bearish_flow_dominant (100% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "ELV",
+      "classification": "NEUTRAL",
+      "score": 4.95,
+      "score_components": {
+        "directional": 3.11,
+        "conviction": 6.62,
+        "magnitude": 7.02
+      },
+      "bullish_premium_pct": 0.311,
+      "bearish_premium_pct": 0.689,
+      "total_premium": 645591.0,
+      "bullish_premium": 66300.0,
+      "bearish_premium": 147190.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 104399.0,
+      "structural_breakdown": {
+        "kept_flow_count": 2,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 66300.0,
+            "put_premium": 147190.0,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 388.7775
+      },
+      "spot_used": 388.7775,
+      "largest_flow": {
+        "premium": 147190.0,
+        "option_type": "PUT",
+        "strike": 420.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-15T19:46:55.681962Z"
+      },
+      "reason": "bearish_flow_dominant (69% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "CNC",
+      "classification": "NEUTRAL",
+      "score": 3.92,
+      "score_components": {
+        "directional": 2.01,
+        "conviction": 5.46,
+        "magnitude": 6.41
+      },
+      "bullish_premium_pct": 0.201,
+      "bearish_premium_pct": 0.799,
+      "total_premium": 364820.0,
+      "bullish_premium": 25665.0,
+      "bearish_premium": 102165.75,
+      "flow_count": 12,
+      "ask_side_bull_count": 2,
+      "ask_side_bull_premium": 16683.0,
+      "structural_breakdown": {
+        "kept_flow_count": 6,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 6,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 25665.0,
+            "put_premium": 20100.0,
+            "flow_count": 2
+          },
+          "short_core": {
+            "call_premium": 0.0,
+            "put_premium": 8964.0,
+            "flow_count": 1
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 22503.0,
+            "flow_count": 1
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 50598.75,
+            "flow_count": 2
+          }
+        },
+        "spot_used": 66.6801
+      },
+      "spot_used": 66.6801,
+      "largest_flow": {
+        "premium": 57760.0,
+        "option_type": "PUT",
+        "strike": 69.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-14T15:53:24.294163Z"
+      },
+      "reason": "bearish_flow_dominant (80% weighted bearish)",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "OSCR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 58645.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 3,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "ALHC",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 36722.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 1,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "CLOV",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 37060.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "below_premium_floor",
+      "industry": "Healthcare Plans",
+      "sector_etf": "XLV",
+      "industry_score": 8.07,
+      "is_industry_leader": false
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "MOH",
+    "HUM",
+    "UNH"
+  ],
+  "summary": {
+    "total_scanned": 10,
+    "bullish_count": 2,
+    "lean_bullish_count": 1,
+    "neutral_count": 7,
+    "drilldown_count": 3
+  },
+  "narrative": {
+    "headline": "Managed care flow is bifurcated \u2014 smart money is buying the pure-play HMOs while selling the diversified/PBM-exposed names.",
+    "bullish_themes": [
+      "Concentrated bullish positioning in pure-play Healthcare Plans (MOH, HUM, UNH) \u2014 all three qualifying names are in the same sub-industry, suggesting a coordinated managed-care rotation",
+      "Flow quality improves with focus: MOH (100% bullish) and HUM (89% bullish, 11 ask-side prints) show conviction, while UNH is larger in premium but only leans bullish at 52%"
+    ],
+    "notable_individual_flows": [
+      "HUM: $3.3M premium with 11 ask-side bullish prints and 89% bullish share \u2014 cleanest conviction signal of the scan",
+      "MOH: $2.8M premium at 100% bullish \u2014 small but unanimous",
+      "UNH: $13.2M in total premium but only 52% bullish \u2014 size is there, directional conviction is not",
+      "CVS: $1.7M at 84% bearish \u2014 actively sold against the managed-care bid",
+      "CNC: 80% bearish flow \u2014 Medicaid-exposure names being faded even as MOH (also Medicaid-heavy) gets bought, worth reconciling"
+    ],
+    "absences": "Every qualifying name sits inside a single industry (Healthcare Plans) under one sector (XLV) \u2014 no cross-sector confirmation, no breadth. The bullish thesis lives or dies on managed care alone.",
+    "handoff_quality": "MODERATE"
+  }
+}
