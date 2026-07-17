@@ -1,0 +1,798 @@
+{
+  "as_of": "2026-07-17T12:34:35.832016+00:00",
+  "industry_as_of": "2026-07-17T12:34:11.780495+00:00",
+  "scanned_count": 10,
+  "lookback_hours": 48,
+  "min_premium_floor": 100000.0,
+  "gate_bullish": 7.5,
+  "gate_lean_bullish": 5.5,
+  "signals": [
+    {
+      "ticker": "VLO",
+      "classification": "BULLISH",
+      "score": 9.05,
+      "score_components": {
+        "directional": 8.79,
+        "conviction": 10.0,
+        "magnitude": 8.27
+      },
+      "bullish_premium_pct": 0.879,
+      "bearish_premium_pct": 0.121,
+      "total_premium": 2036560.0,
+      "bullish_premium": 1031946.0,
+      "bearish_premium": 141807.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 10,
+      "ask_side_bull_premium": 1227072.0,
+      "structural_breakdown": {
+        "kept_flow_count": 10,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 41400.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 303261.75,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_core": {
+            "call_premium": 582990.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_deep_itm": {
+            "call_premium": 104294.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 141807.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 300.5599
+      },
+      "spot_used": 300.5599,
+      "largest_flow": {
+        "premium": 412770.0,
+        "option_type": "CALL",
+        "strike": 270.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-16T19:16:11.066171Z"
+      },
+      "reason": "strong_bullish_flow score=9.05",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "MPC",
+      "classification": "BULLISH",
+      "score": 9.1,
+      "score_components": {
+        "directional": 9.09,
+        "conviction": 10.0,
+        "magnitude": 7.79
+      },
+      "bullish_premium_pct": 0.909,
+      "bearish_premium_pct": 0.091,
+      "total_premium": 1304773.0,
+      "bullish_premium": 339593.25,
+      "bearish_premium": 33928.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 791241.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 41762.0,
+            "put_premium": 33928.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 45899.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 251932.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 308.3
+      },
+      "spot_used": 308.3,
+      "largest_flow": {
+        "premium": 296100.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2027-06-17",
+        "executed_at": "2026-07-16T14:17:45.720496Z"
+      },
+      "reason": "strong_bullish_flow score=9.1",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PSX",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 121010.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SUN",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "DINO",
+      "classification": "BULLISH",
+      "score": 9.27,
+      "score_components": {
+        "directional": 9.85,
+        "conviction": 10.0,
+        "magnitude": 6.74
+      },
+      "bullish_premium_pct": 0.985,
+      "bearish_premium_pct": 0.015,
+      "total_premium": 495416.0,
+      "bullish_premium": 402602.5,
+      "bearish_premium": 5940.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 388701.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 158272.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 244330.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 5940.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 86.53
+      },
+      "spot_used": 86.53,
+      "largest_flow": {
+        "premium": 211030.0,
+        "option_type": "CALL",
+        "strike": 90.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-07-16T13:46:57.190327Z"
+      },
+      "reason": "strong_bullish_flow score=9.27",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PARR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "DK",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "PBF",
+      "classification": "BULLISH",
+      "score": 9.26,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 6.3
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 332480.0,
+      "bullish_premium": 300560.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 252520.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 268640.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 31920.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 59.11
+      },
+      "spot_used": 59.11,
+      "largest_flow": {
+        "premium": 228800.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-16T13:35:30.959601Z"
+      },
+      "reason": "strong_bullish_flow score=9.26",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "CVI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "IEP",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    }
+  ],
+  "bullish": [
+    {
+      "ticker": "DINO",
+      "classification": "BULLISH",
+      "score": 9.27,
+      "score_components": {
+        "directional": 9.85,
+        "conviction": 10.0,
+        "magnitude": 6.74
+      },
+      "bullish_premium_pct": 0.985,
+      "bearish_premium_pct": 0.015,
+      "total_premium": 495416.0,
+      "bullish_premium": 402602.5,
+      "bearish_premium": 5940.0,
+      "flow_count": 7,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 388701.0,
+      "structural_breakdown": {
+        "kept_flow_count": 5,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 2,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_core": {
+            "call_premium": 158272.5,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 244330.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 5940.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 86.53
+      },
+      "spot_used": 86.53,
+      "largest_flow": {
+        "premium": 211030.0,
+        "option_type": "CALL",
+        "strike": 90.0,
+        "expiry": "2026-09-18",
+        "executed_at": "2026-07-16T13:46:57.190327Z"
+      },
+      "reason": "strong_bullish_flow score=9.27",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PBF",
+      "classification": "BULLISH",
+      "score": 9.26,
+      "score_components": {
+        "directional": 10.0,
+        "conviction": 10.0,
+        "magnitude": 6.3
+      },
+      "bullish_premium_pct": 1.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 332480.0,
+      "bullish_premium": 300560.0,
+      "bearish_premium": 0.0,
+      "flow_count": 4,
+      "ask_side_bull_count": 3,
+      "ask_side_bull_premium": 252520.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 0,
+        "dropped_dte_filter": 0,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "core_core": {
+            "call_premium": 268640.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "long_stretch": {
+            "call_premium": 31920.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 59.11
+      },
+      "spot_used": 59.11,
+      "largest_flow": {
+        "premium": 228800.0,
+        "option_type": "CALL",
+        "strike": 60.0,
+        "expiry": "2026-08-21",
+        "executed_at": "2026-07-16T13:35:30.959601Z"
+      },
+      "reason": "strong_bullish_flow score=9.26",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "MPC",
+      "classification": "BULLISH",
+      "score": 9.1,
+      "score_components": {
+        "directional": 9.09,
+        "conviction": 10.0,
+        "magnitude": 7.79
+      },
+      "bullish_premium_pct": 0.909,
+      "bearish_premium_pct": 0.091,
+      "total_premium": 1304773.0,
+      "bullish_premium": 339593.25,
+      "bearish_premium": 33928.5,
+      "flow_count": 10,
+      "ask_side_bull_count": 5,
+      "ask_side_bull_premium": 791241.0,
+      "structural_breakdown": {
+        "kept_flow_count": 4,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 5,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 41762.0,
+            "put_premium": 33928.5,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 45899.25,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "core_core": {
+            "call_premium": 251932.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 308.3
+      },
+      "spot_used": 308.3,
+      "largest_flow": {
+        "premium": 296100.0,
+        "option_type": "CALL",
+        "strike": 400.0,
+        "expiry": "2027-06-17",
+        "executed_at": "2026-07-16T14:17:45.720496Z"
+      },
+      "reason": "strong_bullish_flow score=9.1",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "VLO",
+      "classification": "BULLISH",
+      "score": 9.05,
+      "score_components": {
+        "directional": 8.79,
+        "conviction": 10.0,
+        "magnitude": 8.27
+      },
+      "bullish_premium_pct": 0.879,
+      "bearish_premium_pct": 0.121,
+      "total_premium": 2036560.0,
+      "bullish_premium": 1031946.0,
+      "bearish_premium": 141807.0,
+      "flow_count": 13,
+      "ask_side_bull_count": 10,
+      "ask_side_bull_premium": 1227072.0,
+      "structural_breakdown": {
+        "kept_flow_count": 10,
+        "dropped_no_spot": 0,
+        "dropped_no_dte": 0,
+        "dropped_lottery": 1,
+        "dropped_dte_filter": 2,
+        "dropped_unknown_type": 0,
+        "by_band": {
+          "long_stretch": {
+            "call_premium": 41400.0,
+            "put_premium": 0.0,
+            "flow_count": 1
+          },
+          "short_core": {
+            "call_premium": 303261.75,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_core": {
+            "call_premium": 582990.0,
+            "put_premium": 0.0,
+            "flow_count": 3
+          },
+          "core_deep_itm": {
+            "call_premium": 104294.25,
+            "put_premium": 0.0,
+            "flow_count": 2
+          },
+          "core_stretch": {
+            "call_premium": 0.0,
+            "put_premium": 141807.0,
+            "flow_count": 1
+          }
+        },
+        "spot_used": 300.5599
+      },
+      "spot_used": 300.5599,
+      "largest_flow": {
+        "premium": 412770.0,
+        "option_type": "CALL",
+        "strike": 270.0,
+        "expiry": "2026-07-17",
+        "executed_at": "2026-07-16T19:16:11.066171Z"
+      },
+      "reason": "strong_bullish_flow score=9.05",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    }
+  ],
+  "lean_bullish": [],
+  "neutral": [
+    {
+      "ticker": "PSX",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 121010.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 2,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "structural_below_floor",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "SUN",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": true
+    },
+    {
+      "ticker": "PARR",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "DK",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "CVI",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    },
+    {
+      "ticker": "IEP",
+      "classification": "NEUTRAL",
+      "score": 0.0,
+      "score_components": {
+        "directional": 0,
+        "conviction": 0,
+        "magnitude": 0
+      },
+      "bullish_premium_pct": 0.0,
+      "bearish_premium_pct": 0.0,
+      "total_premium": 0.0,
+      "bullish_premium": 0.0,
+      "bearish_premium": 0.0,
+      "flow_count": 0,
+      "ask_side_bull_count": 0,
+      "ask_side_bull_premium": 0.0,
+      "largest_flow": null,
+      "reason": "no_flow_data",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector_etf": "XLE",
+      "industry_score": 6.83,
+      "is_industry_leader": false
+    }
+  ],
+  "stock_drilldown_handoff": [
+    "DINO",
+    "PBF",
+    "MPC",
+    "VLO"
+  ],
+  "summary": {
+    "total_scanned": 10,
+    "bullish_count": 4,
+    "lean_bullish_count": 0,
+    "neutral_count": 6,
+    "drilldown_count": 4
+  },
+  "narrative": {
+    "headline": "Smart money is loading long the entire Oil & Gas Refining complex \u2014 every qualifying refiner printed clean bullish flow.",
+    "bullish_themes": [
+      "Coordinated bid across US refiners (VLO, MPC, DINO, PBF) \u2014 this is a group trade, not a single-name story",
+      "Full-stack participation: mega-cap (VLO, MPC) and mid/small-cap (DINO, PBF) all confirming \u2014 suggests thematic conviction on crack spreads or refining margins rather than idiosyncratic catalysts"
+    ],
+    "notable_individual_flows": [
+      "VLO \u2014 $2.04M premium with 10 ask-side bullish prints, the anchor name of the group",
+      "MPC \u2014 $1.30M premium, 91% bullish, 5 ask-side sweeps confirming institutional bid",
+      "PBF \u2014 100% bullish tape, smaller size but zero pushback",
+      "DINO \u2014 98.5% bullish, cleanest tape in the group at the small-cap end"
+    ],
+    "absences": "Zero flow in the other 6 Industry Layer candidates \u2014 no cross-sector confirmation, no defensive rotation signal, no tech or financials showing up. This is a pure single-industry story.",
+    "handoff_quality": "STRONG"
+  }
+}
