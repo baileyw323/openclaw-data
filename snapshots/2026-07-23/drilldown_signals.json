@@ -1,0 +1,502 @@
+{
+  "as_of": "2026-07-23T06:08:12.831302-07:00",
+  "as_of_et": "2026-07-23T09:08:12.831317-04:00",
+  "universe_size": 10,
+  "qualifying_count": 1,
+  "dropped_count": 9,
+  "bucket_breakdown": {
+    "CURRENTLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "CURRENTLY_STRONG": 0,
+    "UP_TRENDERS": 0,
+    "POTENTIALLY_STRONG_WITH_FUNDAMENTALS": 0,
+    "POTENTIALLY_STRONG": 0,
+    "POTENTIAL_REVERSALS": 1
+  },
+  "signals": [
+    {
+      "ticker": "EXE",
+      "bucket": "POTENTIAL_REVERSALS",
+      "bucket_priority": 6,
+      "matched_buckets": [
+        "POTENTIAL_REVERSALS"
+      ],
+      "bucket_typical_rr": "~3-4:1 (most speculative)",
+      "current_price": 93.17,
+      "direction": "LONG",
+      "bucket_criteria_met": {
+        "prior_day_green": true,
+        "reversal_signature": true,
+        "above_50sma": true,
+        "below_200sma": true,
+        "rel_volume_above_1": true,
+        "rsi_in_band": true,
+        "not_at_ath": true,
+        "any_breakout_excl_ath": true,
+        "no_proximity_to_highs": true
+      },
+      "all_bucket_evaluations": {
+        "POTENTIAL_REVERSALS": {
+          "prior_day_green": true,
+          "reversal_signature": true,
+          "above_50sma": true,
+          "below_200sma": true,
+          "rel_volume_above_1": true,
+          "rsi_in_band": true,
+          "not_at_ath": true,
+          "any_breakout_excl_ath": true,
+          "no_proximity_to_highs": true
+        }
+      },
+      "technical_state": {
+        "rsi_14": 61.19,
+        "rel_volume": 1.21,
+        "sma_20": 88.84,
+        "sma_50": 91.13,
+        "sma_200": 102.2,
+        "above_200sma": false,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "wow_up": true,
+        "mom_up": true,
+        "breakouts": {
+          "all_time_high": false,
+          "20_day_high": true,
+          "50_day_high": false,
+          "52_week_high": false
+        },
+        "proximity": {
+          "within_50d": false,
+          "within_52w": false,
+          "within_ath": false
+        }
+      },
+      "supporting_signals": {
+        "smart_money_classification": "BULLISH",
+        "smart_money_score": 8.32,
+        "smart_money_components": {
+          "directional": 7.74,
+          "conviction": 10.0,
+          "magnitude": 7.26
+        },
+        "smart_money_industry": "Oil & Gas E&P",
+        "smart_money_industry_score": 6.79,
+        "smart_money_is_industry_leader": false,
+        "smart_money_total_premium": 800755.0,
+        "smart_money_largest_flow": {
+          "premium": 82000.0,
+          "option_type": "CALL",
+          "strike": 95.0,
+          "expiry": "2026-09-18",
+          "executed_at": "2026-07-22T19:19:16.576813Z"
+        },
+        "slow_positioning_primary_strike": null,
+        "slow_positioning_primary_date": null,
+        "slow_positioning_conviction": null,
+        "industry_name": "Oil & Gas E&P",
+        "industry_status": "QUALIFYING",
+        "regime": "TRANSITIONAL",
+        "vol_regime": "FAIR"
+      },
+      "fundamentals_snapshot": {
+        "sales_growth_5y": 20.35,
+        "sales_growth_qq": 40.78,
+        "forward_pe": 11.75,
+        "eps_growth_5y": null,
+        "earnings_date": null
+      },
+      "thesis": "EXE: BULLISH smart money (8.32); qualifies as POTENTIAL_REVERSALS."
+    }
+  ],
+  "dropped": [
+    {
+      "ticker": "MPC",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.71,
+      "industry": "Oil & Gas Refining & Marketing",
+      "current_price": 315.82,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "not_at_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rsi_in_band",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 85.09,
+        "rel_volume": 1.17,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "PSX",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.43,
+      "industry": "Oil & Gas Refining & Marketing",
+      "current_price": 211.41,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "not_at_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 85.4,
+        "rel_volume": 0.95,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "PBF",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.1,
+      "industry": "Oil & Gas Refining & Marketing",
+      "current_price": 64.33,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "not_at_ath"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rsi_in_band",
+          "not_at_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 80.96,
+        "rel_volume": 1.04,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "COP",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 7.35,
+      "industry": "Oil & Gas E&P",
+      "current_price": 118.79,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 79.88,
+        "rel_volume": 0.68,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "FANG",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 9.24,
+      "industry": "Oil & Gas E&P",
+      "current_price": 203.02,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "rsi_in_band"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 85.09,
+        "rel_volume": 0.73,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "OXY",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.07,
+      "industry": "Oil & Gas E&P",
+      "current_price": 57.5,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200",
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "rsi_in_band"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 82.61,
+        "rel_volume": 0.79,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "DVN",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.16,
+      "industry": "Oil & Gas E&P",
+      "current_price": 44.88,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ],
+        "up_trenders": [
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "rsi_in_band",
+          "any_proximity"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 75.36,
+        "rel_volume": 0.63,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "APA",
+      "smart_money_classification": "LEAN BULLISH",
+      "smart_money_score": 6.21,
+      "industry": "Oil & Gas E&P",
+      "current_price": 36.18,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "prior_day_green",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ],
+        "up_trenders": [
+          "prior_day_green",
+          "sma_stacking_20_50_200"
+        ],
+        "potentially_strong": [
+          "prior_day_green",
+          "rsi_in_band",
+          "any_proximity"
+        ],
+        "reversals": [
+          "prior_day_green",
+          "reversal_signature",
+          "below_200sma",
+          "rel_volume_above_1",
+          "rsi_in_band"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 73.62,
+        "rel_volume": 0.69,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": false,
+        "any_breakout_incl_ath": true,
+        "any_breakout_excl_ath": true,
+        "any_proximity": false,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    },
+    {
+      "ticker": "DGX",
+      "smart_money_classification": "BULLISH",
+      "smart_money_score": 8.01,
+      "industry": "Diagnostics & Research",
+      "current_price": 209.83,
+      "criteria_failures": {
+        "closest_eval_currently_strong": [
+          "any_breakout",
+          "no_proximity_to_highs"
+        ],
+        "up_trenders": [
+          "no_proximity_to_highs"
+        ],
+        "potentially_strong": [
+          "any_breakout_excl_ath"
+        ],
+        "reversals": [
+          "reversal_signature",
+          "below_200sma",
+          "any_breakout_excl_ath",
+          "no_proximity_to_highs"
+        ]
+      },
+      "raw_indicators": {
+        "rsi_14": 40.87,
+        "rel_volume": 2.1,
+        "above_200sma": true,
+        "above_50sma": true,
+        "above_20sma": true,
+        "prior_day_green": true,
+        "any_breakout_incl_ath": false,
+        "any_breakout_excl_ath": false,
+        "any_proximity": true,
+        "wow_up": true,
+        "mom_up": true
+      },
+      "reason": "no_bucket_match"
+    }
+  ],
+  "_status": "ok"
+}
