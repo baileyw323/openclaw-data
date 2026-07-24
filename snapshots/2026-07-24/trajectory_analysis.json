@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-07-24T12:33:38.178414+00:00",
+  "as_of": "2026-07-24T17:47:33.601204+00:00",
   "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
-  "source_commodity_as_of": "2026-07-24T12:33:38.173673+00:00",
+  "source_commodity_as_of": "2026-07-24T17:47:33.596826+00:00",
   "parameters": {
     "accel_threshold": 1.5,
     "fade_threshold": 0.67,
@@ -182,87 +182,87 @@
   "commodity_trajectories": {
     "energy": {
       "USO": {
-        "spot": 139.49,
+        "spot": 135.2643,
         "equity_expression": "XLE",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.651,
+          "peak_correlation": 0.644,
           "status": "reliable"
         },
-        "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 41.344,
-        "rate_14d_pct_per_day": 2.4393,
-        "rate_60d_pct_per_day": 0.059
+        "trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": 2.1164,
+        "rate_60d_pct_per_day": -0.0518
       },
       "BNO": {
-        "spot": 53.45,
+        "spot": 52.05,
         "equity_expression": "XLE",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.678,
+          "peak_correlation": 0.671,
           "status": "reliable"
         },
-        "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 708.98,
-        "rate_14d_pct_per_day": 2.4814,
-        "rate_60d_pct_per_day": -0.0035
+        "trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": 2.1657,
+        "rate_60d_pct_per_day": -0.0905
       },
       "UNG": {
-        "spot": 10.61,
+        "spot": 10.535,
         "equity_expression": "XLE",
         "equity_lag": {
           "lag_days": null,
           "peak_correlation": 0.214,
           "status": "no reliable lead/lag"
         },
-        "trajectory": "ACCELERATING_BEARISH",
-        "accel_ratio": 31.504,
-        "rate_14d_pct_per_day": -0.5986,
-        "rate_60d_pct_per_day": 0.019
+        "trajectory": "DIRECTION_FLIP_bullish_to_bearish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": -0.7164,
+        "rate_60d_pct_per_day": 0.033
       },
       "DBO": {
-        "spot": 23.19,
+        "spot": 22.485,
         "equity_expression": "XLE",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.683,
+          "peak_correlation": 0.673,
           "status": "reliable"
         },
         "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 14.79,
-        "rate_14d_pct_per_day": 2.4429,
-        "rate_60d_pct_per_day": 0.1652
+        "accel_ratio": 29.79,
+        "rate_14d_pct_per_day": 2.13,
+        "rate_60d_pct_per_day": 0.0715
       }
     },
     "metals_precious": {
       "GLD": {
-        "spot": 371.52,
+        "spot": 373.05,
         "equity_expression": "GDX",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.871,
+          "peak_correlation": 0.872,
           "status": "reliable"
         },
-        "trajectory": "FADING_BEARISH",
-        "accel_ratio": 0.552,
-        "rate_14d_pct_per_day": -0.125,
-        "rate_60d_pct_per_day": -0.2263
+        "trajectory": "HOLDING_BEARISH",
+        "accel_ratio": 0.881,
+        "rate_14d_pct_per_day": -0.17,
+        "rate_60d_pct_per_day": -0.193
       },
       "SLV": {
-        "spot": 52.06,
+        "spot": 53.0,
         "equity_expression": "GDXJ",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.888,
+          "peak_correlation": 0.889,
           "status": "reliable"
         },
         "trajectory": "HOLDING_BEARISH",
-        "accel_ratio": 0.968,
-        "rate_14d_pct_per_day": -0.3843,
-        "rate_60d_pct_per_day": -0.3968
+        "accel_ratio": 1.191,
+        "rate_14d_pct_per_day": -0.3957,
+        "rate_60d_pct_per_day": -0.3323
       },
       "GDX": {
-        "spot": 75.02,
+        "spot": 75.64,
         "equity_expression": null,
         "equity_lag": {
           "lag_days": null,
@@ -270,12 +270,12 @@
           "status": "skipped"
         },
         "trajectory": "HOLDING_BEARISH",
-        "accel_ratio": 0.982,
-        "rate_14d_pct_per_day": -0.3107,
-        "rate_60d_pct_per_day": -0.3163
+        "accel_ratio": 1.159,
+        "rate_14d_pct_per_day": -0.2814,
+        "rate_60d_pct_per_day": -0.2428
       },
       "GDXJ": {
-        "spot": 97.6,
+        "spot": 98.425,
         "equity_expression": null,
         "equity_lag": {
           "lag_days": null,
@@ -283,27 +283,27 @@
           "status": "skipped"
         },
         "trajectory": "HOLDING_BEARISH",
-        "accel_ratio": 1.125,
-        "rate_14d_pct_per_day": -0.3686,
-        "rate_60d_pct_per_day": -0.3277
+        "accel_ratio": 1.443,
+        "rate_14d_pct_per_day": -0.3771,
+        "rate_60d_pct_per_day": -0.2613
       }
     },
     "metals_industrial": {
       "CPER": {
-        "spot": 38.24,
+        "spot": 38.4742,
         "equity_expression": "XLB+XLI",
         "equity_lag": {
           "lag_days": 0,
-          "peak_correlation": 0.611,
+          "peak_correlation": 0.614,
           "status": "reliable"
         },
-        "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 3.078,
-        "rate_14d_pct_per_day": 0.1821,
-        "rate_60d_pct_per_day": 0.0592
+        "trajectory": "HOLDING_BULLISH",
+        "accel_ratio": 1.167,
+        "rate_14d_pct_per_day": 0.12,
+        "rate_60d_pct_per_day": 0.1028
       },
       "URA": {
-        "spot": 41.13,
+        "spot": 40.09,
         "equity_expression": null,
         "equity_lag": {
           "lag_days": null,
@@ -311,91 +311,91 @@
           "status": "skipped"
         },
         "trajectory": "HOLDING_BEARISH",
-        "accel_ratio": 0.759,
-        "rate_14d_pct_per_day": -0.3471,
-        "rate_60d_pct_per_day": -0.4577
+        "accel_ratio": 1.42,
+        "rate_14d_pct_per_day": -0.6171,
+        "rate_60d_pct_per_day": -0.4345
       }
     },
     "agriculture": {
       "DBA": {
-        "spot": 28.24,
+        "spot": 28.23,
         "equity_expression": "XLP+XLB",
         "equity_lag": {
           "lag_days": null,
-          "peak_correlation": -0.232,
+          "peak_correlation": -0.233,
           "status": "no reliable lead/lag"
         },
         "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 9.894,
-        "rate_14d_pct_per_day": 0.4007,
-        "rate_60d_pct_per_day": 0.0405
+        "accel_ratio": 11.09,
+        "rate_14d_pct_per_day": 0.1793,
+        "rate_60d_pct_per_day": 0.0162
       },
       "WEAT": {
-        "spot": 25.63,
+        "spot": 25.085,
         "equity_expression": "XLP+XLB",
         "equity_lag": {
           "lag_days": null,
-          "peak_correlation": -0.23,
+          "peak_correlation": -0.243,
           "status": "no reliable lead/lag"
         },
         "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 7.603,
-        "rate_14d_pct_per_day": 1.0264,
-        "rate_60d_pct_per_day": 0.135
+        "accel_ratio": 27.22,
+        "rate_14d_pct_per_day": 0.6714,
+        "rate_60d_pct_per_day": 0.0247
       },
       "CORN": {
-        "spot": 18.31,
+        "spot": 18.27,
         "equity_expression": "XLP+XLB",
         "equity_lag": {
           "lag_days": null,
-          "peak_correlation": 0.21,
+          "peak_correlation": 0.208,
           "status": "no reliable lead/lag"
         },
-        "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 34.127,
-        "rate_14d_pct_per_day": 0.6143,
-        "rate_60d_pct_per_day": -0.018
+        "trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": 0.3357,
+        "rate_60d_pct_per_day": -0.0443
       },
       "SOYB": {
-        "spot": 26.09,
+        "spot": 26.36,
         "equity_expression": "XLP+XLB",
         "equity_lag": {
           "lag_days": null,
-          "peak_correlation": 0.227,
+          "peak_correlation": 0.212,
           "status": "no reliable lead/lag"
         },
         "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 4.988,
-        "rate_14d_pct_per_day": 0.4821,
-        "rate_60d_pct_per_day": 0.0967
+        "accel_ratio": 2.794,
+        "rate_14d_pct_per_day": 0.3171,
+        "rate_60d_pct_per_day": 0.1135
       }
     },
     "broad": {
       "DBC": {
-        "spot": 30.31,
+        "spot": 29.995,
         "equity_expression": "SPY",
         "equity_lag": {
           "lag_days": null,
-          "peak_correlation": -0.318,
+          "peak_correlation": -0.324,
           "status": "no reliable lead/lag"
         },
         "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 82.661,
-        "rate_14d_pct_per_day": 1.0057,
-        "rate_60d_pct_per_day": 0.0122
+        "accel_ratio": 41.692,
+        "rate_14d_pct_per_day": 0.7921,
+        "rate_60d_pct_per_day": -0.019
       },
       "GSG": {
-        "spot": 33.14,
+        "spot": 32.66,
         "equity_expression": "SPY",
         "equity_lag": {
-          "lag_days": null,
-          "peak_correlation": -0.396,
-          "status": "no reliable lead/lag"
+          "lag_days": 0,
+          "peak_correlation": -0.401,
+          "status": "reliable"
         },
-        "trajectory": "ACCELERATING_BULLISH",
-        "accel_ratio": 91.193,
-        "rate_14d_pct_per_day": 1.2007,
-        "rate_60d_pct_per_day": 0.0132
+        "trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "accel_ratio": null,
+        "rate_14d_pct_per_day": 0.9321,
+        "rate_60d_pct_per_day": -0.034
       }
     }
   },

@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-07-24T12:33:48.716043+00:00",
-  "source_trajectory_as_of": "2026-07-24T12:33:38.178414+00:00",
+  "as_of": "2026-07-24T17:47:42.734116+00:00",
+  "source_trajectory_as_of": "2026-07-24T17:47:33.601204+00:00",
   "source_rollup_as_of": "2026-06-02T20:01:30.673651+00:00",
-  "source_commodity_as_of": "2026-07-24T12:33:38.173673+00:00",
+  "source_commodity_as_of": "2026-07-24T17:47:33.596826+00:00",
   "regime_context": {
     "regime": "TRANSITIONAL",
     "confidence": 6,
@@ -40,10 +40,10 @@
         "INTC"
       ],
       "proxies": {
-        "theme_etf_60d_change_pct": 11.27,
+        "theme_etf_60d_change_pct": 12.66,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
-        "lottery_strike_flow_pct": 0.1441,
+        "lottery_strike_flow_pct": 0.1337,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
@@ -54,16 +54,16 @@
           1.992
         ],
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 11.27,
+        "etf_60d_fetched": 12.66,
         "etf_above_50sma": false,
-        "lottery_pct_fetched": 0.1441
+        "lottery_pct_fetched": 0.1337
       },
       "tentative_stage": "STARTING_TO_BE_NOTICED",
       "stage_inputs": {
-        "etf_60d": 11.27,
+        "etf_60d": 12.66,
         "etf_above_50sma": false,
         "stage_trajectory": "ACCELERATING_BULLISH",
-        "lottery_strike_flow_pct": 0.1441,
+        "lottery_strike_flow_pct": 0.1337,
         "breadth_widening_velocity": 0.0
       },
       "invalidators": [
@@ -103,28 +103,28 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 5.35,
+        "theme_etf_60d_change_pct": 4.08,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
-        "commodity_trajectory": "ACCELERATING_BULLISH",
-        "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 2.4393,
-        "rate_60d_pct_per_day": 0.059,
-        "commodity_60d_change_pct": 3.54,
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 2.1164,
+        "rate_60d_pct_per_day": -0.0518,
+        "commodity_60d_change_pct": -3.11,
         "equity_link_reliable": true,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 5.35,
+        "etf_60d_fetched": 4.08,
         "etf_above_50sma": true
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 5.35,
+        "etf_60d": 4.08,
         "etf_above_50sma": true,
-        "stage_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory": "BUILDING_BULLISH",
         "lottery_strike_flow_pct": null,
         "breadth_widening_velocity": 0.0
       },
@@ -132,12 +132,12 @@
         {
           "condition": "USO trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
           "severity": "hard",
-          "current": "ACCELERATING_BULLISH"
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
         },
         {
           "condition": "USO 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+2.4393%/day"
+          "current": "+2.1164%/day"
         },
         {
           "condition": "XLE equity-flow enters rollup with FADING trajectory",
@@ -165,28 +165,28 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 5.35,
+        "theme_etf_60d_change_pct": 4.08,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
-        "commodity_trajectory": "ACCELERATING_BULLISH",
-        "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 2.4814,
-        "rate_60d_pct_per_day": -0.0035,
-        "commodity_60d_change_pct": -0.21,
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 2.1657,
+        "rate_60d_pct_per_day": -0.0905,
+        "commodity_60d_change_pct": -5.43,
         "equity_link_reliable": true,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 5.35,
+        "etf_60d_fetched": 4.08,
         "etf_above_50sma": true
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 5.35,
+        "etf_60d": 4.08,
         "etf_above_50sma": true,
-        "stage_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory": "BUILDING_BULLISH",
         "lottery_strike_flow_pct": null,
         "breadth_widening_velocity": 0.0
       },
@@ -194,12 +194,12 @@
         {
           "condition": "BNO trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
           "severity": "hard",
-          "current": "ACCELERATING_BULLISH"
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
         },
         {
           "condition": "BNO 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+2.4814%/day"
+          "current": "+2.1657%/day"
         },
         {
           "condition": "XLE equity-flow enters rollup with FADING trajectory",
@@ -227,7 +227,7 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 5.35,
+        "theme_etf_60d_change_pct": 4.08,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
@@ -236,17 +236,17 @@
       "proxy_instrumentation": {
         "commodity_trajectory": "ACCELERATING_BULLISH",
         "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 2.4429,
-        "rate_60d_pct_per_day": 0.1652,
-        "commodity_60d_change_pct": 9.91,
+        "rate_14d_pct_per_day": 2.13,
+        "rate_60d_pct_per_day": 0.0715,
+        "commodity_60d_change_pct": 4.29,
         "equity_link_reliable": true,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 5.35,
+        "etf_60d_fetched": 4.08,
         "etf_above_50sma": true
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 5.35,
+        "etf_60d": 4.08,
         "etf_above_50sma": true,
         "stage_trajectory": "ACCELERATING_BULLISH",
         "lottery_strike_flow_pct": null,
@@ -261,72 +261,10 @@
         {
           "condition": "DBO 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+2.4429%/day"
+          "current": "+2.1300%/day"
         },
         {
           "condition": "XLE equity-flow enters rollup with FADING trajectory",
-          "severity": "soft",
-          "current": "not in flow rollup"
-        }
-      ],
-      "_claude_todo": [
-        "Assign theme name (e.g. 'Natural Gas Recovery Play')",
-        "Identify equity names that express the commodity move (sector constituents)",
-        "Curate watchlist to 5-10 tickers with conviction ranking",
-        "Add narrative invalidators (storage, weather, geopolitics)",
-        "Confirm or override tentative_stage"
-      ]
-    },
-    {
-      "seed_sector_etf": "XLB+XLI",
-      "sector_name": "Metals Industrial / XLB+XLI",
-      "driver": "COMMODITY_DRIVEN",
-      "equity_link_reliable": true,
-      "seeding_industries": [],
-      "sibling_industries": [],
-      "commodity_seeds": [
-        "CPER"
-      ],
-      "candidate_watchlist_draft": [],
-      "proxies": {
-        "theme_etf_60d_change_pct": null,
-        "theme_breadth_widening_velocity": 0.0,
-        "commodity_lead_days": null,
-        "lottery_strike_flow_pct": null,
-        "news_keyword_volume": null
-      },
-      "proxy_instrumentation": {
-        "commodity_trajectory": "ACCELERATING_BULLISH",
-        "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 0.1821,
-        "rate_60d_pct_per_day": 0.0592,
-        "commodity_60d_change_pct": 3.55,
-        "equity_link_reliable": true,
-        "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": null,
-        "etf_above_50sma": false
-      },
-      "tentative_stage": "NEUTRAL",
-      "stage_inputs": {
-        "etf_60d": null,
-        "etf_above_50sma": false,
-        "stage_trajectory": "ACCELERATING_BULLISH",
-        "lottery_strike_flow_pct": null,
-        "breadth_widening_velocity": 0.0
-      },
-      "invalidators": [
-        {
-          "condition": "CPER trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
-          "severity": "hard",
-          "current": "ACCELERATING_BULLISH"
-        },
-        {
-          "condition": "CPER 14d %/day rate turns negative",
-          "severity": "hard",
-          "current": "+0.1821%/day"
-        },
-        {
-          "condition": "XLB+XLI equity-flow enters rollup with FADING trajectory",
           "severity": "soft",
           "current": "not in flow rollup"
         }
@@ -351,7 +289,7 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 2.43,
+        "theme_etf_60d_change_pct": 0.97,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
@@ -360,17 +298,17 @@
       "proxy_instrumentation": {
         "commodity_trajectory": "ACCELERATING_BULLISH",
         "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 0.4007,
-        "rate_60d_pct_per_day": 0.0405,
-        "commodity_60d_change_pct": 2.43,
+        "rate_14d_pct_per_day": 0.1793,
+        "rate_60d_pct_per_day": 0.0162,
+        "commodity_60d_change_pct": 0.97,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 2.43,
+        "etf_60d_fetched": 0.97,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 2.43,
+        "etf_60d": 0.97,
         "etf_above_50sma": false,
         "stage_trajectory": "ACCELERATING_BULLISH",
         "lottery_strike_flow_pct": null,
@@ -385,7 +323,7 @@
         {
           "condition": "DBA 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+0.4007%/day"
+          "current": "+0.1793%/day"
         }
       ],
       "_claude_todo": [
@@ -408,7 +346,7 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 8.1,
+        "theme_etf_60d_change_pct": 1.48,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
@@ -417,17 +355,17 @@
       "proxy_instrumentation": {
         "commodity_trajectory": "ACCELERATING_BULLISH",
         "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 1.0264,
-        "rate_60d_pct_per_day": 0.135,
-        "commodity_60d_change_pct": 8.1,
+        "rate_14d_pct_per_day": 0.6714,
+        "rate_60d_pct_per_day": 0.0247,
+        "commodity_60d_change_pct": 1.48,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 8.1,
+        "etf_60d_fetched": 1.48,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 8.1,
+        "etf_60d": 1.48,
         "etf_above_50sma": false,
         "stage_trajectory": "ACCELERATING_BULLISH",
         "lottery_strike_flow_pct": null,
@@ -442,7 +380,7 @@
         {
           "condition": "WEAT 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+1.0264%/day"
+          "current": "+0.6714%/day"
         }
       ],
       "_claude_todo": [
@@ -465,28 +403,28 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": -1.08,
+        "theme_etf_60d_change_pct": -2.66,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
-        "commodity_trajectory": "ACCELERATING_BULLISH",
-        "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 0.6143,
-        "rate_60d_pct_per_day": -0.018,
-        "commodity_60d_change_pct": -1.08,
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 0.3357,
+        "rate_60d_pct_per_day": -0.0443,
+        "commodity_60d_change_pct": -2.66,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": -1.08,
+        "etf_60d_fetched": -2.66,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": -1.08,
+        "etf_60d": -2.66,
         "etf_above_50sma": false,
-        "stage_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory": "BUILDING_BULLISH",
         "lottery_strike_flow_pct": null,
         "breadth_widening_velocity": 0.0
       },
@@ -494,12 +432,12 @@
         {
           "condition": "CORN trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
           "severity": "hard",
-          "current": "ACCELERATING_BULLISH"
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
         },
         {
           "condition": "CORN 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+0.6143%/day"
+          "current": "+0.3357%/day"
         }
       ],
       "_claude_todo": [
@@ -522,7 +460,7 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 5.8,
+        "theme_etf_60d_change_pct": 6.81,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
@@ -531,17 +469,17 @@
       "proxy_instrumentation": {
         "commodity_trajectory": "ACCELERATING_BULLISH",
         "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 0.4821,
-        "rate_60d_pct_per_day": 0.0967,
-        "commodity_60d_change_pct": 5.8,
+        "rate_14d_pct_per_day": 0.3171,
+        "rate_60d_pct_per_day": 0.1135,
+        "commodity_60d_change_pct": 6.81,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 5.8,
+        "etf_60d_fetched": 6.81,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 5.8,
+        "etf_60d": 6.81,
         "etf_above_50sma": false,
         "stage_trajectory": "ACCELERATING_BULLISH",
         "lottery_strike_flow_pct": null,
@@ -556,7 +494,7 @@
         {
           "condition": "SOYB 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+0.4821%/day"
+          "current": "+0.3171%/day"
         }
       ],
       "_claude_todo": [
@@ -579,7 +517,7 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 0.73,
+        "theme_etf_60d_change_pct": -1.14,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
@@ -588,17 +526,17 @@
       "proxy_instrumentation": {
         "commodity_trajectory": "ACCELERATING_BULLISH",
         "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 1.0057,
-        "rate_60d_pct_per_day": 0.0122,
-        "commodity_60d_change_pct": 0.73,
+        "rate_14d_pct_per_day": 0.7921,
+        "rate_60d_pct_per_day": -0.019,
+        "commodity_60d_change_pct": -1.14,
         "equity_link_reliable": false,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 0.73,
+        "etf_60d_fetched": -1.14,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 0.73,
+        "etf_60d": -1.14,
         "etf_above_50sma": false,
         "stage_trajectory": "ACCELERATING_BULLISH",
         "lottery_strike_flow_pct": null,
@@ -613,7 +551,7 @@
         {
           "condition": "DBC 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+1.0057%/day"
+          "current": "+0.7921%/day"
         }
       ],
       "_claude_todo": [
@@ -625,10 +563,10 @@
       ]
     },
     {
-      "seed_sector_etf": "GSG",
-      "sector_name": "Broad / GSG (commodity-only)",
+      "seed_sector_etf": "SPY",
+      "sector_name": "Broad / SPY",
       "driver": "COMMODITY_DRIVEN",
-      "equity_link_reliable": false,
+      "equity_link_reliable": true,
       "seeding_industries": [],
       "sibling_industries": [],
       "commodity_seeds": [
@@ -636,28 +574,28 @@
       ],
       "candidate_watchlist_draft": [],
       "proxies": {
-        "theme_etf_60d_change_pct": 0.79,
+        "theme_etf_60d_change_pct": 4.41,
         "theme_breadth_widening_velocity": 0.0,
         "commodity_lead_days": null,
         "lottery_strike_flow_pct": null,
         "news_keyword_volume": null
       },
       "proxy_instrumentation": {
-        "commodity_trajectory": "ACCELERATING_BULLISH",
-        "stage_trajectory_input": "ACCELERATING_BULLISH",
-        "rate_14d_pct_per_day": 1.2007,
-        "rate_60d_pct_per_day": 0.0132,
-        "commodity_60d_change_pct": 0.79,
-        "equity_link_reliable": false,
+        "commodity_trajectory": "DIRECTION_FLIP_bearish_to_bullish",
+        "stage_trajectory_input": "BUILDING_BULLISH",
+        "rate_14d_pct_per_day": 0.9321,
+        "rate_60d_pct_per_day": -0.034,
+        "commodity_60d_change_pct": -2.04,
+        "equity_link_reliable": true,
         "breadth_widening_velocity": 0.0,
-        "etf_60d_fetched": 0.79,
+        "etf_60d_fetched": 4.41,
         "etf_above_50sma": false
       },
       "tentative_stage": "NEUTRAL",
       "stage_inputs": {
-        "etf_60d": 0.79,
+        "etf_60d": 4.41,
         "etf_above_50sma": false,
-        "stage_trajectory": "ACCELERATING_BULLISH",
+        "stage_trajectory": "BUILDING_BULLISH",
         "lottery_strike_flow_pct": null,
         "breadth_widening_velocity": 0.0
       },
@@ -665,12 +603,17 @@
         {
           "condition": "GSG trajectory returns to DIRECTION_FLIP_bullish_to_bearish or ACCELERATING_BEARISH",
           "severity": "hard",
-          "current": "ACCELERATING_BULLISH"
+          "current": "DIRECTION_FLIP_bearish_to_bullish"
         },
         {
           "condition": "GSG 14d %/day rate turns negative",
           "severity": "hard",
-          "current": "+1.2007%/day"
+          "current": "+0.9321%/day"
+        },
+        {
+          "condition": "SPY equity-flow enters rollup with FADING trajectory",
+          "severity": "soft",
+          "current": "not in flow rollup"
         }
       ],
       "_claude_todo": [
@@ -684,7 +627,7 @@
   ],
   "fading_theme_candidates": [],
   "summary": {
-    "active_count": 11,
+    "active_count": 10,
     "fading_count": 0,
     "equity_seeds": [
       "XLK"
@@ -693,7 +636,6 @@
       "USO",
       "BNO",
       "DBO",
-      "CPER",
       "DBA",
       "WEAT",
       "CORN",
@@ -706,8 +648,7 @@
       "WEAT",
       "CORN",
       "SOYB",
-      "DBC",
-      "GSG"
+      "DBC"
     ]
   }
 }

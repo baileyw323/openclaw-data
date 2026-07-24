@@ -1,87 +1,104 @@
 {
-  "as_of": "2026-07-24T13:02:00Z",
+  "as_of": "2026-07-24T18:57:00Z",
   "regime_summary": {
     "regime": "TRANSITIONAL",
     "confidence": 6,
     "deployment_bias": "DEFENSIVE",
-    "key_risk": "SPY trend breakdown and surging crude oil pressuring Fed policy outlook"
+    "key_risk": "SPY trend breakdown and elevated hedging signal latent institutional fear"
   },
   "top_signals": [
     {
-      "ticker": "XLU",
-      "current_price": 46.33,
-      "composite_score": 6.92,
-      "conviction": 7,
+      "ticker": "XLRE",
+      "current_price": 45.915,
+      "composite_score": 7.13,
+      "conviction": 6,
       "direction": "LONG",
-      "momentum_score": 9.0,
-      "vol_regime": "FAIR",
-      "iv_rank": 34.5,
-      "recommended_instrument": "EQUITY",
-      "entry_zone": "46.10-46.50",
-      "stop_loss": 44.38,
-      "target": 50.23,
-      "rr_ratio": 2.0,
-      "thesis": "Momentum score 9.0, bullish MACD crossover, RSI 59.2; defensive utilities leading risk-off rotation with FAIR vol."
+      "momentum_score": 9.2,
+      "vol_regime": "CHEAP",
+      "iv_rank": 30.0,
+      "recommended_instrument": "CALL",
+      "entry_zone": "45.75-46.00",
+      "stop_loss": 43.62,
+      "target": 50.29,
+      "rr_ratio": 2.07,
+      "thesis": "Momentum 9.2, MACD bullish, RSI 63.2, leading sector rotation into defensives/real assets; IV rank 30 favors calls."
     },
     {
       "ticker": "XLF",
-      "current_price": 55.9501,
-      "composite_score": 6.85,
-      "conviction": 7,
+      "current_price": 56.145,
+      "composite_score": 6.89,
+      "conviction": 6,
       "direction": "LONG",
       "momentum_score": 7.2,
       "vol_regime": "CHEAP",
-      "iv_rank": 18.6,
+      "iv_rank": 17.4,
       "recommended_instrument": "CALL",
-      "entry_zone": "55.75-56.20",
-      "stop_loss": 53.71,
-      "target": 60.43,
-      "rr_ratio": 2.0,
-      "thesis": "Vol score 8.14, IV rank 18.6 cheapest in universe; momentum 7.2 with RSI 59.3 despite bearish MACD, sector inflow confirmed."
+      "entry_zone": "55.90-56.20",
+      "stop_loss": 53.34,
+      "target": 61.77,
+      "rr_ratio": 2.01,
+      "thesis": "Vol score 8.26, momentum 7.2, RSI 62.1, sector rotation beneficiary; IV rank 17.4 ultra-cheap favors calls despite bearish MACD."
     },
     {
-      "ticker": "XLRE",
-      "current_price": 45.0,
-      "composite_score": 6.72,
-      "conviction": 7,
+      "ticker": "XLB",
+      "current_price": 51.09,
+      "composite_score": 6.62,
+      "conviction": 6,
+      "direction": "LONG",
+      "momentum_score": 9.0,
+      "vol_regime": "FAIR",
+      "iv_rank": 43.5,
+      "recommended_instrument": "EQUITY",
+      "entry_zone": "50.85-51.20",
+      "stop_loss": 48.54,
+      "target": 56.19,
+      "rr_ratio": 2.0,
+      "thesis": "Momentum 9.0, MACD bullish crossover, RSI 51.5 unextended; Materials sector rotation leader with real-asset bid."
+    },
+    {
+      "ticker": "XLU",
+      "current_price": 46.1799,
+      "composite_score": 6.62,
+      "conviction": 6,
       "direction": "LONG",
       "momentum_score": 8.2,
       "vol_regime": "FAIR",
-      "iv_rank": 32.5,
+      "iv_rank": 35.4,
       "recommended_instrument": "EQUITY",
-      "entry_zone": "44.75-45.25",
-      "stop_loss": 43.2,
-      "target": 48.3,
+      "entry_zone": "46.00-46.30",
+      "stop_loss": 43.87,
+      "target": 50.64,
       "rr_ratio": 2.0,
-      "thesis": "Momentum 8.2, bullish MACD, RSI 53.1; residential REITs leading sector rotation with FAIR vol and rate-sensitive tailwind."
+      "thesis": "Momentum 8.2, MACD bullish, RSI 59.8; Utilities absorbing defensive rotation capital in risk-off TRANSITIONAL regime."
     },
     {
       "ticker": "XLE",
-      "current_price": 59.16,
-      "composite_score": 6.22,
+      "current_price": 59.76,
+      "composite_score": 6.27,
       "conviction": 6,
       "direction": "LONG",
-      "momentum_score": 9.8,
+      "momentum_score": 10.0,
       "vol_regime": "EXPENSIVE",
-      "iv_rank": 63.3,
+      "iv_rank": 63.9,
       "recommended_instrument": "BULL_CALL_SPREAD",
-      "entry_zone": "58.80-59.50",
-      "stop_loss": 56.45,
-      "target": 64.61,
-      "rr_ratio": 2.02,
-      "thesis": "Momentum score 9.8 highest in universe, RSI 68.4, bullish MACD; crude oil surge driving energy; IV rank 63.3 favors spread."
+      "entry_zone": "59.50-60.00",
+      "stop_loss": 56.77,
+      "target": 65.54,
+      "rr_ratio": 2.03,
+      "thesis": "Perfect momentum score 10.0, MACD bullish, RSI 69.3; top sector leader but elevated IV 63.9 mandates spread to cap premium cost."
     }
   ],
   "vol_environment": {
     "overall_regime": "FAIR",
     "term_structure": "CONTANGO",
-    "vix": 18.55
+    "vix": 18.06
   },
   "sector_rotation": {
     "into": [
       "Energy",
-      "Utilities",
       "Real Estate",
+      "Materials",
+      "Utilities",
       "Financials",
       "Healthcare",
       "Industrials"
@@ -91,13 +108,14 @@
       "Communication Services",
       "Consumer Discretionary"
     ],
-    "rationale": "Classic risk-off: defensives and energy dominate while growth sectors collapse on macro pressure."
+    "rationale": "Violent risk-off rotation into real assets and yield plays; XLK, QQQ, XLC, XLY collapsing."
   },
   "qualifying_for_smart_money": [
-    "XLU",
-    "XLF",
     "XLRE",
+    "XLB",
+    "XLU",
     "XLE",
+    "XLF",
     "XLV",
     "XLI"
   ]
